@@ -97,13 +97,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 0}
-  setCameraPosition: 0
-  EmplacementCamera: {x: 43, y: 5, z: -10}
   isCameraFix: 0
-  targetOrtho: 9.999
+  EmplacementCamera: {x: 5, y: 0, z: -10}
+  distanceTarget: 9.999
   smoothSpeed: 2
-  minOrtho: 1
-  maxOrtho: 20
 --- !u!61 &7589949541974307227
 BoxCollider2D:
   m_ObjectHideFlags: 0

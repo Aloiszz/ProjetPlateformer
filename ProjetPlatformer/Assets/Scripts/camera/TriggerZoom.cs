@@ -4,41 +4,42 @@ using UnityEngine;
 
 public class TriggerZoom : MonoBehaviour
 {   
+    [SerializeField] CameraZoom Camera;
+    
     [Header("Camera")]
-    [SerializeField] private CameraZoom Camera;
-    public bool setCameraPosition = false;
-    public Vector3 EmplacementCamera = new Vector3(43,5,-10);
-    public bool isCameraFix;
+    public bool isCameraFix; // a cocher si l'on veut que la camera ne bouge plus 
+    public Vector3 EmplacementCamera = new Vector3(5,0,-10); /* permet d'établir une nouvelle position pour la camera (déplacement), Attention: l'emplacement est un peu bugger
+    on établie le nouvel emplacement en fonction de l'emplacement du trigger et non celui du localScale de l'éditeur */
+
+    //public float EmplacementCameraX;
+    //public float EmplacementCameraY;
     
     [Header("modification camera")]
-    public float targetOrtho = 9.999f; // valeur de base de la camera a 9.999f
-    public float smoothSpeed =2f; //normalement 2
-    public float minOrtho = 1.0f;
-    public float maxOrtho = 20.0f;
-
+    public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
+    public float smoothSpeed =2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
+    
+    
     public void OnTriggerEnter2D(Collider2D collision)
     {
         Camera.smoothSpeed = smoothSpeed;
-        Camera.targetOrtho = targetOrtho;
+        Camera.targetOrtho = distanceTarget; 
         
-        if (setCameraPosition == true)
+        if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
         {
             Camera.EmplacementCamera = EmplacementCamera;
-            if (isCameraFix == true)
-            {
-                StartCoroutine(Sleep());
-            }
+            StartCoroutine(Sleep());
         }
-        if (isCameraFix == false)
+        else
         {
             Camera.isMoving = false;
+            //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, 0f);
             Camera.EmplacementCamera = EmplacementCamera;
         }
     }
 
-    IEnumerator Sleep()
+    IEnumerator Sleep() // permet d'attendre 0.1 seconde
     {
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.3f);
         Camera.isMoving = true;
     }
 }
