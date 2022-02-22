@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -17,18 +18,22 @@ public class CharacterMovement : MonoBehaviour
     
     private Rigidbody2D rb;
 
-    //private bool isGrounded; // vérification si character touche le ground
+    private bool isGrounded; // vérification si character touche le ground
     //public Transform feetPos;
     //public float checkRadius;
-    private bool isGroundedBox;
-    
+
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
     private int extrajumps; 
     public int extraJumpsValue = 1;// permet d'avoir des sauts extra
-    private float jumpTimeCounter;
+    
+    [Header("Jump over time")] 
     public float jumpTime;
+    private float jumpTimeCounter;
     private bool isJumping;
+
+    [Header("Coyote Jump")] 
+    public bool isCoyotejump = false;
 
     private bool facingRight = true;
 
@@ -45,7 +50,7 @@ public class CharacterMovement : MonoBehaviour
 
         moveInput = Input.GetAxis("Horizontal");
         
-        if (isGroundedBox == false) // airspeed
+        if (isGrounded == false) // airspeed
         {
             rb.velocity = new Vector2(moveInput * (speed/airSpeed), rb.velocity.y);
         }
@@ -69,7 +74,6 @@ public class CharacterMovement : MonoBehaviour
         {
             Flip();
         }
-
     }
     void Flip()
     {
@@ -81,27 +85,47 @@ public class CharacterMovement : MonoBehaviour
 
     void Jump()
     {
+        bool wasGrounded = isGrounded;
+        
         Debug.DrawRay(raycastSaut.transform.position, transform.TransformDirection(Vector2.down) * 0.3f, Color.white, 0.2f);
         RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut.transform.position, transform.TransformDirection(Vector2.down), 0.3f, groundLayerMask);
-        //RaycastHit2D hit2 = Physics2D.BoxCast(BoxCollider2D.bounds.center, BoxCollider2D.bounds.size, Vector2.down, 0f, Vector2.down, extraHeightText, platfomLayerMask); // essai avec un boxcast 
+
         if (hit2)
         {
-            isGroundedBox = true;
+            isGrounded = true;
         }
-        else {
-            isGroundedBox = false; 
+        else 
+        {
+            isGrounded = false;
+            if (wasGrounded)
+            {
+                StartCoroutine(CoyoteTimeJump());
+            }
         }
         
-        if (isGroundedBox == true) {
+        if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
         }
         
-        if (Input.GetKeyDown(KeyCode.Space) && extrajumps > 0 && isGroundedBox == true)
+        if (Input.GetKeyDown(KeyCode.Space) && extrajumps > 0)
         {
-            isJumping = true;
-            jumpTimeCounter = jumpTime;
-            rb.velocity = Vector2.up * jumpForce; // Jump
-            //extrajumps--; // reduce the counter of jumps when not grounded // A décocher pour le double saut
+            if (isGrounded == true)
+            {
+                isJumping = true;
+                jumpTimeCounter = jumpTime;
+                rb.velocity = Vector2.up * jumpForce; // Jump
+                //extrajumps --; // reduce the counter of jumps when not grounded // A décocher pour le double saut
+            }
+            else
+            {
+                if (isCoyotejump == true) // Coyote Jump
+                {
+                    isJumping = true;
+                    jumpTimeCounter = jumpTime;
+                    rb.velocity = Vector2.up * jumpForce; // Jump
+                }
+            }
+            
         }
         /*
         else if(Input.GetKeyDown(KeyCode.Space) && extrajumps == 0 && isGroundedBox == true) // Le double saut dispo, il faut juste l'enlever des commentaires
@@ -131,6 +155,14 @@ public class CharacterMovement : MonoBehaviour
         //  END Jump higher over time 
     }
 
+    IEnumerator CoyoteTimeJump() // check pendant .1s si le joueur vien de quitter une plateforme
+    {
+        isCoyotejump = true;
+        yield return new WaitForSeconds(0.1f);
+        isCoyotejump = false;
+    }
+    
+    
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && facingRight == true) //strike droit
