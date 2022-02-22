@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TriggerCamera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TriggerCamera.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/wollah.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/wollah.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/camera/CameraZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/camera/CameraZoom.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" afterDir="false" />
@@ -69,7 +68,8 @@
       <updated>1645119409782</updated>
       <workItem from="1645119420521" duration="6961000" />
       <workItem from="1645194160855" duration="8846000" />
-      <workItem from="1645458157544" duration="10266000" />
+      <workItem from="1645458157544" duration="10317000" />
+      <workItem from="1645531019005" duration="1670000" />
     </task>
     <servers />
   </component>

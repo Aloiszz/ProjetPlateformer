@@ -16,7 +16,7 @@ public class TriggerZoom : MonoBehaviour
     
     [Header("modification camera")]
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
-    public float smoothSpeed =2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
+    public float smoothSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     
     
     public void OnTriggerEnter2D(Collider2D collision)
@@ -26,20 +26,27 @@ public class TriggerZoom : MonoBehaviour
         
         if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
         {
+            //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
             Camera.EmplacementCamera = EmplacementCamera;
-            StartCoroutine(Sleep());
+            StartCoroutine(SleepCameraFixTrue());
         }
         else
         {
-            Camera.isMoving = false;
-            //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, 0f);
             Camera.EmplacementCamera = EmplacementCamera;
+            //Camera.targetEmplacementCamera = EmplacementCamera;
+            StartCoroutine(SleepCameraFixFalse());
         }
     }
 
-    IEnumerator Sleep() // permet d'attendre 0.1 seconde
+    IEnumerator SleepCameraFixTrue() // permet d'attendre 0.1 seconde
     {
         yield return new WaitForSeconds(0.3f);
         Camera.isMoving = true;
+    }
+    
+    IEnumerator SleepCameraFixFalse() // permet d'attendre 0.1 seconde
+    {
+        yield return new WaitForSeconds(0.15f);
+        Camera.isMoving = false;
     }
 }

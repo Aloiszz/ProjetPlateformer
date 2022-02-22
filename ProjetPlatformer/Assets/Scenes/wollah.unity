@@ -430,7 +430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703790358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 71.05, y: 5.1, z: -10}
+  m_LocalPosition: {x: 23.04, y: 3.65, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1113,7 +1113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7589949541974307228, guid: 2b8a74adc4d9b8242900acb3fff291be, type: 3}
       propertyPath: EmplacementCameraX
-      value: 23.5
+      value: 23.04
       objectReference: {fileID: 0}
     - target: {fileID: 7589949541974307228, guid: 2b8a74adc4d9b8242900acb3fff291be, type: 3}
       propertyPath: EmplacementCameraY
@@ -1474,11 +1474,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7589949541974307228, guid: 2b8a74adc4d9b8242900acb3fff291be, type: 3}
       propertyPath: EmplacementCameraX
-      value: 71.05
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7589949541974307228, guid: 2b8a74adc4d9b8242900acb3fff291be, type: 3}
       propertyPath: EmplacementCameraY
-      value: 5.1
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 7589949541974307228, guid: 2b8a74adc4d9b8242900acb3fff291be, type: 3}
       propertyPath: EmplacementCamera.x

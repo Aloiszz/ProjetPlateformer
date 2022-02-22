@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -46,7 +47,7 @@ public class CameraZoom : MonoBehaviour
         else // permet que la camera ne bouge plus 
         {
             Vector3 targetPosition = targetEmplacementCamera.position + EmplacementCamera;
-            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime);
+            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime * 1500f);
             transform.position = smoothedposition;
         }
     }
