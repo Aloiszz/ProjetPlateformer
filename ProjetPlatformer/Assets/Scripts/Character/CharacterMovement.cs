@@ -34,7 +34,7 @@ public class CharacterMovement : MonoBehaviour
 
     [Header("Coyote Jump")] 
     public bool isCoyotejump = false;
-
+    public float coyoteTime = 0.1f; // permet de varier le temps du saut
     private bool facingRight = true;
 
     void Start()
@@ -158,7 +158,7 @@ public class CharacterMovement : MonoBehaviour
     IEnumerator CoyoteTimeJump() // check pendant .1s si le joueur vien de quitter une plateforme
     {
         isCoyotejump = true;
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(coyoteTime);
         isCoyotejump = false;
     }
     
