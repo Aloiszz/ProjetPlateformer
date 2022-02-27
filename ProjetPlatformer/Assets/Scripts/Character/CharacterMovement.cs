@@ -108,16 +108,24 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
-        if (rb.velocity.y < 0)
+
+        #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
+        if (rb.velocity.y < 0) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
-            rb.gravityScale = gravityScale * gravityScaleMultiplier;
-            Debug.Log("Coucou");
+            if (Input.GetKey(KeyCode.Space) == true)
+            {
+                rb.gravityScale = gravityScale;
+            }
+            else
+            {
+                rb.gravityScale = gravityScale * gravityScaleMultiplier;
+            }
         }
         else
         {
             rb.gravityScale = gravityScale;
-            Debug.Log("Salope");
         }
+        #endregion
         
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
@@ -151,7 +159,8 @@ public class CharacterMovement : MonoBehaviour
             extrajumps++;
         }
         */
-        // START Jump higher over time 
+
+        #region Jump higher over time 
         if (Input.GetKey(KeyCode.Space))
         {
             if (jumpTimeCounter > 0 && isJumping ==true)
@@ -168,7 +177,7 @@ public class CharacterMovement : MonoBehaviour
         {
             isJumping = false;
         }
-        //  END Jump higher over time 
+        #endregion 
     }
 
     IEnumerator CoyoteTimeJump() // check pendant .1s si le joueur vien de quitter une plateforme
