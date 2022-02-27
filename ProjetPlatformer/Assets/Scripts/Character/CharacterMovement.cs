@@ -8,6 +8,7 @@ public class CharacterMovement : MonoBehaviour
     [Header("Mouvement")]
     public float speed = 10f; // vitesse du character
     public float airSpeed= 1.5f;
+    public float gravityScale = 9f;
     private float moveInput ;
 
     [Header("Raycast")]
@@ -41,6 +42,7 @@ public class CharacterMovement : MonoBehaviour
     {
         extrajumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = gravityScale;
     }
 
     // physics of the game
@@ -83,6 +85,8 @@ public class CharacterMovement : MonoBehaviour
         transform.localScale = Scaler;
     }
 
+
+    #region Jump
     void Jump()
     {
         bool wasGrounded = isGrounded;
@@ -161,7 +165,7 @@ public class CharacterMovement : MonoBehaviour
         yield return new WaitForSeconds(coyoteTime);
         isCoyotejump = false;
     }
-    
+    #endregion
     
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
