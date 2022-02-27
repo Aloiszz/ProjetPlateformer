@@ -25,6 +25,8 @@ public class CharacterMovement : MonoBehaviour
 
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
+    public float timeToAscend = 0.2f;
+    public float gravityToAscend = 1f;
     private int extrajumps; 
     public int extraJumpsValue = 1;// permet d'avoir des sauts extra
     
@@ -118,6 +120,7 @@ public class CharacterMovement : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 rb.velocity = Vector2.up * jumpForce; // Jump
+                StartCoroutine(GravityJump());
                 //extrajumps --; // reduce the counter of jumps when not grounded // A décocher pour le double saut
             }
             else
@@ -164,6 +167,14 @@ public class CharacterMovement : MonoBehaviour
         isCoyotejump = true;
         yield return new WaitForSeconds(coyoteTime);
         isCoyotejump = false;
+    }
+    
+    IEnumerator GravityJump() // check pendant .1s si le joueur vien de quitter une plateforme
+    {
+        Debug.Log("Coucou");
+        rb.gravityScale = gravityToAscend;
+        yield return new WaitForSeconds(timeToAscend);
+        rb.gravityScale = gravityScale;
     }
     #endregion
     

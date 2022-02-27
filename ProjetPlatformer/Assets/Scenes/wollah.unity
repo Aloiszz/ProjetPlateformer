@@ -2310,12 +2310,20 @@ PrefabInstance:
       value: 0.39241803
       objectReference: {fileID: 0}
     - target: {fileID: 916924751208257444, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 8098b417602d181418243aaa5e59a3f5, type: 2}
+    - target: {fileID: 916924751208257444, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 916924751208257444, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_GravityScale
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: airSpeed
@@ -2334,12 +2342,24 @@ PrefabInstance:
       value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: gravityScale
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: timeToAscend
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: raycastStrike
       value: 
       objectReference: {fileID: 1750705079}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: extraJumpsValue
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: gravityToAscend
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: groundLayerMask.m_Bits
@@ -2359,11 +2379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.05
+      value: 5.71
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.z
