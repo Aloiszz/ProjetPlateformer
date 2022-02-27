@@ -9,16 +9,10 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 10f; // vitesse du character
     public float airSpeed= 1.5f;
     public float gravityScale = 9f;
+    public float gravityScaleMultiplier = 2f;
     private float moveInput ;
 
-    [Header("Raycast")]
-    public GameObject raycastStrike;
-    public GameObject raycastSaut;
-    [SerializeField] private LayerMask groundLayerMask;
-    [SerializeField] private LayerMask strikeLayerMask;
-    
     private Rigidbody2D rb;
-
     private bool isGrounded; // vérification si character touche le ground
     //public Transform feetPos;
     //public float checkRadius;
@@ -39,6 +33,12 @@ public class CharacterMovement : MonoBehaviour
     public bool isCoyotejump = false;
     public float coyoteTime = 0.1f; // permet de varier le temps du saut
     private bool facingRight = true;
+    
+    [Header("Checks")]
+    public GameObject raycastStrike;
+    public GameObject raycastSaut;
+    [SerializeField] private LayerMask groundLayerMask;
+    [SerializeField] private LayerMask strikeLayerMask;
 
     void Start()
     {
@@ -108,6 +108,16 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
+        if (rb.velocity.y < 0)
+        {
+            rb.gravityScale = gravityScale * gravityScaleMultiplier;
+            Debug.Log("Coucou");
+        }
+        else
+        {
+            rb.gravityScale = gravityScale;
+            Debug.Log("Salope");
+        }
         
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
@@ -132,7 +142,6 @@ public class CharacterMovement : MonoBehaviour
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
             }
-            
         }
         /*
         else if(Input.GetKeyDown(KeyCode.Space) && extrajumps == 0 && isGroundedBox == true) // Le double saut dispo, il faut juste l'enlever des commentaires
@@ -171,7 +180,6 @@ public class CharacterMovement : MonoBehaviour
     
     IEnumerator GravityJump() // check pendant .1s si le joueur vien de quitter une plateforme
     {
-        Debug.Log("Coucou");
         rb.gravityScale = gravityToAscend;
         yield return new WaitForSeconds(timeToAscend);
         rb.gravityScale = gravityScale;
