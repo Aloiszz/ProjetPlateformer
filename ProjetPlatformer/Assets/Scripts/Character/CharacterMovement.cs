@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using DG.Tweening;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
@@ -13,14 +14,14 @@ public class CharacterMovement : MonoBehaviour
     private float moveInput ;
 
     private Rigidbody2D rb;
+    private Collider2D coll;
     private bool isGrounded; // vérification si character touche le ground
     //public Transform feetPos;
     //public float checkRadius;
 
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
-    public float timeToAscend = 0.2f;
-    public float gravityToAscend = 1f;
+    //public Vector3 relative = new Vector3(0,0,0);
     private int extrajumps; 
     public int extraJumpsValue = 1;// permet d'avoir des sauts extra
     
@@ -36,7 +37,8 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Checks")]
     public GameObject raycastStrike;
-    public GameObject raycastSaut;
+    public GameObject raycastSaut1;
+    public GameObject raycastSaut2;
     [SerializeField] private LayerMask groundLayerMask;
     [SerializeField] private LayerMask strikeLayerMask;
 
@@ -44,6 +46,7 @@ public class CharacterMovement : MonoBehaviour
     {
         extrajumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>();
         rb.gravityScale = gravityScale;
     }
 
@@ -93,10 +96,12 @@ public class CharacterMovement : MonoBehaviour
     {
         bool wasGrounded = isGrounded;
         
-        Debug.DrawRay(raycastSaut.transform.position, transform.TransformDirection(Vector2.down) * 0.3f, Color.white, 0.2f);
-        RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut.transform.position, transform.TransformDirection(Vector2.down), 0.3f, groundLayerMask);
-
-        if (hit2)
+        Debug.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.25f, Color.white, 0.2f);
+        Debug.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.25f, Color.white, 0.2f);
+        RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
+        RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
+        
+        if (hit1 ||hit2)
         {
             isGrounded = true;
         }
@@ -138,7 +143,8 @@ public class CharacterMovement : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 rb.velocity = Vector2.up * jumpForce; // Jump
-                StartCoroutine(GravityJump());
+                
+                //StartCoroutine(GravityJump());
                 //extrajumps --; // reduce the counter of jumps when not grounded // A décocher pour le double saut
             }
             else
@@ -146,7 +152,7 @@ public class CharacterMovement : MonoBehaviour
                 if (isCoyotejump == true) // Coyote Jump
                 {
                     isJumping = true;
-                    jumpTimeCounter = jumpTime;
+                    jumpTimeCounter = jumpTime; 
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
             }
@@ -154,7 +160,6 @@ public class CharacterMovement : MonoBehaviour
         /*
         else if(Input.GetKeyDown(KeyCode.Space) && extrajumps == 0 && isGroundedBox == true) // Le double saut dispo, il faut juste l'enlever des commentaires
         {
-            
             rb.velocity = Vector2.up * jumpForce;
             extrajumps++;
         }
@@ -165,7 +170,8 @@ public class CharacterMovement : MonoBehaviour
         {
             if (jumpTimeCounter > 0 && isJumping ==true)
             {
-                rb.velocity = Vector2.up * jumpForce ;
+                //rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                rb.velocity = Vector2.up * jumpForce;
                 jumpTimeCounter -= Time.deltaTime;
             }
             else
@@ -185,13 +191,6 @@ public class CharacterMovement : MonoBehaviour
         isCoyotejump = true;
         yield return new WaitForSeconds(coyoteTime);
         isCoyotejump = false;
-    }
-    
-    IEnumerator GravityJump() // check pendant .1s si le joueur vien de quitter une plateforme
-    {
-        rb.gravityScale = gravityToAscend;
-        yield return new WaitForSeconds(timeToAscend);
-        rb.gravityScale = gravityScale;
     }
     #endregion
     
