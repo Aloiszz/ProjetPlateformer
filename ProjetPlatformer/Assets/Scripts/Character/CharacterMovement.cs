@@ -8,22 +8,19 @@ public class CharacterMovement : MonoBehaviour
     [Header("Mouvement")]
     public float speed = 10f; // vitesse du character
     public float airSpeed= 1.5f;
+    public float gravityScale = 9f;
+    public float gravityScaleMultiplier = 2f;
     private float moveInput ;
 
-    [Header("Raycast")]
-    public GameObject raycastStrike;
-    public GameObject raycastSaut;
-    [SerializeField] private LayerMask groundLayerMask;
-    [SerializeField] private LayerMask strikeLayerMask;
-    
     private Rigidbody2D rb;
-
     private bool isGrounded; // vérification si character touche le ground
     //public Transform feetPos;
     //public float checkRadius;
 
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
+    public float timeToAscend = 0.2f;
+    public float gravityToAscend = 1f;
     private int extrajumps; 
     public int extraJumpsValue = 1;// permet d'avoir des sauts extra
     
@@ -36,11 +33,18 @@ public class CharacterMovement : MonoBehaviour
     public bool isCoyotejump = false;
     public float coyoteTime = 0.1f; // permet de varier le temps du saut
     private bool facingRight = true;
+    
+    [Header("Checks")]
+    public GameObject raycastStrike;
+    public GameObject raycastSaut;
+    [SerializeField] private LayerMask groundLayerMask;
+    [SerializeField] private LayerMask strikeLayerMask;
 
     void Start()
     {
         extrajumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = gravityScale;
     }
 
     // physics of the game
@@ -83,6 +87,8 @@ public class CharacterMovement : MonoBehaviour
         transform.localScale = Scaler;
     }
 
+
+    #region Jump
     void Jump()
     {
         bool wasGrounded = isGrounded;
@@ -102,6 +108,24 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
+
+        #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
+        if (rb.velocity.y < 0) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
+        {
+            if (Input.GetKey(KeyCode.Space) == true)
+            {
+                rb.gravityScale = gravityScale;
+            }
+            else
+            {
+                rb.gravityScale = gravityScale * gravityScaleMultiplier;
+            }
+        }
+        else
+        {
+            rb.gravityScale = gravityScale;
+        }
+        #endregion
         
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
@@ -114,6 +138,7 @@ public class CharacterMovement : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 rb.velocity = Vector2.up * jumpForce; // Jump
+                StartCoroutine(GravityJump());
                 //extrajumps --; // reduce the counter of jumps when not grounded // A décocher pour le double saut
             }
             else
@@ -125,7 +150,6 @@ public class CharacterMovement : MonoBehaviour
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
             }
-            
         }
         /*
         else if(Input.GetKeyDown(KeyCode.Space) && extrajumps == 0 && isGroundedBox == true) // Le double saut dispo, il faut juste l'enlever des commentaires
@@ -135,7 +159,8 @@ public class CharacterMovement : MonoBehaviour
             extrajumps++;
         }
         */
-        // START Jump higher over time 
+
+        #region Jump higher over time 
         if (Input.GetKey(KeyCode.Space))
         {
             if (jumpTimeCounter > 0 && isJumping ==true)
@@ -152,7 +177,7 @@ public class CharacterMovement : MonoBehaviour
         {
             isJumping = false;
         }
-        //  END Jump higher over time 
+        #endregion 
     }
 
     IEnumerator CoyoteTimeJump() // check pendant .1s si le joueur vien de quitter une plateforme
@@ -162,6 +187,13 @@ public class CharacterMovement : MonoBehaviour
         isCoyotejump = false;
     }
     
+    IEnumerator GravityJump() // check pendant .1s si le joueur vien de quitter une plateforme
+    {
+        rb.gravityScale = gravityToAscend;
+        yield return new WaitForSeconds(timeToAscend);
+        rb.gravityScale = gravityScale;
+    }
+    #endregion
     
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
