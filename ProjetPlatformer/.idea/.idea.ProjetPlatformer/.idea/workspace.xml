@@ -10,6 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,7 +75,8 @@
       <workItem from="1645531019005" duration="10191000" />
       <workItem from="1645713064811" duration="300000" />
       <workItem from="1645974082630" duration="3716000" />
-      <workItem from="1646039449260" duration="9519000" />
+      <workItem from="1646039449260" duration="18821000" />
+      <workItem from="1646147907326" duration="8251000" />
     </task>
     <servers />
   </component>

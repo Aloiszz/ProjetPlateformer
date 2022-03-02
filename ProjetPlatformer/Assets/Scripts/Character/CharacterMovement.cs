@@ -7,40 +7,43 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     [Header("Mouvement")]
-    public float speed = 10f; // vitesse du character
-    public float airSpeed= 1.5f;
-    public float gravityScale = 9f;
-    public float gravityScaleMultiplier = 2f;
+    public float speed = 10f; // vitesse de déplacement quand grounded
+    public float airSpeed = 1.5f; // maniabilité de déplacement quand non grounded
     private float moveInput ;
-
-    private Rigidbody2D rb;
-    private Collider2D coll;
-    private bool isGrounded; // vérification si character touche le ground
-    //public Transform feetPos;
-    //public float checkRadius;
+    
+    [Header("Gravity")] [Tooltip("permet d'agir sur la gravité du player")]
+    public float gravityScale = 9f; // gravité de base 
+    public float gravityScaleMultiplier = 2f; // multiplication de la gravité
+    public float gravityPlannage = 1f; // permet de floter quelque seconde de plus a la fin du saut 
+    public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
+    public float gravityScaleMax = 17f; // application maximum de la gravité
+    
 
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
-    //public Vector3 relative = new Vector3(0,0,0);
     private int extrajumps; 
-    public int extraJumpsValue = 1;// permet d'avoir des sauts extra
+    public int extraJumpsValue = 1;// Permet un saut suplémentaire
     
     [Header("Jump over time")] 
-    public float jumpTime;
+    public float jumpTime; // temps que l'on reste en l'air quand "Space Bar" est enclenché
     private float jumpTimeCounter;
     private bool isJumping;
 
     [Header("Coyote Jump")] 
-    public bool isCoyotejump = false;
+    public bool isCoyotejump = false;// permet de vérifier si le player est dans le vide
     public float coyoteTime = 0.1f; // permet de varier le temps du saut
-    private bool facingRight = true;
-    
+
     [Header("Checks")]
     public GameObject raycastStrike;
+    [SerializeField] private LayerMask strikeLayerMask;
     public GameObject raycastSaut1;
     public GameObject raycastSaut2;
     [SerializeField] private LayerMask groundLayerMask;
-    [SerializeField] private LayerMask strikeLayerMask;
+    
+    public Rigidbody2D rb; // rigidbody 2D
+    private Collider2D coll; // collision du Player
+    private bool isGrounded; // vérification si character touche le ground
+    private bool facingRight = true; // Permet de vérifier quel est la direction du player
 
     void Start()
     {
@@ -55,7 +58,7 @@ public class CharacterMovement : MonoBehaviour
     {
         //isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, platfomLayerMask);
 
-        moveInput = Input.GetAxis("Horizontal");
+        moveInput = Input.GetAxis("Horizontal"); // permet le déplacement du Player
         
         if (isGrounded == false) // airspeed
         {
@@ -88,7 +91,7 @@ public class CharacterMovement : MonoBehaviour
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1;
         transform.localScale = Scaler;
-    }
+    } // Permet de vérifier quel est la direction du player
 
 
     #region Jump
@@ -119,11 +122,15 @@ public class CharacterMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) == true)
             {
-                rb.gravityScale = gravityScale;
+                rb.gravityScale = gravityScale - gravityPlannage;
             }
             else
             {
                 rb.gravityScale = gravityScale * gravityScaleMultiplier;
+                if (rb.velocity.y < gravityMaxSpeedFall)
+                {
+                    rb.gravityScale = gravityScaleMax;
+                }
             }
         }
         else
