@@ -14,8 +14,8 @@ public class CharacterMovement : MonoBehaviour
     [Header("Gravity")] [Tooltip("permet d'agir sur la gravité du player")]
     public float gravityScale = 9f; // gravité de base 
     public float gravityScaleMultiplier = 2f; // multiplication de la gravité
-    public float batiffolementDesAiles = 1f; // permet de floter quelque seconde de plus a la fin du saut 
-    public float gravityMaxSpeed = 15f; // valeur doit etre négative, vitesse max de déscente
+    public float gravityPlannage = 1f; // permet de floter quelque seconde de plus a la fin du saut 
+    public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
     public float gravityScaleMax = 17f; // application maximum de la gravité
     
 
@@ -122,12 +122,12 @@ public class CharacterMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space) == true)
             {
-                rb.gravityScale = gravityScale - batiffolementDesAiles;
+                rb.gravityScale = gravityScale - gravityPlannage;
             }
             else
             {
                 rb.gravityScale = gravityScale * gravityScaleMultiplier;
-                if (rb.velocity.y < gravityMaxSpeed)
+                if (rb.velocity.y < gravityMaxSpeedFall)
                 {
                     rb.gravityScale = gravityScaleMax;
                 }

@@ -15,11 +15,12 @@ public class WindArea : MonoBehaviour
     {
         rb = Character.GetComponent<Rigidbody2D>();
     }
+    
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        StartCoroutine(WaitForWind());
-        isWindy = true;
+        rb.AddForce(new Vector2(WindForce, 0));
+        //StartCoroutine(WaitForWind());
     } 
 
     private void OnTriggerExit2D(Collider2D other)
@@ -30,6 +31,6 @@ public class WindArea : MonoBehaviour
     IEnumerator WaitForWind()
     {
         yield return new WaitForSeconds(timeWaitForWind);
-        rb.AddForce(new Vector2(WindForce, 0));
+        isWindy = true;
     }
 }
