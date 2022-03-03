@@ -38,6 +38,7 @@ public class WindArea : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         isWindy = false;
+        rb.AddForce(new Vector2(WindForce, 0));
     }
 
     IEnumerator WaitForWind()

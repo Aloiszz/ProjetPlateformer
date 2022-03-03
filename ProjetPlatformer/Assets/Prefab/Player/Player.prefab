@@ -191,24 +191,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c5ab70f53243a428083d11e7303623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  airSpeed: 1.5
+  speed: 15
+  airSpeed: 1.2
   gravityScale: 9
-  gravityScaleMultiplier: 2
-  jumpForce: 15
+  gravityScaleMultiplier: 1.65
+  gravityPlannage: 6
+  gravityMaxSpeedFall: -22
+  gravityScaleMax: 16
+  jumpForce: 18
   extraJumpsValue: 1
-  jumpTime: 0
+  jumpTime: 0.19
   isCoyotejump: 0
-  coyoteTime: 0.1
+  coyoteTime: 0.15
   raycastStrike: {fileID: 0}
+  strikeLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
   raycastSaut1: {fileID: 0}
   raycastSaut2: {fileID: 0}
   groundLayerMask:
     serializedVersion: 2
     m_Bits: 0
-  strikeLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
+  rb: {fileID: 0}
 --- !u!50 &916924751208257444
 Rigidbody2D:
   serializedVersion: 4
@@ -227,7 +231,7 @@ Rigidbody2D:
   m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &6196059234890028962
