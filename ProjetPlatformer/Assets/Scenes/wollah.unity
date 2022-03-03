@@ -2883,6 +2883,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 916924751208257444, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: speed
       value: 15
