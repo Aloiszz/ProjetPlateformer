@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class WindArea : MonoBehaviour
 {
-    public bool isWindy = false;
-    public float WindForce = 45f;
-    public float WindForceNull = 0f;
+    private bool isWindy = false;
+    public float WindForce_X = 45f;
+    public float WindForceNull_X = 0f;
+    public float WindForce_Y = 45f;
+    public float WindForceNull_Y = 0f;
+    
     public float timeWaitForWind = 3f;
+    
     public CharacterMovement Character;
+
     private Rigidbody2D rb;
 
     private void Awake()
@@ -26,19 +31,20 @@ public class WindArea : MonoBehaviour
     {
         if (isWindy)
         {
-            rb.AddForce(new Vector2(WindForceNull, 0));
+            rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
         }
         else
         {
-            rb.AddForce(new Vector2(WindForce, 0));
+            rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
         }
         StartCoroutine(WaitForWind());
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        //StopCoroutine(WaitForWind());
         isWindy = false;
-        rb.AddForce(new Vector2(WindForce, 0));
+        //rb.AddForce(new Vector2(WindForce, 0));
     }
 
     IEnumerator WaitForWind()

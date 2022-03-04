@@ -6,9 +6,11 @@ using DG.Tweening;
 
 public class SpawnPlatform : MonoBehaviour
 {
+    public GameObject nouvellePlatformTrigger;
     public GameObject nouvellePlatform;
-    public GameObject platformActuel;
     public bool isNotVisble;
+
+    //public Animator animSpawn;
 
     private void Awake()
     {
@@ -20,9 +22,11 @@ public class SpawnPlatform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        nouvellePlatform.SetActive(true);
+        nouvellePlatformTrigger.SetActive(true);
         //platformActuel.transform.DOScale(2, 2);
         //platformActuel.GetComponent<SpriteRenderer>().color;
+        
+        //animSpawn.SetTrigger("Spawn");
     }
 }
  

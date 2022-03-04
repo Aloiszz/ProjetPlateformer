@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c7674bd790700428e90e981c6e1371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nouvellePlatformTrigger: {fileID: 0}
   nouvellePlatform: {fileID: 0}
   isNotVisble: 1
 --- !u!61 &637336660126100810
