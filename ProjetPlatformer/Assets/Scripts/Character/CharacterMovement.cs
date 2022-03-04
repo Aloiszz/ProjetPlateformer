@@ -42,12 +42,12 @@ public class CharacterMovement : MonoBehaviour
     public GameObject raycastSaut2;
     [SerializeField] private LayerMask groundLayerMask;
     
-    public Rigidbody2D rb; // rigidbody 2D
+    [HideInInspector] Rigidbody2D rb; // rigidbody 2D
     private Collider2D coll; // collision du Player
     private bool isGrounded; // vérification si character touche le ground
     private bool facingRight = true; // Permet de vérifier quel est la direction du player
     
-    // Animations
+    [Header("Animation")]
     public Animator animator;
     public bool CanWalk2;
     public bool CanJump2;
@@ -245,7 +245,6 @@ public class CharacterMovement : MonoBehaviour
             {
                 hit.transform.GetComponent<SpriteRenderer>().color = Color.green;// Colori le Sprite toucher
             }
-
         }
     }
 }
