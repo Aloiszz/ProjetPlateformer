@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/Animator_Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/Animator_Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/player_walk_sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/player_walk_sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +27,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/Unity/Projets/Larazia 2/Assets/Script/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -77,6 +86,7 @@
       <workItem from="1645974082630" duration="3716000" />
       <workItem from="1646039449260" duration="18821000" />
       <workItem from="1646147907326" duration="23728000" />
+      <workItem from="1646387408928" duration="3576000" />
     </task>
     <servers />
   </component>

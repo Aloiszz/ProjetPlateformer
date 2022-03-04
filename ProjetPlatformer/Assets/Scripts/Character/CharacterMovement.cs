@@ -46,6 +46,15 @@ public class CharacterMovement : MonoBehaviour
     private Collider2D coll; // collision du Player
     private bool isGrounded; // vérification si character touche le ground
     private bool facingRight = true; // Permet de vérifier quel est la direction du player
+    
+    // Animations
+    public Animator animator;
+    public bool CanWalk2;
+    public bool CanJump2;
+    public bool IsFalling2;
+    
+
+
 
     void Start()
     {
@@ -75,6 +84,21 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
+        Debug.Log(CanWalk2);
+        //Animations --------
+        
+        if (Mathf.Abs(rb.velocity.x) > 0)
+        {
+            CanWalk2 = true;
+        }
+        else
+        {
+            CanWalk2 = false;
+        }
+        
+        animator.SetBool("CanWalk",CanWalk2);
+        // Animations ---------
+        
         Strike();
         Jump();
         
