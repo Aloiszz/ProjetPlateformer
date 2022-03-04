@@ -203,7 +203,7 @@ MonoBehaviour:
   extraJumpsValue: 1
   jumpTime: 0.19
   isCoyotejump: 0
-  coyoteTime: 0.15
+  coyoteTime: 0.1
   raycastStrike: {fileID: 3023743893367294163}
   strikeLayerMask:
     serializedVersion: 2

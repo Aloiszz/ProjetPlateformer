@@ -42,12 +42,12 @@ public class CharacterMovement : MonoBehaviour
     public GameObject raycastSaut2;
     [SerializeField] private LayerMask groundLayerMask;
     
-    public Rigidbody2D rb; // rigidbody 2D
+    [HideInInspector] Rigidbody2D rb; // rigidbody 2D
     private Collider2D coll; // collision du Player
     private bool isGrounded; // vérification si character touche le ground
     private bool facingRight = true; // Permet de vérifier quel est la direction du player
     
-    // Animations
+    [Header("Animation")]
     public Animator animator;
     public bool CanWalk2;
     public bool CanJump2;
@@ -70,7 +70,7 @@ public class CharacterMovement : MonoBehaviour
         //isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, platfomLayerMask);
 
         moveInput = Input.GetAxis("Horizontal"); // permet le déplacement du Player
-        
+
         if (isGrounded == false) // airspeed
         {
             rb.velocity = new Vector2(moveInput * (speed/airSpeed), rb.velocity.y);
@@ -79,7 +79,6 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         }
-       
     }
     
     void Update()
@@ -146,7 +145,7 @@ public class CharacterMovement : MonoBehaviour
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < 0) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
-            if (Input.GetKey(KeyCode.Space) == true)
+            if (Input.GetButton("JumpGamepad") == true) 
             {
                 rb.gravityScale = gravityScale - gravityPlannage;
             }
@@ -169,7 +168,7 @@ public class CharacterMovement : MonoBehaviour
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
         }
         
-        if (Input.GetKeyDown(KeyCode.Space) && extrajumps > 0)
+        if (Input.GetButtonDown("JumpGamepad") && extrajumps > 0) 
         {
             if (isGrounded == true)
             {
@@ -199,7 +198,7 @@ public class CharacterMovement : MonoBehaviour
         */
 
         #region Jump higher over time 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetButton("JumpGamepad")) 
         {
             if (jumpTimeCounter > 0 && isJumping ==true)
             {
@@ -212,7 +211,7 @@ public class CharacterMovement : MonoBehaviour
                 isJumping = false;
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetButtonUp("JumpGamepad"))
         {
             isJumping = false;
         }
@@ -246,7 +245,6 @@ public class CharacterMovement : MonoBehaviour
             {
                 hit.transform.GetComponent<SpriteRenderer>().color = Color.green;// Colori le Sprite toucher
             }
-
         }
     }
 }

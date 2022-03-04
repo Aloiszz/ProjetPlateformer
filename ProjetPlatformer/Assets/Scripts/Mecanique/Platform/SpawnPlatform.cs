@@ -8,6 +8,7 @@ public class SpawnPlatform : MonoBehaviour
 {
     public GameObject nouvellePlatformTrigger;
     public GameObject nouvellePlatform;
+
     public bool isNotVisble;
 
     //public Animator animSpawn;
