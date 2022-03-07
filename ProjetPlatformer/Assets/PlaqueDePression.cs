@@ -32,7 +32,7 @@ public class PlaqueDePression : MonoBehaviour
         timer += Time.deltaTime;
         if (timer <= timerMax)
         {
-            porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, Vector3.up,
+            porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
                 speedPorte * Time.deltaTime);
            
         }
