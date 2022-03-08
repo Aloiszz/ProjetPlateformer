@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Timers;
+using DG.Tweening;
 using UnityEngine;
 
 public class PlaqueDePression : MonoBehaviour
@@ -22,13 +23,16 @@ public class PlaqueDePression : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        OuverturePorte();
+        if (other.tag == "Player")
+        {
+            OuverturePorte(); 
+        }
     }
 
     private void OuverturePorte()
     {
+        transform.DOMove(transform.position + new Vector3(0,-0.1f,0), 1);
         boolStop = true;
-        Debug.Log("zar");
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)
         {

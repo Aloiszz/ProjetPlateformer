@@ -45,7 +45,7 @@ public class CharacterMovement : MonoBehaviour
     [HideInInspector] Rigidbody2D rb; // rigidbody 2D
     private Collider2D coll; // collision du Player
     private bool isGrounded; // vérification si character touche le ground
-    private bool facingRight = true; // Permet de vérifier quel est la direction du player
+    public bool facingRight = true; // Permet de vérifier quel est la direction du player
     
     [Header("Animation")]
     public Animator animator;

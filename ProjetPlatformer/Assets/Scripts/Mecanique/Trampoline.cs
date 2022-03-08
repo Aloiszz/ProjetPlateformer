@@ -23,15 +23,16 @@ public class Trampoline : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (Jumps == false)
+        if (CompareTag("Player") == true)
         {
-            Debug.Log("ouystyty");
-           rb.velocity = new Vector2(0,forceX);
+            if (Jumps == false)
+            {
+                rb.velocity = new Vector2(0,forceX);
+            }
+            else
+            {
+                rb.velocity = new Vector2(0,forceBonus); }
         }
-        else
-        {
-            rb.velocity = new Vector2(0,forceBonus); }
-       
     }
 
     private void OnTriggerEnter2D(Collider2D other)

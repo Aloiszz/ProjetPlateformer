@@ -29,15 +29,19 @@ public class WindArea : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (isWindy)
+        if (other.tag == "Player")
         {
-            rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+            if (isWindy)
+            {
+                rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+            
+            }
+            else
+            {
+                rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
+            }
+            StartCoroutine(WaitForWind()); 
         }
-        else
-        {
-            rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
-        }
-        StartCoroutine(WaitForWind());
     }
 
     private void OnTriggerExit2D(Collider2D other)
