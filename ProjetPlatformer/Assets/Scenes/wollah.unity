@@ -1431,6 +1431,9 @@ MonoBehaviour:
   isMoving: 0
   targetOrtho: 9.999
   smoothSpeed: 2
+  targetOrthoFix: 9
+  smoothSpeedFix: 0.5
+  timeWaitForMovement: 2
 --- !u!1 &736093777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6500108865956459799, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
@@ -2155,6 +2158,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: raycastSaut1
       value: 
       objectReference: {fileID: 567162622}
@@ -2168,7 +2175,15 @@ PrefabInstance:
       objectReference: {fileID: 1010113379}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: gravityPlannage
-      value: 7
+      value: 8.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: gravityScaleMax
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+      propertyPath: gravityScaleMultiplier
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1030799105025378955, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: groundLayerMask.m_Bits
