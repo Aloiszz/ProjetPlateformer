@@ -20,7 +20,6 @@ public class CharacterMovement : MonoBehaviour
     public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
     public float gravityScaleMax = 17f; // application maximum de la gravité
     
-
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
     private int extrajumps; 
@@ -42,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
     public GameObject raycastSaut2;
     [SerializeField] private LayerMask groundLayerMask;
     
-    [HideInInspector] Rigidbody2D rb; // rigidbody 2D
+    [HideInInspector] public Rigidbody2D rb; // rigidbody 2D
     private Collider2D coll; // collision du Player
     private bool isGrounded; // vérification si character touche le ground
     public bool facingRight = true; // Permet de vérifier quel est la direction du player
@@ -52,9 +51,13 @@ public class CharacterMovement : MonoBehaviour
     public bool CanWalk2;
     public bool CanJump2;
     public bool IsFalling2;
-    
 
+    public static CharacterMovement instance;
 
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+    }
 
     void Start()
     {
@@ -86,7 +89,7 @@ public class CharacterMovement : MonoBehaviour
         Debug.Log(CanWalk2);
         //Animations --------
         
-        if (Mathf.Abs(rb.velocity.x) > 0)
+        if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
             CanWalk2 = true;
         }
@@ -151,7 +154,8 @@ public class CharacterMovement : MonoBehaviour
             }
             else
             {
-                rb.gravityScale = gravityScale * gravityScaleMultiplier;
+                //rb.gravityScale = gravityScale * gravityScaleMultiplier;
+                rb.gravityScale = gravityScaleMultiplier;
                 if (rb.velocity.y < gravityMaxSpeedFall)
                 {
                     rb.gravityScale = gravityScaleMax;
