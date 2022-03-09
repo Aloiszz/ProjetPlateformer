@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3286895214988014781}
   - component: {fileID: 3286895214988014782}
   - component: {fileID: 3286895214988014783}
-  - component: {fileID: 3286895214988014787}
-  m_Layer: 0
+  - component: {fileID: 538268742}
+  m_Layer: 6
   m_Name: PlaqueDePression
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,8 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  timerMax: 2
-  speedPorte: 2
+  DistancePorteMax: 6
+  speedPorte: -10
   "porteAssoci\xE9e": {fileID: 0}
 --- !u!61 &3286895214988014783
 BoxCollider2D:
@@ -114,7 +114,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0055501014, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -125,10 +125,10 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.9888997, y: 1}
   m_EdgeRadius: 0
---- !u!61 &3286895214988014787
-BoxCollider2D:
+--- !u!60 &538268742
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,7 +140,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0005995631, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -150,6 +150,10 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.9772146, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.012964266, y: 0.49999958}
+      - {x: -0.5, y: 0.5}
+      - {x: -1.069968, y: -0.8867804}
+      - {x: 0.98113745, y: -1.0801692}
+      - {x: 0.5, y: 0.5}

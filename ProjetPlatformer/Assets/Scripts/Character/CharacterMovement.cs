@@ -89,7 +89,7 @@ public class CharacterMovement : MonoBehaviour
         Debug.Log(CanWalk2);
         //Animations --------
         
-        if (Mathf.Abs(rb.velocity.x) > 0)
+        if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
             CanWalk2 = true;
         }
