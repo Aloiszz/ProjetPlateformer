@@ -6,9 +6,9 @@ using UnityEngine;
 public class WindArea : MonoBehaviour
 {
     private bool isWindy = false;
-    public float WindForce_X = 45f;
+    public float WindForce_X = 0f;
     public float WindForceNull_X = 0f;
-    public float WindForce_Y = 45f;
+    public float WindForce_Y = 0f;
     public float WindForceNull_Y = 0f;
     
     public float timeWaitForWind = 3f;
@@ -34,7 +34,6 @@ public class WindArea : MonoBehaviour
             if (isWindy)
             {
                 rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
-            
             }
             else
             {

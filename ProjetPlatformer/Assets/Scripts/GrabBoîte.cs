@@ -31,11 +31,26 @@ public class GrabBoîte : MonoBehaviour
                     boiteGrab = false;
                     if (cm.facingRight == true)
                     {
-                        rb.velocity = (new Vector2(forceJet,0));
+                        if (cm.rb.velocity.x >= cm.speed - 1)
+                        {
+                            rb.velocity = (new Vector2(forceJet + cm.speed,0));
+                        }
+                        else
+                        {
+                            rb.velocity = (new Vector2(forceJet,0));
+                        }
                     }
                     else
                     {
-                        rb.velocity = (new Vector2(-forceJet,0));
+                        if (cm.rb.velocity.x <= -(cm.speed - 1))
+                        {
+                            rb.velocity = (new Vector2(-forceJet - cm.speed,0));
+                        }
+                        else
+                        {
+                            rb.velocity = (new Vector2(-forceJet,0));
+                        }
+                        
                     }
                 }
                 else

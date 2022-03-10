@@ -122,7 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e558d058b9fd614096f6b3cc7bc233c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isWindy: 0
-  WindForce: 500
-  timeWaitForWind: 3
+  WindForce_X: 0
+  WindForceNull_X: 0
+  WindForce_Y: 0
+  WindForceNull_Y: 0
+  timeWaitForWind: 0
   Character: {fileID: 0}

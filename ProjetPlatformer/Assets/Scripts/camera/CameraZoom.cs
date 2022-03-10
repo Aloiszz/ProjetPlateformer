@@ -15,10 +15,14 @@ public class CameraZoom : MonoBehaviour
     [Range(0,50)] public float smoothFactor;
     [SerializeField] public bool isMoving;
     
-    [Header("modification camera")]
+    [Header("modification camera en mouvement")]
     public float targetOrtho;// valeur de base de la camera a 9.999f
     public float smoothSpeed = 2.0f;
-
+    
+    [Header("modification camera a l'arret")]
+    public float targetOrthoFix;// valeur de base de la camera a 9.999f
+    public float smoothSpeedFix = 2.0f;
+    public float timeWaitForMovement = 2f;
     
     void Start()
     {
@@ -28,7 +32,18 @@ public class CameraZoom : MonoBehaviour
     void Update()
     {
         Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
-        
+        /*if (CharacterMovement.instance.rb.velocity.x <= 5 && CharacterMovement.instance.rb.velocity.x >= -5 )
+        {
+            if (isMoving == false)
+            {
+                Debug.Log("Hello");
+                StartCoroutine(TimeWaitForMovement());
+            }
+        }
+        else
+        {
+            Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
+        }*/
     }
     
     private void FixedUpdate()
@@ -50,5 +65,11 @@ public class CameraZoom : MonoBehaviour
             Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime * 1500f);
             transform.position = smoothedposition;
         }
+    }
+
+    IEnumerator TimeWaitForMovement()
+    {
+        yield return new WaitForSeconds(timeWaitForMovement);
+        Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrthoFix, smoothSpeedFix * Time.deltaTime);
     }
 }

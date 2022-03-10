@@ -23,7 +23,7 @@ public class PlaqueDePression : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Respawn")
         {
             OuverturePorte(); 
         }
@@ -38,7 +38,6 @@ public class PlaqueDePression : MonoBehaviour
         {
             porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
                 speedPorte * Time.deltaTime);
-           
         }
 
         if (timer >= DistancePorteMax)
