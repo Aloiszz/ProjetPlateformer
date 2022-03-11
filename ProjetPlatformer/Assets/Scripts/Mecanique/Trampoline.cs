@@ -11,8 +11,11 @@ public class Trampoline : MonoBehaviour
     private KeyCode saut = KeyCode.Space;
     private bool Jumps;
     private bool sautVrai;
+    public CameraShake cameraShake;
+    public float forceShake;
+    public float forceShakeBonus;
 
-    // Update is called once per frame
+
     void Update()
     {
         if (Input.GetKeyDown(saut) && sautVrai)
@@ -23,14 +26,17 @@ public class Trampoline : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (CompareTag("Player") == true)
+        if (other.gameObject.CompareTag("Player"))
         {
             if (Jumps == false)
             {
+                StartCoroutine(cameraShake.Shake(0.1f, forceShake));
                 rb.velocity = new Vector2(0,forceX);
+                
             }
             else
             {
+                StartCoroutine(cameraShake.Shake(0.1f, forceShakeBonus));
                 rb.velocity = new Vector2(0,forceBonus); }
         }
     }

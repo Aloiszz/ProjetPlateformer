@@ -13,6 +13,8 @@ public class GrabBoîte : MonoBehaviour
     public float forceJet;
     public Rigidbody2D rb;
     public CharacterMovement cm;
+    public Material material;
+
 
     void Update()
     {
@@ -62,13 +64,15 @@ public class GrabBoîte : MonoBehaviour
        //    SpriteRendererboite.sprite = boitePasIlluminée; 
         }
 
-
-        
         if (boiteGrab == true)
         {
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1,
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
                 player.transform.position.z);
         }
+
+        
+        
+        
     }
 
     // On check à quel moment le player est à porté de prendre la boîte
@@ -78,12 +82,6 @@ public class GrabBoîte : MonoBehaviour
         {
             isAtRange = true;
         }
-
-       /* if (rbPlayer.velocity == new Vector2(0,0))
-        {
-            rb.velocity = new Vector2(0, 0);
-        }*/
-        
     }
     
     private void OnTriggerExit2D(Collider2D other)
