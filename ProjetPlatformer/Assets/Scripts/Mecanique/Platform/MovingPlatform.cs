@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,13 +7,40 @@ using DG.Tweening;
 public class MovingPlatform : MonoBehaviour
 {
     public bool isMovingAlone = false;
-    public bool isMovingBecause = false;
+    public bool isMovingWithThePlayer = false;
+
+    public GameObject EndValueX;
+    public GameObject StartValueX;
+    
+    private float endValueX;
+    private float startValueX;
+    
+    public float timeToArrive;
 
     private void Awake()
     {
         if (isMovingAlone == true)
         {
-            gameObject.transform.DOMoveX(20, 10);
+            endValueX = EndValueX.transform.position.x;
+            gameObject.transform.DOMoveX(endValueX, timeToArrive);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (isMovingWithThePlayer == true)
+        {
+            endValueX = EndValueX.transform.position.x;
+            gameObject.transform.DOMoveX(endValueX, timeToArrive);
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (isMovingWithThePlayer == true)
+        {
+            startValueX = StartValueX.transform.position.x;
+            gameObject.transform.DOMoveX(startValueX, timeToArrive);
         }
     }
 }
