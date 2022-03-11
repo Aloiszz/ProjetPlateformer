@@ -13,7 +13,7 @@ public class GrabBoîte : MonoBehaviour
     public float forceJet;
     public Rigidbody2D rb;
     public CharacterMovement cm;
-    public Material material;
+//    public Material material;
 
 
     void Update()
@@ -70,7 +70,24 @@ public class GrabBoîte : MonoBehaviour
                 player.transform.position.z);
         }
 
-        
+        if (isAtRange == true)
+        {
+            if (boiteGrab == true)
+            {
+                gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+            }
+            else
+            {
+                gameObject.GetComponent<SpriteRenderer> ().color = Color.green;
+            }
+    
+        }
+
+        if (isAtRange == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+        }
+
         
         
     }
