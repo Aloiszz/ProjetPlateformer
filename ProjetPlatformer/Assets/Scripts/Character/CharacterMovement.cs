@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Runtime.CompilerServices;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class CharacterMovement : MonoBehaviour
@@ -11,7 +13,7 @@ public class CharacterMovement : MonoBehaviour
     [Header("Mouvement")]
     public float speed = 10f; // vitesse de déplacement quand grounded
     public float airSpeed = 1.5f; // maniabilité de déplacement quand non grounded
-    private float moveInput ;
+    private float moveInput;
     
     [Header("Gravity")] [Tooltip("permet d'agir sur la gravité du player")]
     public float gravityScale = 9f; // gravité de base 
@@ -19,10 +21,12 @@ public class CharacterMovement : MonoBehaviour
     public float gravityPlannage = 1f; // permet de floter quelque seconde de plus a la fin du saut 
     public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
     public float gravityScaleMax = 17f; // application maximum de la gravité
+
+    private bool isPlannage = false;
     
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
-    private int extrajumps; 
+    public int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
     
     [Header("Jump over time")] 
@@ -72,7 +76,7 @@ public class CharacterMovement : MonoBehaviour
     {
         //isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, platfomLayerMask);
 
-        moveInput = Input.GetAxis("Horizontal"); // permet le déplacement du Player
+        moveInput = Input.GetAxisRaw("Horizontal"); // permet le déplacement du Player
 
         if (isGrounded == false) // airspeed
         {
@@ -86,7 +90,7 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(CanWalk2);
+        Debug.Log(isPlannage);
         //Animations --------
         
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
@@ -121,17 +125,19 @@ public class CharacterMovement : MonoBehaviour
         transform.localScale = Scaler;
     } // Permet de vérifier quel est la direction du player
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.white;
+        Gizmos.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.25f);
+        Gizmos.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.25f);
+    }
 
     #region Jump
     void Jump()
     {
         bool wasGrounded = isGrounded;
-        
-        Debug.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.25f, Color.white, 0.2f);
-        Debug.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.25f, Color.white, 0.2f);
         RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
         RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
-        
         if (hit1 ||hit2)
         {
             isGrounded = true;
@@ -151,11 +157,12 @@ public class CharacterMovement : MonoBehaviour
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 rb.gravityScale = gravityScale - gravityPlannage;
+                isPlannage = true;
             }
             else
             {
-                //rb.gravityScale = gravityScale * gravityScaleMultiplier;
-                rb.gravityScale = gravityScaleMultiplier;
+                rb.gravityScale = gravityScale * gravityScaleMultiplier;
+                //rb.gravityScale = gravityScaleMultiplier;
                 if (rb.velocity.y < gravityMaxSpeedFall)
                 {
                     rb.gravityScale = gravityScaleMax;
@@ -165,6 +172,7 @@ public class CharacterMovement : MonoBehaviour
         else
         {
             rb.gravityScale = gravityScale;
+            isPlannage = false;
         }
         #endregion
         
@@ -172,34 +180,43 @@ public class CharacterMovement : MonoBehaviour
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
         }
         
-        if (Input.GetButtonDown("JumpGamepad") && extrajumps > 0) 
+        if (Input.GetButtonDown("JumpGamepad") && extrajumps > 0 ) 
         {
+            extrajumps --;
             if (isGrounded == true)
             {
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
-                rb.velocity = Vector2.up * jumpForce; // Jump
-                
+                //rb.velocity = Vector2.up * jumpForce; // Jump
+                //extrajumps --;
+                // reduce the counter of jumps when not grounded // A décocher pour le double saut
                 //StartCoroutine(GravityJump());
-                //extrajumps --; // reduce the counter of jumps when not grounded // A décocher pour le double saut
             }
             else
             {
                 if (isCoyotejump == true) // Coyote Jump
                 {
                     isJumping = true;
-                    jumpTimeCounter = jumpTime; 
+                    jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
+                
+                /*if (Input.GetKeyDown(KeyCode.M) && extrajumps == 0) // Le double Saut
+                {
+                    isJumping = true;
+                    rb.velocity = Vector2.up * jumpForce;
+                    extrajumps--;
+                }*/
             }
         }
-        /*
-        else if(Input.GetKeyDown(KeyCode.Space) && extrajumps == 0 && isGroundedBox == true) // Le double saut dispo, il faut juste l'enlever des commentaires
+        else if (Input.GetKeyDown(KeyCode.M) && isGrounded == false && extrajumps == 0) // Le double Saut
         {
+            isJumping = true;
             rb.velocity = Vector2.up * jumpForce;
-            extrajumps++;
+            extrajumps --;
+            Debug.Log("Hello");
         }
-        */
+        
 
         #region Jump higher over time 
         if (Input.GetButton("JumpGamepad")) 
