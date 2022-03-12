@@ -27,7 +27,7 @@ public class CharacterMovement : MonoBehaviour
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
     public float jumpForceDouble;
-    private int extrajumps; 
+    [HideInInspector] public int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
     
     [Header("Jump over time")] 
@@ -38,6 +38,10 @@ public class CharacterMovement : MonoBehaviour
     [Header("Coyote Jump")] 
     public bool isCoyotejump = false;// permet de vérifier si le player est dans le vide
     public float coyoteTime = 0.1f; // permet de varier le temps du saut
+    
+    [Header("Jump Buffering")] 
+    public float jumpBufferTime = 0.2f;// permet de vérifier si le player est dans le vide
+    public float jumpBufferCounter; // permet de varier le temps du saut
 
     [Header("Checks")]
     public GameObject raycastStrike;
@@ -180,9 +184,10 @@ public class CharacterMovement : MonoBehaviour
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
         }
-        Debug.Log(isGrounded);
+        
         if (Input.GetButtonDown("JumpGamepad"))
         {
+            //jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
                 isJumping = true;
@@ -200,6 +205,16 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
         }
+        /*else
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+        if (jumpBufferCounter > 0f)
+        {
+            rb.velocity = Vector2.up * jumpForce;
+            jumpBufferCounter = 0f;
+        }*/
+        
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
             if (isPlannage)
