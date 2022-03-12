@@ -21,20 +21,22 @@ public class TriggerZoom : MonoBehaviour
     
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Camera.smoothSpeed = smoothSpeed;
-        Camera.targetOrtho = distanceTarget; 
+        if (collision.tag == "Player"){
+            Camera.smoothSpeed = smoothSpeed;
+            Camera.targetOrtho = distanceTarget; 
         
-        if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
-        {
-            //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
-            Camera.EmplacementCamera = EmplacementCamera;
-            StartCoroutine(SleepCameraFixTrue());
-        }
-        else
-        {
-            Camera.EmplacementCamera = EmplacementCamera;
-            //Camera.targetEmplacementCamera = EmplacementCamera;
-            StartCoroutine(SleepCameraFixFalse());
+            if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
+            {
+                //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
+                Camera.EmplacementCamera = EmplacementCamera;
+                StartCoroutine(SleepCameraFixTrue());
+            }
+            else
+            {
+                Camera.EmplacementCamera = EmplacementCamera;
+                //Camera.targetEmplacementCamera = EmplacementCamera;
+                StartCoroutine(SleepCameraFixFalse());
+            }
         }
     }
 
