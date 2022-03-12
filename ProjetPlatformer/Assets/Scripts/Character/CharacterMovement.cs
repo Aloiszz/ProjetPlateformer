@@ -26,7 +26,8 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
-    public int extrajumps; 
+    public float jumpForceDouble;
+    private int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
     
     [Header("Jump over time")] 
@@ -90,7 +91,7 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-        Debug.Log(isPlannage);
+        //Debug.Log(isPlannage);
         //Animations --------
         
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
@@ -179,17 +180,14 @@ public class CharacterMovement : MonoBehaviour
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
         }
-        
-        if (Input.GetButtonDown("JumpGamepad") && extrajumps > 0 ) 
+        Debug.Log(isGrounded);
+        if (Input.GetButtonDown("JumpGamepad"))
         {
-            extrajumps --;
             if (isGrounded == true)
             {
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
-                //rb.velocity = Vector2.up * jumpForce; // Jump
-                //extrajumps --;
-                // reduce the counter of jumps when not grounded // A décocher pour le double saut
+                //rb.velocity = Vector2.up * jumpForce;// Jump
                 //StartCoroutine(GravityJump());
             }
             else
@@ -200,24 +198,18 @@ public class CharacterMovement : MonoBehaviour
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
-                
-                /*if (Input.GetKeyDown(KeyCode.M) && extrajumps == 0) // Le double Saut
-                {
-                    isJumping = true;
-                    rb.velocity = Vector2.up * jumpForce;
-                    extrajumps--;
-                }*/
             }
         }
-        else if (Input.GetKeyDown(KeyCode.M) && isGrounded == false && extrajumps == 0) // Le double Saut
+        if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
-            isJumping = true;
-            rb.velocity = Vector2.up * jumpForce;
-            extrajumps --;
-            Debug.Log("Hello");
+            if (isPlannage)
+            {
+                isJumping = false;
+                extrajumps --;
+                rb.velocity = Vector2.up * jumpForceDouble;
+            }
         }
         
-
         #region Jump higher over time 
         if (Input.GetButton("JumpGamepad")) 
         {

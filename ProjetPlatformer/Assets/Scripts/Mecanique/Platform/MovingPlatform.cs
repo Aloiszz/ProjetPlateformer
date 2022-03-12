@@ -21,8 +21,8 @@ public class MovingPlatform : MonoBehaviour
     {
         if (isMovingAlone == true)
         {
-            endValueX = EndValueX.transform.position.x;
-            gameObject.transform.DOMoveX(endValueX, timeToArrive);
+            endValueX = EndValueX.transform.position.y;
+            gameObject.transform.DOMoveY(endValueX, timeToArrive);
         }
     }
 
