@@ -6,12 +6,10 @@ using DG.Tweening;
 
 public class SpawnPlatform : MonoBehaviour
 {
-    public GameObject nouvellePlatformTrigger;
-    public GameObject nouvellePlatform;
+    [Tooltip("ici renseigner les trigger des platformes que vous voullez faire apparaitre")] 
+    public List<GameObject> makeAppearPlatform; 
 
     public bool isNotVisble;
-
-    //public Animator animSpawn;
 
     private void Awake()
     {
@@ -23,11 +21,10 @@ public class SpawnPlatform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        nouvellePlatformTrigger.SetActive(true);
-        //platformActuel.transform.DOScale(2, 2);
-        //platformActuel.GetComponent<SpriteRenderer>().color;
-        
-        //animSpawn.SetTrigger("Spawn");
+        for (int i = 0; i < makeAppearPlatform.Count; i++)
+        {
+            makeAppearPlatform[i].SetActive(true);
+        }
     }
 }
  

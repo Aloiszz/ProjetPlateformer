@@ -133,16 +133,16 @@ public class CharacterMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.white;
-        Gizmos.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.25f);
-        Gizmos.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.25f);
+        Gizmos.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.09f);
+        Gizmos.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.09f);
     }
 
     #region Jump
     void Jump()
     {
         bool wasGrounded = isGrounded;
-        RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
-        RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.25f, groundLayerMask);
+        RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
+        RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
         if (hit1 ||hit2)
         {
             isGrounded = true;
@@ -187,7 +187,7 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("JumpGamepad"))
         {
-            //jumpBufferCounter = jumpBufferTime;
+            jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
                 isJumping = true;
@@ -205,15 +205,15 @@ public class CharacterMovement : MonoBehaviour
                 }
             }
         }
-        /*else
+        else
         {
             jumpBufferCounter -= Time.deltaTime;
         }
         if (jumpBufferCounter > 0f)
         {
-            rb.velocity = Vector2.up * jumpForce;
+            //rb.velocity = Vector2.up * jumpForce;
             jumpBufferCounter = 0f;
-        }*/
+        }
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {

@@ -8,7 +8,10 @@ public class MovingPlatform : MonoBehaviour
 {
     public bool isMovingAlone = false;
     public bool isMovingWithThePlayer = false;
+    public bool isMovingWithTrigger = false;
+    public GameObject Trigger;
 
+    [Header("Position de départ et fin des platformes")]
     public GameObject EndValueX;
     public GameObject StartValueX;
     
@@ -20,6 +23,16 @@ public class MovingPlatform : MonoBehaviour
     private void Awake()
     {
         if (isMovingAlone == true)
+        {
+            endValueX = EndValueX.transform.position.y;
+            gameObject.transform.DOMoveY(endValueX, timeToArrive);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D Trigger)
+    {
+        Debug.Log("Hello");
+        if (isMovingWithTrigger == true)
         {
             endValueX = EndValueX.transform.position.y;
             gameObject.transform.DOMoveY(endValueX, timeToArrive);
