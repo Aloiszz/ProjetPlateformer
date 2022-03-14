@@ -7,12 +7,12 @@ public class GrabBoîte : MonoBehaviour
 {
 
     public bool boiteGrab;
-    public bool isAtRange;
     public GameObject player;
     public  KeyCode toucheGrab;
     public float forceJet;
     public Rigidbody2D rb;
     public CharacterMovement cm;
+    public RangeBoite range;
 //    public Material material;
 
 
@@ -20,7 +20,7 @@ public class GrabBoîte : MonoBehaviour
     {
 
         // Si le perso peut prendre la boîte
-        if (isAtRange == true)
+        if (range.isAtRange == true)
         {
             // On illumine le contour
         //    SpriteRendererboite.sprite = boiteIlluminée; 
@@ -70,7 +70,7 @@ public class GrabBoîte : MonoBehaviour
                 player.transform.position.z);
         }
 
-        if (isAtRange == true)
+        if (range.isAtRange == true)
         {
             if (boiteGrab == true)
             {
@@ -83,29 +83,9 @@ public class GrabBoîte : MonoBehaviour
     
         }
 
-        if (isAtRange == false)
+        if (range.isAtRange == false)
         {
             gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
-        }
-
-        
-        
-    }
-
-    // On check à quel moment le player est à porté de prendre la boîte
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            isAtRange = true;
-        }
-    }
-    
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            isAtRange = false;
         }
     }
 }

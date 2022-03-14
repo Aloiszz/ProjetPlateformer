@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Trampoline : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Trampoline : MonoBehaviour
     public CameraShake cameraShake;
     public float forceShake;
     public float forceShakeBonus;
+    public GameObject mainCamera;
+    public Tweener tweener;
 
 
     void Update()
@@ -30,14 +33,16 @@ public class Trampoline : MonoBehaviour
         {
             if (Jumps == false)
             {
-                StartCoroutine(cameraShake.Shake(0.1f, forceShake));
+          //      StartCoroutine(cameraShake.Shake(0.1f, forceShake));
                 rb.velocity = new Vector2(0,forceX);
-                
+                tweener = mainCamera.transform.DOShakePosition(0.1f,0.7f,2,3,true);
             }
             else
             {
-                StartCoroutine(cameraShake.Shake(0.1f, forceShakeBonus));
-                rb.velocity = new Vector2(0,forceBonus); }
+             //   StartCoroutine(cameraShake.Shake(0.1f, forceShakeBonus));
+                rb.velocity = new Vector2(0,forceBonus); 
+                tweener = mainCamera.transform.DOShakePosition(0.1f,1f,2,3,true);
+            }
         }
     }
 
