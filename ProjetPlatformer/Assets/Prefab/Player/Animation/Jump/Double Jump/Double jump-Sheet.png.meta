@@ -1,25 +1,64 @@
 fileFormatVersion: 2
-guid: 97c9c1eed8adf31448031ac13d50c236
+guid: dfabdc1cb00226a49ae707f75c68c343
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9092885760095345897
-    second: personnage principale course-Sheet_0
+      213: 8130980964148171172
+    second: Double jump-Sheet_0
   - first:
-      213: 7677813930972567529
-    second: personnage principale course-Sheet_1
+      213: 123314351649407800
+    second: Double jump-Sheet_1
   - first:
-      213: 2799710870344759222
-    second: personnage principale course-Sheet_2
+      213: 6406211123775852562
+    second: Double jump-Sheet_2
   - first:
-      213: 5129111477411094439
-    second: personnage principale course-Sheet_3
+      213: 8087200063353739483
+    second: Double jump-Sheet_3
   - first:
-      213: -2883286172087871955
-    second: personnage principale course-Sheet_4
+      213: -7608079577556423586
+    second: Double jump-Sheet_4
   - first:
-      213: -2443358179037708439
-    second: personnage principale course-Sheet_5
+      213: 3810940191420721767
+    second: Double jump-Sheet_5
+  - first:
+      213: -1881275468763617873
+    second: Double jump-Sheet_6
+  - first:
+      213: 6149643572236269585
+    second: Double jump-Sheet_7
+  - first:
+      213: 1742937647008463337
+    second: Double jump-Sheet_8
+  - first:
+      213: 6486345322270387068
+    second: Double jump-Sheet_9
+  - first:
+      213: 8927422552177817860
+    second: Double jump-Sheet_10
+  - first:
+      213: -2057305914806891042
+    second: Double jump-Sheet_11
+  - first:
+      213: 7740185972023855968
+    second: Double jump-Sheet_12
+  - first:
+      213: 3109612939672770124
+    second: Double jump-Sheet_13
+  - first:
+      213: 1248853432594212921
+    second: Double jump-Sheet_14
+  - first:
+      213: 8809587074749234202
+    second: Double jump-Sheet_15
+  - first:
+      213: -4427053788791437625
+    second: Double jump-Sheet_16
+  - first:
+      213: 5837233164338011835
+    second: Double jump-Sheet_17
+  - first:
+      213: -866909440246407926
+    second: Double jump-Sheet_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -51,7 +90,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 2
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -145,13 +184,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personnage principale course-Sheet_0
+      name: Double jump-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 24
+        x: 21
+        y: 19
+        width: 22
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ecd0b13c6b603e70800000000000000
-      internalID: 9092885760095345897
+      spriteID: 4a1d38b6b1c07d070800000000000000
+      internalID: 8130980964148171172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_1
+      name: Double jump-Sheet_2
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 24
+        x: 80
+        y: 18
+        width: 29
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e75a2767131d8a60800000000000000
-      internalID: 7677813930972567529
+      spriteID: 210d0d4531f67e850800000000000000
+      internalID: 6406211123775852562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_2
+      name: Double jump-Sheet_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 24
-        height: 24
+        x: 138
+        y: 18
+        width: 44
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7f2bcf3329ad620800000000000000
-      internalID: 2799710870344759222
+      spriteID: 76a24e1b9ed23e430800000000000000
+      internalID: 3810940191420721767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_3
+      name: Double jump-Sheet_8
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 24
+        x: 198
+        y: 18
+        width: 50
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +261,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af9778a6b34e2740800000000000000
-      internalID: 5129111477411094439
+      spriteID: 9e938933e88203810800000000000000
+      internalID: 1742937647008463337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_4
+      name: Double jump-Sheet_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 24
+        x: 259
+        y: 19
+        width: 58
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +282,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2618e6b0828cf7d0800000000000000
-      internalID: -2883286172087871955
+      spriteID: c7b617854b0240a50800000000000000
+      internalID: 6486345322270387068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_5
+      name: Double jump-Sheet_12
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 24
+        x: 323
+        y: 16
+        width: 54
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,8 +303,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f796f7ea2771ed0800000000000000
-      internalID: -2443358179037708439
+      spriteID: 06b81fdd12aaa6b60800000000000000
+      internalID: 7740185972023855968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 19
+        width: 57
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cfc40f4c0f14a70800000000000000
+      internalID: 8809587074749234202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 19
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe1f7fc2a4020150800000000000000
+      internalID: 5837233164338011835
       vertices: []
       indices: 
       edges: []
@@ -273,7 +354,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e7232dabd6590844c8e583b67c8147fd
     internalID: 0
     vertices: []
     indices: 

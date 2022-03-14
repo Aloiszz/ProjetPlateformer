@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 97c9c1eed8adf31448031ac13d50c236
+guid: dda37d958184f5346a0849a93075a5d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9092885760095345897
-    second: personnage principale course-Sheet_0
+      213: -3095837205359505844
+    second: Start-Sheet_0
   - first:
-      213: 7677813930972567529
-    second: personnage principale course-Sheet_1
+      213: -5054536092344336407
+    second: Start-Sheet_1
   - first:
-      213: 2799710870344759222
-    second: personnage principale course-Sheet_2
+      213: 7052038986321506173
+    second: Start-Sheet_2
   - first:
-      213: 5129111477411094439
-    second: personnage principale course-Sheet_3
+      213: 1656048211813673699
+    second: Start-Sheet_3
   - first:
-      213: -2883286172087871955
-    second: personnage principale course-Sheet_4
+      213: 7176225593726725961
+    second: Start-Sheet_4
   - first:
-      213: -2443358179037708439
-    second: personnage principale course-Sheet_5
+      213: 3241132677271170755
+    second: Start-Sheet_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,127 +145,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personnage principale course-Sheet_0
+      name: Start-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 24
-        height: 24
+        width: 17
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ecd0b13c6b603e70800000000000000
-      internalID: 9092885760095345897
+      spriteID: c4ecb14d6706905d0800000000000000
+      internalID: -3095837205359505844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_1
+      name: Start-Sheet_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 35
         y: 0
         width: 24
-        height: 24
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e75a2767131d8a60800000000000000
-      internalID: 7677813930972567529
+      spriteID: 9efbc6f343eaad9b0800000000000000
+      internalID: -5054536092344336407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_2
+      name: Start-Sheet_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 66
         y: 0
-        width: 24
-        height: 24
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7f2bcf3329ad620800000000000000
-      internalID: 2799710870344759222
+      spriteID: d7f26e14810edd160800000000000000
+      internalID: 7052038986321506173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_3
+      name: Start-Sheet_3
       rect:
         serializedVersion: 2
-        x: 72
+        x: 97
         y: 0
-        width: 24
-        height: 24
+        width: 27
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af9778a6b34e2740800000000000000
-      internalID: 5129111477411094439
+      spriteID: 3ea231413177bf610800000000000000
+      internalID: 1656048211813673699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_4
+      name: Start-Sheet_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 24
+        x: 130
+        y: 1
+        width: 26
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2618e6b0828cf7d0800000000000000
-      internalID: -2883286172087871955
+      spriteID: 94fe52ef723179360800000000000000
+      internalID: 7176225593726725961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_5
+      name: Start-Sheet_5
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 24
-        height: 24
+        x: 164
+        y: 1
+        width: 25
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f796f7ea2771ed0800000000000000
-      internalID: -2443358179037708439
+      spriteID: 3cea8aa6ff0dafc20800000000000000
+      internalID: 3241132677271170755
       vertices: []
       indices: 
       edges: []
@@ -273,7 +273,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 58ee13ec024a44844b7b7823d8dd7fea
     internalID: 0
     vertices: []
     indices: 
