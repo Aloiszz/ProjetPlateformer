@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 10f; // vitesse de déplacement quand grounded
     public float airSpeed = 1.5f; // maniabilité de déplacement quand non grounded
     private float moveInput;
+    [HideInInspector] public bool canMove = true;
     
     [Header("Gravity")] [Tooltip("permet d'agir sur la gravité du player")]
     public float gravityScale = 9f; // gravité de base 
@@ -22,14 +23,15 @@ public class CharacterMovement : MonoBehaviour
     public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
     public float gravityScaleMax = 17f; // application maximum de la gravité
 
-    private bool isPlannage = false;
+    public bool isPlannage = false;
     
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
     public float jumpForceDouble;
     [HideInInspector] public int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
-    
+    public bool canJump = true;
+
     [Header("Jump over time")] 
     public float jumpTime; // temps que l'on reste en l'air quand "Space Bar" est enclenché
     private float jumpTimeCounter;
@@ -52,7 +54,7 @@ public class CharacterMovement : MonoBehaviour
     
     [HideInInspector] public Rigidbody2D rb; // rigidbody 2D
     private Collider2D coll; // collision du Player
-    private bool isGrounded; // vérification si character touche le ground
+    public bool isGrounded; // vérification si character touche le ground
     public bool facingRight = true; // Permet de vérifier quel est la direction du player
     
     [Header("Animation")]
@@ -81,7 +83,10 @@ public class CharacterMovement : MonoBehaviour
     {
         //isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, platfomLayerMask);
 
-        moveInput = Input.GetAxisRaw("Horizontal"); // permet le déplacement du Player
+        if (canMove == true)
+        {
+            moveInput = Input.GetAxisRaw("Horizontal"); // permet le déplacement du Player
+        }
 
         if (isGrounded == false) // airspeed
         {
@@ -111,7 +116,11 @@ public class CharacterMovement : MonoBehaviour
         // Animations ---------
         
         Strike();
-        Jump();
+        if (canJump == true)
+        {
+            Jump();
+        }
+        
         
         if (facingRight == false && moveInput > 0)
         {
@@ -120,6 +129,11 @@ public class CharacterMovement : MonoBehaviour
         else if(facingRight == true && moveInput < 0)
         {
             Flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            
         }
     }
     void Flip()
@@ -161,8 +175,20 @@ public class CharacterMovement : MonoBehaviour
         {
             if (Input.GetButton("JumpGamepad") == true) 
             {
-                rb.gravityScale = gravityScale - gravityPlannage;
-                isPlannage = true;
+                if (isPlannage)
+                {
+                    rb.gravityScale = gravityScale - gravityPlannage;
+                    //isPlannage = true;
+                    Stamina.instance.UseStamina(35);
+                }
+                else
+                {
+                    rb.gravityScale = gravityScale * gravityScaleMultiplier;
+                    if (rb.velocity.y < gravityMaxSpeedFall)
+                    {
+                        rb.gravityScale = gravityScaleMax;
+                    }
+                }
             }
             else
             {
@@ -202,6 +228,11 @@ public class CharacterMovement : MonoBehaviour
                     isJumping = true;
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump
+                }
+
+                if (isPlannage == true)
+                {
+                    
                 }
             }
         }
