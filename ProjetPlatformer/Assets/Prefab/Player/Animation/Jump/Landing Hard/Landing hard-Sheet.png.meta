@@ -1,25 +1,43 @@
 fileFormatVersion: 2
-guid: 97c9c1eed8adf31448031ac13d50c236
+guid: e25daf9172bd3a64d9b2b36795bbe1d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9092885760095345897
-    second: personnage principale course-Sheet_0
+      213: 7154533051626608572
+    second: Landing hard-Sheet_0
   - first:
-      213: 7677813930972567529
-    second: personnage principale course-Sheet_1
+      213: -7206812803299046705
+    second: Landing hard-Sheet_1
   - first:
-      213: 2799710870344759222
-    second: personnage principale course-Sheet_2
+      213: -1866757425569270028
+    second: Landing hard-Sheet_2
   - first:
-      213: 5129111477411094439
-    second: personnage principale course-Sheet_3
+      213: -7967319087469252816
+    second: Landing hard-Sheet_3
   - first:
-      213: -2883286172087871955
-    second: personnage principale course-Sheet_4
+      213: -7837841744987298644
+    second: Landing hard-Sheet_4
   - first:
-      213: -2443358179037708439
-    second: personnage principale course-Sheet_5
+      213: 7544177789395502601
+    second: Landing hard-Sheet_5
+  - first:
+      213: -2494249179587927368
+    second: Landing hard-Sheet_6
+  - first:
+      213: -8803422234232131586
+    second: Landing hard-Sheet_7
+  - first:
+      213: 6764367796636646139
+    second: Landing hard-Sheet_8
+  - first:
+      213: 5268388686142638104
+    second: Landing hard-Sheet_9
+  - first:
+      213: 7650092102299520474
+    second: Landing hard-Sheet_10
+  - first:
+      213: -3730448811450285894
+    second: Landing hard-Sheet_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,127 +163,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: personnage principale course-Sheet_0
+      name: Landing hard-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 24
-        height: 24
+        x: 4
+        y: 1
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ecd0b13c6b603e70800000000000000
-      internalID: 9092885760095345897
+      spriteID: cb7def377e10a4360800000000000000
+      internalID: 7154533051626608572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_1
+      name: Landing hard-Sheet_1
       rect:
         serializedVersion: 2
-        x: 24
-        y: 0
-        width: 24
-        height: 24
+        x: 37
+        y: 1
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e75a2767131d8a60800000000000000
-      internalID: 7677813930972567529
+      spriteID: fca8f9050f14cfb90800000000000000
+      internalID: -7206812803299046705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_2
+      name: Landing hard-Sheet_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
+        x: 67
+        y: 1
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7f2bcf3329ad620800000000000000
-      internalID: 2799710870344759222
+      spriteID: 4f6fe1f0302f716e0800000000000000
+      internalID: -1866757425569270028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_3
+      name: Landing hard-Sheet_3
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 24
-        height: 24
+        x: 97
+        y: 1
+        width: 27
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7af9778a6b34e2740800000000000000
-      internalID: 5129111477411094439
+      spriteID: 03fa43ba0856e6190800000000000000
+      internalID: -7967319087469252816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_4
+      name: Landing hard-Sheet_4
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 24
-        height: 24
+        x: 129
+        y: 1
+        width: 27
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2618e6b0828cf7d0800000000000000
-      internalID: -2883286172087871955
+      spriteID: ca4ed48a5746a3390800000000000000
+      internalID: -7837841744987298644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: personnage principale course-Sheet_5
+      name: Landing hard-Sheet_5
       rect:
         serializedVersion: 2
-        x: 120
+        x: 163
         y: 0
-        width: 24
-        height: 24
+        width: 27
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f796f7ea2771ed0800000000000000
-      internalID: -2443358179037708439
+      spriteID: 9068f4b8abd42b860800000000000000
+      internalID: 7544177789395502601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22a551695a26dd0800000000000000
+      internalID: -2494249179587927368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff61d8de16f3d580800000000000000
+      internalID: -8803422234232131586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa7e900cacdfdd50800000000000000
+      internalID: 6764367796636646139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8180830d8931d1940800000000000000
+      internalID: 5268388686142638104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add85903c369a2a60800000000000000
+      internalID: 7650092102299520474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Landing hard-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab04abc1298ca3cc0800000000000000
+      internalID: -3730448811450285894
       vertices: []
       indices: 
       edges: []
@@ -273,7 +417,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: eb6b2bfa653735f4d9ee34776bef4cf9
     internalID: 0
     vertices: []
     indices: 

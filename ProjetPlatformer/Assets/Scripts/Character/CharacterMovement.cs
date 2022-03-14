@@ -59,9 +59,6 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-    public bool CanWalk2;
-    public bool CanJump2;
-    public bool IsFalling2;
 
     public static CharacterMovement instance;
 
@@ -100,20 +97,25 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-        //Debug.Log(isPlannage);
-        //Animations --------
-        
+
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
-            CanWalk2 = true;
+            animator.SetBool("IsWalking",true);
         }
         else
         {
-            CanWalk2 = false;
+            animator.SetBool("IsWalking",false);
         }
         
-        animator.SetBool("CanWalk",CanWalk2);
-        // Animations ---------
+        /*if (Mathf.Abs(rb.velocity.y) < 0.1f)
+        {
+            animator.SetBool("IsFalling",false);
+        }
+        else
+        {
+            animator.SetBool("IsFalling",true);
+        }*/
+        
         
         Strike();
         if (canJump == true)
@@ -129,11 +131,6 @@ public class CharacterMovement : MonoBehaviour
         else if(facingRight == true && moveInput < 0)
         {
             Flip();
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            
         }
     }
     void Flip()
@@ -173,35 +170,43 @@ public class CharacterMovement : MonoBehaviour
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < 0) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
+            animator.SetBool("IsFalling",true);
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 if (isPlannage)
                 {
+                    animator.SetBool("isPlanning", true);
+                    isPlannage = true;
                     rb.gravityScale = gravityScale - gravityPlannage;
-                    //isPlannage = true;
                     Stamina.instance.UseStamina(35);
                 }
                 else
                 {
+                    animator.SetBool("isPlanning", false);
                     rb.gravityScale = gravityScale * gravityScaleMultiplier;
                     if (rb.velocity.y < gravityMaxSpeedFall)
                     {
                         rb.gravityScale = gravityScaleMax;
+                        //animator.SetBool("isGravityMultiplier", true);
                     }
                 }
             }
             else
             {
+                isPlannage = false;
                 rb.gravityScale = gravityScale * gravityScaleMultiplier;
                 //rb.gravityScale = gravityScaleMultiplier;
                 if (rb.velocity.y < gravityMaxSpeedFall)
                 {
                     rb.gravityScale = gravityScaleMax;
+                    animator.SetBool("isGravityMultiplier", true);
                 }
             }
         }
         else
         {
+            animator.SetBool("IsFalling",false);
+            animator.SetBool("isGravityMultiplier", false);
             rb.gravityScale = gravityScale;
             isPlannage = false;
         }
@@ -209,7 +214,19 @@ public class CharacterMovement : MonoBehaviour
         
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
+            //animator.SetBool("isJumping", false);
+            animator.ResetTrigger("IsJumping");
+            animator.SetBool("isGrounded", true);
+            animator.SetBool("isPlanning", false);
+            animator.SetBool("isDoubleJumping", false);
+
         }
+        else
+        {
+            animator.SetTrigger("IsJumping");
+            animator.SetBool("isGrounded", false);
+        }
+        
         
         if (Input.GetButtonDown("JumpGamepad"))
         {
@@ -248,11 +265,12 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
-            if (isPlannage)
+            if (isPlannage == true)
             {
                 isJumping = false;
                 extrajumps --;
                 rb.velocity = Vector2.up * jumpForceDouble;
+                animator.SetBool("isDoubleJumping", true);
             }
         }
         
