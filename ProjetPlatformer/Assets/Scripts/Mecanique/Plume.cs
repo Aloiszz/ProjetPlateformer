@@ -10,6 +10,7 @@ public class Plume : MonoBehaviour
     public float timeToRespawn = 3f;
     private SpriteRenderer renderer;
     private Collider2D coll;
+    public Animator anim;
 
     private void Start()
     {
@@ -23,6 +24,7 @@ public class Plume : MonoBehaviour
         {
             CharacterMovement.instance.extrajumps += 1;
             StartCoroutine(TimeToRespawn());
+            anim.SetBool("isDoubleJumping", false);
         }
     }
 

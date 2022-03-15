@@ -8005,6 +8005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToRespawn: 3
+  anim: {fileID: 2013457594}
 --- !u!4 &952283406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7413419205879745662, guid: 809e8f35bc248fa4ca6d75942ce7578b, type: 3}
@@ -9373,11 +9374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 137.1
+      value: 77.1
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.75
+      value: 8.4
       objectReference: {fileID: 0}
     - target: {fileID: 5023921951677368320, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16263,6 +16264,11 @@ PrefabInstance:
 --- !u!1 &2013457593 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9082625608258338805, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
+  m_PrefabInstance: {fileID: 1330031699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2013457594 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3663236681295453463, guid: 024ef28ff791eca41aa8f2d92bda409f, type: 3}
   m_PrefabInstance: {fileID: 1330031699}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2013629187 stripped
