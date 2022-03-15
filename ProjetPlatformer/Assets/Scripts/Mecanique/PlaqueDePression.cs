@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class PlaqueDePression : MonoBehaviour
 {
-    public float timer;
+    private float timer;
     public float DistancePorteMax;
     public float speedPorte;
     public GameObject porteAssociée;
