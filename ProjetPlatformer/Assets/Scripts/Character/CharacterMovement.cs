@@ -22,6 +22,7 @@ public class CharacterMovement : MonoBehaviour
     public float gravityPlannage = 1f; // permet de floter quelque seconde de plus a la fin du saut 
     public float gravityMaxSpeedFall = 15f; // valeur doit etre négative, vitesse max de déscente
     public float gravityScaleMax = 17f; // application maximum de la gravité
+    public bool isGravityMultiplier = false;
 
     public bool isPlannage = false;
     
@@ -168,7 +169,7 @@ public class CharacterMovement : MonoBehaviour
         }
 
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
-        if (rb.velocity.y < 0) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
+        if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
             animator.SetBool("IsFalling",true);
             if (Input.GetButton("JumpGamepad") == true) 
@@ -187,25 +188,30 @@ public class CharacterMovement : MonoBehaviour
                     if (rb.velocity.y < gravityMaxSpeedFall)
                     {
                         rb.gravityScale = gravityScaleMax;
-                        //animator.SetBool("isGravityMultiplier", true);
+                        isGravityMultiplier = true;
+                        animator.SetBool("isGravityMultiplier", true);
                     }
                 }
             }
             else
             {
                 isPlannage = false;
+                animator.SetBool("isPlanning", false);
                 rb.gravityScale = gravityScale * gravityScaleMultiplier;
                 //rb.gravityScale = gravityScaleMultiplier;
                 if (rb.velocity.y < gravityMaxSpeedFall)
                 {
                     rb.gravityScale = gravityScaleMax;
+                    isGravityMultiplier = true;
                     animator.SetBool("isGravityMultiplier", true);
+                    StartCoroutine(TimetoLandHard());
                 }
             }
         }
         else
         {
             animator.SetBool("IsFalling",false);
+            isGravityMultiplier = false;
             animator.SetBool("isGravityMultiplier", false);
             rb.gravityScale = gravityScale;
             isPlannage = false;
@@ -214,12 +220,11 @@ public class CharacterMovement : MonoBehaviour
         
         if (isGrounded == true) {
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
-            //animator.SetBool("isJumping", false);
             animator.ResetTrigger("IsJumping");
             animator.SetBool("isGrounded", true);
             animator.SetBool("isPlanning", false);
             animator.SetBool("isDoubleJumping", false);
-
+            animator.SetBool("isGravityMultiplier", false);
         }
         else
         {
@@ -236,7 +241,6 @@ public class CharacterMovement : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 //rb.velocity = Vector2.up * jumpForce;// Jump
-                //StartCoroutine(GravityJump());
             }
             else
             {
@@ -246,17 +250,14 @@ public class CharacterMovement : MonoBehaviour
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump
                 }
-
-                if (isPlannage == true)
-                {
-                    
-                }
             }
         }
         else
         {
             jumpBufferCounter -= Time.deltaTime;
         }
+        
+        
         if (jumpBufferCounter > 0f)
         {
             //rb.velocity = Vector2.up * jumpForce;
@@ -279,7 +280,6 @@ public class CharacterMovement : MonoBehaviour
         {
             if (jumpTimeCounter > 0 && isJumping ==true)
             {
-                //rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
                 rb.velocity = Vector2.up * jumpForce;
                 jumpTimeCounter -= Time.deltaTime;
             }
@@ -301,7 +301,18 @@ public class CharacterMovement : MonoBehaviour
         yield return new WaitForSeconds(coyoteTime);
         isCoyotejump = false;
     }
+
+    IEnumerator TimetoLandHard()
+    {
+        speed = 0;
+        canJump = false;
+        yield return new WaitForSeconds(1);
+        speed = 11;
+        canJump = true;
+    }
     #endregion
+    
+    
     
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
