@@ -15,8 +15,15 @@ public class Ruche : MonoBehaviour
 
     private void Update()
     {
+
+        if (range.IsAtRange == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+        }
+        
         if (range.IsAtRange)
         {
+            gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
             if (Input.GetKeyDown(Interaction) && IsReloaded)
             {
                 Instantiate(goutteMiel, transform.position, transform.rotation);
