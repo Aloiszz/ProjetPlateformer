@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 6874838673112891641}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,18 +192,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c5ab70f53243a428083d11e7303623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 11
   airSpeed: 1.2
+  canMove: 1
   gravityScale: 9
-  gravityScaleMultiplier: 1.65
-  gravityPlannage: 6
-  gravityMaxSpeedFall: -22
-  gravityScaleMax: 16
+  gravityScaleMultiplier: 0.8
+  gravityPlannage: 8.6
+  gravityMaxSpeedFall: -40
+  gravityScaleMax: 10
+  isGravityMultiplier: 0
+  isPlannage: 0
   jumpForce: 18
+  jumpForceDouble: 24
+  extrajumps: 0
   extraJumpsValue: 1
+  canJump: 1
   jumpTime: 0.19
   isCoyotejump: 0
   coyoteTime: 0.1
+  jumpBufferTime: 0.1
+  jumpBufferCounter: 0
   raycastStrike: {fileID: 3023743893367294163}
   strikeLayerMask:
     serializedVersion: 2
@@ -214,10 +222,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   rb: {fileID: 0}
+  isGrounded: 0
+  facingRight: 1
   animator: {fileID: 3663236681295453463}
-  CanWalk2: 0
-  CanJump2: 0
-  IsFalling2: 0
 --- !u!95 &3663236681295453463
 Animator:
   serializedVersion: 3
@@ -292,7 +299,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9082625608258338805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
