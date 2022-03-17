@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UI;
@@ -27,7 +28,6 @@ public class Stamina : MonoBehaviour
         currentStamina = maxStamina;
         staminaBar.maxValue = maxStamina;
         staminaBar.value = maxStamina;
-        
     }
 
     public void Update()
@@ -35,10 +35,17 @@ public class Stamina : MonoBehaviour
         if (currentStamina <= 0)
         {
             CharacterMovement.instance.isPlannage = false;
+            staminaBar.gameObject.SetActive(true);
         }
         else
         {
             CharacterMovement.instance.isPlannage = true;
+            staminaBar.gameObject.SetActive(false);
+        }
+
+        if (currentStamina < maxStamina - 15)
+        {
+            staminaBar.gameObject.SetActive(true);
         }
     }
 
