@@ -8,7 +8,7 @@ public class GrabBoîte : MonoBehaviour
 
     public bool boiteGrab;
     public GameObject player;
-    public  KeyCode toucheGrab;
+    public  KeyCode toucheGrab = KeyCode.UpArrow;
     public float forceJet;
     public Rigidbody2D rb;
     public CharacterMovement cm;
@@ -24,7 +24,7 @@ public class GrabBoîte : MonoBehaviour
         {
             // On illumine le contour
         //    SpriteRendererboite.sprite = boiteIlluminée; 
-        if (Input.GetButtonDown("GrabGamepad"))
+        if (Input.GetButtonDown("GrabGamepad") /*|| Input.GetButtonDown("toucheGrab")*/) // integrer la touche au clavier
             {
                 if(boiteGrab == true)
                 {

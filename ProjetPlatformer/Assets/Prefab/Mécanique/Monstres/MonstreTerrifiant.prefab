@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347024032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.016, y: 0.223, z: 0}
-  m_LocalScale: {x: 13.523344, y: 1.4459325, z: 1}
+  m_LocalPosition: {x: 0.016, y: -0.0129, z: 0}
+  m_LocalScale: {x: 13.523344, y: 3.1983402, z: 1}
   m_Children: []
   m_Father: {fileID: 3618538425919695553}
   m_RootOrder: 0
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAgro: 0
+  ia: {fileID: 0}
 --- !u!1 &3618538425919695557
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,6 +137,7 @@ GameObject:
   - component: {fileID: 3618538425919695555}
   - component: {fileID: 3618538425919695566}
   - component: {fileID: 729225374}
+  - component: {fileID: 2114384066}
   m_Layer: 6
   m_Name: MonstreTerrifiant
   m_TagString: Monstre
@@ -223,7 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IA: {fileID: 729225374}
   monstreSlowed: 0
-  slowValue: 0.5
+  slowValue: 4.5
   timeSlowed: 2.3
 --- !u!61 &3618538425919695566
 BoxCollider2D:
@@ -264,5 +266,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agroscript: {fileID: 1347024033}
-  speed: 3
+  speed: 4.5
   target: {fileID: 0}
+  exclamationDone: 0
+  isCharging: 0
+  rb: {fileID: 0}
+--- !u!50 &2114384066
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3618538425919695557}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
