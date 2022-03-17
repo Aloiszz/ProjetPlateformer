@@ -130,7 +130,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -4959,6 +4959,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9de540bb803c9a14c949b96909772c39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInRange: 0
+  ps: {fileID: 4668063688936696107}
+  Camera: {fileID: 0}
+  distanceTargetArriver: 7
+  dezoomSpeedArriver: 2
+  EmplacementCameraArriver: {x: 0, y: 0, z: -10}
+  distanceTargetDepart: 9.999
+  dezoomSpeedDepart: 2
+  EmplacementCameraDepart: {x: 5, y: 0, z: -10}
 --- !u!1 &4668063689483534149
 GameObject:
   m_ObjectHideFlags: 0

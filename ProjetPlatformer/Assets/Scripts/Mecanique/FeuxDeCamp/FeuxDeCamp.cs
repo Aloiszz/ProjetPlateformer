@@ -7,8 +7,8 @@ public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
     private bool onoff = false;
-    
-    
+
+    public ParticleSystem ps;
     
     [SerializeField] CameraZoom Camera;
 
@@ -37,6 +37,8 @@ public class FeuxDeCamp : MonoBehaviour
                 Camera.smoothSpeed = dezoomSpeedArriver;
                 Camera.targetOrtho = distanceTargetArriver; 
                 Camera.EmplacementCamera = EmplacementCameraArriver;
+                
+                ps.Play(); // allumer le feu !!!
                 
                 //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
                 //PlayerPrefs.GetInt("checkpoint", 0); // récuperer la sauvegarde

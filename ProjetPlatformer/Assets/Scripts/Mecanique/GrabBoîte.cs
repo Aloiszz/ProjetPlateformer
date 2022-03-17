@@ -24,7 +24,7 @@ public class GrabBoîte : MonoBehaviour
         {
             // On illumine le contour
         //    SpriteRendererboite.sprite = boiteIlluminée; 
-        if (Input.GetKeyDown(toucheGrab))
+        if (Input.GetButtonDown("GrabGamepad"))
             {
                 if(boiteGrab == true)
                 {
