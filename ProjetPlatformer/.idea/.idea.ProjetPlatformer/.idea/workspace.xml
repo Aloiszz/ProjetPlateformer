@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Boutton-Levier/Boutton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Boutton-Levier/Boutton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/AgroMonstre1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/AgroMonstre1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/IAMonstre1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/IAMonstre1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/MonstreTerrifiant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Monstres/MonstreTerrifiant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle/Player_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle/Player_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Ascension/Player_Jump_Ascension.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Ascension/Player_Jump_Ascension.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Start/Player_Jump_Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Start/Player_Jump_Start.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production LD.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Production LD.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/wollah.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/wollah.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/GrabBoîte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/GrabBoîte.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

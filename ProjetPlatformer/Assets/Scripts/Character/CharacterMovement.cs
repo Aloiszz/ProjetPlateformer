@@ -60,7 +60,7 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-
+    public GameObject particules;
     public static CharacterMovement instance;
 
     private void Awake()
@@ -167,7 +167,8 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
-
+        
+        
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
@@ -311,9 +312,12 @@ public class CharacterMovement : MonoBehaviour
         canJump = true;
     }
     #endregion
-    
-    
-    
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Instantiate(particules, transform.position, particules.transform.rotation);
+    }
+
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
         if (Input.GetKeyDown(KeyCode.Mouse0) && facingRight == true) //strike droit
