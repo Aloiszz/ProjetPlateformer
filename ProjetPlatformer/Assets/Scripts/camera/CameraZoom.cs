@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class CameraZoom : MonoBehaviour
@@ -31,7 +32,8 @@ public class CameraZoom : MonoBehaviour
 
     void Update()
     {
-        Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
+        //Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
+        Camera.main.DOOrthoSize(targetOrtho, smoothSpeed);
         /*if (CharacterMovement.instance.rb.velocity.x <= 5 && CharacterMovement.instance.rb.velocity.x >= -5 )
         {
             if (isMoving == false)
@@ -56,13 +58,13 @@ public class CameraZoom : MonoBehaviour
         if (isMoving == false) // permet que la camera suive le joueur
         {
             Vector3 targetPosition = targetPlayer.position + EmplacementCamera ;
-            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime);
+            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
         }
         else // permet que la camera ne bouge plus 
         {
             Vector3 targetPosition = targetEmplacementCamera.position + EmplacementCamera;
-            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.fixedDeltaTime * 1500f);
+            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime * 1500f); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
         }
     }
