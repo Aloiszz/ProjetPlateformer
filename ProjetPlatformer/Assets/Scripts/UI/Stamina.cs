@@ -43,7 +43,7 @@ public class Stamina : MonoBehaviour
             staminaBar.gameObject.SetActive(false);
         }
 
-        if (currentStamina < maxStamina - 15)
+        if (currentStamina < maxStamina )
         {
             staminaBar.gameObject.SetActive(true);
         }
