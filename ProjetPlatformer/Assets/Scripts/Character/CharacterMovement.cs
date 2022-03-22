@@ -179,7 +179,7 @@ public class CharacterMovement : MonoBehaviour
                 {
                     animator.SetBool("isPlanning", true);
                     isPlannage = true;
-                    rb.gravityScale = gravityScale - gravityPlannage;
+                    rb.gravityScale = gravityScale - gravityPlannage; 
                     Stamina.instance.UseStamina(35);
                 }
                 else
