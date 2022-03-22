@@ -12,6 +12,7 @@ public class PlaqueDePression : MonoBehaviour
     public float speedPorte;
     public GameObject porteAssociée;
     public GameObject porteAssociée2;
+    public GameObject porteAssociée3;
     private bool boolStop = false;
     public bool plusieursPortes;
 
@@ -40,10 +41,17 @@ public class PlaqueDePression : MonoBehaviour
         {
             porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
                 speedPorte * Time.deltaTime);
-            
-            if(plusieursPortes)
-                porteAssociée2.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
+
+            if (plusieursPortes)
+            {
+                porteAssociée2.transform.position = Vector3.MoveTowards(porteAssociée2.transform.position, porteAssociée2.transform.position + Vector3.up,
                     speedPorte * Time.deltaTime);
+                
+                porteAssociée3.transform.position = Vector3.MoveTowards(porteAssociée3.transform.position, porteAssociée3.transform.position + Vector3.up,
+                    speedPorte * Time.deltaTime);
+            }
+
+            
         }
 
         if (timer >= DistancePorteMax)

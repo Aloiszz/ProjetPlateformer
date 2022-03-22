@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Timers;
 using UnityEngine;
 
 public class RandomWind : MonoBehaviour
 {
     public AreaEffector2D af;
-    // Start is called before the first frame update
+    public float timerCourant;
+    public float timeChangeCourant;
+    public float angleCourant1;
+    public float angleCourant2;
+    
     void Start()
     {
         
@@ -14,12 +19,17 @@ public class RandomWind : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(hautBas());
+        while (timerCourant < timeChangeCourant)
+        {
+            af.forceAngle = angleCourant1;
+            timerCourant += Time.deltaTime;
+        }
+       
+        if (timerCourant >= timeChangeCourant)
+        {
+            af.forceAngle = angleCourant2;
+            timerCourant = 0;
+        }
     }
-
-    IEnumerator hautBas()
-    {
-        af.forceAngle = Random.Range(250, 310);
-        yield return new WaitForSeconds(3);
-    }
+    
 }
