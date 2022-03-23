@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject parcheminManager;
+    
     void Start()
     {
         
@@ -13,7 +14,10 @@ public class MenuManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            parcheminManager.SetActive(true);
+        }
     }
 
 

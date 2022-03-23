@@ -19,15 +19,22 @@ public class RandomWind : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (timerCourant < timeChangeCourant)
+        if (timerCourant < timeChangeCourant)
         {
             af.forceAngle = angleCourant1;
+            af.forceMagnitude = 500;
             timerCourant += Time.deltaTime;
         }
        
         if (timerCourant >= timeChangeCourant)
         {
             af.forceAngle = angleCourant2;
+            af.forceMagnitude = 350;
+            timerCourant += Time.deltaTime;
+        }
+
+        if (timerCourant >= 5.5)
+        {
             timerCourant = 0;
         }
     }
