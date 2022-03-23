@@ -23,7 +23,6 @@ public class DestroyPlatform : MonoBehaviour
     }
     IEnumerator TimeToReapear()
     {
-        Debug.Log(("fefef"));
         yield return new WaitForSeconds(timeToReapear);
         platform.SetActive(true);
     }

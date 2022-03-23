@@ -31,7 +31,6 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D Trigger)
     {
-        Debug.Log("Hello");
         if (isMovingWithTrigger == true)
         {
             endValueX = EndValueX.transform.position.y;

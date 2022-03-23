@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RespawnBoite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RespawnBoite.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/RandomWind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/RandomWind.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/DestroyPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/DestroyPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/MovingPlatform.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuParchemin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuParchemin.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MenuParchemin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Parchemin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ParcheminManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
