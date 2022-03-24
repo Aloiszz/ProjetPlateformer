@@ -23,11 +23,13 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         if (MenuOuvert == false)
         {
-            if (Input.GetKeyUp(KeyCode.A))
+            if (Input.GetKeyUp(KeyCode.R))
             {
                 parcheminManager.SetActive(true);
                 MenuOuvert = true;
-            //    Time.timeScale = 0;
+                CharacterMovement.instance.canMove = false;
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0;
             }
         }
 
@@ -37,7 +39,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
               {
                   parcheminManager.SetActive(false);
                   MenuOuvert = false;
-              //    Time.timeScale = 1;
+                  CharacterMovement.instance.canMove = true;
+              CharacterMovement.instance.canJump = true;
+              CharacterMovement.instance.speed = 11;
               }
           }
         
