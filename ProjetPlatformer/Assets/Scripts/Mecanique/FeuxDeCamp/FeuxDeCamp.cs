@@ -9,7 +9,7 @@ public class FeuxDeCamp : MonoBehaviour
     private bool onoff = false;
 
     public ParticleSystem ps;
-    
+
     [SerializeField] CameraZoom Camera;
 
     [Header("modification camera Arriver")]
@@ -26,7 +26,7 @@ public class FeuxDeCamp : MonoBehaviour
     {
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            onoff = !onoff; // toggles onoff at each click
+            onoff = !onoff; // toggles onoff 
             
             if (onoff) // Arriver sur le feux de camps 
             {
@@ -39,9 +39,9 @@ public class FeuxDeCamp : MonoBehaviour
                 Camera.EmplacementCamera = EmplacementCameraArriver;
                 
                 ps.Play(); // allumer le feu !!!
-                
-                //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
-                //PlayerPrefs.GetInt("checkpoint", 0); // récuperer la sauvegarde
+
+                PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
+                //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
             }
             else // Départ du feux de camps 
             {
