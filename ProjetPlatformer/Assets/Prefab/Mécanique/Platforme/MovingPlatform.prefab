@@ -161,6 +161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isMovingAlone: 0
   isMovingWithThePlayer: 0
+  isMovingWithTrigger: 0
+  triggerMovingPlatform: {fileID: 0}
   EndValueX: {fileID: 716510819076827146}
   StartValueX: {fileID: 4540256010086860786}
   timeToArrive: 0

@@ -9,7 +9,6 @@ public class MovingPlatform : MonoBehaviour
     public bool isMovingAlone = false;
     public bool isMovingWithThePlayer = false;
     public bool isMovingWithTrigger = false;
-    public GameObject Trigger;
 
     [Header("Position de départ et fin des platformes")]
     public GameObject EndValueX;
@@ -17,7 +16,7 @@ public class MovingPlatform : MonoBehaviour
     
     private float endValueX;
     private float startValueX;
-    
+
     public float timeToArrive;
 
     private void Awake()
@@ -29,14 +28,16 @@ public class MovingPlatform : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D Trigger)
+    public void Salope()
     {
-        if (isMovingWithTrigger == true)
+        if(isMovingWithTrigger == true )
         {
             endValueX = EndValueX.transform.position.y;
+            //gameObject.transform.DOMove(position, timeToArrive);
             gameObject.transform.DOMoveY(endValueX, timeToArrive);
         }
     }
+
 
     private void OnTriggerStay2D(Collider2D other)
     {
@@ -47,7 +48,7 @@ public class MovingPlatform : MonoBehaviour
         }
     }
     
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other) // quand la platforme revien
     {
         if (isMovingWithThePlayer == true)
         {

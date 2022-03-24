@@ -24,6 +24,10 @@ public class CameraZoom : MonoBehaviour
     public float targetOrthoFix;// valeur de base de la camera a 9.999f
     public float smoothSpeedFix = 2.0f;
     public float timeWaitForMovement = 2f;
+
+    
+    private float smoothTime = 0.25f;
+    private Vector3 velocity = Vector3.zero;
     
     void Start()
     {
@@ -60,12 +64,14 @@ public class CameraZoom : MonoBehaviour
             Vector3 targetPosition = targetPlayer.position + EmplacementCamera ;
             Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
+            //transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
         }
         else // permet que la camera ne bouge plus 
         {
             Vector3 targetPosition = targetEmplacementCamera.position + EmplacementCamera;
             Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime * 1500f); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
+            //transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
         }
     }
 
