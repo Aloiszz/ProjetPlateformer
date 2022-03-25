@@ -37,6 +37,7 @@ public class CharacterMovement : MonoBehaviour
     public float jumpTime; // temps que l'on reste en l'air quand "Space Bar" est enclenché
     private float jumpTimeCounter;
     private bool isJumping;
+    public bool isJumpingSingle;
 
     [Header("Coyote Jump")] 
     public bool isCoyotejump = false;// permet de vérifier si le player est dans le vide
@@ -63,9 +64,12 @@ public class CharacterMovement : MonoBehaviour
     public GameObject particules;
     public static CharacterMovement instance;
 
+    public Vector2 lastCheckPointPos  = new Vector2(345, 25);
+
     private void Awake()
     {
         if (instance == null) instance = this;
+        //GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
 
     void Start()
@@ -233,12 +237,13 @@ public class CharacterMovement : MonoBehaviour
             animator.SetBool("isGrounded", false);
         }
         
-        
+        isJumpingSingle = false;
         if (Input.GetButtonDown("JumpGamepad"))
         {
             jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
+                isJumpingSingle = true;
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 //rb.velocity = Vector2.up * jumpForce;// Jump
