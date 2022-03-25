@@ -14,7 +14,7 @@ public class GrabBoîte : MonoBehaviour
     public Rigidbody2D rb;
     public CharacterMovement cm;
     public RangeBoite range;
-//    public Material material;
+
 
 
     void Update()
