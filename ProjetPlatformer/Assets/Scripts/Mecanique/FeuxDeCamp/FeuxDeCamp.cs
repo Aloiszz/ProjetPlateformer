@@ -6,10 +6,12 @@ using UnityEngine;
 public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
-    private bool onoff = false;
+    public bool rightToPass = false;
+    public bool onoff = false;
     private Collider2D coll;
 
     public ParticleSystem ps;
+    public Animator anim;
 
     [SerializeField] CameraZoom Camera;
 
@@ -23,6 +25,12 @@ public class FeuxDeCamp : MonoBehaviour
     public float dezoomSpeedDepart = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     public Vector3 EmplacementCameraDepart = new Vector3(5,0,-10);
 
+    public static FeuxDeCamp instanceFeuxdeCamp;
+    private void Awake()
+    {
+        if (instanceFeuxdeCamp == null) instanceFeuxdeCamp = this;
+    }
+
     private void Start()
     {
         coll = GetComponent<Collider2D>();
@@ -33,7 +41,7 @@ public class FeuxDeCamp : MonoBehaviour
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
             LeFeuxDeCamp();
-        } 
+        }
     }
     
     public void LeFeuxDeCamp()
@@ -49,6 +57,8 @@ public class FeuxDeCamp : MonoBehaviour
             Camera.smoothSpeed = dezoomSpeedArriver;
             Camera.targetOrtho = distanceTargetArriver; 
             Camera.EmplacementCamera = EmplacementCameraArriver;
+            
+            anim.SetBool("isGrounded", true);
                 
             ps.Play(); // allumer le feu !!!
 
@@ -66,7 +76,7 @@ public class FeuxDeCamp : MonoBehaviour
             Camera.smoothSpeed = dezoomSpeedDepart;
             Camera.targetOrtho = distanceTargetDepart; 
             Camera.EmplacementCamera = EmplacementCameraDepart;
-            
+
             //coll.enabled = false;
         }
     }

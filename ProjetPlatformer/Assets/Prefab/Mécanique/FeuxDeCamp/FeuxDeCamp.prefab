@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4668063687761260236}
   m_LocalRotation: {x: -0, y: -0, z: 0.41469327, w: 0.9099613}
-  m_LocalPosition: {x: 0.3443756, y: -0.93460083, z: 0.29078293}
+  m_LocalPosition: {x: 1.12, y: -0.93460083, z: 0.29078293}
   m_LocalScale: {x: 0.19007751, y: 0.9201834, z: 1}
   m_Children: []
   m_Father: {fileID: 4668063689161404950}
@@ -108,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4668063688936696100}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.31, y: -0.92, z: -0}
+  m_LocalPosition: {x: 1.12, y: -0.92, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4668063689161404950}
@@ -4960,7 +4960,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInRange: 0
+  rightToPass: 0
+  onoff: 0
   ps: {fileID: 4668063688936696107}
+  anim: {fileID: 0}
   Camera: {fileID: 0}
   distanceTargetArriver: 7
   dezoomSpeedArriver: 2
@@ -4993,7 +4996,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4668063689483534149}
   m_LocalRotation: {x: -0, y: -0, z: -0.41469896, w: 0.9099587}
-  m_LocalPosition: {x: 0.35565186, y: -0.8997836, z: 0.29078293}
+  m_LocalPosition: {x: 1.12, y: -0.8997836, z: 0.29078293}
   m_LocalScale: {x: 0.13695414, y: 1.0457327, z: 1}
   m_Children: []
   m_Father: {fileID: 4668063689161404950}

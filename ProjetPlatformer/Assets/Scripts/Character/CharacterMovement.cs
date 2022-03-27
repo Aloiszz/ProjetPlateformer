@@ -62,8 +62,8 @@ public class CharacterMovement : MonoBehaviour
     [Header("Animation")]
     public Animator animator;
     public GameObject particules;
+   
     public static CharacterMovement instance;
-
     public Vector2 lastCheckPointPos  = new Vector2(345, 25);
 
     private void Awake()
