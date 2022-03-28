@@ -6,7 +6,6 @@ using UnityEngine;
 public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
-    public bool rightToPass = false;
     public bool onoff = false;
     private Collider2D coll;
 
