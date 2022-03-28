@@ -17,20 +17,10 @@ public class DeathZone : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        FeuxDeCamp.instanceFeuxdeCamp.rightToPass = true;
+        //FeuxDeCamp.instanceFeuxdeCamp.rightToPass = true;
         Camera.isMoving = false;
         
-        anim.SetBool("IsFalling", false);
-        anim.SetBool("isPlanning", false);
-        anim.SetBool("isGrounded", true);
-        
-        CharacterMovement.instance.canJump = false;
-        CharacterMovement.instance.speed = 0;
-        CharacterMovement.instance.canMove = false;
-        
-        Camera.smoothSpeed = dezoomSpeedArriver;
-        Camera.targetOrtho = distanceTargetArriver; 
-        Camera.EmplacementCamera = EmplacementCameraArriver;
+        //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
         
         GameObject.FindGameObjectWithTag("Player").transform.position =CharacterMovement.instance.lastCheckPointPos;
         GameObject.FindGameObjectWithTag("MainCamera").transform.position = CameraZoom.instance.lastCheckPointPosCamera;

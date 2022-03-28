@@ -26,39 +26,6 @@ TextureImporter:
   - first:
       213: 6149643572236269585
     second: Double jump-Sheet_7
-  - first:
-      213: 1742937647008463337
-    second: Double jump-Sheet_8
-  - first:
-      213: 6486345322270387068
-    second: Double jump-Sheet_9
-  - first:
-      213: 8927422552177817860
-    second: Double jump-Sheet_10
-  - first:
-      213: -2057305914806891042
-    second: Double jump-Sheet_11
-  - first:
-      213: 7740185972023855968
-    second: Double jump-Sheet_12
-  - first:
-      213: 3109612939672770124
-    second: Double jump-Sheet_13
-  - first:
-      213: 1248853432594212921
-    second: Double jump-Sheet_14
-  - first:
-      213: 8809587074749234202
-    second: Double jump-Sheet_15
-  - first:
-      213: -4427053788791437625
-    second: Double jump-Sheet_16
-  - first:
-      213: 5837233164338011835
-    second: Double jump-Sheet_17
-  - first:
-      213: -866909440246407926
-    second: Double jump-Sheet_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -90,7 +57,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
+    aniso: 2
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -192,7 +159,7 @@ TextureImporter:
         width: 22
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -205,7 +172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double jump-Sheet_2
+      name: Double jump-Sheet_1
       rect:
         serializedVersion: 2
         x: 80
@@ -213,7 +180,28 @@ TextureImporter:
         width: 29
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83345cddfb916b100800000000000000
+      internalID: 123314351649407800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 18
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,15 +214,57 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Double jump-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd857bb1c918b3070800000000000000
+      internalID: 8087200063353739483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Double jump-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 18
+        width: 57
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c68dcfeebaa6690800000000000000
+      internalID: -7608079577556423586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Double jump-Sheet_5
       rect:
         serializedVersion: 2
-        x: 138
+        x: 323
         y: 18
-        width: 44
-        height: 33
+        width: 54
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -247,70 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double jump-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 18
-        width: 50
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e938933e88203810800000000000000
-      internalID: 1742937647008463337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Double jump-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 19
-        width: 58
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7b617854b0240a50800000000000000
-      internalID: 6486345322270387068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Double jump-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 16
-        width: 54
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06b81fdd12aaa6b60800000000000000
-      internalID: 7740185972023855968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Double jump-Sheet_15
+      name: Double jump-Sheet_6
       rect:
         serializedVersion: 2
         x: 385
@@ -318,20 +285,20 @@ TextureImporter:
         width: 57
         height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1cfc40f4c0f14a70800000000000000
-      internalID: 8809587074749234202
+      spriteID: fa520b7bded54e5e0800000000000000
+      internalID: -1881275468763617873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Double jump-Sheet_17
+      name: Double jump-Sheet_7
       rect:
         serializedVersion: 2
         x: 458
@@ -339,14 +306,14 @@ TextureImporter:
         width: 46
         height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbe1f7fc2a4020150800000000000000
-      internalID: 5837233164338011835
+      spriteID: 118386a2f3ce75550800000000000000
+      internalID: 6149643572236269585
       vertices: []
       indices: 
       edges: []
@@ -354,7 +321,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e7232dabd6590844c8e583b67c8147fd
+    spriteID: ab38a589f8ac77b46887d034fe087338
     internalID: 0
     vertices: []
     indices: 
