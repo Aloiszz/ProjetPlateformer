@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,8 +18,14 @@ public class TriggerZoom : MonoBehaviour
     [Header("modification camera")]
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
-    
-    
+    public Vector3 emplacementDebutCamera;
+
+
+    private void Start()
+    {
+      //  Camera.EmplacementCamera = emplacementDebutCamera;
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player"){

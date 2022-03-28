@@ -62,6 +62,7 @@ public class CharacterMovement : MonoBehaviour
     public Animator animator;
     public GameObject particules;
     public static CharacterMovement instance;
+    public Animator squashAndStretch;
 
     private void Awake()
     {

@@ -26,7 +26,7 @@ public class PlaqueDePression : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Respawn")
+        if (other.tag == "Respawn" || other.tag == "Player")
         {
             OuverturePorte(); 
         }
