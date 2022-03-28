@@ -7,9 +7,11 @@ using UnityEngine.EventSystems;
 
 public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 {
-    public GameObject parcheminManager;
-    public bool MenuOuvert;
     public GameObject camera;
+    public GameObject parcheminManager;
+    public GameObject mainMenu;
+    public bool MenuParcheminOuvert;
+    public bool MenuPrincipalOuvert;
     public Vector3 travellingStart;
     public float timeTravellingStart;
     [SerializeField] CameraZoom cameraZoom;
@@ -18,52 +20,62 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
-        parcheminManager.SetActive(false);
-        MenuOuvert = false;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
-      //  CameraZoom.EmplacementCamera = emplacmentDébutCamera;
+        mainMenu.SetActive(true);
+        MenuPrincipalOuvert = true;
+        parcheminManager.SetActive(false);
+        MenuParcheminOuvert = false;
+        //  CameraZoom.EmplacementCamera = emplacmentDébutCamera;
     }
 
   
     void Update()
     {
-        if (MenuOuvert == false)
-        {
-            if (Input.GetKeyUp(KeyCode.R))
+        
+        
+            if (Input.GetKeyUp(KeyCode.E))
             {
-                parcheminManager.SetActive(true);
-                MenuOuvert = true;
-                CharacterMovement.instance.canMove = false;
-            CharacterMovement.instance.canJump = false;
-            CharacterMovement.instance.speed = 0;
+                MenuParcheminOuvert = !MenuParcheminOuvert;
+                parcheminManager.SetActive(MenuParcheminOuvert);
             }
-        }
-
-          if (MenuOuvert == true)
-          {
-              if (Input.GetKeyUp(KeyCode.E))
-              {
-                  parcheminManager.SetActive(false);
-                  MenuOuvert = false;
-                  CharacterMovement.instance.canMove = true;
-              CharacterMovement.instance.canJump = true;
-              CharacterMovement.instance.speed = 11;
-              }
-          }
+            else if (Input.GetKeyUp(KeyCode.E))
+            {
+                MenuParcheminOuvert = !MenuParcheminOuvert;
+                parcheminManager.SetActive(MenuParcheminOuvert);
+            } 
         
         
+            if (MenuParcheminOuvert)
+            {
+                CharacterMovement.instance.canMove = false;
+                CharacterMovement.instance.canJump = false;
+                CharacterMovement.instance.speed = 0;
+            }
+            else
+            {
+                CharacterMovement.instance.canMove = true;
+                CharacterMovement.instance.canJump = true;
+                CharacterMovement.instance.speed = 11; 
+            }
+         
     }
-
 
     public void Play()
     {
+        MenuPrincipalOuvert = false;
         camera.transform.DOMove(travellingStart, timeTravellingStart);
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
        // CameraZoom.EmplacementCamera = emplacmentDébutCamera;
+    }
+
+
+    public void Options()
+    {
+        
     }
     public void Quit()
     {
