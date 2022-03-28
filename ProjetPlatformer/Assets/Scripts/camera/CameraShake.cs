@@ -25,13 +25,6 @@ public class CameraShake : MonoBehaviour
 
         transform.localPosition = originalPosition;
     }
-
-
-
-
-  public void Shake()
-  {
-      
-  }
+    
 
 }

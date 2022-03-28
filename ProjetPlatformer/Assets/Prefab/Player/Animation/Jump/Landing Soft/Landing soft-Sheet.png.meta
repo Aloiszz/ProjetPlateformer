@@ -20,18 +20,6 @@ TextureImporter:
   - first:
       213: -3507511265666242267
     second: Landing soft-Sheet_5
-  - first:
-      213: -5199757569351777767
-    second: Landing soft-Sheet_6
-  - first:
-      213: 5214273280632376745
-    second: Landing soft-Sheet_7
-  - first:
-      213: -3133744315600335269
-    second: Landing soft-Sheet_8
-  - first:
-      213: 772088446633967827
-    second: Landing soft-Sheet_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -160,10 +148,10 @@ TextureImporter:
       name: Landing soft-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 30
-        height: 24
+        x: 4
+        y: 0
+        width: 23
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,9 +170,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 1
-        width: 28
-        height: 24
+        y: 0
+        width: 29
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +190,10 @@ TextureImporter:
       name: Landing soft-Sheet_2
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1
+        x: 64
+        y: 0
         width: 27
-        height: 24
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +211,10 @@ TextureImporter:
       name: Landing soft-Sheet_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 1
-        width: 25
-        height: 24
+        x: 99
+        y: 0
+        width: 23
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,9 +232,9 @@ TextureImporter:
       name: Landing soft-Sheet_4
       rect:
         serializedVersion: 2
-        x: 129
+        x: 133
         y: 0
-        width: 26
+        width: 17
         height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,10 +253,10 @@ TextureImporter:
       name: Landing soft-Sheet_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 165
         y: 0
-        width: 29
-        height: 22
+        width: 17
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,94 +270,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Landing soft-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91283a84a00c6d7b0800000000000000
-      internalID: -5199757569351777767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Landing soft-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 0
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ad47ed1ce1dc5840800000000000000
-      internalID: 5214273280632376745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Landing soft-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 261
-        y: 0
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5e0eb3f524b284d0800000000000000
-      internalID: -3133744315600335269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Landing soft-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 293
-        y: 0
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d00dccf95207ba00800000000000000
-      internalID: 772088446633967827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e4c2e1269e8147a489bada61024b6c31
+    spriteID: ffc34694cced6d642831b128d3307c07
     internalID: 0
     vertices: []
     indices: 
