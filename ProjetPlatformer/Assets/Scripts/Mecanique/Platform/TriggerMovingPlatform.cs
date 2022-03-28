@@ -13,7 +13,7 @@ public class TriggerMovingPlatform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (limit >= 0)
+        if (limit <= 0)
         {
             limit++;
             for (int i = 0; i < movingPlatform.Count; i++)

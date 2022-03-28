@@ -24,10 +24,17 @@ public class CameraZoom : MonoBehaviour
     public float targetOrthoFix;// valeur de base de la camera a 9.999f
     public float smoothSpeedFix = 2.0f;
     public float timeWaitForMovement = 2f;
-
     
-    private float smoothTime = 0.25f;
-    private Vector3 velocity = Vector3.zero;
+
+    public static CameraZoom instance;
+    public Vector3 lastCheckPointPosCamera  = new Vector3(345, 25, -10);
+
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+        //GameObject.FindGameObjectWithTag("MainCamera").transform.position = lastCheckPointPosCamera;
+    }
+    
     
     void Start()
     {
@@ -61,7 +68,7 @@ public class CameraZoom : MonoBehaviour
     {
         if (isMoving == false) // permet que la camera suive le joueur
         {
-            Vector3 targetPosition = targetPlayer.position + EmplacementCamera ;
+            Vector3 targetPosition = targetPlayer.position + EmplacementCamera;
             Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
             //transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
@@ -69,7 +76,7 @@ public class CameraZoom : MonoBehaviour
         else // permet que la camera ne bouge plus 
         {
             Vector3 targetPosition = targetEmplacementCamera.position + EmplacementCamera;
-            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime * 1500f); // remettre smoothFactor sur smooth speed
+            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime *1500f); // remettre smoothFactor sur smooth speed
             transform.position = smoothedposition;
             //transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
         }
