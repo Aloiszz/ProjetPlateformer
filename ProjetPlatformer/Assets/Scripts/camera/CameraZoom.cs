@@ -27,12 +27,12 @@ public class CameraZoom : MonoBehaviour
     
 
     public static CameraZoom instance;
-    public Vector3 lastCheckPointPosCamera  = new Vector3(345, 25, -10);
+    public static Vector3 lastCheckPointPosCamera  = new Vector3(345, 25, -10);
 
     private void Awake()
     {
         if (instance == null) instance = this;
-        //GameObject.FindGameObjectWithTag("MainCamera").transform.position = lastCheckPointPosCamera;
+        GameObject.FindGameObjectWithTag("MainCamera").transform.position = lastCheckPointPosCamera;
     }
     
     

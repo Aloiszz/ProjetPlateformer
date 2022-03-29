@@ -62,14 +62,19 @@ public class CharacterMovement : MonoBehaviour
     [Header("Animation")]
     public Animator animator;
     public GameObject particules;
+    
+    
+    [Header("SFX")]
+    public GameObject LineRenderPlannage_1;
+    public GameObject LineRenderPlannage_2;
    
     public static CharacterMovement instance;
-    public Vector2 lastCheckPointPos  = new Vector2(345, 25);
+    public static Vector3 lastCheckPointPos  = new Vector3(345, 25, 0);
 
     private void Awake()
     {
         if (instance == null) instance = this;
-        //GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
+        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
 
     void Start()
@@ -177,6 +182,7 @@ public class CharacterMovement : MonoBehaviour
         if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
             animator.SetBool("IsFalling",true);
+            animator.SetBool("isDoubleJumping", false);
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 if (isPlannage)
@@ -185,6 +191,9 @@ public class CharacterMovement : MonoBehaviour
                     isPlannage = true;
                     rb.gravityScale = gravityScale - gravityPlannage; 
                     Stamina.instance.UseStamina(35);
+                    
+                    LineRenderPlannage_1.SetActive(true);
+                    LineRenderPlannage_2.SetActive(true);
                 }
                 else
                 {
@@ -200,6 +209,9 @@ public class CharacterMovement : MonoBehaviour
             }
             else
             {
+                LineRenderPlannage_1.SetActive(false);
+                LineRenderPlannage_2.SetActive(false);
+                
                 isPlannage = false;
                 animator.SetBool("isPlanning", false);
                 rb.gravityScale = gravityScale * gravityScaleMultiplier;
