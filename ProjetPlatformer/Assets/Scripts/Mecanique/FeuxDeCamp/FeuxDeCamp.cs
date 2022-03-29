@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.U2D.Animation;
 using UnityEngine;
 
 public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
+    public bool rightToPass = false;
     public bool onoff = false;
     private Collider2D coll;
 
@@ -61,9 +63,12 @@ public class FeuxDeCamp : MonoBehaviour
                 
             ps.Play(); // allumer le feu !!!
 
-            CameraZoom.instance.lastCheckPointPosCamera = transform.position; // checkpoint camera
-            CharacterMovement.instance.lastCheckPointPos = transform.position; // checkpoint Player
-                
+            //CameraZoom.instance.lastCheckPointPosCamera = transform.position; // checkpoint camera
+            //CharacterMovement.instance.lastCheckPointPos = transform.position; // checkpoint Player
+            CharacterMovement.lastCheckPointPos = transform.position;
+            CameraZoom.lastCheckPointPosCamera = transform.position; // checkpoint camera
+             // checkpoint Player
+
             //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
             //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
         }

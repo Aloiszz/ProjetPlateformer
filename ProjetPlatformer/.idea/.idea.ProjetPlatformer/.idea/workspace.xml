@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Design.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level Design.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production LD.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Production LD.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test Ethan.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/elise.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/elise.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/thomas.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/thomas.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SetVolume.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SetVolume.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,21 +20,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/Unity/Projets/Larazia 2/Assets/Script/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/e.dehay/ProjetPlateformer/ProjetPlatformer/Assets/Scripts/Character/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,6 +89,8 @@
       <workItem from="1646668253839" duration="14032000" />
       <workItem from="1646868398766" duration="3595000" />
       <workItem from="1646920295131" duration="69335000" />
+      <workItem from="1648547169526" duration="14000" />
+      <workItem from="1648547210511" duration="11000" />
     </task>
     <servers />
   </component>
