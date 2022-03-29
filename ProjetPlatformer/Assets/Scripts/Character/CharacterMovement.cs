@@ -61,12 +61,13 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-    public GameObject particules;
+    
     
     
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
     public GameObject LineRenderPlannage_2;
+    public GameObject particules;
    
     public static CharacterMovement instance;
     public static Vector3 lastCheckPointPos  = new Vector3(345, 25, 0);
@@ -74,7 +75,7 @@ public class CharacterMovement : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
-        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
+        //GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
 
     void Start()
@@ -236,6 +237,8 @@ public class CharacterMovement : MonoBehaviour
         #endregion
         
         if (isGrounded == true) {
+            LineRenderPlannage_1.SetActive(false);
+            LineRenderPlannage_2.SetActive(false);
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
             animator.ResetTrigger("IsJumping");
             animator.SetBool("isGrounded", true);
