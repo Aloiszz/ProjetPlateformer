@@ -35,6 +35,6 @@ public class CinemachineSwitcher : MonoBehaviour
             //vcam2.Priority = 0;
         }
         owerworldCamera = !owerworldCamera;
-        Debug.Log(owerworldCamera);
+        
     }
 }

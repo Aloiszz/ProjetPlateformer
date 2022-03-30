@@ -61,21 +61,18 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-    
+    public GameObject particules;
     
     
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
     public GameObject LineRenderPlannage_2;
-    public GameObject particules;
    
     public static CharacterMovement instance;
-    public static Vector3 lastCheckPointPos  = new Vector3(345, 25, 0);
 
     private void Awake()
     {
         if (instance == null) instance = this;
-        //GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
 
     void Start()
@@ -177,13 +174,13 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
-        
-        
+
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
             animator.SetBool("IsFalling",true);
             animator.SetBool("isDoubleJumping", false);
+            
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 if (isPlannage)
@@ -237,8 +234,6 @@ public class CharacterMovement : MonoBehaviour
         #endregion
         
         if (isGrounded == true) {
-            LineRenderPlannage_1.SetActive(false);
-            LineRenderPlannage_2.SetActive(false);
             extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
             animator.ResetTrigger("IsJumping");
             animator.SetBool("isGrounded", true);
@@ -253,6 +248,7 @@ public class CharacterMovement : MonoBehaviour
         }
         
         isJumpingSingle = false;
+        
         if (Input.GetButtonDown("JumpGamepad"))
         {
             jumpBufferCounter = jumpBufferTime;
@@ -267,6 +263,7 @@ public class CharacterMovement : MonoBehaviour
             {
                 if (isCoyotejump == true) // Coyote Jump
                 {
+                    isJumpingSingle = true;
                     isJumping = true;
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump

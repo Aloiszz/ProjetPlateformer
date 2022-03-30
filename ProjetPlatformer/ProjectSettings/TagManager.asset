@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Monstre
   - Goutte
-  - "GrosseBo\xEEte"
+  - PlayerSpawn
+  - DeathFade
   layers:
   - Default
   - TransparentFX
