@@ -1,0 +1,7608 @@
+fileFormatVersion: 2
+guid: fd6d5ed39f28440469fe3d1478b8f6c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9012886769838763698
+    second: "tiles set d\xE9sert roche -Sheet_0"
+  - first:
+      213: -2603040827151129790
+    second: "tiles set d\xE9sert roche -Sheet_1"
+  - first:
+      213: 2083757618513301965
+    second: "tiles set d\xE9sert roche -Sheet_2"
+  - first:
+      213: -4767370272729452654
+    second: "tiles set d\xE9sert roche -Sheet_3"
+  - first:
+      213: -1665285096000517032
+    second: "tiles set d\xE9sert roche -Sheet_4"
+  - first:
+      213: 7066596328244572088
+    second: "tiles set d\xE9sert roche -Sheet_5"
+  - first:
+      213: 2776681097693813441
+    second: "tiles set d\xE9sert roche -Sheet_6"
+  - first:
+      213: 6094690779633390973
+    second: "tiles set d\xE9sert roche -Sheet_7"
+  - first:
+      213: 7289222015300242389
+    second: "tiles set d\xE9sert roche -Sheet_8"
+  - first:
+      213: -3926363804499174984
+    second: "tiles set d\xE9sert roche -Sheet_9"
+  - first:
+      213: -538408524496554538
+    second: "tiles set d\xE9sert roche -Sheet_10"
+  - first:
+      213: -449349927260290050
+    second: "tiles set d\xE9sert roche -Sheet_11"
+  - first:
+      213: -7939572305781163021
+    second: "tiles set d\xE9sert roche -Sheet_12"
+  - first:
+      213: -569879633433411575
+    second: "tiles set d\xE9sert roche -Sheet_13"
+  - first:
+      213: 447540050923710310
+    second: "tiles set d\xE9sert roche -Sheet_14"
+  - first:
+      213: 3461151605199161578
+    second: "tiles set d\xE9sert roche -Sheet_15"
+  - first:
+      213: 1755132414455300756
+    second: "tiles set d\xE9sert roche -Sheet_16"
+  - first:
+      213: -4273367786931789794
+    second: "tiles set d\xE9sert roche -Sheet_17"
+  - first:
+      213: 8824344938676950004
+    second: "tiles set d\xE9sert roche -Sheet_18"
+  - first:
+      213: -7594119203103515031
+    second: "tiles set d\xE9sert roche -Sheet_19"
+  - first:
+      213: 7522381414965418855
+    second: "tiles set d\xE9sert roche -Sheet_20"
+  - first:
+      213: 2805797326123188909
+    second: "tiles set d\xE9sert roche -Sheet_21"
+  - first:
+      213: 618333291571529853
+    second: "tiles set d\xE9sert roche -Sheet_22"
+  - first:
+      213: 6913433345245357288
+    second: "tiles set d\xE9sert roche -Sheet_23"
+  - first:
+      213: 3259930126184138313
+    second: "tiles set d\xE9sert roche -Sheet_24"
+  - first:
+      213: -2930442182702315283
+    second: "tiles set d\xE9sert roche -Sheet_25"
+  - first:
+      213: 7041218179324898330
+    second: "tiles set d\xE9sert roche -Sheet_26"
+  - first:
+      213: 264927906729710873
+    second: "tiles set d\xE9sert roche -Sheet_27"
+  - first:
+      213: -1511285510660897727
+    second: "tiles set d\xE9sert roche -Sheet_28"
+  - first:
+      213: -7894990912668036351
+    second: "tiles set d\xE9sert roche -Sheet_29"
+  - first:
+      213: -727961060803084026
+    second: "tiles set d\xE9sert roche -Sheet_30"
+  - first:
+      213: 5227987118922254798
+    second: "tiles set d\xE9sert roche -Sheet_31"
+  - first:
+      213: 670392136731693040
+    second: "tiles set d\xE9sert roche -Sheet_32"
+  - first:
+      213: -3759975670185118521
+    second: "tiles set d\xE9sert roche -Sheet_33"
+  - first:
+      213: 966524071260346734
+    second: "tiles set d\xE9sert roche -Sheet_34"
+  - first:
+      213: 8348764880246318768
+    second: "tiles set d\xE9sert roche -Sheet_35"
+  - first:
+      213: 7715641957009842632
+    second: "tiles set d\xE9sert roche -Sheet_36"
+  - first:
+      213: -8851273422356526970
+    second: "tiles set d\xE9sert roche -Sheet_37"
+  - first:
+      213: 5975496411712620143
+    second: "tiles set d\xE9sert roche -Sheet_38"
+  - first:
+      213: -3175405973696783227
+    second: "tiles set d\xE9sert roche -Sheet_39"
+  - first:
+      213: -1837515945727423630
+    second: "tiles set d\xE9sert roche -Sheet_40"
+  - first:
+      213: -3497328991735879659
+    second: "tiles set d\xE9sert roche -Sheet_41"
+  - first:
+      213: -1550326681893972618
+    second: "tiles set d\xE9sert roche -Sheet_42"
+  - first:
+      213: 1023672471768042840
+    second: "tiles set d\xE9sert roche -Sheet_43"
+  - first:
+      213: -348407813906611073
+    second: "tiles set d\xE9sert roche -Sheet_44"
+  - first:
+      213: -3649197449733190555
+    second: "tiles set d\xE9sert roche -Sheet_45"
+  - first:
+      213: -2573888973882903279
+    second: "tiles set d\xE9sert roche -Sheet_46"
+  - first:
+      213: 6780279605959536286
+    second: "tiles set d\xE9sert roche -Sheet_47"
+  - first:
+      213: 4376892183971926354
+    second: "tiles set d\xE9sert roche -Sheet_48"
+  - first:
+      213: 617479417148582071
+    second: "tiles set d\xE9sert roche -Sheet_49"
+  - first:
+      213: 7515363185053261266
+    second: "tiles set d\xE9sert roche -Sheet_50"
+  - first:
+      213: -6916685996528830180
+    second: "tiles set d\xE9sert roche -Sheet_51"
+  - first:
+      213: 641225413723389250
+    second: "tiles set d\xE9sert roche -Sheet_52"
+  - first:
+      213: -5229552692785578314
+    second: "tiles set d\xE9sert roche -Sheet_53"
+  - first:
+      213: -2694079723606526632
+    second: "tiles set d\xE9sert roche -Sheet_54"
+  - first:
+      213: -1961899080093803218
+    second: "tiles set d\xE9sert roche -Sheet_55"
+  - first:
+      213: -1569260040232184669
+    second: "tiles set d\xE9sert roche -Sheet_56"
+  - first:
+      213: 6696149031786898132
+    second: "tiles set d\xE9sert roche -Sheet_57"
+  - first:
+      213: 7928182049591861171
+    second: "tiles set d\xE9sert roche -Sheet_58"
+  - first:
+      213: 8395965752936335242
+    second: "tiles set d\xE9sert roche -Sheet_59"
+  - first:
+      213: -2568024746096591804
+    second: "tiles set d\xE9sert roche -Sheet_60"
+  - first:
+      213: 859329071183071068
+    second: "tiles set d\xE9sert roche -Sheet_61"
+  - first:
+      213: -5319345337082150275
+    second: "tiles set d\xE9sert roche -Sheet_62"
+  - first:
+      213: -4932179351898098100
+    second: "tiles set d\xE9sert roche -Sheet_63"
+  - first:
+      213: -6165845173210843801
+    second: "tiles set d\xE9sert roche -Sheet_64"
+  - first:
+      213: -89421280388419385
+    second: "tiles set d\xE9sert roche -Sheet_65"
+  - first:
+      213: 4146500717792598253
+    second: "tiles set d\xE9sert roche -Sheet_66"
+  - first:
+      213: -7104951529867497185
+    second: "tiles set d\xE9sert roche -Sheet_67"
+  - first:
+      213: 7839138039528353140
+    second: "tiles set d\xE9sert roche -Sheet_68"
+  - first:
+      213: -7063490566753142023
+    second: "tiles set d\xE9sert roche -Sheet_69"
+  - first:
+      213: 3835542558241245212
+    second: "tiles set d\xE9sert roche -Sheet_70"
+  - first:
+      213: 7997349814188856723
+    second: "tiles set d\xE9sert roche -Sheet_71"
+  - first:
+      213: -992878025993029767
+    second: "tiles set d\xE9sert roche -Sheet_72"
+  - first:
+      213: 5916006870884675461
+    second: "tiles set d\xE9sert roche -Sheet_73"
+  - first:
+      213: 3379521825096981042
+    second: "tiles set d\xE9sert roche -Sheet_74"
+  - first:
+      213: 1528937652618266852
+    second: "tiles set d\xE9sert roche -Sheet_75"
+  - first:
+      213: 9181581904889861925
+    second: "tiles set d\xE9sert roche -Sheet_76"
+  - first:
+      213: 7211839432500832158
+    second: "tiles set d\xE9sert roche -Sheet_77"
+  - first:
+      213: 1012340930603799278
+    second: "tiles set d\xE9sert roche -Sheet_78"
+  - first:
+      213: -5102690194873916862
+    second: "tiles set d\xE9sert roche -Sheet_79"
+  - first:
+      213: 7074682913554531294
+    second: "tiles set d\xE9sert roche -Sheet_80"
+  - first:
+      213: 2561173783033959780
+    second: "tiles set d\xE9sert roche -Sheet_81"
+  - first:
+      213: -2728286203803310156
+    second: "tiles set d\xE9sert roche -Sheet_82"
+  - first:
+      213: 5191073805433462762
+    second: "tiles set d\xE9sert roche -Sheet_83"
+  - first:
+      213: -854006590260320637
+    second: "tiles set d\xE9sert roche -Sheet_84"
+  - first:
+      213: 5671610818781346508
+    second: "tiles set d\xE9sert roche -Sheet_85"
+  - first:
+      213: -8938397141910657002
+    second: "tiles set d\xE9sert roche -Sheet_86"
+  - first:
+      213: -9218587132207249769
+    second: "tiles set d\xE9sert roche -Sheet_87"
+  - first:
+      213: -8837539428670013889
+    second: "tiles set d\xE9sert roche -Sheet_88"
+  - first:
+      213: 942800075657778960
+    second: "tiles set d\xE9sert roche -Sheet_89"
+  - first:
+      213: 8698845703847852867
+    second: "tiles set d\xE9sert roche -Sheet_90"
+  - first:
+      213: 5798991887009274970
+    second: "tiles set d\xE9sert roche -Sheet_91"
+  - first:
+      213: 2973217622547036892
+    second: "tiles set d\xE9sert roche -Sheet_92"
+  - first:
+      213: -6471097298914397083
+    second: "tiles set d\xE9sert roche -Sheet_93"
+  - first:
+      213: 3153464360953007299
+    second: "tiles set d\xE9sert roche -Sheet_94"
+  - first:
+      213: 8680769470697769900
+    second: "tiles set d\xE9sert roche -Sheet_95"
+  - first:
+      213: 7503564003829831007
+    second: "tiles set d\xE9sert roche -Sheet_96"
+  - first:
+      213: -5890450758675388000
+    second: "tiles set d\xE9sert roche -Sheet_97"
+  - first:
+      213: -1702975061349041147
+    second: "tiles set d\xE9sert roche -Sheet_98"
+  - first:
+      213: 133559488464398489
+    second: "tiles set d\xE9sert roche -Sheet_99"
+  - first:
+      213: 6892407151877390717
+    second: "tiles set d\xE9sert roche -Sheet_100"
+  - first:
+      213: 1781098927054356113
+    second: "tiles set d\xE9sert roche -Sheet_101"
+  - first:
+      213: -7010930089717717686
+    second: "tiles set d\xE9sert roche -Sheet_102"
+  - first:
+      213: -6437868423359358910
+    second: "tiles set d\xE9sert roche -Sheet_103"
+  - first:
+      213: 112501116931411163
+    second: "tiles set d\xE9sert roche -Sheet_104"
+  - first:
+      213: -1845796582454091209
+    second: "tiles set d\xE9sert roche -Sheet_105"
+  - first:
+      213: -4071204533232953378
+    second: "tiles set d\xE9sert roche -Sheet_106"
+  - first:
+      213: -3474016082930293144
+    second: "tiles set d\xE9sert roche -Sheet_107"
+  - first:
+      213: 8613225370368665239
+    second: "tiles set d\xE9sert roche -Sheet_108"
+  - first:
+      213: -6891664215388910365
+    second: "tiles set d\xE9sert roche -Sheet_109"
+  - first:
+      213: -4691762522764854722
+    second: "tiles set d\xE9sert roche -Sheet_110"
+  - first:
+      213: 6958497335647223670
+    second: "tiles set d\xE9sert roche -Sheet_111"
+  - first:
+      213: -6572634979654487542
+    second: "tiles set d\xE9sert roche -Sheet_112"
+  - first:
+      213: -8456493942156365996
+    second: "tiles set d\xE9sert roche -Sheet_113"
+  - first:
+      213: 154917585602970263
+    second: "tiles set d\xE9sert roche -Sheet_114"
+  - first:
+      213: -1325651458332437271
+    second: "tiles set d\xE9sert roche -Sheet_115"
+  - first:
+      213: 6747380036498616762
+    second: "tiles set d\xE9sert roche -Sheet_116"
+  - first:
+      213: 1317430444797027320
+    second: "tiles set d\xE9sert roche -Sheet_117"
+  - first:
+      213: 4333267328624866570
+    second: "tiles set d\xE9sert roche -Sheet_118"
+  - first:
+      213: 5588047535730430847
+    second: "tiles set d\xE9sert roche -Sheet_119"
+  - first:
+      213: -4979561797511172372
+    second: "tiles set d\xE9sert roche -Sheet_120"
+  - first:
+      213: -2534150282926150913
+    second: "tiles set d\xE9sert roche -Sheet_121"
+  - first:
+      213: 501445979610492959
+    second: "tiles set d\xE9sert roche -Sheet_122"
+  - first:
+      213: 87242961583712777
+    second: "tiles set d\xE9sert roche -Sheet_123"
+  - first:
+      213: -6940389279920059898
+    second: "tiles set d\xE9sert roche -Sheet_124"
+  - first:
+      213: 3605504138930508402
+    second: "tiles set d\xE9sert roche -Sheet_125"
+  - first:
+      213: 7614536219588462041
+    second: "tiles set d\xE9sert roche -Sheet_126"
+  - first:
+      213: 6184618426048657647
+    second: "tiles set d\xE9sert roche -Sheet_127"
+  - first:
+      213: -9117078501866445842
+    second: "tiles set d\xE9sert roche -Sheet_128"
+  - first:
+      213: -5373263287407595114
+    second: "tiles set d\xE9sert roche -Sheet_129"
+  - first:
+      213: -4641932028369599923
+    second: "tiles set d\xE9sert roche -Sheet_130"
+  - first:
+      213: -6375698332336801828
+    second: "tiles set d\xE9sert roche -Sheet_131"
+  - first:
+      213: 8068661377299964667
+    second: "tiles set d\xE9sert roche -Sheet_132"
+  - first:
+      213: 2194644042331542306
+    second: "tiles set d\xE9sert roche -Sheet_133"
+  - first:
+      213: 6888052521623553916
+    second: "tiles set d\xE9sert roche -Sheet_134"
+  - first:
+      213: 6396283247789091566
+    second: "tiles set d\xE9sert roche -Sheet_135"
+  - first:
+      213: 3059746291384602391
+    second: "tiles set d\xE9sert roche -Sheet_136"
+  - first:
+      213: -5605618368714235521
+    second: "tiles set d\xE9sert roche -Sheet_137"
+  - first:
+      213: 4057889187763443480
+    second: "tiles set d\xE9sert roche -Sheet_138"
+  - first:
+      213: -6001017074557865412
+    second: "tiles set d\xE9sert roche -Sheet_139"
+  - first:
+      213: -6731316214277511604
+    second: "tiles set d\xE9sert roche -Sheet_140"
+  - first:
+      213: 1249690184730417256
+    second: "tiles set d\xE9sert roche -Sheet_141"
+  - first:
+      213: 8690236892028067229
+    second: "tiles set d\xE9sert roche -Sheet_142"
+  - first:
+      213: -5203789636793968309
+    second: "tiles set d\xE9sert roche -Sheet_143"
+  - first:
+      213: -27395828233973225
+    second: "tiles set d\xE9sert roche -Sheet_144"
+  - first:
+      213: -8501868121568401662
+    second: "tiles set d\xE9sert roche -Sheet_145"
+  - first:
+      213: -8515682184399592370
+    second: "tiles set d\xE9sert roche -Sheet_146"
+  - first:
+      213: -7261565326172856755
+    second: "tiles set d\xE9sert roche -Sheet_147"
+  - first:
+      213: 5400937172467494486
+    second: "tiles set d\xE9sert roche -Sheet_148"
+  - first:
+      213: -3653610679211589493
+    second: "tiles set d\xE9sert roche -Sheet_149"
+  - first:
+      213: -2855089134206520223
+    second: "tiles set d\xE9sert roche -Sheet_150"
+  - first:
+      213: -2426313482739700350
+    second: "tiles set d\xE9sert roche -Sheet_151"
+  - first:
+      213: 8584831305709389912
+    second: "tiles set d\xE9sert roche -Sheet_152"
+  - first:
+      213: -6057764671213300640
+    second: "tiles set d\xE9sert roche -Sheet_153"
+  - first:
+      213: -7932272170156830806
+    second: "tiles set d\xE9sert roche -Sheet_154"
+  - first:
+      213: -5706228245910142201
+    second: "tiles set d\xE9sert roche -Sheet_155"
+  - first:
+      213: 2157914477589572298
+    second: "tiles set d\xE9sert roche -Sheet_156"
+  - first:
+      213: 824359126254289372
+    second: "tiles set d\xE9sert roche -Sheet_157"
+  - first:
+      213: 6553811226516926752
+    second: "tiles set d\xE9sert roche -Sheet_158"
+  - first:
+      213: 5951952735938147275
+    second: "tiles set d\xE9sert roche -Sheet_159"
+  - first:
+      213: -507321086167086658
+    second: "tiles set d\xE9sert roche -Sheet_160"
+  - first:
+      213: 3959604925106200421
+    second: "tiles set d\xE9sert roche -Sheet_161"
+  - first:
+      213: 9110709540176555453
+    second: "tiles set d\xE9sert roche -Sheet_162"
+  - first:
+      213: 8697523286674361082
+    second: "tiles set d\xE9sert roche -Sheet_163"
+  - first:
+      213: -6349695550188341454
+    second: "tiles set d\xE9sert roche -Sheet_164"
+  - first:
+      213: -2053930431690325387
+    second: "tiles set d\xE9sert roche -Sheet_165"
+  - first:
+      213: -1894646929908155547
+    second: "tiles set d\xE9sert roche -Sheet_166"
+  - first:
+      213: 4152670742377866058
+    second: "tiles set d\xE9sert roche -Sheet_167"
+  - first:
+      213: -8233186912816077044
+    second: "tiles set d\xE9sert roche -Sheet_168"
+  - first:
+      213: -366596317495959056
+    second: "tiles set d\xE9sert roche -Sheet_169"
+  - first:
+      213: 2460045321713704524
+    second: "tiles set d\xE9sert roche -Sheet_170"
+  - first:
+      213: 8845587080357624448
+    second: "tiles set d\xE9sert roche -Sheet_171"
+  - first:
+      213: -547089836986807471
+    second: "tiles set d\xE9sert roche -Sheet_172"
+  - first:
+      213: 8261891211626957816
+    second: "tiles set d\xE9sert roche -Sheet_173"
+  - first:
+      213: -4744999177275116977
+    second: "tiles set d\xE9sert roche -Sheet_174"
+  - first:
+      213: -4193325345786082145
+    second: "tiles set d\xE9sert roche -Sheet_175"
+  - first:
+      213: -240341664915644233
+    second: "tiles set d\xE9sert roche -Sheet_176"
+  - first:
+      213: 6482657376642794407
+    second: "tiles set d\xE9sert roche -Sheet_177"
+  - first:
+      213: -1028860017571000430
+    second: "tiles set d\xE9sert roche -Sheet_178"
+  - first:
+      213: 7110256259344817821
+    second: "tiles set d\xE9sert roche -Sheet_179"
+  - first:
+      213: 8808935296799428738
+    second: "tiles set d\xE9sert roche -Sheet_180"
+  - first:
+      213: 5935093313291487039
+    second: "tiles set d\xE9sert roche -Sheet_181"
+  - first:
+      213: -4402049411997773860
+    second: "tiles set d\xE9sert roche -Sheet_182"
+  - first:
+      213: 8394735510254269821
+    second: "tiles set d\xE9sert roche -Sheet_183"
+  - first:
+      213: -6147771249633564427
+    second: "tiles set d\xE9sert roche -Sheet_184"
+  - first:
+      213: -2237505101638051960
+    second: "tiles set d\xE9sert roche -Sheet_185"
+  - first:
+      213: 8014289023069632362
+    second: "tiles set d\xE9sert roche -Sheet_186"
+  - first:
+      213: 8277359993105560850
+    second: "tiles set d\xE9sert roche -Sheet_187"
+  - first:
+      213: 6065611055706241316
+    second: "tiles set d\xE9sert roche -Sheet_188"
+  - first:
+      213: -3984325179967080575
+    second: "tiles set d\xE9sert roche -Sheet_189"
+  - first:
+      213: -157293183337946404
+    second: "tiles set d\xE9sert roche -Sheet_190"
+  - first:
+      213: -2042784304301219349
+    second: "tiles set d\xE9sert roche -Sheet_191"
+  - first:
+      213: -8747093449592372957
+    second: "tiles set d\xE9sert roche -Sheet_192"
+  - first:
+      213: 3304964410600039269
+    second: "tiles set d\xE9sert roche -Sheet_193"
+  - first:
+      213: 6409059691427112042
+    second: "tiles set d\xE9sert roche -Sheet_194"
+  - first:
+      213: -44570138493743862
+    second: "tiles set d\xE9sert roche -Sheet_195"
+  - first:
+      213: -366251992572121490
+    second: "tiles set d\xE9sert roche -Sheet_196"
+  - first:
+      213: -7648085842793684722
+    second: "tiles set d\xE9sert roche -Sheet_197"
+  - first:
+      213: -4887292254783646629
+    second: "tiles set d\xE9sert roche -Sheet_198"
+  - first:
+      213: 3376321099024573756
+    second: "tiles set d\xE9sert roche -Sheet_199"
+  - first:
+      213: -8461439886054164726
+    second: "tiles set d\xE9sert roche -Sheet_200"
+  - first:
+      213: 2264237599520313680
+    second: "tiles set d\xE9sert roche -Sheet_201"
+  - first:
+      213: -4588103224760005938
+    second: "tiles set d\xE9sert roche -Sheet_202"
+  - first:
+      213: 4468511373344386956
+    second: "tiles set d\xE9sert roche -Sheet_203"
+  - first:
+      213: 7907201285585426007
+    second: "tiles set d\xE9sert roche -Sheet_204"
+  - first:
+      213: -1739939169655976116
+    second: "tiles set d\xE9sert roche -Sheet_205"
+  - first:
+      213: -5117769603722434978
+    second: "tiles set d\xE9sert roche -Sheet_206"
+  - first:
+      213: -2971788606792726621
+    second: "tiles set d\xE9sert roche -Sheet_207"
+  - first:
+      213: -8300735673544228248
+    second: "tiles set d\xE9sert roche -Sheet_208"
+  - first:
+      213: 8952347878778845362
+    second: "tiles set d\xE9sert roche -Sheet_209"
+  - first:
+      213: -2544065586857590241
+    second: "tiles set d\xE9sert roche -Sheet_210"
+  - first:
+      213: 2127577490240716275
+    second: "tiles set d\xE9sert roche -Sheet_211"
+  - first:
+      213: 7171278250232604037
+    second: "tiles set d\xE9sert roche -Sheet_212"
+  - first:
+      213: -2141911143601034178
+    second: "tiles set d\xE9sert roche -Sheet_213"
+  - first:
+      213: -7814484229352543145
+    second: "tiles set d\xE9sert roche -Sheet_214"
+  - first:
+      213: 8587632912183466404
+    second: "tiles set d\xE9sert roche -Sheet_215"
+  - first:
+      213: -598543814400252300
+    second: "tiles set d\xE9sert roche -Sheet_216"
+  - first:
+      213: -8336118175474801050
+    second: "tiles set d\xE9sert roche -Sheet_217"
+  - first:
+      213: -5447243993998768852
+    second: "tiles set d\xE9sert roche -Sheet_218"
+  - first:
+      213: -4894988819949552973
+    second: "tiles set d\xE9sert roche -Sheet_219"
+  - first:
+      213: 3754606568897464121
+    second: "tiles set d\xE9sert roche -Sheet_220"
+  - first:
+      213: -146122781186941799
+    second: "tiles set d\xE9sert roche -Sheet_221"
+  - first:
+      213: 8368777520264705956
+    second: "tiles set d\xE9sert roche -Sheet_222"
+  - first:
+      213: -643839594755584698
+    second: "tiles set d\xE9sert roche -Sheet_223"
+  - first:
+      213: 3373472805875508433
+    second: "tiles set d\xE9sert roche -Sheet_224"
+  - first:
+      213: -1703860077861390573
+    second: "tiles set d\xE9sert roche -Sheet_225"
+  - first:
+      213: 6048442166748078974
+    second: "tiles set d\xE9sert roche -Sheet_226"
+  - first:
+      213: 6398511958634316989
+    second: "tiles set d\xE9sert roche -Sheet_227"
+  - first:
+      213: -3149787422323395324
+    second: "tiles set d\xE9sert roche -Sheet_228"
+  - first:
+      213: -1112739313149408
+    second: "tiles set d\xE9sert roche -Sheet_229"
+  - first:
+      213: 2840967383722089089
+    second: "tiles set d\xE9sert roche -Sheet_230"
+  - first:
+      213: 1057986457829958028
+    second: "tiles set d\xE9sert roche -Sheet_231"
+  - first:
+      213: 214274096880695290
+    second: "tiles set d\xE9sert roche -Sheet_232"
+  - first:
+      213: -5186244504488903520
+    second: "tiles set d\xE9sert roche -Sheet_233"
+  - first:
+      213: 2301551246052325886
+    second: "tiles set d\xE9sert roche -Sheet_234"
+  - first:
+      213: -3812181418153501944
+    second: "tiles set d\xE9sert roche -Sheet_235"
+  - first:
+      213: -1671006545584187260
+    second: "tiles set d\xE9sert roche -Sheet_236"
+  - first:
+      213: 6249522113072507194
+    second: "tiles set d\xE9sert roche -Sheet_237"
+  - first:
+      213: -1432390105334628197
+    second: "tiles set d\xE9sert roche -Sheet_238"
+  - first:
+      213: -5306759802372538308
+    second: "tiles set d\xE9sert roche -Sheet_239"
+  - first:
+      213: -3196741174039254882
+    second: "tiles set d\xE9sert roche -Sheet_240"
+  - first:
+      213: 4274354487496219529
+    second: "tiles set d\xE9sert roche -Sheet_241"
+  - first:
+      213: 1877573800546335575
+    second: "tiles set d\xE9sert roche -Sheet_242"
+  - first:
+      213: 6304732479065040466
+    second: "tiles set d\xE9sert roche -Sheet_243"
+  - first:
+      213: -1840433731349689245
+    second: "tiles set d\xE9sert roche -Sheet_244"
+  - first:
+      213: 8079488555795669355
+    second: "tiles set d\xE9sert roche -Sheet_245"
+  - first:
+      213: -7919143115638360014
+    second: "tiles set d\xE9sert roche -Sheet_246"
+  - first:
+      213: -76804222356163329
+    second: "tiles set d\xE9sert roche -Sheet_247"
+  - first:
+      213: 6265922440323429131
+    second: "tiles set d\xE9sert roche -Sheet_248"
+  - first:
+      213: 2055546010495664950
+    second: "tiles set d\xE9sert roche -Sheet_249"
+  - first:
+      213: 3044238334401408383
+    second: "tiles set d\xE9sert roche -Sheet_250"
+  - first:
+      213: -4056862333542284233
+    second: "tiles set d\xE9sert roche -Sheet_251"
+  - first:
+      213: -7057749203472894575
+    second: "tiles set d\xE9sert roche -Sheet_252"
+  - first:
+      213: -461094315318707410
+    second: "tiles set d\xE9sert roche -Sheet_253"
+  - first:
+      213: 9084478594120037700
+    second: "tiles set d\xE9sert roche -Sheet_254"
+  - first:
+      213: 48897359672204151
+    second: "tiles set d\xE9sert roche -Sheet_255"
+  - first:
+      213: 7092166067799270566
+    second: "tiles set d\xE9sert roche -Sheet_256"
+  - first:
+      213: 4484543593504495547
+    second: "tiles set d\xE9sert roche -Sheet_257"
+  - first:
+      213: 9047467764531783764
+    second: "tiles set d\xE9sert roche -Sheet_258"
+  - first:
+      213: -1211953747154748585
+    second: "tiles set d\xE9sert roche -Sheet_259"
+  - first:
+      213: -5487738277052519013
+    second: "tiles set d\xE9sert roche -Sheet_260"
+  - first:
+      213: -7822804878096401739
+    second: "tiles set d\xE9sert roche -Sheet_261"
+  - first:
+      213: -5788768155555091841
+    second: "tiles set d\xE9sert roche -Sheet_262"
+  - first:
+      213: 4134391928062917146
+    second: "tiles set d\xE9sert roche -Sheet_263"
+  - first:
+      213: -7496614127417616885
+    second: "tiles set d\xE9sert roche -Sheet_264"
+  - first:
+      213: -3766510906817071400
+    second: "tiles set d\xE9sert roche -Sheet_265"
+  - first:
+      213: -2073658903528544680
+    second: "tiles set d\xE9sert roche -Sheet_266"
+  - first:
+      213: 5221093362413666081
+    second: "tiles set d\xE9sert roche -Sheet_267"
+  - first:
+      213: 8263659313323522559
+    second: "tiles set d\xE9sert roche -Sheet_268"
+  - first:
+      213: -12060002661515469
+    second: "tiles set d\xE9sert roche -Sheet_269"
+  - first:
+      213: 6351072233048439223
+    second: "tiles set d\xE9sert roche -Sheet_270"
+  - first:
+      213: 5007711941985532771
+    second: "tiles set d\xE9sert roche -Sheet_271"
+  - first:
+      213: -8565017133733231917
+    second: "tiles set d\xE9sert roche -Sheet_272"
+  - first:
+      213: 8610797215345605110
+    second: "tiles set d\xE9sert roche -Sheet_273"
+  - first:
+      213: -5944585172041101311
+    second: "tiles set d\xE9sert roche -Sheet_274"
+  - first:
+      213: 2140718257668285185
+    second: "tiles set d\xE9sert roche -Sheet_275"
+  - first:
+      213: -3678903129962109114
+    second: "tiles set d\xE9sert roche -Sheet_276"
+  - first:
+      213: 5708428143218163063
+    second: "tiles set d\xE9sert roche -Sheet_277"
+  - first:
+      213: -6626362467866715639
+    second: "tiles set d\xE9sert roche -Sheet_278"
+  - first:
+      213: -3547421784023418585
+    second: "tiles set d\xE9sert roche -Sheet_279"
+  - first:
+      213: -6381784496482577753
+    second: "tiles set d\xE9sert roche -Sheet_280"
+  - first:
+      213: -6061789553234310206
+    second: "tiles set d\xE9sert roche -Sheet_281"
+  - first:
+      213: -6458221101139470174
+    second: "tiles set d\xE9sert roche -Sheet_282"
+  - first:
+      213: -3111287295846522360
+    second: "tiles set d\xE9sert roche -Sheet_283"
+  - first:
+      213: 6522375308206529297
+    second: "tiles set d\xE9sert roche -Sheet_284"
+  - first:
+      213: 1336057601132246328
+    second: "tiles set d\xE9sert roche -Sheet_285"
+  - first:
+      213: 4030146244182540977
+    second: "tiles set d\xE9sert roche -Sheet_286"
+  - first:
+      213: 7468452338168862425
+    second: "tiles set d\xE9sert roche -Sheet_287"
+  - first:
+      213: -8107391451348912235
+    second: "tiles set d\xE9sert roche -Sheet_288"
+  - first:
+      213: 9219484734275813420
+    second: "tiles set d\xE9sert roche -Sheet_289"
+  - first:
+      213: -6399271532083101894
+    second: "tiles set d\xE9sert roche -Sheet_290"
+  - first:
+      213: 7029388019048777963
+    second: "tiles set d\xE9sert roche -Sheet_291"
+  - first:
+      213: 2058985458921409536
+    second: "tiles set d\xE9sert roche -Sheet_292"
+  - first:
+      213: 2451856076962357858
+    second: "tiles set d\xE9sert roche -Sheet_293"
+  - first:
+      213: 9164485469586720293
+    second: "tiles set d\xE9sert roche -Sheet_294"
+  - first:
+      213: 4948086896989819809
+    second: "tiles set d\xE9sert roche -Sheet_295"
+  - first:
+      213: -4592214793982813906
+    second: "tiles set d\xE9sert roche -Sheet_296"
+  - first:
+      213: 6416735796312473482
+    second: "tiles set d\xE9sert roche -Sheet_297"
+  - first:
+      213: -5829207606606549067
+    second: "tiles set d\xE9sert roche -Sheet_298"
+  - first:
+      213: -3318833398387790234
+    second: "tiles set d\xE9sert roche -Sheet_299"
+  - first:
+      213: 9142809015172970640
+    second: "tiles set d\xE9sert roche -Sheet_300"
+  - first:
+      213: -1239468991526945233
+    second: "tiles set d\xE9sert roche -Sheet_301"
+  - first:
+      213: -3006651901209925021
+    second: "tiles set d\xE9sert roche -Sheet_302"
+  - first:
+      213: 862604191513896925
+    second: "tiles set d\xE9sert roche -Sheet_303"
+  - first:
+      213: 2099470925480125972
+    second: "tiles set d\xE9sert roche -Sheet_304"
+  - first:
+      213: 2857875718729796420
+    second: "tiles set d\xE9sert roche -Sheet_305"
+  - first:
+      213: 4833856302689725399
+    second: "tiles set d\xE9sert roche -Sheet_306"
+  - first:
+      213: 1710767343905115149
+    second: "tiles set d\xE9sert roche -Sheet_307"
+  - first:
+      213: 3926361261102819716
+    second: "tiles set d\xE9sert roche -Sheet_308"
+  - first:
+      213: 5907987024814307926
+    second: "tiles set d\xE9sert roche -Sheet_309"
+  - first:
+      213: -2648226395661213626
+    second: "tiles set d\xE9sert roche -Sheet_310"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beae0dc3c4341d70800000000000000
+      internalID: 9012886769838763698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24361d1c82420ebd0800000000000000
+      internalID: -2603040827151129790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1df79838efaec10800000000000000
+      internalID: 2083757618513301965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f243ddef5e6ddb0800000000000000
+      internalID: -4767370272729452654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c032b3708b3e8e0800000000000000
+      internalID: -1665285096000517032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfe81c8be7911260800000000000000
+      internalID: 7066596328244572088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad4923fb0c88620800000000000000
+      internalID: 2776681097693813441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7595e719f0b49450800000000000000
+      internalID: 6094690779633390973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db8dee8dc4882560800000000000000
+      internalID: 7289222015300242389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b910ed2ce0c289c0800000000000000
+      internalID: -3926363804499174984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d53751bc403788f0800000000000000
+      internalID: -538408524496554538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef38dc53f9693c9f0800000000000000
+      internalID: -449349927260290050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb7265bd09f0d190800000000000000
+      internalID: -7939572305781163021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900c8742e716718f0800000000000000
+      internalID: -569879633433411575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667611e1e4bf53600800000000000000
+      internalID: 447540050923710310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae84ba50c0b780030800000000000000
+      internalID: 3461151605199161578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492c161c1ab7b5810800000000000000
+      internalID: 1755132414455300756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10655993a2f1b4c0800000000000000
+      internalID: -4273367786931789794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f31b55e7fe567a70800000000000000
+      internalID: 8824344938676950004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eda05f1d44c9690800000000000000
+      internalID: -7594119203103515031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_20"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b9308aa0ed46860800000000000000
+      internalID: 7522381414965418855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_21"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da240576dc130f620800000000000000
+      internalID: 2805797326123188909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_22"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784be44ad2c49800800000000000000
+      internalID: 618333291571529853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_23"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a0b1aff271ff50800000000000000
+      internalID: 6913433345245357288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_24"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946cccb8d299d3d20800000000000000
+      internalID: 3259930126184138313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_25"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de845396c5af457d0800000000000000
+      internalID: -2930442182702315283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_26"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ceeacc0ae67b160800000000000000
+      internalID: 7041218179324898330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_27"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91556bb07863da300800000000000000
+      internalID: 264927906729710873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_28"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ccdec5d5d60be0800000000000000
+      internalID: -1511285510660897727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_29"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1031c79289b5f6290800000000000000
+      internalID: -7894990912668036351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_30"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6010488a543c5e5f0800000000000000
+      internalID: -727961060803084026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_31"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9cda9e59a8d8840800000000000000
+      internalID: 5227987118922254798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_32"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff8b12b816bd4900800000000000000
+      internalID: 670392136731693040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_33"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c431869c02e1dbc0800000000000000
+      internalID: -3759975670185118521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_34"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69565e9588c96d00800000000000000
+      internalID: 966524071260346734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_35"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6a658cc65ccd370800000000000000
+      internalID: 8348764880246318768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_36"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ebad0b77731b60800000000000000
+      internalID: 7715641957009842632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_37"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688459ae7b5f92580800000000000000
+      internalID: -8851273422356526970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_38"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6680c0b35a3de250800000000000000
+      internalID: 5975496411712620143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_39"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c56284711bee3d0800000000000000
+      internalID: -3175405973696783227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_40"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b0dc1abf4df76e0800000000000000
+      internalID: -1837515945727423630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_41"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51868e8cfcdf67fc0800000000000000
+      internalID: -3497328991735879659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_42"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67556e7c8122c7ae0800000000000000
+      internalID: -1550326681893972618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_43"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d841e70b0d43e00800000000000000
+      internalID: 1023672471768042840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_44"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74402f60f43a2bf0800000000000000
+      internalID: -348407813906611073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_45"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c4465f0427b5dc0800000000000000
+      internalID: -3649197449733190555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_46"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1153a648d95b74cd0800000000000000
+      internalID: -2573888973882903279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_47"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e2b0fc064681e50800000000000000
+      internalID: 6780279605959536286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_48"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25194d56048ddbc30800000000000000
+      internalID: 4376892183971926354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_49"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8a143224ab19800800000000000000
+      internalID: 617479417148582071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_50"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddd52baffeeb4860800000000000000
+      internalID: 7515363185053261266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_51"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19faf97bbef200a0800000000000000
+      internalID: -6916685996528830180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_52"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d7fedcd1716e800800000000000000
+      internalID: 641225413723389250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_53"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef3548885ec67b0800000000000000
+      internalID: -5229552692785578314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_54"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855b9d5e3c4bc9ad0800000000000000
+      internalID: -2694079723606526632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_55"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dd7d56e2fe5c4e0800000000000000
+      internalID: -1961899080093803218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_56"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4deb5ce4ed83ae0800000000000000
+      internalID: -1569260040232184669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_57"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2ebb211108dec50800000000000000
+      internalID: 6696149031786898132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_58"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf1d8c919f860e60800000000000000
+      internalID: 7928182049591861171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_59"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a878d1a5e56748470800000000000000
+      internalID: 8395965752936335242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_60"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cff72791b8c5cd0800000000000000
+      internalID: -2568024746096591804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_61"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c578801cc33fceb00800000000000000
+      internalID: 859329071183071068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_62"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7286995993ed26b0800000000000000
+      internalID: -5319345337082150275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_63"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f891e2016d8bb0800000000000000
+      internalID: -4932179351898098100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_64"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f5b6ab748e6aa0800000000000000
+      internalID: -6165845173210843801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_65"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0761bb1df42cef0800000000000000
+      internalID: -89421280388419385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_66"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de81ee80f645b8930800000000000000
+      internalID: 4146500717792598253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_67"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1131eb2a34266d90800000000000000
+      internalID: -7104951529867497185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_68"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47de65f63863acc60800000000000000
+      internalID: 7839138039528353140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_69"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa3b56e0c079fd90800000000000000
+      internalID: -7063490566753142023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_70"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18ccd892a59a3530800000000000000
+      internalID: 3835542558241245212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_71"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3955343c84b4cfe60800000000000000
+      internalID: 7997349814188856723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_72"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977f46322b69832f0800000000000000
+      internalID: -992878025993029767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_73"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fe9db97e0e91250800000000000000
+      internalID: 5916006870884675461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_74"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ad597c13976ee20800000000000000
+      internalID: 3379521825096981042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_75"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e80804c1b0e73510800000000000000
+      internalID: 1528937652618266852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_76"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5275d1da8188b6f70800000000000000
+      internalID: 9181581904889861925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_77"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97ed5ff0c9951460800000000000000
+      internalID: 7211839432500832158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_78"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25a3876be8c0e00800000000000000
+      internalID: 1012340930603799278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_79"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ebaf8d4a9f29b0800000000000000
+      internalID: -5102690194873916862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_80"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed381f860a25e2260800000000000000
+      internalID: 7074682913554531294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_81"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46558c96cfd1b8320800000000000000
+      internalID: 2561173783033959780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_82"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b764b8172e232ad0800000000000000
+      internalID: -2728286203803310156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_83"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef52bf5f166a0840800000000000000
+      internalID: 5191073805433462762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_84"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386e0b7e785f524f0800000000000000
+      internalID: -854006590260320637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_85"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca79bd7dfb95be40800000000000000
+      internalID: 5671610818781346508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_86"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6186c07382f64f380800000000000000
+      internalID: -8938397141910657002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_87"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796cccd68dff01080800000000000000
+      internalID: -9218587132207249769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_88"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e7d9186b0ca5580800000000000000
+      internalID: -8837539428670013889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_89"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0171bc37caf751d00800000000000000
+      internalID: 942800075657778960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_90"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bb8c5441288b870800000000000000
+      internalID: 8698845703847852867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_91"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c5f8895682a7050800000000000000
+      internalID: 5798991887009274970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_92"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaf8d7ccadf24920800000000000000
+      internalID: 2973217622547036892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_93"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b73fba4b0236a0800000000000000
+      internalID: -6471097298914397083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_94"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc4576e02b53cb20800000000000000
+      internalID: 3153464360953007299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_95"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab0ff547d9487870800000000000000
+      internalID: 8680769470697769900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_96"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f555fa5b4b3022860800000000000000
+      internalID: 7503564003829831007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_97"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a929327e3ae04ea0800000000000000
+      internalID: -5890450758675388000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_98"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cf0f65431dd58e0800000000000000
+      internalID: -1702975061349041147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_99"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998ad4aa5af7ad100800000000000000
+      internalID: 133559488464398489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_100"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71830f79cfb6af50800000000000000
+      internalID: 6892407151877390717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_101"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e77e8990cb7b810800000000000000
+      internalID: 1781098927054356113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_102"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4527499a3c24be90800000000000000
+      internalID: -7010930089717717686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_103"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24816fa37c818a6a0800000000000000
+      internalID: -6437868423359358910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_104"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc08877b2faf8100800000000000000
+      internalID: 112501116931411163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_105"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732a137a9c96266e0800000000000000
+      internalID: -1845796582454091209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_106"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed790b41c0d2087c0800000000000000
+      internalID: -4071204533232953378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_107"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86622f857c0d9cfc0800000000000000
+      internalID: -3474016082930293144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_108"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796e43be6d2588770800000000000000
+      internalID: 8613225370368665239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_109"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec0972e8e3eb50a0800000000000000
+      internalID: -6891664215388910365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_110"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a3c14f7d283eeb0800000000000000
+      internalID: -4691762522764854722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_111"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f31c5857c819060800000000000000
+      internalID: 6958497335647223670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_112"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02336f2f4f49c4a0800000000000000
+      internalID: -6572634979654487542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_113"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fe684609f74aa80800000000000000
+      internalID: -8456493942156365996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_114"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792835b29b0662200800000000000000
+      internalID: 154917585602970263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_115"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4dd12b5075a9de0800000000000000
+      internalID: -1325651458332437271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_116"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1ff00e46283ad50800000000000000
+      internalID: 6747380036498616762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_117"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3696e6204784210800000000000000
+      internalID: 1317430444797027320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_118"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05bd7f3dabd22c30800000000000000
+      internalID: 4333267328624866570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_119"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73953380abbc8d40800000000000000
+      internalID: 5588047535730430847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_120"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceead329dea05eab0800000000000000
+      internalID: -4979561797511172372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_121"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa2bb28eb3e4dcd0800000000000000
+      internalID: -2534150282926150913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_122"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103bb0367e75f600800000000000000
+      internalID: 501445979610492959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_123"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aa956e203f53100800000000000000
+      internalID: 87242961583712777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_124"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a8f6fb8b8ceaf90800000000000000
+      internalID: -6940389279920059898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_125"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272572d59e2590230800000000000000
+      internalID: 3605504138930508402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_126"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d58ae129544ca960800000000000000
+      internalID: 7614536219588462041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_127"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe837f3e0bd24d550800000000000000
+      internalID: 6184618426048657647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_128"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee366ea2861a97180800000000000000
+      internalID: -9117078501866445842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_129"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6913c6542855e65b0800000000000000
+      internalID: -5373263287407595114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_130"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4285890a6b849fb0800000000000000
+      internalID: -4641932028369599923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_131"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7b30a8528f487a0800000000000000
+      internalID: -6375698332336801828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_132"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2e0e6e5c4a9ff60800000000000000
+      internalID: 8068661377299964667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_133"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2235997f021f47e10800000000000000
+      internalID: 2194644042331542306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_134"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c770b912647479f50800000000000000
+      internalID: 6888052521623553916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_135"
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea204399b924c850800000000000000
+      internalID: 6396283247789091566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_136"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f4cc07a07667a20800000000000000
+      internalID: 3059746291384602391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_137"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7122622bc7d432b0800000000000000
+      internalID: -5605618368714235521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_138"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817d98677b4805830800000000000000
+      internalID: 4057889187763443480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_139"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32bce3f3ca18bca0800000000000000
+      internalID: -6001017074557865412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_140"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c466921319f8592a0800000000000000
+      internalID: -6731316214277511604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_141"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86816241a9ac75110800000000000000
+      internalID: 1249690184730417256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_142"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dd353196ce99870800000000000000
+      internalID: 8690236892028067229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_143"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49590d65ec68c7b0800000000000000
+      internalID: -5203789636793968309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_144"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71259cda3abae9ff0800000000000000
+      internalID: -27395828233973225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_145"
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207a2befcfb430a80800000000000000
+      internalID: -8501868121568401662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_146"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446dbadb2832d980800000000000000
+      internalID: -8515682184399592370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_147"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e5c2c2fccb93b90800000000000000
+      internalID: -7261565326172856755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_148"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ea0233ebbf3fa40800000000000000
+      internalID: 5400937172467494486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_149"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b800506e174cb4dc0800000000000000
+      internalID: -3653610679211589493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_150"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164fa813f8fa068d0800000000000000
+      internalID: -2855089134206520223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_151"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d2f8b1eb0045ed0800000000000000
+      internalID: -2426313482739700350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_152"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85806719692732770800000000000000
+      internalID: 8584831305709389912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_153"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0649b6f702f7eeba0800000000000000
+      internalID: -6057764671213300640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_154"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafc51cfc78eae190800000000000000
+      internalID: -7932272170156830806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_155"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703c93ba4a76fc0b0800000000000000
+      internalID: -5706228245910142201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_156"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2664c8c372fd10800000000000000
+      internalID: 2157914477589572298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_157"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10db7f146b07b00800000000000000
+      internalID: 824359126254289372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_158"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02132814690d3fa50800000000000000
+      internalID: 6553811226516926752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_159"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3f1818a75999250800000000000000
+      internalID: 5951952735938147275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_160"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb902f7f822a5f8f0800000000000000
+      internalID: -507321086167086658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_161"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f97d353b753f630800000000000000
+      internalID: 3959604925106200421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_162"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd6cf16e0ebf6e70800000000000000
+      internalID: 9110709540176555453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_163"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac9e7095fc3b870800000000000000
+      internalID: 8697523286674361082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_164"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237352b0a8951e7a0800000000000000
+      internalID: -6349695550188341454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_165"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572cbb19729fe73e0800000000000000
+      internalID: -2053930431690325387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_166"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b3a00d7acd4b5e0800000000000000
+      internalID: -1894646929908155547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_167"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432794d90041a930800000000000000
+      internalID: 4152670742377866058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_168"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07e334cf18ddbd80800000000000000
+      internalID: -8233186912816077044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_169"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1efaf679699eaf0800000000000000
+      internalID: -366596317495959056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_170"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e5b1caf26d32220800000000000000
+      internalID: 2460045321713704524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_171"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a308a6596d1ca70800000000000000
+      internalID: 8845587080357624448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_172"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bcc2e11b85868f0800000000000000
+      internalID: -547089836986807471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_173"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb42f9984228a270800000000000000
+      internalID: 8261891211626957816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_174"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42fefa6360662eb0800000000000000
+      internalID: -4744999177275116977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_175"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c47c0b0d05ec5c0800000000000000
+      internalID: -4193325345786082145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_176"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b02af577822aacf0800000000000000
+      internalID: -240341664915644233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_177"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a30c57998607f950800000000000000
+      internalID: 6482657376642794407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_178"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f0411e341c8b1f0800000000000000
+      internalID: -1028860017571000430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_179"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ede386564bca260800000000000000
+      internalID: 7110256259344817821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_180"
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280512f0bff9f3a70800000000000000
+      internalID: 8808935296799428738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_181"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3709874cefad5250800000000000000
+      internalID: 5935093313291487039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_182"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfc7220267c8e2c0800000000000000
+      internalID: -4402049411997773860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_183"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7530182877108470800000000000000
+      internalID: 8394735510254269821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_184"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f86b39ee9abeaaa0800000000000000
+      internalID: -6147771249633564427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_185"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8875db107f8c2f0e0800000000000000
+      internalID: -2237505101638051960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_186"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b06ba769783f60800000000000000
+      internalID: 8014289023069632362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_187"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2153613fe071fd270800000000000000
+      internalID: 8277359993105560850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_188"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4297d014e116d2450800000000000000
+      internalID: 6065611055706241316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_189"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187fa62db55d4b8c0800000000000000
+      internalID: -3984325179967080575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_190"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22d81eeae21ddf0800000000000000
+      internalID: -157293183337946404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_191"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e1659f7296a3e0800000000000000
+      internalID: -2042784304301219349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_192"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32186e70ad41c9680800000000000000
+      internalID: -8747093449592372957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_193"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563af19fe979ddd20800000000000000
+      internalID: 3304964410600039269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_194"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64a9cb25dd81f850800000000000000
+      internalID: 6409059691427112042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_195"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d8d77f1b7a16ff0800000000000000
+      internalID: -44570138493743862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_196"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ea574d0cfcaeaf0800000000000000
+      internalID: -366251992572121490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_197"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a690827a8cd590800000000000000
+      internalID: -7648085842793684722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_198"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b545a189699dc2cb0800000000000000
+      internalID: -4887292254783646629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_199"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35240ba62a1bde20800000000000000
+      internalID: 3376321099024573756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_200"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a077b67114de29a80800000000000000
+      internalID: -8461439886054164726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_201"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051dd7ea9103c6f10800000000000000
+      internalID: 2264237599520313680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_202"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca0b570d68c350c0800000000000000
+      internalID: -4588103224760005938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_203"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2cfa3b67530e30800000000000000
+      internalID: 4468511373344386956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_204"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756d4d2dca50cbd60800000000000000
+      internalID: 7907201285585426007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_205"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f0ed53b8e7ad7e0800000000000000
+      internalID: -1739939169655976116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_206"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5625d719a70af8b0800000000000000
+      internalID: -5117769603722434978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_207"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a70190e10612c6d0800000000000000
+      internalID: -2971788606792726621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_208"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862cbf352ecddcc80800000000000000
+      internalID: -8300735673544228248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_209"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b554d6f02d3c70800000000000000
+      internalID: 8952347878778845362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_210"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12ce0ae3d9a1bcd0800000000000000
+      internalID: -2544065586857590241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_211"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd3ae9747ca68d10800000000000000
+      internalID: 2127577490240716275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_212"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856992d29f758360800000000000000
+      internalID: 7171278250232604037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_213"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ca539c9276642e0800000000000000
+      internalID: -2141911143601034178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_214"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cac8e0fff5d8390800000000000000
+      internalID: -7814484229352543145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_215"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9162862a66d2770800000000000000
+      internalID: 8587632912183466404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_216"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4766a20729b81b7f0800000000000000
+      internalID: -598543814400252300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_217"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666a521afa8205c80800000000000000
+      internalID: -8336118175474801050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_218"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25c2dcb2708764b0800000000000000
+      internalID: -5447243993998768852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_219"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baf56f5a91811cb0800000000000000
+      internalID: -4894988819949552973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_220"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9374b7a18ca0b1430800000000000000
+      internalID: 3754606568897464121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_221"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c92cdca1ed8fdf0800000000000000
+      internalID: -146122781186941799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_222"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7f6a3a0ded32470800000000000000
+      internalID: 8368777520264705956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_223"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d034ebc4f9017f0800000000000000
+      internalID: -643839594755584698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_224"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d466adb4abf0de20800000000000000
+      internalID: 3373472805875508433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_225"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3173a10694caa58e0800000000000000
+      internalID: -1703860077861390573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_226"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e736389ca1260f350800000000000000
+      internalID: 6048442166748078974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_227"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4cc71c9b41cc850800000000000000
+      internalID: 6398511958634316989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_228"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405bb661705b944d0800000000000000
+      internalID: -3149787422323395324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_229"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a138038fb0cfff0800000000000000
+      internalID: -1112739313149408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_230"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ad93d88c42d6720800000000000000
+      internalID: 2840967383722089089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_231"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e024f319beae00800000000000000
+      internalID: 1057986457829958028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_232"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af73425e72149f200800000000000000
+      internalID: 214274096880695290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_233"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acfd9fd912c608b0800000000000000
+      internalID: -5186244504488903520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_234"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef97e450aa0c0ff10800000000000000
+      internalID: 2301551246052325886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_235"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b9d9fa239681bc0800000000000000
+      internalID: -3812181418153501944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_236"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881a1176646fc8e0800000000000000
+      internalID: -1671006545584187260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_237"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39a2ad1043cab650800000000000000
+      internalID: 6249522113072507194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_238"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90cebfc9c02f1ce0800000000000000
+      internalID: -1432390105334628197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_239"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30434f731a9a56b0800000000000000
+      internalID: -5306759802372538308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_240"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98668ad6d4e2a3d0800000000000000
+      internalID: -3196741174039254882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_241"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b1f4782ce815b30800000000000000
+      internalID: 4274354487496219529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_242"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bf42d7c6b7e0a10800000000000000
+      internalID: 1877573800546335575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_243"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2562a8a29c8ee7750800000000000000
+      internalID: 6304732479065040466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_244"
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c414ab5477576e0800000000000000
+      internalID: -1840433731349689245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_245"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61e807d80c102070800000000000000
+      internalID: 8079488555795669355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_246"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23835e23b4d891290800000000000000
+      internalID: -7919143115638360014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_247"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f53977f22feef0800000000000000
+      internalID: -76804222356163329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_248"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0370add24705f650800000000000000
+      internalID: 6265922440323429131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_249"
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633c01fa434c68c10800000000000000
+      internalID: 2055546010495664950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_250"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d6f95d2ae4f3a20800000000000000
+      internalID: 3044238334401408383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_251"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734cc8aa33123b7c0800000000000000
+      internalID: -4056862333542284233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_252"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195b3353e76dd0e90800000000000000
+      internalID: -7057749203472894575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_253"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bf977c92dd999f0800000000000000
+      internalID: -461094315318707410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_254"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4453a24562d821e70800000000000000
+      internalID: 9084478594120037700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_255"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b57b9b3e7bda000800000000000000
+      internalID: 48897359672204151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_256"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a42147767f6c6260800000000000000
+      internalID: 7092166067799270566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_257"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7d69e53ac4c3e30800000000000000
+      internalID: 4484543593504495547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_258"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458e6bd0fff0f8d70800000000000000
+      internalID: 9047467764531783764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_259"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b33a8fc764e2fe0800000000000000
+      internalID: -1211953747154748585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_260"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d68ffbc13a7d3b0800000000000000
+      internalID: -5487738277052519013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_261"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bafedd0960df6390800000000000000
+      internalID: -7822804878096401739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_262"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7aab01680a2aafa0800000000000000
+      internalID: -5788768155555091841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_263"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1abe6abd8f406930800000000000000
+      internalID: 4134391928062917146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_264"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06191d7b2da6f790800000000000000
+      internalID: -7496614127417616885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_265"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6b88c394aaabbc0800000000000000
+      internalID: -3766510906817071400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_266"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ead5c632e833e0800000000000000
+      internalID: -2073658903528544680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_267"
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ff0d520cc057840800000000000000
+      internalID: 5221093362413666081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_268"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff93f7bdc5a6ea270800000000000000
+      internalID: 8263659313323522559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_269"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fbe51dd7725dff0800000000000000
+      internalID: -12060002661515469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_270"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9f2b9eb8a832850800000000000000
+      internalID: 6351072233048439223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_271"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b778faa77fe7540800000000000000
+      internalID: 5007711941985532771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_272"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d242b8db42f22980800000000000000
+      internalID: -8565017133733231917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_273"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9f8950272bf7770800000000000000
+      internalID: 8610797215345605110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_274"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1009f632847908da0800000000000000
+      internalID: -5944585172041101311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_275"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103e280d9eb55bd10800000000000000
+      internalID: 2140718257668285185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_276"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647298f4819e1fcc0800000000000000
+      internalID: -3678903129962109114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_277"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d7c56d629683f40800000000000000
+      internalID: 5708428143218163063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_278"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ad2d5817e6a04a0800000000000000
+      internalID: -6626362467866715639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_279"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293dc6bea605cec0800000000000000
+      internalID: -3547421784023418585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_280"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a29f0600d85f67a0800000000000000
+      internalID: -6381784496482577753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_281"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb8b40a48230eba0800000000000000
+      internalID: -6061789553234310206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_282"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a856a9202acf56a0800000000000000
+      internalID: -6458221101139470174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_283"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e1e050bc72d4d0800000000000000
+      internalID: -3111287295846522360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_284"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bdd6929c1248a50800000000000000
+      internalID: 6522375308206529297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_285"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835b2fa3f41aa8210800000000000000
+      internalID: 1336057601132246328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_286"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2006d08a4fde730800000000000000
+      internalID: 4030146244182540977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_287"
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d69d7ef4d545a760800000000000000
+      internalID: 7468452338168862425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_288"
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5973f470e62cc7f80800000000000000
+      internalID: -8107391451348912235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_289"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2085a6d48032ff70800000000000000
+      internalID: 9219484734275813420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_290"
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fbae442783137a0800000000000000
+      internalID: -6399271532083101894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_291"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80ac7f8276d8160800000000000000
+      internalID: 7029388019048777963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_292"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c84bcad5cf29c10800000000000000
+      internalID: 2058985458921409536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_293"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26269bb8c1eb60220800000000000000
+      internalID: 2451856076962357858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_294"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52602f3aaface2f70800000000000000
+      internalID: 9164485469586720293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_295"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d7d411d22ba440800000000000000
+      internalID: 4948086896989819809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_296"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e295c58b9fc2540c0800000000000000
+      internalID: -4592214793982813906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_297"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ffcbc9533dc0950800000000000000
+      internalID: 6416735796312473482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_298"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf2636f09e7a1fa0800000000000000
+      internalID: -5829207606606549067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_299"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ea46cab9221f1d0800000000000000
+      internalID: -3318833398387790234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_300"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098bf9ecb58c1ee70800000000000000
+      internalID: 9142809015172970640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_301"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ebce9e4858ccee0800000000000000
+      internalID: -1239468991526945233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_302"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a2129960a3646d0800000000000000
+      internalID: -3006651901209925021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_303"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7e2f021f598fb00800000000000000
+      internalID: 862604191513896925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_304"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416e089eea1d22d10800000000000000
+      internalID: 2099470925480125972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_305"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b8a1313d639a720800000000000000
+      internalID: 2857875718729796420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_306"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbaa1942be451340800000000000000
+      internalID: 4833856302689725399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_307"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c8dc2d5ddddb710800000000000000
+      internalID: 1710767343905115149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_308"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48963e3a3cc3d7630800000000000000
+      internalID: 3926361261102819716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_309"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a7cafa5e26df150800000000000000
+      internalID: 5907987024814307926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tiles set d\xE9sert roche -Sheet_310"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640ecc1cf1c9f3bd0800000000000000
+      internalID: -2648226395661213626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9a696df7805e8de469e3728d59fc82a2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
