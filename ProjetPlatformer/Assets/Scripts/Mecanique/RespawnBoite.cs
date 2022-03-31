@@ -6,8 +6,7 @@ using UnityEngine;
 public class RespawnBoite : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    public GameObject player;
+    
     public Transform TpBoite;
 
     void Start()

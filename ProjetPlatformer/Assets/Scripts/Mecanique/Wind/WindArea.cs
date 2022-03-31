@@ -20,6 +20,9 @@ public class WindArea : MonoBehaviour
     private Rigidbody2D rb;
     private Rigidbody2D rbBoite;
 
+    public GameObject particulesVent;
+    public Animator anim;
+    
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
@@ -70,8 +73,12 @@ public class WindArea : MonoBehaviour
     {
         while (isWindy)
         {
+            anim.SetBool("IsTempete", false);
+            particulesVent.SetActive(false);
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
+            particulesVent.SetActive(true);
+            anim.SetBool("IsTempete", true);
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = true;
         }
