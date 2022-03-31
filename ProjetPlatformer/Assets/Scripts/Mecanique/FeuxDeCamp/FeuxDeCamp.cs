@@ -84,6 +84,38 @@ public class FeuxDeCamp : MonoBehaviour
             //coll.enabled = false;
         }
     }
+    
+    public void LeFeuxDeCampDeath()
+    {
+        onoff = !onoff; // toggles onoff 
+        Debug.Log("hellpo");
+        if (onoff) // Arriver sur le feux de camps 
+        {
+            Camera.isMoving = false;
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0;
+            CharacterMovement.instance.canMove = false;
+            Camera.smoothSpeed = dezoomSpeedArriver;
+            Camera.targetOrtho = distanceTargetArriver; 
+            Camera.EmplacementCamera = EmplacementCameraArriver;
+            
+            anim.SetBool("isGrounded", true);
+                
+            ps.Play(); // allumer le feu !!!
+
+            //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
+            //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
+        }
+        else // Départ du feux de camps 
+        {
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11;
+            CharacterMovement.instance.canMove = true;
+            Camera.smoothSpeed = dezoomSpeedDepart;
+            Camera.targetOrtho = distanceTargetDepart; 
+            Camera.EmplacementCamera = EmplacementCameraDepart;
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {

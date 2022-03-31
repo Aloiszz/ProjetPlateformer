@@ -63493,6 +63493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FeuxDeCamp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4668063689161404945, guid: 390ef69eacb6c79488d041617d382b87, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4668063689161404950, guid: 390ef69eacb6c79488d041617d382b87, type: 3}
       propertyPath: m_RootOrder
       value: 13

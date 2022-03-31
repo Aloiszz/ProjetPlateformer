@@ -29,11 +29,12 @@ public class DeathZone : MonoBehaviour
     }
     private IEnumerator ReplacePlayer(Collider2D collision)
     {
+        collision.transform.position = playerSpawn.position;
+        FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
+        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCampDeath();
         fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(0.2f);
         anim.SetBool("isGrounded", true);
-        collision.transform.position = playerSpawn.position;
-        //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
     }
 }
 
