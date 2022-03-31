@@ -284,13 +284,17 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
-            if (isPlannage == true)
+            isJumping = false;
+            extrajumps --;
+            rb.velocity = Vector2.up * jumpForceDouble;
+            animator.SetBool("isDoubleJumping", true);
+            /*if (isPlannage == true)
             {
                 isJumping = false;
                 extrajumps --;
                 rb.velocity = Vector2.up * jumpForceDouble;
                 animator.SetBool("isDoubleJumping", true);
-            }
+            }*/
         }
         
         #region Jump higher over time 
