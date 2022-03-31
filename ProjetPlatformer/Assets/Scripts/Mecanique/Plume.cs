@@ -18,15 +18,7 @@ public class Plume : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
         coll = GetComponent<Collider2D>();
     }
-
-    private void Update()
-    {
-        transform.DOMove(transform.position + new Vector3(0, 0.9f, 0), 2)
-            .OnComplete((() =>
-                transform.DOMove(transform.position - new Vector3(0, 0.9f, 0), 2)
-                    .OnComplete((() => transform.DOMove(transform.position + new Vector3(0, 0.9f, 0), 2)))));
-
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
