@@ -69,12 +69,10 @@ public class CharacterMovement : MonoBehaviour
     public GameObject LineRenderPlannage_2;
    
     public static CharacterMovement instance;
-    public static Vector3 lastCheckPointPos  = new Vector3(345, 25, 0);
 
     private void Awake()
     {
         if (instance == null) instance = this;
-        GameObject.FindGameObjectWithTag("Player").transform.position = lastCheckPointPos;
     }
 
     void Start()
@@ -176,13 +174,13 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
-        
-        
+
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
             animator.SetBool("IsFalling",true);
             animator.SetBool("isDoubleJumping", false);
+            
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 if (isPlannage)
@@ -250,6 +248,7 @@ public class CharacterMovement : MonoBehaviour
         }
         
         isJumpingSingle = false;
+        
         if (Input.GetButtonDown("JumpGamepad"))
         {
             jumpBufferCounter = jumpBufferTime;
@@ -264,6 +263,7 @@ public class CharacterMovement : MonoBehaviour
             {
                 if (isCoyotejump == true) // Coyote Jump
                 {
+                    isJumpingSingle = true;
                     isJumping = true;
                     jumpTimeCounter = jumpTime;
                     rb.velocity = Vector2.up * jumpForce; // Jump
@@ -284,13 +284,17 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
-            if (isPlannage == true)
+            isJumping = false;
+            extrajumps --;
+            rb.velocity = Vector2.up * jumpForceDouble;
+            animator.SetBool("isDoubleJumping", true);
+            /*if (isPlannage == true)
             {
                 isJumping = false;
                 extrajumps --;
                 rb.velocity = Vector2.up * jumpForceDouble;
                 animator.SetBool("isDoubleJumping", true);
-            }
+            }*/
         }
         
         #region Jump higher over time 

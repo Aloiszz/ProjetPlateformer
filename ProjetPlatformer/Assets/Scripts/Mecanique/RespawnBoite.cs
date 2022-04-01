@@ -6,8 +6,8 @@ using UnityEngine;
 public class RespawnBoite : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    public GameObject player;
+    
+    public Transform TpBoite;
 
     void Start()
     {
@@ -24,7 +24,10 @@ public class RespawnBoite : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Respawn")
-        other.transform.position = player.transform.position;
+        if (other.tag == "Respawn")
+        {
+            other.transform.position = TpBoite.position;
+        }
+       
     }
 }

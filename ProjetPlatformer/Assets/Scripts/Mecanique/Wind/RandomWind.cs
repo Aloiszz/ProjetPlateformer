@@ -10,6 +10,8 @@ public class RandomWind : MonoBehaviour
     public float timeChangeCourant;
     public float angleCourant1;
     public float angleCourant2;
+    public ParticleSystem particulesVent;
+    
     
     void Start()
     {
@@ -21,14 +23,18 @@ public class RandomWind : MonoBehaviour
     {
         if (timerCourant < timeChangeCourant)
         {
+            particulesVent.transform.localRotation = new Quaternion(0,0,0,0);
             af.forceAngle = angleCourant1;
+          //  af.forceAngle = Mathf.Lerp(af.forceAngle, angleCourant1, 1/timeChangeCourant);
             af.forceMagnitude = 500;
             timerCourant += Time.deltaTime;
         }
        
         if (timerCourant >= timeChangeCourant)
         {
+            particulesVent.transform.localRotation = new Quaternion(-180,0,0,0);
             af.forceAngle = angleCourant2;
+          // af.forceAngle = Mathf.Lerp(af.forceAngle, angleCourant2, 1/timeChangeCourant);
             af.forceMagnitude = 350;
             timerCourant += Time.deltaTime;
         }

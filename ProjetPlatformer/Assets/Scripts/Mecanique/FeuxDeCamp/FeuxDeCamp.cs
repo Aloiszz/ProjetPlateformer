@@ -27,9 +27,13 @@ public class FeuxDeCamp : MonoBehaviour
     public Vector3 EmplacementCameraDepart = new Vector3(5,0,-10);
 
     public static FeuxDeCamp instanceFeuxdeCamp;
+    private Transform playerSpawn;
+
+
     private void Awake()
     {
         if (instanceFeuxdeCamp == null) instanceFeuxdeCamp = this;
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
     }
 
     private void Start()
@@ -63,11 +67,7 @@ public class FeuxDeCamp : MonoBehaviour
                 
             ps.Play(); // allumer le feu !!!
 
-            //CameraZoom.instance.lastCheckPointPosCamera = transform.position; // checkpoint camera
-            //CharacterMovement.instance.lastCheckPointPos = transform.position; // checkpoint Player
-            CharacterMovement.lastCheckPointPos = transform.position;
-            CameraZoom.lastCheckPointPosCamera = transform.position; // checkpoint camera
-             // checkpoint Player
+            playerSpawn.position = transform.position;
 
             //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
             //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
@@ -85,6 +85,38 @@ public class FeuxDeCamp : MonoBehaviour
         }
     }
     
+    public void LeFeuxDeCampDeath()
+    {
+        onoff = !onoff; // toggles onoff 
+        Debug.Log("hellpo");
+        if (onoff) // Arriver sur le feux de camps 
+        {
+            Camera.isMoving = false;
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0;
+            CharacterMovement.instance.canMove = false;
+            Camera.smoothSpeed = dezoomSpeedArriver;
+            Camera.targetOrtho = distanceTargetArriver; 
+            Camera.EmplacementCamera = EmplacementCameraArriver;
+            
+            anim.SetBool("isGrounded", true);
+                
+            ps.Play(); // allumer le feu !!!
+
+            //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
+            //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
+        }
+        else // Départ du feux de camps 
+        {
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11;
+            CharacterMovement.instance.canMove = true;
+            Camera.smoothSpeed = dezoomSpeedDepart;
+            Camera.targetOrtho = distanceTargetDepart; 
+            Camera.EmplacementCamera = EmplacementCameraDepart;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")

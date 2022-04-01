@@ -20,11 +20,10 @@ public class Parchemin : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
-        
-            pm.getParchemin1 = true;
-            particulesParchemin.Play(true);
-            gameObject.SetActive(false);
+    {   
+       // pm.getParchemin1 = true;
+        particulesParchemin.Play(true);
+        gameObject.SetActive(false);
         
     }
 }

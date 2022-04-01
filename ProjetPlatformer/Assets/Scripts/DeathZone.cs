@@ -9,23 +9,33 @@ public class DeathZone : MonoBehaviour
     public int respawn;
     public Animator anim;
     [SerializeField] CameraZoom Camera;
+    
+    private Transform playerSpawn;
+    private Animator fadeSystem;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void Awake()
     {
-        Camera.isMoving = false;
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
+        fadeSystem = GameObject.FindGameObjectWithTag("DeathFade").GetComponent<Animator>();
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         
-        //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
-
-        //GameObject.FindGameObjectWithTag("Player").transform.position =CharacterMovement.lastCheckPointPos;
-        //GameObject.FindGameObjectWithTag("MainCamera").transform.position = CameraZoom.lastCheckPointPosCamera;
-
-        if (other.CompareTag("Player"))
-         {
-             //SceneManager.LoadScene(respawn);
-             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-             //PlayerPrefs.GetInt("checkpoint", 2);
-             Debug.Log("hello");
-         }
+        if (collision.CompareTag("Player"))
+        {
+            Camera.isMoving = false;
+            StartCoroutine(ReplacePlayer(collision));
+        }
+    }
+    private IEnumerator ReplacePlayer(Collider2D collision)
+    {
+        collision.transform.position = playerSpawn.position;
+        FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
+        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCampDeath();
+        fadeSystem.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(0.2f);
+        anim.SetBool("isGrounded", true);
     }
 }
 

@@ -22,9 +22,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoîte.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -44,6 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,7 +93,7 @@
       <workItem from="1646868398766" duration="3595000" />
       <workItem from="1646920295131" duration="69335000" />
       <workItem from="1648547169526" duration="14000" />
-      <workItem from="1648547210511" duration="11000" />
+      <workItem from="1648547210511" duration="23609000" />
     </task>
     <servers />
   </component>

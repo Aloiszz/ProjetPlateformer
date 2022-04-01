@@ -20,7 +20,7 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("JumpGamepad"))
+        if (Input.GetButtonDown("JumpGamepad"))
         {
             StartCoroutine(VibrationTime());
         }
@@ -29,7 +29,7 @@ public class Test : MonoBehaviour
     IEnumerator VibrationTime()
     {
         GamePad.SetVibration(playerIndex, 1, 1);
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(2);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
 }
