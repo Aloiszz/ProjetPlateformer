@@ -9,7 +9,7 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
     public bool isTriggered;
 
     public GameObject mainCamera;
-    private Tween tweener;
+    public Tween tweener;
     public float strengh;
     public int vibration;
     public float randomness;

@@ -1069,8 +1069,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188492810}
   m_LocalRotation: {x: -0, y: -0, z: 0.76631945, w: 0.64245975}
-  m_LocalPosition: {x: 125.7, y: 12.2, z: 13.692959}
-  m_LocalScale: {x: 1, y: 25.301088, z: 1}
+  m_LocalPosition: {x: 118.5484, y: 11.6571, z: 13.692959}
+  m_LocalScale: {x: 1.3953, y: 10.877897, z: 1}
   m_Children: []
   m_Father: {fileID: 1815687236}
   m_RootOrder: 14
@@ -19589,7 +19589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549054956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358.64398, y: 20.577682, z: -8.289128}
+  m_LocalPosition: {x: -66.50604, y: 1.3876839, z: -8.289128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1355802114}
@@ -20609,7 +20609,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655458629}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -586.79004, y: -39.16215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1740554011}
@@ -64242,8 +64242,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawn: 0
-  anim: {fileID: 0}
-  Camera: {fileID: 0}
+  anim: {fileID: 21999331}
+  Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 21999331}
 --- !u!61 &673743183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -67148,6 +67149,7 @@ MonoBehaviour:
   respawn: 0
   anim: {fileID: 21999331}
   Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 21999331}
 --- !u!61 &977298190
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68472,7 +68474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103893875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 512, y: 54, z: 5.7145057}
+  m_LocalPosition: {x: 450.7, y: 37.4, z: 5.7145057}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -69203,8 +69205,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209087357}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.9461, y: -10.567959, z: 18.052687}
-  m_LocalScale: {x: 48.95093, y: 3.7326, z: 3.7326}
+  m_LocalPosition: {x: -32.2251, y: -7.9, z: 18.052687}
+  m_LocalScale: {x: 49.10268, y: 3.7326, z: 3.7326}
   m_Children: []
   m_Father: {fileID: 13836553}
   m_RootOrder: 0
@@ -69224,6 +69226,7 @@ MonoBehaviour:
   respawn: 0
   anim: {fileID: 21999331}
   Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 21999331}
 --- !u!61 &1209087360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -70035,6 +70038,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boite
       objectReference: {fileID: 0}
+    - target: {fileID: 6153072488176886794, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
+      propertyPath: cm
+      value: 
+      objectReference: {fileID: 1144915276}
+    - target: {fileID: 6153072488176886794, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1144915272}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
 --- !u!4 &1311054222 stripped
@@ -70316,7 +70327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331975344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 344.27, y: 26.02785, z: -8.289128}
+  m_LocalPosition: {x: -80.79, y: 6.8378487, z: -8.289128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1664104504}
@@ -71070,8 +71081,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawn: 0
-  anim: {fileID: 0}
-  Camera: {fileID: 0}
+  anim: {fileID: 21999331}
+  Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 0}
 --- !u!66 &1436446728
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -72328,6 +72340,7 @@ MonoBehaviour:
   listPontQuiSecroulePos: []
   listPontQuiSecrouleRot: []
   originalRotationValue: {x: 0, y: 0, z: 0, w: 0}
+  triggerPont: {fileID: 1766383646}
 --- !u!61 &1587507451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73135,6 +73148,7 @@ MonoBehaviour:
   respawn: 0
   anim: {fileID: 21999331}
   Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 21999331}
 --- !u!61 &1675914582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73260,6 +73274,7 @@ MonoBehaviour:
   respawn: 0
   anim: {fileID: 21999331}
   Camera: {fileID: 655458635}
+  playerAnimator: {fileID: 21999331}
 --- !u!61 &1698484210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -73646,6 +73661,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f7b0320437ce4d4d8bef6a6c3654183, type: 3}
+--- !u!114 &1766383646 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2185650320034247332, guid: 7d8db75aab786924fa775fe4deb8b102, type: 3}
+  m_PrefabInstance: {fileID: 2185650320762135712}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478f024a402fc8f4eac94f4f60a11e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1780101568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80177,6 +80203,10 @@ PrefabInstance:
     - target: {fileID: 2185650318991090841, guid: 7d8db75aab786924fa775fe4deb8b102, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 544.13855
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185650320034247332, guid: 7d8db75aab786924fa775fe4deb8b102, type: 3}
+      propertyPath: strengh
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2185650320034247332, guid: 7d8db75aab786924fa775fe4deb8b102, type: 3}
       propertyPath: mainCamera

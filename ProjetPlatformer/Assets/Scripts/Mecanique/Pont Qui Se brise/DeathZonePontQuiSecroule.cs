@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -29,6 +30,8 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     public Quaternion originalRotationValue; 
     float rotationResetSpeed = 1.0f;
 
+    public TriggerPontQuiSeBrise triggerPont;
+
     private void Awake()
     {
         playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
@@ -50,6 +53,9 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+
+            triggerPont.tweener.Kill();
+            
             Camera.isMoving = false;
             //Destroy(pontQuiSecrouleGameObject);
             
