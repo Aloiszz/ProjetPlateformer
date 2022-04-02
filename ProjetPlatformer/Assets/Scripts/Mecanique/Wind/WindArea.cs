@@ -22,6 +22,7 @@ public class WindArea : MonoBehaviour
 
     public GameObject particulesVent;
     public Animator anim;
+    public bool Tempête;
     
     private void Awake()
     {
@@ -73,12 +74,18 @@ public class WindArea : MonoBehaviour
     {
         while (isWindy)
         {
-            anim.SetBool("IsTempete", false);
-            particulesVent.SetActive(false);
+            if (Tempête)
+            {
+                anim.SetBool("IsTempete", false);
+                particulesVent.SetActive(false);
+            }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
-            particulesVent.SetActive(true);
-            anim.SetBool("IsTempete", true);
+            if (Tempête)
+            {
+                particulesVent.SetActive(true);
+                anim.SetBool("IsTempete", true); 
+            }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = true;
         }

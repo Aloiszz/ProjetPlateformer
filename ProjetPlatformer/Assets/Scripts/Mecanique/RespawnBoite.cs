@@ -8,6 +8,7 @@ public class RespawnBoite : MonoBehaviour
     // Start is called before the first frame update
     
     public Transform TpBoite;
+    public bool lache;
 
     void Start()
     {
@@ -19,15 +20,17 @@ public class RespawnBoite : MonoBehaviour
 
     void Update()
     {
-        
+     
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Respawn")
         {
+            GrabBoite.grabBoiteinstance.boiteGrab = false;
             other.transform.position = TpBoite.position;
         }
+        
        
     }
 }
