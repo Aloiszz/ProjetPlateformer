@@ -67,8 +67,8 @@ public class CharacterMovement : MonoBehaviour
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
     public GameObject LineRenderPlannage_2;
-    public ParticleSystem particulesRetombée;
-    public ParticleSystem particulesRun;
+   // public ParticleSystem particulesRetombée;
+   // public ParticleSystem particulesRun;
    
     public static CharacterMovement instance;
 
@@ -111,31 +111,24 @@ public class CharacterMovement : MonoBehaviour
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
             animator.SetBool("IsWalking",true);
-            if (isGrounded)
-            {
-                particulesRun.Play();
-            }
         }
         else
         {
-            if (rb.velocity.x < -0.1f)
+            if (Mathf.Abs(rb.velocity.x) < -0.1f)
             {
-                if (isGrounded)
-                {
-                    particulesRun.Play();
-                }  
+                animator.SetBool("IsWalking",true);
             }
             animator.SetBool("IsWalking",false);
         }
         
-        /*if (Mathf.Abs(rb.velocity.y) < 0.1f)
+        if (Mathf.Abs(rb.velocity.y) < 0.1f)
         {
             animator.SetBool("IsFalling",false);
         }
         else
         {
             animator.SetBool("IsFalling",true);
-        }*/
+        }
         
         
         Strike();
@@ -348,11 +341,11 @@ public class CharacterMovement : MonoBehaviour
     }
     #endregion
 
-    private void OnCollisionEnter2D(Collision2D other)
+    /*private void OnCollisionEnter2D(Collision2D other)
     {
-        particulesRetombée.transform.position = transform.position;
-        particulesRetombée.Play();
-    }
+        //particulesRetombée.transform.position = transform.position;
+        //particulesRetombée.Play();
+    }*/
 
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {
