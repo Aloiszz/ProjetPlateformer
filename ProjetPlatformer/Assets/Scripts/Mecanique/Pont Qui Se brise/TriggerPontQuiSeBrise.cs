@@ -24,4 +24,12 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
         }
         
     }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isTriggered = false;
+        }
+        
+    }
 }
