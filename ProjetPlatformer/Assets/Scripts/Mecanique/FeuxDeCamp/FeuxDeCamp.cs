@@ -63,7 +63,11 @@ public class FeuxDeCamp : MonoBehaviour
             Camera.targetOrtho = distanceTargetArriver; 
             Camera.EmplacementCamera = EmplacementCameraArriver;
             
+            anim.SetTrigger("EntreeFdC");
+            anim.SetBool("IsFdC", true);
             anim.SetBool("isGrounded", true);
+            anim.ResetTrigger("SortieFdC");
+            
                 
             ps.Play(); // allumer le feu !!!
 
@@ -74,6 +78,11 @@ public class FeuxDeCamp : MonoBehaviour
         }
         else // Départ du feux de camps 
         {
+            
+            anim.SetBool("IsFdC", false);
+            anim.SetTrigger("SortieFdC");
+            anim.ResetTrigger("EntreeFdC");
+            
             CharacterMovement.instance.canJump = true;
             CharacterMovement.instance.speed = 11;
             CharacterMovement.instance.canMove = true;

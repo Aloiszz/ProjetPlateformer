@@ -22,7 +22,7 @@ public class EntréeChute : MonoBehaviour
         if (other.CompareTag("GrosseBoîte"))
         {
             StartCoroutine(VibrationTime());
-            tweener = mainCamera.transform.DOShakePosition(1.5f,10,1,35,false);
+            tweener = mainCamera.transform.DOShakePosition(1.5f,5,15,35,false,false);
             particuesEntree.Play();
             Destroy(gameObject);
             

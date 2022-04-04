@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class GrabBoite : MonoBehaviour
 {
-
     public bool boiteGrab;
     public GameObject player;
     public  KeyCode toucheGrab = KeyCode.UpArrow;
@@ -14,10 +13,24 @@ public class GrabBoite : MonoBehaviour
     public Rigidbody2D rb;
     public CharacterMovement cm;
     public RangeBoite range;
+    public RespawnBoite respawn;
+
+    public static GrabBoite grabBoiteinstance;
+    
+    void Awake()
+    {
+        if (grabBoiteinstance == null) grabBoiteinstance = this;
+    }
     
     void Update()
     {
 
+
+        if (respawn.lache)
+        {
+            boiteGrab = false;
+        }
+        
         // Si le perso peut prendre la boîte
         if (range.isAtRange == true)
         {

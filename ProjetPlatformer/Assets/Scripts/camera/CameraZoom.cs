@@ -55,6 +55,15 @@ public class CameraZoom : MonoBehaviour
         {
             Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
         }*/
+
+        /*if (CharacterMovement.instance.rb.velocity.y < -45)
+        {
+            smoothSpeed = 5;
+        }
+        else
+        {
+            smoothSpeed = 2;
+        }*/
     }
     
     private void FixedUpdate()

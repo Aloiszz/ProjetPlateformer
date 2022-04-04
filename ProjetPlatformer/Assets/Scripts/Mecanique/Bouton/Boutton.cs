@@ -18,6 +18,10 @@ public class Boutton : MonoBehaviour
     public bool porteAction;
     public bool isAtRange;
 
+    private Tween tweener;
+    public GameObject mainCamera;
+    public bool cameraShake;
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
@@ -71,6 +75,10 @@ public class Boutton : MonoBehaviour
     void OuverturePorte()
     {
         porteAction = true;
+        if (cameraShake)
+        {
+            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }
         porteAssociée.transform.DOMove(porteAssociée.transform.position + directionPorte, duréeTranslation).OnComplete(
             () =>
             {
@@ -82,6 +90,10 @@ public class Boutton : MonoBehaviour
     void FermeturePorte()
     {
         porteAction = true;
+        if (cameraShake)
+        {
+            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }
         porteAssociée.transform.DOMove(porteAssociée.transform.position - directionPorte, duréeTranslation).OnComplete(
             () =>
             {

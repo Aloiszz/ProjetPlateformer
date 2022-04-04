@@ -9,7 +9,7 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
     public bool isTriggered;
 
     public GameObject mainCamera;
-    private Tween tweener;
+    public Tween tweener;
     public float strengh;
     public int vibration;
     public float randomness;
@@ -21,6 +21,14 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
         {
             isTriggered = true;
             tweener = mainCamera.transform.DOShakePosition(8.4f,strengh,vibration,randomness,false,false);
+        }
+        
+    }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            isTriggered = false;
         }
         
     }

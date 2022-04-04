@@ -61,12 +61,14 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-    public GameObject particules;
+    
     
     
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
     public GameObject LineRenderPlannage_2;
+   // public ParticleSystem particulesRetombée;
+   // public ParticleSystem particulesRun;
    
     public static CharacterMovement instance;
 
@@ -112,17 +114,21 @@ public class CharacterMovement : MonoBehaviour
         }
         else
         {
+            if (Mathf.Abs(rb.velocity.x) < -0.1f)
+            {
+                animator.SetBool("IsWalking",true);
+            }
             animator.SetBool("IsWalking",false);
         }
         
-        /*if (Mathf.Abs(rb.velocity.y) < 0.1f)
+        if (Mathf.Abs(rb.velocity.y) < 0.1f)
         {
             animator.SetBool("IsFalling",false);
         }
         else
         {
             animator.SetBool("IsFalling",true);
-        }*/
+        }
         
         
         Strike();
@@ -159,6 +165,7 @@ public class CharacterMovement : MonoBehaviour
     #region Jump
     void Jump()
     {
+        
         bool wasGrounded = isGrounded;
         RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
         RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
@@ -334,10 +341,11 @@ public class CharacterMovement : MonoBehaviour
     }
     #endregion
 
-    private void OnCollisionEnter2D(Collision2D other)
+    /*private void OnCollisionEnter2D(Collision2D other)
     {
-        Instantiate(particules, transform.position, particules.transform.rotation);
-    }
+        //particulesRetombée.transform.position = transform.position;
+        //particulesRetombée.Play();
+    }*/
 
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {

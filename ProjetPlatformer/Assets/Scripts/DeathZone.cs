@@ -13,6 +13,8 @@ public class DeathZone : MonoBehaviour
     private Transform playerSpawn;
     private Animator fadeSystem;
 
+    public Animator playerAnimator;
+
     private void Awake()
     {
         playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
@@ -30,12 +32,30 @@ public class DeathZone : MonoBehaviour
     }
     private IEnumerator ReplacePlayer(Collider2D collision)
     {
+        playerAnimator.SetTrigger("Die");
+        
+        yield return new WaitForSeconds(1);
+        
+        fadeSystem.SetTrigger("FadeIn");
+        
+        
         collision.transform.position = playerSpawn.position;
         FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
         FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCampDeath();
-        fadeSystem.SetTrigger("FadeIn");
+        playerAnimator.SetBool("IsFdC", true);
+        
         yield return new WaitForSeconds(0.2f);
         anim.SetBool("isGrounded", true);
+        
+    }
+    
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        
+        if (collision.CompareTag("Player"))
+        {
+            CharacterMovement.instance.rb.velocity = Vector2.down;
+        }
     }
 }
 

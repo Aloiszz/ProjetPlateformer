@@ -11,20 +11,27 @@ public class PontQuiSecroulle : MonoBehaviour
 
     public TriggerPontQuiSeBrise trigger;
     
-    private Rigidbody2D rb;
-    private HingeJoint2D hingeJoint;
+    public Rigidbody2D rb;
+    public HingeJoint2D hingeJoint;
+    
+    public static PontQuiSecroulle instancePont;
 
-   // public GameObject mainCamera;
+    // public GameObject mainCamera;
   //  private Tween tweener;
-    private void Start()
+    private void Awake()
     {
+        if (instancePont == null) instancePont = this;
+        
         rb = GetComponent<Rigidbody2D>();
         hingeJoint = GetComponent<HingeJoint2D>();
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        gameObject.GetComponent<PontQuiSecroulle>().enabled = true;
         
+        hingeJoint.enabled = false;
+        rb.gravityScale = 0;
         if (isNotSimulated)
         {
-            hingeJoint.enabled = false;
-            rb.gravityScale = 0;
+            
         }
     }
 
@@ -33,9 +40,10 @@ public class PontQuiSecroulle : MonoBehaviour
         if (trigger.isTriggered == true)
         {
           //  tweener = mainCamera.transform.DOShakePosition(1.5f,5,1,35,false);
-            Debug.Log("ICI");
             hingeJoint.enabled = true;
             rb.gravityScale = 1;
+            rb.simulated = true;
+            rb.angularVelocity = 0f;
         }
     }
 }
