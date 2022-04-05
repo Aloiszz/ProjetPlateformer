@@ -29,7 +29,7 @@ public class CharacterMovement : MonoBehaviour
     [Header("Jump")] 
     public float jumpForce = 30f; // force appliquer lors du saut
     public float jumpForceDouble;
-    [HideInInspector] public int extrajumps; 
+    public int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
     public bool canJump = true;
 
