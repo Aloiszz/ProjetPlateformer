@@ -40,6 +40,7 @@ public class WindArea : MonoBehaviour
         {
             if (isWindy)
             {
+                
                 rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
             }
             else
@@ -65,8 +66,8 @@ public class WindArea : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        //StopCoroutine(WaitForWind());
         isWindy = false;
+        anim.SetBool("IsTempete", false);
         //rb.AddForce(new Vector2(WindForce, 0));
     }
 
@@ -81,13 +82,24 @@ public class WindArea : MonoBehaviour
             }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
+            
             if (Tempête)
             {
                 particulesVent.SetActive(true);
-                anim.SetBool("IsTempete", true); 
+                
             }
+            
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = true;
+        }
+
+        if (!isWindy)
+        {
+            if (Tempête)
+            {
+                anim.SetBool("IsTempete", true); 
+                
+            }
         }
     }
 }
