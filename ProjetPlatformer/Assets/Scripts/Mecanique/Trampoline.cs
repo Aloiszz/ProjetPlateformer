@@ -38,7 +38,11 @@ public class Trampoline : MonoBehaviour
           //      StartCoroutine(cameraShake.Shake(0.1f, forceShake));
                 rb.velocity = new Vector2(0,forceX);
                 tweener = mainCamera.transform.DOShakePosition(0.1f,forceShake,2,30,false,false);
-                cm.extrajumps += cm.extraJumpsValue;
+                if (cm.extrajumps == 0)
+                {
+                    cm.extrajumps += cm.extraJumpsValue;
+                }
+                
             }
             else
             {
