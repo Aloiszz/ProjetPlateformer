@@ -1112,6 +1112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &182895930
@@ -2096,6 +2098,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &294547648
@@ -2492,6 +2496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &367078295
@@ -64636,6 +64642,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &710897927
@@ -67458,6 +67466,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &1017024223
@@ -70352,6 +70362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a9f9f89c417ea744a03f19fe5d0db30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  length: 0
+  startpos: 0
   cam: {fileID: 655458629}
   parallaxEffetc: 0
 --- !u!212 &1356413446
