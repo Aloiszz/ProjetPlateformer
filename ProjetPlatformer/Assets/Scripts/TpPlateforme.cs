@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class TpPlateforme : MonoBehaviour
 {
-    public float valeurTP;
+    public float valeurTPY;
+    public float valeurTPX;
     
     
     void Start()
@@ -21,6 +22,6 @@ public class TpPlateforme : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.transform.position += new Vector3(0,valeurTP,0);
+        other.transform.position += new Vector3(valeurTPX,valeurTPY,0);
     }
 }
