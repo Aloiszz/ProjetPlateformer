@@ -37,10 +37,7 @@ public class DeathZone : MonoBehaviour
 
     private void Update()
     {
-        if (verif)
-        {
-            FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
-        }
+        
     }
 
     public IEnumerator ReplacePlayer(Collider2D collision)
@@ -53,9 +50,9 @@ public class DeathZone : MonoBehaviour
 
         collision.transform.position = playerSpawn.position;
         FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
-        verif = true;
-        
-        
+        FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
+
+
         playerAnimator.SetBool("IsFdC", true);
         
         yield return new WaitForSeconds(0.2f);

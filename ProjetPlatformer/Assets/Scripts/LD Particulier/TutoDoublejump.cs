@@ -1,11 +1,8 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
- 
 
-public class tutoPlanage : MonoBehaviour
+public class TutoDoublejump : MonoBehaviour
 {
     public GameObject textTouche;
     private SpriteRenderer sr;
@@ -22,7 +19,7 @@ public class tutoPlanage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("JumpGamepad") && (Time.timeScale == 0))
+        if (Input.GetButtonDown("DoubleJumpGamepad") && (Time.timeScale == 0))
         {
             StartCoroutine(ScaleTime(0, 1.0f, 0.5f));
             color.a = Mathf.Lerp(255, 0, 1);
@@ -54,5 +51,4 @@ public class tutoPlanage : MonoBehaviour
           
         Time.timeScale = end;
     }
-    
 }
