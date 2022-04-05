@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +16,8 @@ public class DeathZone : MonoBehaviour
     private Animator fadeSystem;
 
     public Animator playerAnimator;
+
+    private bool verif = false;
 
     private void Awake()
     {
@@ -30,28 +34,41 @@ public class DeathZone : MonoBehaviour
             StartCoroutine(ReplacePlayer(collision));
         }
     }
-    private IEnumerator ReplacePlayer(Collider2D collision)
+
+    private void Update()
+    {
+        if (verif)
+        {
+            FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
+        }
+    }
+
+    public IEnumerator ReplacePlayer(Collider2D collision)
     {
         playerAnimator.SetTrigger("Die");
         
         yield return new WaitForSeconds(1);
         
         fadeSystem.SetTrigger("FadeIn");
-        
-        
+
         collision.transform.position = playerSpawn.position;
-        FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
-        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCampDeath();
+        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
+        verif = true;
+        
+        
         playerAnimator.SetBool("IsFdC", true);
         
         yield return new WaitForSeconds(0.2f);
         anim.SetBool("isGrounded", true);
         
+        if (CharacterMovement.instance.facingRight == false)
+        {
+            CharacterMovement.instance.Flip();
+        }
     }
     
     private void OnTriggerStay2D(Collider2D collision)
     {
-        
         if (collision.CompareTag("Player"))
         {
             CharacterMovement.instance.rb.velocity = Vector2.down;

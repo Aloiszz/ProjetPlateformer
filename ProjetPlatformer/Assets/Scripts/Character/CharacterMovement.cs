@@ -147,7 +147,7 @@ public class CharacterMovement : MonoBehaviour
             Flip();
         }
     }
-    void Flip()
+    public void Flip()
     {
         facingRight = !facingRight;
         Vector3 Scaler = transform.localScale;
