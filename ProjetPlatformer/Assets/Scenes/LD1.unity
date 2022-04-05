@@ -68118,7 +68118,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103893875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 487, y: 39.9, z: 5.7145057}
+  m_LocalPosition: {x: 408.2, y: 38.2, z: 5.7145057}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -69777,6 +69777,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 64830511}
     m_Modifications:
+    - target: {fileID: 1293014354, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1144915272}
     - target: {fileID: 2518200364507101241, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
       propertyPath: cm
       value: 
@@ -69848,7 +69852,11 @@ PrefabInstance:
     - target: {fileID: 6153072488176886794, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
       propertyPath: respawn
       value: 
-      objectReference: {fileID: 1776148726}
+      objectReference: {fileID: 1892865018}
+    - target: {fileID: 6153072488176886794, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
+      propertyPath: isRespawn
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70487fa5b4ca4d142b88221f95e16ea4, type: 3}
 --- !u!4 &1311054222 stripped
@@ -73591,6 +73599,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3286895214988014780, guid: 9f04fc223da16904dbcbd79852eecf43, type: 3}
   m_PrefabInstance: {fileID: 1603777335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1892865018 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5679361055072563988, guid: b2062e6b4c6e5e14cbf7bb3a26b8df43, type: 3}
+  m_PrefabInstance: {fileID: 813125681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b5c38e2ba76e36468370f204cd7fed4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1916414336 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7413419205879745662, guid: 809e8f35bc248fa4ca6d75942ce7578b, type: 3}

@@ -14,6 +14,7 @@ public class GrabBoite : MonoBehaviour
     public CharacterMovement cm;
     public RangeBoite range;
     public RespawnBoite respawn;
+    public bool isRespawn;
 
     public static GrabBoite grabBoiteinstance;
     
@@ -25,11 +26,14 @@ public class GrabBoite : MonoBehaviour
     void Update()
     {
 
-
-        if (respawn.lache)
+        if (isRespawn)
         {
-            boiteGrab = false;
+            if (respawn.lache)
+            {
+                boiteGrab = false;
+            }
         }
+        
         
         // Si le perso peut prendre la boîte
         if (range.isAtRange == true)
