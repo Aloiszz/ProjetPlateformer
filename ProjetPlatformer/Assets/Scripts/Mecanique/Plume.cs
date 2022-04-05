@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using Unity.Mathematics;
-using UnityEditor.Sprites;
 using UnityEngine;
 
 public class Plume : MonoBehaviour

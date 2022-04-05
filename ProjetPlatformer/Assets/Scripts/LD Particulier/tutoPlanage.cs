@@ -24,7 +24,7 @@ public class tutoPlanage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && (Time.timeScale == 0))
+        if (Input.GetButtonDown("JumpGamepad") && (Time.timeScale == 0))
         {
             StartCoroutine(ScaleTime(0, 1.0f, 0.5f));
             color.a = Mathf.Lerp(255, 0, 1);

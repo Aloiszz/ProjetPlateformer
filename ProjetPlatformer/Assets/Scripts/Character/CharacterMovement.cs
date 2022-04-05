@@ -194,7 +194,8 @@ public class CharacterMovement : MonoBehaviour
                 {
                     animator.SetBool("isPlanning", true);
                     isPlannage = true;
-                    rb.gravityScale = gravityScale - gravityPlannage; 
+                    rb.velocity = new Vector2(rb.velocity.x, -2f);
+                    //rb.gravityScale = gravityScale - gravityPlannage; 
                     Stamina.instance.UseStamina(35);
                     
                     LineRenderPlannage_1.SetActive(true);
