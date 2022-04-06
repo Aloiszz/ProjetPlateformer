@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WindArea : MonoBehaviour
 {
-    private bool isWindy = false;
+    public bool isWindy = false;
     public float WindForce_X = 0f;
     public float WindForceNull_X = 0f;
     public float WindForce_Y = 0f;

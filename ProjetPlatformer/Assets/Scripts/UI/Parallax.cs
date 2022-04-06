@@ -27,7 +27,7 @@ public class Parallax : MonoBehaviour
         }*/
     
     
-    private float lenght; 
+    private float lenght;  
     private float startPosition;
     public GameObject camera;
     public float parallaxEffect;
