@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using Unity.Mathematics;
-using UnityEditor.Sprites;
 using UnityEngine;
 
 public class Plume : MonoBehaviour
@@ -17,6 +17,7 @@ public class Plume : MonoBehaviour
         renderer = GetComponent<SpriteRenderer>();
         coll = GetComponent<Collider2D>();
     }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {

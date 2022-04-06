@@ -20,6 +20,10 @@ public class WindArea : MonoBehaviour
     private Rigidbody2D rb;
     private Rigidbody2D rbBoite;
 
+    public GameObject particulesVent;
+    public Animator anim;
+    public bool Tempête;
+    
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
@@ -36,6 +40,7 @@ public class WindArea : MonoBehaviour
         {
             if (isWindy)
             {
+                
                 rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
             }
             else
@@ -61,8 +66,8 @@ public class WindArea : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        //StopCoroutine(WaitForWind());
         isWindy = false;
+        anim.SetBool("IsTempete", false);
         //rb.AddForce(new Vector2(WindForce, 0));
     }
 
@@ -70,10 +75,31 @@ public class WindArea : MonoBehaviour
     {
         while (isWindy)
         {
+            if (Tempête)
+            {
+                anim.SetBool("IsTempete", false);
+                particulesVent.SetActive(false);
+            }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
+            
+            if (Tempête)
+            {
+                particulesVent.SetActive(true);
+                
+            }
+            
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = true;
+        }
+
+        if (!isWindy)
+        {
+            if (Tempête)
+            {
+                anim.SetBool("IsTempete", true); 
+                
+            }
         }
     }
 }

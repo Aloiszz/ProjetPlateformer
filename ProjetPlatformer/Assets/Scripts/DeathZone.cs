@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,41 +11,65 @@ public class DeathZone : MonoBehaviour
     public int respawn;
     public Animator anim;
     [SerializeField] CameraZoom Camera;
-
-    [Header("modification camera Arriver")]
-    public float distanceTargetArriver = 7f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
-    public float dezoomSpeedArriver = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
-    public Vector3 EmplacementCameraArriver = new Vector3(0,0,-10);
     
-    private void OnTriggerEnter2D(Collider2D other)
+    private Transform playerSpawn;
+    private Animator fadeSystem;
+
+    public Animator playerAnimator;
+
+    private bool verif = false;
+
+    private void Awake()
     {
-        FeuxDeCamp.instanceFeuxdeCamp.rightToPass = true;
-        Camera.isMoving = false;
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
+        fadeSystem = GameObject.FindGameObjectWithTag("DeathFade").GetComponent<Animator>();
+    }
+    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
         
-        anim.SetBool("IsFalling", false);
-        anim.SetBool("isPlanning", false);
+        if (collision.CompareTag("Player"))
+        {
+            Camera.isMoving = false;
+            StartCoroutine(ReplacePlayer(collision));
+        }
+    }
+
+    private void Update()
+    {
+        
+    }
+
+    public IEnumerator ReplacePlayer(Collider2D collision)
+    {
+        playerAnimator.SetTrigger("Die");
+        
+        yield return new WaitForSeconds(1);
+        
+        fadeSystem.SetTrigger("FadeIn");
+
+        collision.transform.position = playerSpawn.position;
+        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
+        FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
+
+
+        playerAnimator.SetBool("IsFdC", true);
+        
+        yield return new WaitForSeconds(0.2f);
         anim.SetBool("isGrounded", true);
         
-        CharacterMovement.instance.canJump = false;
-        CharacterMovement.instance.speed = 0;
-        CharacterMovement.instance.canMove = false;
-        
-        Camera.smoothSpeed = dezoomSpeedArriver;
-        Camera.targetOrtho = distanceTargetArriver; 
-        Camera.EmplacementCamera = EmplacementCameraArriver;
-        
-        GameObject.FindGameObjectWithTag("Player").transform.position =CharacterMovement.instance.lastCheckPointPos;
-        GameObject.FindGameObjectWithTag("MainCamera").transform.position = CameraZoom.instance.lastCheckPointPosCamera;
-
-
-
-
-        /*if (other.CompareTag("Player"))
-         {
-             SceneManager.LoadScene(respawn);
-             //PlayerPrefs.GetInt("checkpoint", 2);
-             Debug.Log("hello");
-         }*/
+        if (CharacterMovement.instance.facingRight == false)
+        {
+            CharacterMovement.instance.Flip();
+        }
+    }
+    
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            CharacterMovement.instance.rb.velocity = Vector2.down;
+        }
     }
 }
 

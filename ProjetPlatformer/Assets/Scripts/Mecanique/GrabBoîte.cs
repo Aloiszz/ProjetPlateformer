@@ -67,7 +67,7 @@ public class GrabBoîte : MonoBehaviour
 
         if (boiteGrab == true)
         {
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f ,
                 player.transform.position.z);
         }
 

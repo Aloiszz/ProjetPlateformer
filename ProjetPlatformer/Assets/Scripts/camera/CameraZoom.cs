@@ -27,12 +27,10 @@ public class CameraZoom : MonoBehaviour
     
 
     public static CameraZoom instance;
-    public Vector3 lastCheckPointPosCamera  = new Vector3(345, 25, -10);
 
     private void Awake()
     {
         if (instance == null) instance = this;
-        //GameObject.FindGameObjectWithTag("MainCamera").transform.position = lastCheckPointPosCamera;
     }
     
     
@@ -56,6 +54,15 @@ public class CameraZoom : MonoBehaviour
         else
         {
             Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
+        }*/
+
+        /*if (CharacterMovement.instance.rb.velocity.y < -45)
+        {
+            smoothSpeed = 5;
+        }
+        else
+        {
+            smoothSpeed = 2;
         }*/
     }
     

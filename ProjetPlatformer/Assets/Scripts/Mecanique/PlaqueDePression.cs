@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class PlaqueDePression : MonoBehaviour
 {
-    private float timer;
+    public float timer;
     public float DistancePorteMax;
     public float speedPorte;
     public GameObject porteAssociée;
@@ -15,6 +15,9 @@ public class PlaqueDePression : MonoBehaviour
     public GameObject porteAssociée3;
     private bool boolStop = false;
     public bool plusieursPortes;
+    private Tween tweener;
+    public GameObject mainCamera;
+    public GameObject particulesAssociées;
 
     private void Update()
     {
@@ -26,7 +29,7 @@ public class PlaqueDePression : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Respawn" || other.tag == "Player")
+        if (other.tag == "Respawn")
         {
             OuverturePorte(); 
         }
@@ -41,6 +44,10 @@ public class PlaqueDePression : MonoBehaviour
         {
             porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
                 speedPorte * Time.deltaTime);
+            
+            tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false);
+
+            particulesAssociées.SetActive(true);
 
             if (plusieursPortes)
             {
@@ -50,13 +57,12 @@ public class PlaqueDePression : MonoBehaviour
                 porteAssociée3.transform.position = Vector3.MoveTowards(porteAssociée3.transform.position, porteAssociée3.transform.position + Vector3.up,
                     speedPorte * Time.deltaTime);
             }
-
-            
         }
 
         if (timer >= DistancePorteMax)
         {
             boolStop = false;
+            particulesAssociées.SetActive(false);
         }
     }
     

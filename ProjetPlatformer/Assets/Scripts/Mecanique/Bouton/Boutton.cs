@@ -7,16 +7,21 @@ using DG.Tweening;
 public class Boutton : MonoBehaviour
 {
     public bool BouttonOn = false;
+    
     public GameObject porteAssociée;
-    public GameObject porteAssociée2;
+    
     public float duréeTranslation;
     public Vector3 directionPorte;
-    public static bool porteOuverte = false;
-    public static bool porteFermée = true;
-    public static bool porteOuverte2 = false;
-    public static bool porteFermée2 = true;
+    
+    public bool porteOuverte = false;
+    public bool porteFermée = true;
+    public bool porteAction;
     public bool isAtRange;
 
+    private Tween tweener;
+    public GameObject mainCamera;
+    public bool cameraShake;
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
@@ -36,17 +41,20 @@ public class Boutton : MonoBehaviour
     {
         if (isAtRange == true) // si le joueur est assez proche
         {
-            if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
+            if (porteAction == false)
             {
-                BouttonOn = !BouttonOn;
-                if (BouttonOn == true) // on ferme le boutton
+                if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
                 {
-                    gameObject.GetComponent<SpriteRenderer>().color = Color.green;
-                }
+                    BouttonOn = !BouttonOn;
+                    if (BouttonOn == true) // on ferme le boutton
+                    {
+                        gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+                    }
                 
-                if (BouttonOn == false) // ou on l'active
-                {
-                    gameObject.GetComponent<SpriteRenderer>().color = Color.red; // on change la couleur du sprite
+                    if (BouttonOn == false) // ou on l'active
+                    {
+                        gameObject.GetComponent<SpriteRenderer>().color = Color.red; // on change la couleur du sprite
+                    }
                 }
             }
         }
@@ -56,47 +64,41 @@ public class Boutton : MonoBehaviour
             porteFermée = false;
             porteOuverte = true;
         }
-        
-        if (BouttonOn && porteFermée2)
-        {
-            OuverturePorte2();
-            porteFermée2 = false;
-            porteOuverte2 = true;
-        }
-        
         if (!BouttonOn && porteOuverte)
         {
             FermeturePorte();
             porteOuverte = false;
             porteFermée = true;
         }
-        
-        if (!BouttonOn && porteOuverte2)
-        {
-            FermeturePorte2();
-            porteOuverte2 = false;
-            porteFermée2 = true;
-        }
     }
 
     void OuverturePorte()
     {
-        porteAssociée.transform.DOMove(porteAssociée.transform.position + directionPorte, duréeTranslation);
+        porteAction = true;
+        if (cameraShake)
+        {
+            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }
+        porteAssociée.transform.DOMove(porteAssociée.transform.position + directionPorte, duréeTranslation).OnComplete(
+            () =>
+            {
+                porteAction = false;
+            });
+
     }
 
     void FermeturePorte()
     {
-        porteAssociée.transform.DOMove(porteAssociée.transform.position - directionPorte, duréeTranslation);
-    }
-    
-    void OuverturePorte2()
-    {
-        porteAssociée2.transform.DOMove(porteAssociée2.transform.position + directionPorte, duréeTranslation);
-    }
-
-    void FermeturePorte2()
-    {
-        porteAssociée2.transform.DOMove(porteAssociée2.transform.position - directionPorte, duréeTranslation);
+        porteAction = true;
+        if (cameraShake)
+        {
+            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }
+        porteAssociée.transform.DOMove(porteAssociée.transform.position - directionPorte, duréeTranslation).OnComplete(
+            () =>
+            {
+                porteAction = false;
+            });
     }
     
 }

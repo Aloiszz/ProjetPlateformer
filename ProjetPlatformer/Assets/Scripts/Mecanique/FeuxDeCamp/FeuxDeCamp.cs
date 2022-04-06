@@ -6,9 +6,8 @@ using UnityEngine;
 public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
-    public bool rightToPass = false;
     public bool onoff = false;
-    private Collider2D coll;
+    private BoxCollider2D coll;
 
     public ParticleSystem ps;
     public Animator anim;
@@ -26,14 +25,19 @@ public class FeuxDeCamp : MonoBehaviour
     public Vector3 EmplacementCameraDepart = new Vector3(5,0,-10);
 
     public static FeuxDeCamp instanceFeuxdeCamp;
+    private Transform playerSpawn;
+
+
     private void Awake()
     {
         if (instanceFeuxdeCamp == null) instanceFeuxdeCamp = this;
+        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
     }
 
     private void Start()
     {
-        coll = GetComponent<Collider2D>();
+        coll = GetComponent<BoxCollider2D>();
+        
     }
 
     void Update()
@@ -45,42 +49,97 @@ public class FeuxDeCamp : MonoBehaviour
     }
     
     public void LeFeuxDeCamp()
-    {
-        onoff = !onoff; // toggles onoff 
+    { 
+        onoff = !onoff;// toggles onoff 
             
         if (onoff) // Arriver sur le feux de camps 
         {
+            if (CharacterMovement.instance.facingRight == false)
+            {
+                CharacterMovement.instance.Flip();
+            }
+            
             Camera.isMoving = false;
             CharacterMovement.instance.canJump = false;
             CharacterMovement.instance.speed = 0;
             CharacterMovement.instance.canMove = false;
+            
             Camera.smoothSpeed = dezoomSpeedArriver;
             Camera.targetOrtho = distanceTargetArriver; 
             Camera.EmplacementCamera = EmplacementCameraArriver;
             
+            anim.SetTrigger("EntreeFdC");
+            anim.SetBool("IsFdC", true);
             anim.SetBool("isGrounded", true);
+            anim.ResetTrigger("SortieFdC");
+            
                 
             ps.Play(); // allumer le feu !!!
+            playerSpawn.position = transform.position;
 
-            CameraZoom.instance.lastCheckPointPosCamera = transform.position; // checkpoint camera
-            CharacterMovement.instance.lastCheckPointPos = transform.position; // checkpoint Player
-                
             //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
             //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
         }
         else // Départ du feux de camps 
         {
+            anim.SetBool("IsFdC", false);
+            anim.SetTrigger("SortieFdC");
+            anim.ResetTrigger("EntreeFdC");
+            
             CharacterMovement.instance.canJump = true;
             CharacterMovement.instance.speed = 11;
             CharacterMovement.instance.canMove = true;
+            
             Camera.smoothSpeed = dezoomSpeedDepart;
             Camera.targetOrtho = distanceTargetDepart; 
             Camera.EmplacementCamera = EmplacementCameraDepart;
-
-            //coll.enabled = false;
         }
     }
     
+    public void LeFeuxDeCampDeath()
+    {
+        if (CharacterMovement.instance.facingRight == false)
+        {
+            CharacterMovement.instance.Flip();
+        }
+        
+        Camera.isMoving = false;
+        CharacterMovement.instance.canJump = false;
+        CharacterMovement.instance.speed = 0;
+        CharacterMovement.instance.canMove = false;
+        
+        Camera.smoothSpeed = dezoomSpeedArriver;
+        Camera.targetOrtho = distanceTargetArriver; 
+        Camera.EmplacementCamera = EmplacementCameraArriver;
+        
+        anim.SetTrigger("EntreeFdC");
+        anim.SetBool("IsFdC", true);
+        anim.SetBool("isGrounded", true);
+        anim.ResetTrigger("SortieFdC");
+        
+            
+        ps.Play(); // allumer le feu !!!
+
+        playerSpawn.position = transform.position;
+        
+        
+        if(Input.GetButtonDown("GrabGamepad")) // Départ du feux de camps 
+        {
+            
+            anim.SetBool("IsFdC", false);
+            anim.SetTrigger("SortieFdC");
+            anim.ResetTrigger("EntreeFdC");
+            
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11;
+            CharacterMovement.instance.canMove = true;
+            
+            Camera.smoothSpeed = dezoomSpeedDepart;
+            Camera.targetOrtho = distanceTargetDepart; 
+            Camera.EmplacementCamera = EmplacementCameraDepart;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")

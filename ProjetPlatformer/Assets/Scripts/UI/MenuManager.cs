@@ -8,63 +8,100 @@ using UnityEngine.EventSystems;
 public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 {
     public GameObject parcheminManager;
-    public bool MenuOuvert;
-    public GameObject camera;
-    public Vector3 travellingStart;
-    public float timeTravellingStart;
-    [SerializeField] CameraZoom cameraZoom;
-    public Vector3 emplacmentDébutCamera;
+    public GameObject mainMenu;
+    public bool MenuParcheminOuvert;
+    public bool MenuPrincipalOuvert;
+    [SerializeField] private CanvasGroup cv;
+    private Tween fadeTween;
 
     
     void Start()
     {
+        mainMenu.SetActive(true);
+        MenuPrincipalOuvert = true;
         parcheminManager.SetActive(false);
-        MenuOuvert = false;
-        CharacterMovement.instance.canMove = false;
-        CharacterMovement.instance.canJump = false;
-        CharacterMovement.instance.speed = 0;
-      //  CameraZoom.EmplacementCamera = emplacmentDébutCamera;
+        MenuParcheminOuvert = false;
+        FadeIn(2f);
     }
 
   
     void Update()
     {
-        if (MenuOuvert == false)
+        if (MenuPrincipalOuvert == false)
         {
-            if (Input.GetKeyUp(KeyCode.R))
+            if (Input.GetKeyUp(KeyCode.E))
             {
-                parcheminManager.SetActive(true);
-                MenuOuvert = true;
-                CharacterMovement.instance.canMove = false;
+                MenuParcheminOuvert = !MenuParcheminOuvert;
+                parcheminManager.SetActive(MenuParcheminOuvert);
+            }
+            else if (Input.GetKeyUp(KeyCode.E))
+            {
+                MenuParcheminOuvert = !MenuParcheminOuvert;
+                parcheminManager.SetActive(MenuParcheminOuvert);
+            } 
+        }
+  
+        if (MenuPrincipalOuvert)
+        {
+            CharacterMovement.instance.canMove = false;
             CharacterMovement.instance.canJump = false;
             CharacterMovement.instance.speed = 0;
-            }
         }
-
-          if (MenuOuvert == true)
-          {
-              if (Input.GetKeyUp(KeyCode.E))
-              {
-                  parcheminManager.SetActive(false);
-                  MenuOuvert = false;
-                  CharacterMovement.instance.canMove = true;
-              CharacterMovement.instance.canJump = true;
-              CharacterMovement.instance.speed = 11;
-              }
-          }
+        else
+        {
+            CharacterMovement.instance.canMove = true;
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11; 
+        }
         
-        
+            if (MenuParcheminOuvert)
+            {
+                CharacterMovement.instance.canMove = false;
+                CharacterMovement.instance.canJump = false;
+                CharacterMovement.instance.speed = 0;
+            }
+            else
+            {
+                CharacterMovement.instance.canMove = true;
+                CharacterMovement.instance.canJump = true;
+                CharacterMovement.instance.speed = 11; 
+            }
     }
-
 
     public void Play()
     {
-        camera.transform.DOMove(travellingStart, timeTravellingStart);
-        CharacterMovement.instance.canMove = true;
-        CharacterMovement.instance.canJump = true;
-        CharacterMovement.instance.speed = 11;
-       // CameraZoom.EmplacementCamera = emplacmentDébutCamera;
+        MenuPrincipalOuvert = false;
+        FadeOut(2f);
     }
+
+    public void Fade(float endValue, float duration, TweenCallback onEnd)
+    {
+        if (fadeTween != null)
+        {
+            fadeTween.Kill(false);
+        }
+        fadeTween = cv.DOFade(endValue,duration);
+        fadeTween.onComplete += onEnd;
+    }
+
+    public void FadeIn(float duration)
+    {
+        Fade(1f, duration, (() =>
+        {
+            cv.interactable = true;
+            cv.blocksRaycasts = true;
+        }));
+    }
+    
+    public void FadeOut(float duration)
+    {
+        Fade(0f, duration, (() =>
+        {
+            cv.interactable = false;
+            cv.blocksRaycasts = false;
+        }));
+    }
+    
     public void Quit()
     {
         Application.Quit();
