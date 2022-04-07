@@ -1,12 +1,10 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using DG.Tweening;
+using UnityEngine;
 
-public class PorteRuines : MonoBehaviour
+public class EboulementGrotte : MonoBehaviour
 {
-    
     public GameObject porteAssociée;
     private bool boolStop;
     private float timer;
@@ -45,18 +43,20 @@ public class PorteRuines : MonoBehaviour
         if (timer <= DistancePorteMax)
         {
             timer += Time.deltaTime;
-            porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
+            porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position - Vector3.up,
                 speedPorte * Time.deltaTime);
+
+           // porteAssociée.transform.DORotate(new Vector3(0, 0, 50), DistancePorteMax, RotateMode.Fast);
             
             tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,3,1,15,false,false);
 
-           // particulesAssociées.SetActive(true);
+            // particulesAssociées.SetActive(true);
         }
 
         if (timer >= DistancePorteMax)
         {
             boolStop = false;
-        //    particulesAssociées.SetActive(false);
+            //    particulesAssociées.SetActive(false);
         }
     }
 }

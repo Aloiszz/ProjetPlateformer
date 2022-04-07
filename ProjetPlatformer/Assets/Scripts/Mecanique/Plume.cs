@@ -11,6 +11,8 @@ public class Plume : MonoBehaviour
     private SpriteRenderer renderer;
     private Collider2D coll;
     public Animator anim;
+    public Tween tweener;
+    
 
     private void Start()
     {
@@ -18,7 +20,6 @@ public class Plume : MonoBehaviour
         coll = GetComponent<Collider2D>();
     }
     
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
