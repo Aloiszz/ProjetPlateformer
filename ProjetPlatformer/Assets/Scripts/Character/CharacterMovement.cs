@@ -63,8 +63,8 @@ public class CharacterMovement : MonoBehaviour
     
     [Header("Animation")]
     public Animator animator;
-    
-    
+    public float stretch;
+    public bool stopStretch;
     
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
@@ -112,6 +112,15 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
 
+        if (rb.velocity.y <= 0)
+        {
+            stopStretch = true;
+        }
+        else
+        {
+            stopStretch = false;
+        }
+        
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
             animator.SetBool("IsWalking",true);
@@ -139,6 +148,10 @@ public class CharacterMovement : MonoBehaviour
         if (canJump == true)
         {
             Jump();
+            if (!stopStretch)
+            {
+                transform.localScale = new Vector3(1 - rb.velocity.y * stretch, 1 + rb.velocity.y * stretch); 
+            }
         }
         
         
@@ -154,9 +167,17 @@ public class CharacterMovement : MonoBehaviour
     public void Flip()
     {
         facingRight = !facingRight;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        Quaternion Scaler = transform.localRotation;
+        if (!facingRight)
+        {
+            Scaler.y = -180;
+        }
+
+        if (facingRight)
+        {
+            Scaler.y = 0;
+        }
+        transform.localRotation = Scaler;
     } // Permet de vérifier quel est la direction du player
 
     private void OnDrawGizmos()
@@ -169,7 +190,6 @@ public class CharacterMovement : MonoBehaviour
     #region Jump
     void Jump()
     {
-        
         bool wasGrounded = isGrounded;
         RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
         RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
