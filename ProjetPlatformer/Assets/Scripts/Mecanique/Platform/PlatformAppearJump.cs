@@ -19,12 +19,12 @@ public class PlatformAppearJump : MonoBehaviour
         
         if (isVisible == false)
         {
-            renderer.enabled = false;
+            //renderer.enabled = false;
             coll.enabled = false;
         }
         else
         {
-            renderer.enabled = true;
+            //renderer.enabled = true;
             coll.enabled = true;
         }
     }
@@ -35,15 +35,16 @@ public class PlatformAppearJump : MonoBehaviour
         {
             if(isVisible)
             {
-                // faire le doScale
                 isVisible = false;
-                renderer.enabled = false;
+                gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.1f);
+                //renderer.enabled = false;
                 coll.enabled = false;
             }
             else
             {
                 isVisible = true;
-                renderer.enabled = true;
+                gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
+                //renderer.enabled = true;
                 coll.enabled = true;
             }
         }

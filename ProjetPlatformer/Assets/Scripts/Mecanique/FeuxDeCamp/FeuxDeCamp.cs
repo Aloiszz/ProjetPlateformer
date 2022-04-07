@@ -37,18 +37,50 @@ public class FeuxDeCamp : MonoBehaviour
     private void Start()
     {
         coll = GetComponent<BoxCollider2D>();
-        
     }
 
     void Update()
     {
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            LeFeuxDeCamp();
+            //LeFeuxDeCamp();
+
+            GoToCamp();
         }
     }
-    
-    public void LeFeuxDeCamp()
+
+    public void GoToCamp()
+    {
+        OnOff();
+        if (onoff)
+        {
+            if (CharacterMovement.instance.facingRight == false)
+            {
+                CharacterMovement.instance.Flip();
+            }
+
+            SetPlayer(true);
+            SetCamera(true);
+            SetAnimator(true);
+
+            ps.Play(); // allumer le feu !!!
+            playerSpawn.position = transform.position;
+            
+        }
+        else
+        {
+            LeaveCamp();
+            OnOff();
+        }
+    }
+    public void LeaveCamp()
+    {
+        SetPlayer(false);
+        SetCamera(false);
+        SetAnimator(false);
+    }
+
+    /*public void LeFeuxDeCamp()
     { 
         onoff = !onoff;// toggles onoff 
             
@@ -58,87 +90,82 @@ public class FeuxDeCamp : MonoBehaviour
             {
                 CharacterMovement.instance.Flip();
             }
-            
-            Camera.isMoving = false;
-            CharacterMovement.instance.canJump = false;
-            CharacterMovement.instance.speed = 0;
-            CharacterMovement.instance.canMove = false;
-            
-            Camera.smoothSpeed = dezoomSpeedArriver;
-            Camera.targetOrtho = distanceTargetArriver; 
-            Camera.EmplacementCamera = EmplacementCameraArriver;
-            
-            anim.SetTrigger("EntreeFdC");
-            anim.SetBool("IsFdC", true);
-            anim.SetBool("isGrounded", true);
-            anim.ResetTrigger("SortieFdC");
-            
-                
+
+            SetPlayer(true);
+            SetCamera(true);
+            SetAnimator(true);
+
             ps.Play(); // allumer le feu !!!
             playerSpawn.position = transform.position;
 
             //PlayerPrefs.SetInt("checkpoint", 2);// enregistrer ton checkpoint !! 
             //PlayerPrefs.GetInt("checkpoint", 2); // récuperer la sauvegarde
         }
+        
         else // Départ du feux de camps 
         {
-            anim.SetBool("IsFdC", false);
-            anim.SetTrigger("SortieFdC");
-            anim.ResetTrigger("EntreeFdC");
-            
-            CharacterMovement.instance.canJump = true;
-            CharacterMovement.instance.speed = 11;
-            CharacterMovement.instance.canMove = true;
-            
-            Camera.smoothSpeed = dezoomSpeedDepart;
-            Camera.targetOrtho = distanceTargetDepart; 
-            Camera.EmplacementCamera = EmplacementCameraDepart;
+            SetPlayer(false);
+            SetCamera(false);
+            SetAnimator(false);
         }
+    }*/
+
+    public void OnOff()
+    {
+        onoff = !onoff;
     }
     
-    public void LeFeuxDeCampDeath()
+    public void SetPlayer(bool verif)
     {
-        if (CharacterMovement.instance.facingRight == false)
+        if (verif) // arriver dans le feux de camp
         {
-            CharacterMovement.instance.Flip();
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0;
+            CharacterMovement.instance.canMove = false;
         }
-        
-        Camera.isMoving = false;
-        CharacterMovement.instance.canJump = false;
-        CharacterMovement.instance.speed = 0;
-        CharacterMovement.instance.canMove = false;
-        
-        Camera.smoothSpeed = dezoomSpeedArriver;
-        Camera.targetOrtho = distanceTargetArriver; 
-        Camera.EmplacementCamera = EmplacementCameraArriver;
-        
-        anim.SetTrigger("EntreeFdC");
-        anim.SetBool("IsFdC", true);
-        anim.SetBool("isGrounded", true);
-        anim.ResetTrigger("SortieFdC");
-        
-            
-        ps.Play(); // allumer le feu !!!
-
-        playerSpawn.position = transform.position;
-        
-        
-        if(Input.GetButtonDown("GrabGamepad")) // Départ du feux de camps 
+        else // départ du feux de camp
         {
-            
-            anim.SetBool("IsFdC", false);
-            anim.SetTrigger("SortieFdC");
-            anim.ResetTrigger("EntreeFdC");
-            
             CharacterMovement.instance.canJump = true;
             CharacterMovement.instance.speed = 11;
             CharacterMovement.instance.canMove = true;
-            
+        }
+        
+    }
+    public void SetCamera(bool verif)
+    {
+        if (verif) // arriver dans le feux de camp
+        {
+            Camera.isMoving = false;
+            Camera.smoothSpeed = dezoomSpeedArriver;
+            Camera.targetOrtho = distanceTargetArriver; 
+            Camera.EmplacementCamera = EmplacementCameraArriver;
+        }
+        else // départ du feux de camp
+        {
             Camera.smoothSpeed = dezoomSpeedDepart;
             Camera.targetOrtho = distanceTargetDepart; 
             Camera.EmplacementCamera = EmplacementCameraDepart;
         }
+        
     }
+    public void SetAnimator(bool verif)
+    {
+        if (verif) // arriver dans le feux de camp
+        {
+            anim.SetTrigger("EntreeFdC");
+            anim.SetBool("IsFdC", true);
+            anim.SetBool("isGrounded", true);
+            anim.ResetTrigger("SortieFdC");
+        }
+        else // départ du feux de camp
+        {
+            anim.SetBool("IsFdC", false);
+            anim.SetTrigger("SortieFdC");
+            anim.ResetTrigger("EntreeFdC");
+        }
+        
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

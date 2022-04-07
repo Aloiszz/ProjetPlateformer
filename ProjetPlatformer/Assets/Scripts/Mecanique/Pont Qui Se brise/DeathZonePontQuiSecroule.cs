@@ -116,7 +116,8 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
 
         collision.transform.position = playerSpawn.position;
         FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
-        FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCampDeath();
+        
+        //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
         fadeSystem.SetTrigger("FadeIn");
         
         
