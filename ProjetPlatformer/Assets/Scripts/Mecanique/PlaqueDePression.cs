@@ -18,6 +18,7 @@ public class PlaqueDePression : MonoBehaviour
     private Tween tweener;
     public GameObject mainCamera;
     public GameObject particulesAssociées;
+    public bool particules;
 
     private void Update()
     {
@@ -46,9 +47,11 @@ public class PlaqueDePression : MonoBehaviour
                 speedPorte * Time.deltaTime);
             
             tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false);
-
-            particulesAssociées.SetActive(true);
-
+            if (particules)
+            {
+                particulesAssociées.SetActive(true);
+            }
+            
             if (plusieursPortes)
             {
                 porteAssociée2.transform.position = Vector3.MoveTowards(porteAssociée2.transform.position, porteAssociée2.transform.position + Vector3.up,
@@ -62,7 +65,10 @@ public class PlaqueDePression : MonoBehaviour
         if (timer >= DistancePorteMax)
         {
             boolStop = false;
-            particulesAssociées.SetActive(false);
+            if (particules)
+            {
+                particulesAssociées.SetActive(false);
+            }
         }
     }
     

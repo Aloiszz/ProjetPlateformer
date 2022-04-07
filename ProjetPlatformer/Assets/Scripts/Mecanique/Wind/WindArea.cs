@@ -14,9 +14,7 @@ public class WindArea : MonoBehaviour
     public float timeWaitForWind = 3f;
     
     public CharacterMovement Character;
-    public GrabBoîte Boite;
     
-
     private Rigidbody2D rb;
     private Rigidbody2D rbBoite;
 
@@ -32,6 +30,7 @@ public class WindArea : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         isWindy = true;
+        anim.SetBool("isDoubleJumping",false);
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -67,7 +66,10 @@ public class WindArea : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         isWindy = false;
-        anim.SetBool("IsTempete", false);
+        if (Tempête)
+        {
+            anim.SetBool("IsTempete", false);
+        }
         //rb.AddForce(new Vector2(WindForce, 0));
     }
 

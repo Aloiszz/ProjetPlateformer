@@ -8,9 +8,11 @@ public class GrabBoite : MonoBehaviour
 {
     public bool boiteGrab;
     public GameObject player;
-    public  KeyCode toucheGrab = KeyCode.UpArrow;
+    private  KeyCode toucheGrab = KeyCode.UpArrow;
     public float forceJet;
+    public float forcePose;
     public Rigidbody2D rb;
+    public Rigidbody2D rbPlayer;
     public CharacterMovement cm;
     public RangeBoite range;
     public RespawnBoite respawn;
@@ -47,27 +49,25 @@ public class GrabBoite : MonoBehaviour
                     boiteGrab = false;
                     if (cm.facingRight == true)
                     {
-                        if (cm.rb.velocity.x >= cm.speed - 1)
-                        {
-                            rb.velocity = (new Vector2(forceJet + cm.speed,0));
-                        }
-                        else
-                        {
-                            rb.velocity = (new Vector2(forceJet,0));
-                        }
-                    }
+                        rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
+                    }    
                     else
                     {
-                        if (cm.rb.velocity.x <= -(cm.speed - 1))
+                        rb.velocity = (new Vector2(-forceJet + rbPlayer.velocity.x/2,0));
+                    }
+
+                    if (Input.GetKey(KeyCode.DownArrow))     /*|| Input.GetButton(KeyCode.Joystick4Button12)*/
+                    {
+                        if (cm.facingRight == true)
                         {
-                            rb.velocity = (new Vector2(-forceJet - cm.speed,0));
-                        }
+                            rb.velocity = (new Vector2(forcePose,2.5f));
+                        }    
                         else
                         {
-                            rb.velocity = (new Vector2(-forceJet,0));
+                            rb.velocity = (new Vector2(-forcePose,2.5f));
                         }
-                        
                     }
+                    
                 }
                 else
                 {
