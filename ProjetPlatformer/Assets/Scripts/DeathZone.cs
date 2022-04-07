@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class DeathZone : MonoBehaviour
@@ -43,9 +44,7 @@ public class DeathZone : MonoBehaviour
     public IEnumerator ReplacePlayer(Collider2D collision)
     {
         playerAnimator.SetTrigger("Die");
-        
         yield return new WaitForSeconds(1);
-        
         fadeSystem.SetTrigger("FadeIn");
 
         collision.transform.position = playerSpawn.position;

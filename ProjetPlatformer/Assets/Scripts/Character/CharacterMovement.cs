@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design.Serialization;
 using System.Runtime.CompilerServices;
+using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.UI;
 
 public class CharacterMovement : MonoBehaviour
@@ -67,11 +69,13 @@ public class CharacterMovement : MonoBehaviour
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
     public GameObject LineRenderPlannage_2;
+    public Light2D lightDoubleSaut;
+    public Light2D lightDoubleSaut2;
+    public ParticleSystem particlesDoubleSaut;
    // public ParticleSystem particulesRetombée;
    // public ParticleSystem particulesRun;
    
     public static CharacterMovement instance;
-
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -292,6 +296,9 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
         {
+            StartCoroutine(fadeInAndOut(true, 1));
+            StartCoroutine(fadeInAndOut(false, 1));
+            particlesDoubleSaut.Play();
             isJumping = false;
             extrajumps --;
             rb.velocity = Vector2.up * jumpForceDouble;
@@ -367,6 +374,41 @@ public class CharacterMovement : MonoBehaviour
             {
                 hit.transform.GetComponent<SpriteRenderer>().color = Color.green;// Colori le Sprite toucher
             }
+        }
+    }
+
+    IEnumerator fadeInAndOut(bool fadeIn, float duration)
+    {
+        float minLuminosity = 0; // min intensity
+        float maxLuminosity = 1; // max intensity
+
+        float counter = 0f;
+
+        //Set Values depending on if fadeIn or fadeOut
+        float a, b;
+
+        if (fadeIn)
+        {
+            a = minLuminosity;
+            b = maxLuminosity;
+        }
+        else
+        {
+            a = maxLuminosity;
+            b = minLuminosity;
+        }
+
+        float currentIntensity = lightDoubleSaut.intensity;
+        float currentIntensity2 = lightDoubleSaut2.intensity;
+
+        while (counter < duration)
+        {
+            counter += Time.deltaTime;
+
+            lightDoubleSaut.intensity = Mathf.Lerp(a, b, counter / duration);
+            lightDoubleSaut2.intensity = Mathf.Lerp(a, b, counter / duration);
+
+            yield return null;
         }
     }
 }

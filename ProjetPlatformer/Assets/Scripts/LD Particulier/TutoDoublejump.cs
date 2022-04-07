@@ -8,6 +8,8 @@ public class TutoDoublejump : MonoBehaviour
     private SpriteRenderer sr;
     public Color color;
     private float timeToFade = 1.0f;
+    public AnimationCurve nom;
+    public float truc;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,9 @@ public class TutoDoublejump : MonoBehaviour
         }
 
         sr.color = color;
+
+       Time.timeScale = nom.Evaluate(truc);
+       truc += 0.1f;
     }
 
 
