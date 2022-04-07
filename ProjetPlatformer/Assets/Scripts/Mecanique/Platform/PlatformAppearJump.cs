@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlatformAppearJump : MonoBehaviour
 {
@@ -34,6 +35,7 @@ public class PlatformAppearJump : MonoBehaviour
         {
             if(isVisible)
             {
+                // faire le doScale
                 isVisible = false;
                 renderer.enabled = false;
                 coll.enabled = false;
