@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5102176715272919729}
   - component: {fileID: 5102176715272919728}
   - component: {fileID: 5102176715272919695}
-  - component: {fileID: 445188952}
+  - component: {fileID: 238101969}
   m_Layer: 0
   m_Name: Plume
   m_TagString: Untagged
@@ -125,22 +125,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeToRespawn: 3
   anim: {fileID: 0}
---- !u!95 &445188952
-Animator:
-  serializedVersion: 3
+--- !u!114 &238101969
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5102176715272919731}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cc8d741858d79b043a183c31af6b7de6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6703435d0e6742e42b22fbf084a1775e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amplitudeFloating: 0.3
+  vitesseFloating: 2.6
