@@ -72,8 +72,14 @@ public class CharacterMovement : MonoBehaviour
     public Light2D lightDoubleSaut;
     public Light2D lightDoubleSaut2;
     public ParticleSystem particlesDoubleSaut;
-   // public ParticleSystem particulesRetombée;
+    // public ParticleSystem particulesRetombée;
    // public ParticleSystem particulesRun;
+   
+   [Header("Floating")]
+   private float y0;
+   private Vector2 temp;
+   public float amplitudeFloating;
+   public float vitesseFloating;
    
     public static CharacterMovement instance;
     private void Awake()
@@ -111,7 +117,6 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-
         if (rb.velocity.y <= 0)
         {
             stopStretch = true;
@@ -216,6 +221,8 @@ public class CharacterMovement : MonoBehaviour
             {
                 if (isPlannage)
                 {
+                    temp.y = transform.position.y + amplitudeFloating *Mathf.Sin(vitesseFloating*Time.time);
+                    transform.position = new Vector3(transform.position.x, temp.y, transform.position.z);
                     animator.SetBool("isPlanning", true);
                     isPlannage = true;
                     rb.velocity = new Vector2(rb.velocity.x, -2f);
@@ -318,6 +325,13 @@ public class CharacterMovement : MonoBehaviour
         {
             StartCoroutine(fadeInAndOut(true, 1));
             StartCoroutine(fadeInAndOut(false, 1));
+            particlesDoubleSaut.transform.position = transform.position;
+            
+            /*angle = Mathf.Atan2(particlesDoubleSaut.transform.position.y - transform.position.y, particlesDoubleSaut.transform.position.x - transform.position.x) * Mathf.Rad2Deg;
+            //transform.rotation = Quaternion.Euler(0, 0, angle);
+            angleParticules = angle;
+            particlesDoubleSaut.shape.rotation.y = angleParticules;*/
+            
             particlesDoubleSaut.Play();
             isJumping = false;
             extrajumps --;
