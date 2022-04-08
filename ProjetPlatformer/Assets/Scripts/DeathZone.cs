@@ -48,13 +48,14 @@ public class DeathZone : MonoBehaviour
         fadeSystem.SetTrigger("FadeIn");
 
         collision.transform.position = playerSpawn.position;
+        
         //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
         //FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
         
-        FeuxDeCamp.instanceFeuxdeCamp.OnOff();
+        
+        //FeuxDeCamp.instanceFeuxdeCamp.OnOff();
         FeuxDeCamp.instanceFeuxdeCamp.GoToCamp();
         
-
 
         playerAnimator.SetBool("IsFdC", true);
         

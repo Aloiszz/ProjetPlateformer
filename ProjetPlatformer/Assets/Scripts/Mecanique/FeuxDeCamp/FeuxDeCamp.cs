@@ -45,12 +45,13 @@ public class FeuxDeCamp : MonoBehaviour
         {
             //LeFeuxDeCamp();
 
-            GoToCamp();
+            EnterCamp();
         }
     }
 
-    public void GoToCamp()
+    public void EnterCamp()
     {
+        Debug.Log("enter camp");
         OnOff();
         if (onoff)
         {
@@ -65,11 +66,10 @@ public class FeuxDeCamp : MonoBehaviour
 
             ps.Play(); // allumer le feu !!!
             playerSpawn.position = transform.position;
-            
         }
         else
         {
-            LeaveCamp();
+            LeaveCamp(); 
             OnOff();
         }
     }
@@ -80,6 +80,27 @@ public class FeuxDeCamp : MonoBehaviour
         SetAnimator(false);
     }
 
+    public void GoToCamp()
+    {
+        Debug.Log("ICI");
+        if (onoff)
+        {
+            OnOff();
+        }
+        
+        SetPlayer(true);
+        SetCamera(true);
+        SetAnimator(true);
+        
+        if (onoff)
+        {
+            LeaveCamp(); 
+            SetPlayer(false);
+            SetCamera(false);
+            SetAnimator(false);
+        }
+    }
+    
     /*public void LeFeuxDeCamp()
     { 
         onoff = !onoff;// toggles onoff 
