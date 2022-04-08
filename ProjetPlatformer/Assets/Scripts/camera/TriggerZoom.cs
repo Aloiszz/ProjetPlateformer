@@ -18,6 +18,7 @@ public class TriggerZoom : MonoBehaviour
     [Header("modification camera")]
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
+    public float smoothSpeed = 2f; 
     public Vector3 emplacementDebutCamera;
 
 
@@ -30,7 +31,8 @@ public class TriggerZoom : MonoBehaviour
     {
         if (collision.tag == "Player"){
             Camera.smoothSpeed = dezoomSpeed;
-            Camera.targetOrtho = distanceTarget; 
+            Camera.targetOrtho = distanceTarget;
+            Camera.smoothSpeed = smoothSpeed;
         
             if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
             {
