@@ -7,67 +7,31 @@ using UnityEngine;
 
 public class tutoPlanage : MonoBehaviour
 {
-   // public GameObject textTouche;
-   // private SpriteRenderer sr;
-    public Color color;
-    private float timeToFade = 1.0f;
-    public AnimationCurve animationCurveUp;
-    public AnimationCurve animationCurveDown;
-    public float deltaTimeCurve;
+    public Animator animTuto;
+    public Animator animTuto2;
+    public bool fadeIn;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-      //  sr = textTouche.GetComponent<SpriteRenderer>();
-      //  sr.color = color;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Time.timeScale > 0)
-        {
-            deltaTimeCurve = 0;
-            deltaTimeCurve -= Time.deltaTime; 
-        }
-        else
-        {
-            deltaTimeCurve = 0;
-            deltaTimeCurve += Time.deltaTime;
-        }
-        if (Input.GetButtonDown("DoubleJumpGamepad") && (Time.timeScale == 0))
-        {
-           // StartCoroutine(ScaleTime(0, 1.0f, 0.5f));
-            color.a = Mathf.Lerp(255, 0, 1);
-            Time.timeScale = animationCurveDown.Evaluate((deltaTimeCurve));
-        }
-
-        //sr.color = color;
-    }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        color.a = Mathf.Lerp(0, 255, 1);
-        Time.timeScale = animationCurveUp.Evaluate(deltaTimeCurve);
-        // StartCoroutine(ScaleTime(1.0f, 0.0f, 0.5f));
-    }
-    
-    
-    /*IEnumerator ScaleTime(float start, float end, float time)     //not in Start or Update
-    {
-        float lastTime = Time.realtimeSinceStartup;
-        float timer = 0.0f;
-          
-        while (timer < time)
+        if(fadeIn)
         {
-            Time.timeScale = Mathf.Lerp (start, end, timer / time);
-            timer += (Time.realtimeSinceStartup - lastTime);
-            lastTime = Time.realtimeSinceStartup;
-            yield return null;
+            animTuto.SetBool("FadeIn", true);
+            animTuto.SetBool("FadeOut", false);
+            
+            animTuto2.SetBool("FadeIn2", true);
+            animTuto2.SetBool("FadeOut2", false);
         }
-          
-        Time.timeScale = end;
-    }*/
-    
+        else
+        {
+            animTuto.SetBool("FadeOut", true);
+            animTuto.SetBool("FadeIn", false);
+            
+            animTuto2.SetBool("FadeOut2", true);
+            animTuto2.SetBool("FadeIn2", false);
+        }
+    }
 }
+    
+   
