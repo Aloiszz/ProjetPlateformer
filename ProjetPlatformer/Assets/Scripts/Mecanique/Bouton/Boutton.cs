@@ -21,6 +21,8 @@ public class Boutton : MonoBehaviour
     private Tween tweener;
     public GameObject mainCamera;
     public bool cameraShake;
+
+    public Animator animBoite;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -48,12 +50,12 @@ public class Boutton : MonoBehaviour
                     BouttonOn = !BouttonOn;
                     if (BouttonOn == true) // on ferme le boutton
                     {
-                        gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+                        //gameObject.GetComponent<SpriteRenderer>().color = Color.green;
                     }
                 
                     if (BouttonOn == false) // ou on l'active
                     {
-                        gameObject.GetComponent<SpriteRenderer>().color = Color.red; // on change la couleur du sprite
+                        //gameObject.GetComponent<SpriteRenderer>().color = Color.red; // on change la couleur du sprite
                     }
                 }
             }
@@ -61,12 +63,14 @@ public class Boutton : MonoBehaviour
         if (BouttonOn && porteFermée)
         {
             OuverturePorte();
+            animBoite.SetBool("ChangeState", true);
             porteFermée = false;
             porteOuverte = true;
         }
         if (!BouttonOn && porteOuverte)
         {
             FermeturePorte();
+            animBoite.SetBool("ChangeState", false);
             porteOuverte = false;
             porteFermée = true;
         }

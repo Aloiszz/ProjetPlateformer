@@ -106,13 +106,13 @@ public class GrabBoite : MonoBehaviour
         {
             if (boiteGrab == true)
             {
-                gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+                //gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
                 texteIndication.SetActive(false);
             }
             else
             {
                 texteIndication.SetActive(true);
-                gameObject.GetComponent<SpriteRenderer> ().color = Color.green;
+                //gameObject.GetComponent<SpriteRenderer> ().color = Color.green;
             }
     
         }
@@ -120,7 +120,7 @@ public class GrabBoite : MonoBehaviour
         if (range.isAtRange == false)
         {
             texteIndication.SetActive(false);
-            gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+            //gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
         }
     }
 }

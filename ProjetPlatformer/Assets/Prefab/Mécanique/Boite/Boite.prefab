@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAtRange: 0
+  player: {fileID: 0}
 --- !u!1 &2518200364507101244
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,8 +199,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.6886792, g: 0.34704936, b: 0, a: 1}
+  m_Sprite: {fileID: 1980813693529779380, guid: 3f19c2e222cba764fb5750caeadacfdd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -223,11 +224,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boiteGrab: 0
   player: {fileID: 0}
-  toucheGrab: 273
   forceJet: 10
+  forcePose: 0
   rb: {fileID: 2518200364507101243}
+  rbPlayer: {fileID: 0}
   cm: {fileID: 0}
+  camera: {fileID: 0}
   range: {fileID: 1293014354}
+  respawn: {fileID: 0}
+  isRespawn: 0
+  texteIndication: {fileID: 0}
 --- !u!61 &2518200364507101240
 BoxCollider2D:
   m_ObjectHideFlags: 0
