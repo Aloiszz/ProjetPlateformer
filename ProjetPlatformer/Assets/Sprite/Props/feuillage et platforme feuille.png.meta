@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: f3acce1582096944cb4fd56f16c3a67f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1625309659792419546
+    second: feuillage et platforme feuille_1
+  - first:
+      213: 1221879815116966754
+    second: feuillage et platforme feuille_2
+  - first:
+      213: 2420284746386866227
+    second: feuillage et platforme feuille_3
+  - first:
+      213: 2361194292717087374
+    second: feuillage et platforme feuille_4
+  - first:
+      213: -1202443795206622076
+    second: feuillage et platforme feuille_5
+  - first:
+      213: 5578745706094340571
+    second: feuillage et platforme feuille_6
+  - first:
+      213: -8228153742724992324
+    second: feuillage et platforme feuille_7
+  - first:
+      213: -2021802736952591573
+    second: feuillage et platforme feuille_8
+  - first:
+      213: 5951188260742233478
+    second: feuillage et platforme feuille_9
+  - first:
+      213: 6530490664725452858
+    second: feuillage et platforme feuille_10
+  - first:
+      213: -5498031128914252977
+    second: feuillage et platforme feuille_11
+  - first:
+      213: 4720417300361869297
+    second: feuillage et platforme feuille_12
+  - first:
+      213: -8838923820200494810
+    second: feuillage et platforme feuille_13
+  - first:
+      213: -5707333036709739787
+    second: feuillage et platforme feuille_14
+  - first:
+      213: -7610699213145121112
+    second: feuillage et platforme feuille_15
+  - first:
+      213: 7916958434344142972
+    second: feuillage et platforme feuille_16
+  - first:
+      213: 6581827389882981669
+    second: feuillage et platforme feuille_17
+  - first:
+      213: 72395892844232814
+    second: feuillage et platforme feuille_18
+  - first:
+      213: -3709986997779215931
+    second: feuillage et platforme feuille_19
+  - first:
+      213: 5445697755967076873
+    second: feuillage et platforme feuille_20
+  - first:
+      213: 6508088928000349093
+    second: feuillage et platforme feuille_21
+  - first:
+      213: -4033714211417298479
+    second: feuillage et platforme feuille_22
+  - first:
+      213: 2907018772590239589
+    second: feuillage et platforme feuille_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_1
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 353
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada20f936824e8610800000000000000
+      internalID: 1625309659792419546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 372
+        width: 183
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4442d73df4f010800000000000000
+      internalID: 1221879815116966754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_3
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 373
+        width: 183
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3308fa35724969120800000000000000
+      internalID: 2420284746386866227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_4
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 92
+        width: 32
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ae417f2b5a4c020800000000000000
+      internalID: 2361194292717087374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_5
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 91
+        width: 118
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48436543dbf005fe0800000000000000
+      internalID: -1202443795206622076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_6
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 90
+        width: 95
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd92df789afab6d40800000000000000
+      internalID: 5578745706094340571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 247
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2739ff3c9bfcd80800000000000000
+      internalID: -8228153742724992324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 280
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b370a6f1d11f3e0800000000000000
+      internalID: -2021802736952591573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_9
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 277
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68df301413ed69250800000000000000
+      internalID: 5951188260742233478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 97
+        width: 203
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3817f7d8a6f0aa50800000000000000
+      internalID: 6530490664725452858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_11
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 185
+        width: 171
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ba60d61d113b3b0800000000000000
+      internalID: -5498031128914252977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_12
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 247
+        width: 65
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f77dab568a428140800000000000000
+      internalID: 4720417300361869297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 193
+        width: 101
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629f53cbd95d55580800000000000000
+      internalID: -8838923820200494810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 183
+        width: 117
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2801487da7bc0b0800000000000000
+      internalID: -5707333036709739787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_15
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 244
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed32c836d516690800000000000000
+      internalID: -7610699213145121112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 106
+        width: 101
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c788d9c00cfaedd60800000000000000
+      internalID: 7916958434344142972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 156
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d59ea9329575b50800000000000000
+      internalID: 6581827389882981669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_18
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 157
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e608d245ea3310100800000000000000
+      internalID: 72395892844232814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_19
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 116
+        width: 65
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c94d0c5b7a738cc0800000000000000
+      internalID: -3709986997779215931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_20
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 80
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a3f8aa141039b40800000000000000
+      internalID: 5445697755967076873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 81
+        width: 70
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31d101660615a50800000000000000
+      internalID: 6508088928000349093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 87
+        width: 106
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9e607db4e5508c0800000000000000
+      internalID: -4033714211417298479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feuillage et platforme feuille_23
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 354
+        width: 99
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f12afeb2ec75820800000000000000
+      internalID: 2907018772590239589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6c4e941111d0c474e848c85c554cc6a5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

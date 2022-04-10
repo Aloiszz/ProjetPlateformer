@@ -7,12 +7,13 @@ using DG.Tweening;
 public class PlatformAppearJump : MonoBehaviour
 {
     public bool isVisible;
+    public Animator AnimatorPlatform;
 
     private SpriteRenderer renderer;
     private Collider2D coll;
     
 
-    private void Start()
+    private void Awake()
     {
         renderer = GetComponent<SpriteRenderer>();
         coll = GetComponent<Collider2D>();
@@ -21,11 +22,13 @@ public class PlatformAppearJump : MonoBehaviour
         {
             //renderer.enabled = false;
             coll.enabled = false;
+            AnimatorPlatform.SetBool("isVisible", false);
         }
         else
         {
             //renderer.enabled = true;
             coll.enabled = true;
+            AnimatorPlatform.SetBool("isVisible", true);
         }
     }
     
@@ -36,14 +39,16 @@ public class PlatformAppearJump : MonoBehaviour
             if(isVisible)
             {
                 isVisible = false;
-                gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.1f);
+                AnimatorPlatform.SetBool("isVisible", false);
+                //gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.1f);
                 //renderer.enabled = false;
                 coll.enabled = false;
             }
             else
             {
                 isVisible = true;
-                gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
+                AnimatorPlatform.SetBool("isVisible", true);
+                //gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
                 //renderer.enabled = true;
                 coll.enabled = true;
             }
