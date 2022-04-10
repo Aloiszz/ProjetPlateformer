@@ -8,6 +8,8 @@ public class DestroyPlatform : MonoBehaviour
     public float timeToReapear = 3f;
 
     public GameObject platform;
+
+    public Animator AnimDestroy;
     
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -19,11 +21,13 @@ public class DestroyPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(timeToDestroy);
         platform.SetActive(false);
+        AnimDestroy.SetBool("isVisible", true);
         StartCoroutine(TimeToReapear());
     }
     IEnumerator TimeToReapear()
     {
         yield return new WaitForSeconds(timeToReapear);
         platform.SetActive(true);
+        AnimDestroy.SetBool("isVisible", false);
     }
 }

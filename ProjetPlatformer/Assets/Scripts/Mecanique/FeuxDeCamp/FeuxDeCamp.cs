@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class FeuxDeCamp : MonoBehaviour
 {
@@ -28,11 +29,18 @@ public class FeuxDeCamp : MonoBehaviour
     public static FeuxDeCamp instanceFeuxdeCamp;
     private Transform playerSpawn;
 
+    [Header("Animation Curve")]
+    public AnimationCurve CourbeDeFlamme;
+    public Light2D Flamme;
+    private float graph, increment;
+    private bool canRunGame;
+
 
     private void Awake()
     {
         if (instanceFeuxdeCamp == null) instanceFeuxdeCamp = this;
         playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
+        Flamme.intensity = 0;
     }
 
     private void Start()
@@ -42,6 +50,14 @@ public class FeuxDeCamp : MonoBehaviour
 
     void Update()
     {
+        if (canRunGame)
+        {
+            Flamme.intensity = 1;
+            increment += Time.deltaTime;
+            graph = CourbeDeFlamme.Evaluate(increment);
+            Flamme.intensity = graph;
+        }
+
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
             //LeFeuxDeCamp();
@@ -56,6 +72,7 @@ public class FeuxDeCamp : MonoBehaviour
         OnOff();
         if (onoff)
         {
+            canRunGame = true;
             FeuxDeCampsAnim.SetBool("isFire", true);
             if (CharacterMovement.instance.facingRight == false)
             {
