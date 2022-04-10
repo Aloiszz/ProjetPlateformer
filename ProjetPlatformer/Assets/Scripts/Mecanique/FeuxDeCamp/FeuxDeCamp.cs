@@ -11,6 +11,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public ParticleSystem ps;
     public Animator anim;
+    public Animator FeuxDeCampsAnim;
 
     [SerializeField] CameraZoom Camera;
 
@@ -55,6 +56,7 @@ public class FeuxDeCamp : MonoBehaviour
         OnOff();
         if (onoff)
         {
+            FeuxDeCampsAnim.SetBool("isFire", true);
             if (CharacterMovement.instance.facingRight == false)
             {
                 CharacterMovement.instance.Flip();
