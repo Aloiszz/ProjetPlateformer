@@ -19,6 +19,7 @@ public class GrabBoite : MonoBehaviour
     public RespawnBoite respawn;
     public bool isRespawn;
     public GameObject texteIndication;
+    public Animator anim;
 
     public static GrabBoite grabBoiteinstance;
     
@@ -29,9 +30,6 @@ public class GrabBoite : MonoBehaviour
     
     void Update()
     {
-
-        texteIndication.transform.position = new Vector3(camera.transform.position.x,camera.transform.position.y - 7.5f,camera.transform.position.z + 30);
-        
         if (isRespawn)
         {
             if (respawn.lache)
@@ -106,21 +104,21 @@ public class GrabBoite : MonoBehaviour
         {
             if (boiteGrab == true)
             {
-                //gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
-                texteIndication.SetActive(false);
+                anim.SetBool("FadeOutGrab", true);
+                anim.SetBool("FadeInGrab", false);
             }
             else
             {
-                texteIndication.SetActive(true);
-                //gameObject.GetComponent<SpriteRenderer> ().color = Color.green;
+                anim.SetBool("FadeOutGrab", false);
+                anim.SetBool("FadeInGrab", true);
             }
     
         }
 
         if (range.isAtRange == false)
         {
-            texteIndication.SetActive(false);
-            //gameObject.GetComponent<SpriteRenderer>().color = Color.gray;
+            anim.SetBool("FadeOutGrab", true);
+            anim.SetBool("FadeInGrab", false);
         }
     }
 }
