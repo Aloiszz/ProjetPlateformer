@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plafteform_Destroy.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plafteform_Destroy.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plafteform_Destroy_Stay.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plafteform_Destroy_Stay.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plateform_Reconstruct.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plateform_Reconstruct.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plateform_destroy.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/Plateform_destroy.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/platformer qui se casse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/platformer qui se casse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Platforme/PlatformAppearJump.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Platforme/PlatformAppearJump.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" afterDir="false" />
-    </list>
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindAreaProtect.cs" root0="FORCE_HIGHLIGHTING" />

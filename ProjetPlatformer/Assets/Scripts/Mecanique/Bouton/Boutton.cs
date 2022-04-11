@@ -19,9 +19,9 @@ public class Boutton : MonoBehaviour
     public bool porteAction;
     public bool isAtRange;
 
-    private Tween tweener;
-    public GameObject mainCamera;
-    public bool cameraShake;
+    //private Tween tweener;
+    //public GameObject mainCamera;
+    //public bool cameraShake;
 
     public Animator animBoite;
 
@@ -52,15 +52,7 @@ public class Boutton : MonoBehaviour
                 if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
                 {
                     BouttonOn = !BouttonOn;
-                    if (BouttonOn == true) // on ferme le boutton
-                    {
-                        
-                    }
-                
-                    if (BouttonOn == false) // ou on l'active
-                    {
-                        
-                    }
+                    
                 }
             }
         }
@@ -87,10 +79,10 @@ public class Boutton : MonoBehaviour
     void OuverturePorte()
     {
         porteAction = true;
-        if (cameraShake)
+        /*if (cameraShake)
         {
-            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
-        }
+            //tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }*/
         porteAssociée.transform.DOMove(porteAssociée.transform.position + directionPorte, duréeTranslation).OnComplete(
             () =>
             {
@@ -102,10 +94,10 @@ public class Boutton : MonoBehaviour
     void FermeturePorte()
     {
         porteAction = true;
-        if (cameraShake)
+        /*if (cameraShake)
         {
-            tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
-        }
+            //tweener = mainCamera.transform.DOShakePosition(duréeTranslation,0.2f,10,35,false,false); 
+        }*/
         porteAssociée.transform.DOMove(porteAssociée.transform.position - directionPorte, duréeTranslation).OnComplete(
             () =>
             {

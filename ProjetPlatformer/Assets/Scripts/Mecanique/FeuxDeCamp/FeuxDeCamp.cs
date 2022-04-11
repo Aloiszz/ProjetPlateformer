@@ -232,6 +232,7 @@ public class FeuxDeCamp : MonoBehaviour
         if (other.tag == "Player")
         {
             indicationRest.enabled = false;
+            isInRange = false;
         }
     }
 }
