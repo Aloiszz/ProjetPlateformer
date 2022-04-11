@@ -321,7 +321,7 @@ public class CharacterMovement : MonoBehaviour
             jumpBufferCounter = 0f;
         }
         
-        if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0) // Le double Saut
+        if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0 && !isCoyotejump) // Le double Saut
         {
             StartCoroutine(fadeInAndOut(true, 1));
             StartCoroutine(fadeInAndOut(false, 1));
