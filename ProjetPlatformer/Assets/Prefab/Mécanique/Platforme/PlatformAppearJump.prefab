@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isVisible: 1
-  AnimatorPlatform: {fileID: 0}
+  AnimatorPlatform: {fileID: 8825505174248064039}
 --- !u!95 &8825505174248064039
 Animator:
   serializedVersion: 3
@@ -109,7 +109,7 @@ Animator:
   m_GameObject: {fileID: 3826503295692131374}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4fd9259ae18ff4d44baf12b4c77161fa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

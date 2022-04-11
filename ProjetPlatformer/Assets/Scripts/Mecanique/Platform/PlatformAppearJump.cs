@@ -20,13 +20,13 @@ public class PlatformAppearJump : MonoBehaviour
         
         if (isVisible == false)
         {
-            //renderer.enabled = false;
+            renderer.enabled = false;
             coll.enabled = false;
             AnimatorPlatform.SetBool("isVisible", false);
         }
         else
         {
-            //renderer.enabled = true;
+            renderer.enabled = true;
             coll.enabled = true;
             AnimatorPlatform.SetBool("isVisible", true);
         }
@@ -38,18 +38,18 @@ public class PlatformAppearJump : MonoBehaviour
         {
             if(isVisible)
             {
-                isVisible = false;
                 AnimatorPlatform.SetBool("isVisible", false);
+                isVisible = false;
                 //gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.1f);
-                //renderer.enabled = false;
+                renderer.enabled = false;
                 coll.enabled = false;
             }
             else
             {
-                isVisible = true;
                 AnimatorPlatform.SetBool("isVisible", true);
+                isVisible = true;
                 //gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
-                //renderer.enabled = true;
+                renderer.enabled = true;
                 coll.enabled = true;
             }
         }
