@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.UI;
 
 public class FeuxDeCamp : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class FeuxDeCamp : MonoBehaviour
     private float graph, increment;
     private bool canRunGame;
 
+    public Image indicationRest;
+
 
     private void Awake()
     {
@@ -45,6 +48,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     private void Start()
     {
+        indicationRest.enabled = false;
         coll = GetComponent<BoxCollider2D>();
     }
 
@@ -68,6 +72,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        indicationRest.enabled = false;
         Debug.Log("enter camp");
         OnOff();
         if (onoff)
@@ -212,13 +217,21 @@ public class FeuxDeCamp : MonoBehaviour
         if (other.tag == "Player")
         {
             isInRange = true;
+            if (!onoff)
+            {
+                indicationRest.enabled = true; 
+            }
+        }
+        else
+        {
+            indicationRest.enabled = false;
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            isInRange = false;
+            indicationRest.enabled = false;
         }
     }
 }

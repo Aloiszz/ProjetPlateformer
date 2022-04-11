@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class Boutton : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class Boutton : MonoBehaviour
     public bool cameraShake;
 
     public Animator animBoite;
+
+    public Image indicationActivate;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -43,6 +46,7 @@ public class Boutton : MonoBehaviour
     {
         if (isAtRange == true) // si le joueur est assez proche
         {
+            indicationActivate.enabled = true;
             if (porteAction == false)
             {
                 if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
@@ -50,15 +54,19 @@ public class Boutton : MonoBehaviour
                     BouttonOn = !BouttonOn;
                     if (BouttonOn == true) // on ferme le boutton
                     {
-                        //gameObject.GetComponent<SpriteRenderer>().color = Color.green;
+                        
                     }
                 
                     if (BouttonOn == false) // ou on l'active
                     {
-                        //gameObject.GetComponent<SpriteRenderer>().color = Color.red; // on change la couleur du sprite
+                        
                     }
                 }
             }
+        }
+        else
+        {
+            indicationActivate.enabled = false;
         }
         if (BouttonOn && porteFermée)
         {
