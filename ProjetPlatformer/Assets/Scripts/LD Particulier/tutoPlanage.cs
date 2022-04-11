@@ -9,6 +9,8 @@ public class tutoPlanage : MonoBehaviour
 {
     public Animator animTuto;
     public Animator animTuto2;
+    public Animator animTuto3;
+    public Animator animTuto4;
     public bool fadeIn;
 
 
@@ -22,6 +24,12 @@ public class tutoPlanage : MonoBehaviour
             
             animTuto2.SetBool("FadeIn2", true);
             animTuto2.SetBool("FadeOut2", false);
+            
+            animTuto3.SetBool("OutInteraction", true);
+            animTuto3.SetBool("InInteraction", false);
+            
+            animTuto4.SetBool("FadeInPoser", true);
+            animTuto4.SetBool("FadeOutPoser", false);
         }
         else
         {
@@ -30,6 +38,12 @@ public class tutoPlanage : MonoBehaviour
             
             animTuto2.SetBool("FadeOut2", true);
             animTuto2.SetBool("FadeIn2", false);
+            
+            animTuto3.SetBool("OutInteraction", false);
+            animTuto3.SetBool("InInteraction", true);
+            
+            animTuto4.SetBool("FadeInPoser", false);
+            animTuto4.SetBool("FadeOutPoser", true);
         }
     }
 }
