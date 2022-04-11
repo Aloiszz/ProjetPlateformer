@@ -20,6 +20,7 @@ public class GrabBoite : MonoBehaviour
     public bool isRespawn;
     public GameObject texteIndication;
     public Animator anim;
+    public Animator anim2;
 
     public static GrabBoite grabBoiteinstance;
     
@@ -106,11 +107,17 @@ public class GrabBoite : MonoBehaviour
             {
                 anim.SetBool("FadeOutGrab", true);
                 anim.SetBool("FadeInGrab", false);
+                
+                anim2.SetBool("FadeOutGrab2", true);
+                anim2.SetBool("FadeInGrab2", false);
             }
             else
             {
                 anim.SetBool("FadeOutGrab", false);
                 anim.SetBool("FadeInGrab", true);
+                
+                anim2.SetBool("FadeOutGrab2", false);
+                anim2.SetBool("FadeInGrab2", true);
             }
     
         }
@@ -119,6 +126,9 @@ public class GrabBoite : MonoBehaviour
         {
             anim.SetBool("FadeOutGrab", true);
             anim.SetBool("FadeInGrab", false);
+            
+            anim2.SetBool("FadeOutGrab2", true);
+            anim2.SetBool("FadeInGrab2", false);
         }
     }
 }
