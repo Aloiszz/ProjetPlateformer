@@ -65,6 +65,7 @@ public class CharacterMovement : MonoBehaviour
     public Animator animator;
     public float stretch;
     public bool stopStretch;
+    public bool isWalking;
     
     [Header("SFX")]
     public GameObject LineRenderPlannage_1;
@@ -129,23 +130,28 @@ public class CharacterMovement : MonoBehaviour
         if (Mathf.Abs(rb.velocity.x) > 0.1f)
         {
             animator.SetBool("IsWalking",true);
+            isWalking = true;
         }
         else
         {
             if (Mathf.Abs(rb.velocity.x) < -0.1f)
             {
                 animator.SetBool("IsWalking",true);
+                isWalking = true;
             }
             animator.SetBool("IsWalking",false);
+            isWalking = true;
         }
         
         if (Mathf.Abs(rb.velocity.y) < 0.1f)
         {
             animator.SetBool("IsFalling",false);
+            isWalking = false;
         }
         else
         {
             animator.SetBool("IsFalling",true);
+            isWalking = true;
         }
         
         
