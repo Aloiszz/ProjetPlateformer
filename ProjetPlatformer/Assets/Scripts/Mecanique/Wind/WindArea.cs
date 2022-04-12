@@ -19,6 +19,7 @@ public class WindArea : MonoBehaviour
     private Rigidbody2D rbBoite;
 
     public GameObject particulesVent;
+    public GameObject particulesVent2;
     public Animator anim;
     public bool Tempête;
     
@@ -47,6 +48,7 @@ public class WindArea : MonoBehaviour
                 rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
             }
             StartCoroutine(WaitForWind()); 
+            StartCoroutine(WaitForLittleWind()); 
         }
         
         if (other.tag == "Respawn")
@@ -69,6 +71,7 @@ public class WindArea : MonoBehaviour
         if (Tempête)
         {
             anim.SetBool("IsTempete", false);
+            anim.SetBool("WalkTempete",false);
         }
         //rb.AddForce(new Vector2(WindForce, 0));
     }
@@ -80,6 +83,7 @@ public class WindArea : MonoBehaviour
             if (Tempête)
             {
                 anim.SetBool("IsTempete", false);
+                anim.SetBool("WalkTempete",false);
                 particulesVent.SetActive(false);
             }
             yield return new WaitForSeconds(timeWaitForWind);
@@ -87,8 +91,8 @@ public class WindArea : MonoBehaviour
             
             if (Tempête)
             {
+                particulesVent2.SetActive(false);
                 particulesVent.SetActive(true);
-                
             }
             
             yield return new WaitForSeconds(timeWaitForWind);
@@ -99,9 +103,24 @@ public class WindArea : MonoBehaviour
         {
             if (Tempête)
             {
-                anim.SetBool("IsTempete", true); 
-                
+                anim.SetBool("IsTempete", true);
+                if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1)
+                {
+                    Debug.Log("sa mère");
+                    anim.SetBool("WalkTempete",true);
+                }
+                else
+                {
+                    anim.SetBool("WalkTempete",false);
+                }
             }
         }
+    }
+
+
+    IEnumerator WaitForLittleWind()
+    {
+        particulesVent2.SetActive(true);
+        yield return new WaitForSeconds(timeWaitForWind - 2);
     }
 }
