@@ -43,14 +43,8 @@ public class CameraZoom : MonoBehaviour
     void Update()
     {
         //Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
-        if (rb.velocity.y > 0)
-        {
-            Camera.main.DOOrthoSize(targetOrtho + rb.velocity.y/10, smoothSpeed*2);
-        }
-        else
-        {
-            Camera.main.DOOrthoSize(targetOrtho, smoothSpeed);
-        }
+        Camera.main.DOOrthoSize(targetOrtho, smoothSpeed);
+       
         /*if (CharacterMovement.instance.rb.velocity.x <= 5 && CharacterMovement.instance.rb.velocity.x >= -5 )
         {
             if (isMoving == false)

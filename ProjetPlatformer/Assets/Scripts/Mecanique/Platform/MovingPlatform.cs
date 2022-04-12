@@ -16,15 +16,30 @@ public class MovingPlatform : MonoBehaviour
     
     private float endValueX;
     private float startValueX;
+    public FloatingAnimation floatingScript;
+    public bool floating;
+    public bool endMove;
 
     public float timeToArrive;
 
     private void Awake()
     {
+        floatingScript.enabled = false;
         if (isMovingAlone == true)
         {
             endValueX = EndValueX.transform.position.y;
             gameObject.transform.DOMoveY(endValueX, timeToArrive);
+        }
+    }
+
+    private void Update()
+    {
+        if (floating)
+        {
+            if (endMove)
+            {
+                floatingScript.enabled = true;
+            }
         }
     }
 
@@ -34,7 +49,7 @@ public class MovingPlatform : MonoBehaviour
         {
             endValueX = EndValueX.transform.position.y;
             //gameObject.transform.DOMove(position, timeToArrive);
-            gameObject.transform.DOMoveY(endValueX, timeToArrive);
+            gameObject.transform.DOMoveY(endValueX, timeToArrive).OnComplete(() => endMove = true);
         }
     }
 
