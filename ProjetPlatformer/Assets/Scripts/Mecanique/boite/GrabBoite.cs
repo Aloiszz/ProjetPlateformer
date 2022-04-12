@@ -66,32 +66,23 @@ public class GrabBoite : MonoBehaviour
         // Si le perso peut prendre la boîte
         if (range.isAtRange == true)
         {
-            if (Input.GetButtonDown("GrabGamepad")) 
-            {
-                if(boiteGrab == true)
-                {
-                    boiteGrab = false;
+            LancerDeBoite();
+        }
 
-                    if (Input.GetKey(KeyCode.DownArrow))
-                    {
-                        if (cm.facingRight == true)
-                        {
-                            rb.velocity = (new Vector2(forcePose,2.5f));
-                        }    
-                        else
-                        {
-                            rb.velocity = (new Vector2(-forcePose,2.5f));
-                        }
-                    }
-                }
-                else
-                {
-                    boiteGrab = true;
-                }
-            }
-            
-            
-            if (Input.GetAxisRaw ("VerticalAxis") == 1 && boiteGrab)
+        Vector2 PointPosition(float t)
+        {
+            Vector2 currentPointPos = (Vector2)transform.position + (Direction.normalized * forceJet * t) + 
+                                      0.5f * Physics2D.gravity * (t*t);
+
+            return currentPointPos;
+        }
+    }
+    
+    void LancerDeBoite()
+    {
+        if (Input.GetButtonDown("GrabGamepad")) 
+        {
+            if(boiteGrab == true)
             {
                 boiteGrab = false;
                 if (cm.facingRight == true)
@@ -102,53 +93,83 @@ public class GrabBoite : MonoBehaviour
                 {
                     rb.velocity = (new Vector2(-forceJet + rbPlayer.velocity.x/2,0));
                 }
+
+                /*if (Input.GetKey(KeyCode.DownArrow))
+                {
+                    if (cm.facingRight == true)
+                    {
+                        rb.velocity = (new Vector2(forcePose,2.5f));
+                    }    
+                    else
+                    {
+                        rb.velocity = (new Vector2(-forcePose,2.5f));
+                    }
+                }*/
             }
+            else
+            {
+                boiteGrab = true;
+            }
+        }
+            
+            
+        /*if (Input.GetAxisRaw ("VerticalAxis") == 1 && boiteGrab)
+        {
+            boiteGrab = false;
+            if (cm.facingRight == true)
+            {
+                rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
+            }    
+            else
+            {
+                rb.velocity = (new Vector2(-forceJet + rbPlayer.velocity.x/2,0));
+            }
+        }*/
         
 
+        if (boiteGrab == true)
+        {
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
+                player.transform.position.z);
+        }
+        
+
+        if (range.isAtRange == true)
+        {
             if (boiteGrab == true)
             {
-                transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
-                    player.transform.position.z);
+                AnimInteractionBoite(true);
             }
-
-            if (range.isAtRange == true)
+            else
             {
-                if (boiteGrab == true)
-                {
-                    anim.SetBool("FadeOutGrab", true);
-                    anim.SetBool("FadeInGrab", false);
-                    
-                    anim2.SetBool("FadeOutGrab2", true);
-                    anim2.SetBool("FadeInGrab2", false);
-                }
-                else
-                {
-                    anim.SetBool("FadeOutGrab", false);
-                    anim.SetBool("FadeInGrab", true);
-                    
-                    anim2.SetBool("FadeOutGrab2", false);
-                    anim2.SetBool("FadeInGrab2", true);
-                }
-        
+                AnimInteractionBoite(false);
             }
-
-            if (range.isAtRange == false)
-            {
-                anim.SetBool("FadeOutGrab", true);
-                anim.SetBool("FadeInGrab", false);
-                
-                anim2.SetBool("FadeOutGrab2", true);
-                anim2.SetBool("FadeInGrab2", false);
-            }
+    
         }
-
-        Vector2 PointPosition(float t)
+        else
         {
-            Vector2 currentPointPos = (Vector2)transform.position + (Direction.normalized * forceJet * t) + 
-                                      0.5f * Physics2D.gravity * (t*t);
-
-            return currentPointPos;
+            AnimInteractionBoite(true);
         }
-}
+    }
+
+    void AnimInteractionBoite(bool verif)
+    {
+        if (verif)
+        {
+            anim.SetBool("FadeOutGrab", true);
+            anim.SetBool("FadeInGrab", false);
+                
+            anim2.SetBool("FadeOutGrab2", true);
+            anim2.SetBool("FadeInGrab2", false);
+        }
+        else
+        {
+            anim.SetBool("FadeOutGrab", false);
+            anim.SetBool("FadeInGrab", true);
+                
+            anim2.SetBool("FadeOutGrab2", false);
+            anim2.SetBool("FadeInGrab2", true);
+        }
+    }
     
 }
