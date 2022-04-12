@@ -114,6 +114,8 @@ public class CharacterMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
         }
+        
+        
     }
     
     void Update()

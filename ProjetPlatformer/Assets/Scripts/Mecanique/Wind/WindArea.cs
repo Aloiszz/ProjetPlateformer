@@ -14,7 +14,7 @@ public class WindArea : MonoBehaviour
     public float timeWaitForWind = 3f;
     
     public CharacterMovement Character;
-    
+
     private Rigidbody2D rb;
     private Rigidbody2D rbBoite;
 
