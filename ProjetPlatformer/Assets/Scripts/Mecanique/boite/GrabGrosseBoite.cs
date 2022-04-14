@@ -39,7 +39,6 @@ public class GrabGrosseBoite : MonoBehaviour
         }
         else
         {
-            Debug.Log("TA graoose daronne");
             //anim.SetBool("IsGrosseBoite", false);
         }
 

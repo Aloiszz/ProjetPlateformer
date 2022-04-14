@@ -27,7 +27,8 @@ public class CameraZoom : MonoBehaviour
     
 
     public static CameraZoom instance;
-    public Rigidbody2D rb;
+    public MenuManager menu;
+    public bool StopCamera;
 
     private void Awake()
     {
@@ -38,6 +39,7 @@ public class CameraZoom : MonoBehaviour
     void Start()
     {
         targetOrtho = Camera.main.orthographicSize;
+        transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,20,0);
     }
 
     void Update()
@@ -68,12 +70,43 @@ public class CameraZoom : MonoBehaviour
         }*/
     }
     
-    private void FixedUpdate()
+    //------- Déplacement camera au lancement -------------
+    
+  /*  private void FixedUpdate()
     {
-        Follow();
+        if(menu.isPlaying)
+        {
+            StartCoroutine(StartCamera());
+
+            if (StopCamera)
+            {
+                Follow();
+                StopCoroutine(StartCamera());
+            }
+        }
+
     }
 
-    public void Follow()
+    IEnumerator StartCamera()
+    {
+        if (menu.isPlaying)
+        {
+            Debug.Log("oui");
+            Vector3 targetPosition = targetPlayer.position + EmplacementCamera - new Vector3(0,-10,0);
+            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime);
+            transform.position = smoothedposition;
+            StopCamera = true;
+            Follow();
+            yield return this;
+        }
+    }*/
+
+  private void FixedUpdate()
+  {
+      Follow();
+  }
+
+  public void Follow()
     {
         if (isMoving == false) // permet que la camera suive le joueur
         {
