@@ -9,11 +9,13 @@ public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
     public bool onoff = false;
+    //public bool isInFdC;
     private BoxCollider2D coll;
 
     public ParticleSystem ps;
     public Animator anim;
     public Animator FeuxDeCampsAnim;
+    public Animator parchAnim;
 
     [SerializeField] CameraZoom Camera;
 
@@ -72,6 +74,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        
         indicationRest.enabled = false;
         Debug.Log("enter camp");
         OnOff();
@@ -197,16 +200,21 @@ public class FeuxDeCamp : MonoBehaviour
     {
         if (verif) // arriver dans le feux de camp
         {
+            
             anim.SetTrigger("EntreeFdC");
             anim.SetBool("IsFdC", true);
             anim.SetBool("isGrounded", true);
             anim.ResetTrigger("SortieFdC");
+            parchAnim.SetBool("FadeInParch",true);
+            parchAnim.SetBool("FadeOutParch",false);
         }
         else // départ du feux de camp
         {
             anim.SetBool("IsFdC", false);
             anim.SetTrigger("SortieFdC");
             anim.ResetTrigger("EntreeFdC");
+            parchAnim.SetBool("FadeInParch",false);
+            parchAnim.SetBool("FadeOutParch",true);
         }
         
     }

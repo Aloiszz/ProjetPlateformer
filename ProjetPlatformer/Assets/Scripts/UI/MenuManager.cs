@@ -5,26 +5,36 @@ using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using XInputDotNetPure;
 
 public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 {
-    public GameObject parcheminManager;
-    public GameObject mainMenu;
+    
     public bool MenuParcheminOuvert;
     public bool MenuPrincipalOuvert;
+
+    
+    public FeuxDeCamp Fdc;
     [SerializeField] private CanvasGroup cv;
     private Tween fadeTween;
-    public bool isPlaying;
+    public Animator parchAnim;
+
+    
     public GameObject firstSelctedOption;
     public GameObject firstSelctedMain;
     public GameObject firstSelectedPause;
-
+    public GameObject firstSelectedParchemmin;
+    
+    public GameObject parcheminManager;
+    public GameObject mainMenu;
     public GameObject menuPrincipal;
     public GameObject menuOption;
     public GameObject menuPause;
+    public GameObject menuParchemin;
     
     
     public static MenuManager instance;
+    
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -34,6 +44,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         mainMenu.SetActive(true);
         MenuPrincipalOuvert = true;
+        menuParchemin.SetActive(false);
         parcheminManager.SetActive(false);
         MenuParcheminOuvert = false;
         FadeIn(2f);
@@ -42,21 +53,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
   
     void Update()
     {
-        if (MenuPrincipalOuvert == false)
-        {
-            if (Input.GetKeyUp(KeyCode.E))
-            {
-                MenuParcheminOuvert = !MenuParcheminOuvert;
-                parcheminManager.SetActive(MenuParcheminOuvert);
-            }
-            else if (Input.GetKeyUp(KeyCode.E))
-            {
-                MenuParcheminOuvert = !MenuParcheminOuvert;
-                parcheminManager.SetActive(MenuParcheminOuvert);
-            } 
-        }
-  
-        
         if (MenuPrincipalOuvert == false)
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7))
@@ -99,14 +95,66 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 CharacterMovement.instance.speed = 11; */
             }
         }
+
+        //if (Fdc.onoff)
+        //{
+            if (Input.GetAxis("BouttonMenuParchemin") > 0.1f)
+            {
+                
+                OpenMenuParchemin();
+            }
+        //}
+
+        if (MenuParcheminOuvert)
+        {
+            if (Input.GetKeyDown(KeyCode.JoystickButton1))
+            {
+                CloseMenuParchemin();
+            }
+        }
+        
+    }
+
+    public void OpenMenuParchemin()
+    {
+        parchAnim.SetBool("FadeInParch",false);
+        parchAnim.SetBool("FadeOutParch",true);
+        
+        
+        MenuParcheminOuvert = true;
+        menuParchemin.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedParchemmin);
+                
+        CharacterMovement.instance.canMove = false;
+        CharacterMovement.instance.canJump = false;
+        CharacterMovement.instance.speed = 0;
     }
 
 
+    public void CloseMenuParchemin()
+    {
+        parchAnim.SetBool("FadeInParch",true);
+        parchAnim.SetBool("FadeOutParch",false);
+        
+        MenuParcheminOuvert = false;
+        menuParchemin.SetActive(false);
+        
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
+        CharacterMovement.instance.speed = 11;
+    }
+    
+    
+    
     public void Unpause()
     {
-        StartCoroutine(WaitMove());
         menuPause.SetActive(false);
         Time.timeScale = 1;
+        if (!Fdc.onoff)
+        {
+            StartCoroutine(WaitMove());
+        }
     }
     public void Play()
     {

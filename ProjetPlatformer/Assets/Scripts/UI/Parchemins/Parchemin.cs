@@ -6,7 +6,7 @@ using DG.Tweening;
 
 public class Parchemin : MonoBehaviour
 {
-    public ParcheminManager pm;
+    public ParcheminManager2 pm;
     public ParticleSystem particulesParchemin;
     public ParticleSystem particulesParchemin2;
 
@@ -16,20 +16,20 @@ public class Parchemin : MonoBehaviour
     {
         coll = GetComponent<BoxCollider2D>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
-    {   
-       // pm.getParchemin1 = true;
-       particulesParchemin2.Play();
-        particulesParchemin.Play();
+    {
+        if (other.tag == "Player")
+        {
+            //particulesParchemin2.Play();
+            particulesParchemin.Play();
         
-        gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.5f);
-        coll.enabled = false;
+            gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+            coll.enabled = false;
+
+            pm.AddParchemin();
+        }
+       
     }
 }
