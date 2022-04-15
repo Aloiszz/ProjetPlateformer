@@ -227,6 +227,7 @@ MonoBehaviour:
   forceJet: 10
   forcePose: 0
   rb: {fileID: 2518200364507101243}
+  coll: {fileID: 0}
   rbPlayer: {fileID: 0}
   cm: {fileID: 0}
   camera: {fileID: 0}
@@ -234,6 +235,15 @@ MonoBehaviour:
   respawn: {fileID: 0}
   isRespawn: 0
   texteIndication: {fileID: 0}
+  anim: {fileID: 0}
+  anim2: {fileID: 0}
+  direction: {x: 0, y: 0}
+  isNull: 0
+  joystickX: 0
+  joystickY: 0
+  PointPrefab: {fileID: 5692387172364575893, guid: f6a08f3600dbfc34e92e4d2319f6b743, type: 3}
+  Points: []
+  numberOfpoints: 10
 --- !u!61 &2518200364507101240
 BoxCollider2D:
   m_ObjectHideFlags: 0

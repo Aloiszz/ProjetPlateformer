@@ -18,6 +18,7 @@ public class GrabBoite : MonoBehaviour
     
     [Header("Renseignement")]
     public Rigidbody2D rb;
+    public BoxCollider2D coll;
     public Rigidbody2D rbPlayer;
     public CharacterMovement cm;
     public GameObject camera;
@@ -53,13 +54,17 @@ public class GrabBoite : MonoBehaviour
         if (grabBoiteinstance == null) grabBoiteinstance = this;
         
         Points = new GameObject[numberOfpoints];
-
         for (int i = 0; i < numberOfpoints; i++)
         {
             Points[i] = Instantiate(PointPrefab, transform.position, quaternion.identity);
         }
     }
-    
+
+    private void Start()
+    {
+        coll = GetComponent<BoxCollider2D>();
+    }
+
     void Update()
     {
         if (isRespawn)
@@ -74,10 +79,15 @@ public class GrabBoite : MonoBehaviour
         {
             LancerDeBoite();
         }
-
+        
         if (boiteGrab)
         {
+            //coll.enabled = false;
             JoystickManager();
+        }
+        else
+        {
+            //coll.enabled = true;
         }
     }
     
@@ -85,11 +95,9 @@ public class GrabBoite : MonoBehaviour
     {
         if (Input.GetButtonDown("GrabGamepad")) 
         {
-            
             if(boiteGrab == true)
             {
                 boiteGrab = false;
-                Shoot();
                 /*if (cm.facingRight == true)
                 {
                     rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
@@ -116,6 +124,11 @@ public class GrabBoite : MonoBehaviour
                 boiteGrab = true;
             }
         }
+        if (Input.GetButtonDown("ThrowBox") && boiteGrab)
+        {
+            boiteGrab = false;
+            Shoot();
+        }
 
         /*if (Input.GetAxisRaw ("VerticalAxis") == 1 && boiteGrab)
         {
@@ -133,11 +146,10 @@ public class GrabBoite : MonoBehaviour
 
         if (boiteGrab == true)
         {
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.2f,
                 player.transform.position.z);
         } // Placement de la boite sur la tete
         
-
         if (range.isAtRange == true)
         {
             if (boiteGrab == true)
@@ -166,14 +178,12 @@ public class GrabBoite : MonoBehaviour
         //float MousePos = Mathf.Atan2(joystickY, joystickX) * Mathf.Rad2Deg;
 
         //direction = transform.TransformDirection(Mathf.Abs(MousePos), 0, 0) ; //- bowPos
-        direction = MousePos;
+        direction = MousePos * rb.gravityScale;
         
         transform.right = direction;
 
         for (int i = 0; i < Points.Length; i++)
         {
-            //if (MousePos == new Vector2(0, 0))
-            //if (MousePos >-0.01f && MousePos < 0.01f)
             if (MousePos == new Vector2(0, 0))
             {
                 Points[i].transform.DOMove(PointPositionNull(i * 0.1f), 0.2f);
@@ -184,7 +194,6 @@ public class GrabBoite : MonoBehaviour
                 Points[i].transform.DOMove(PointPosition(i * 0.1f), 0.2f);
                 isNull = false;
             }
-            //Points[i].transform.position = PointPosition(i * 0.1f);
         }
     }
     
@@ -212,7 +221,7 @@ public class GrabBoite : MonoBehaviour
         else
         {
             //rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
-            rb.velocity = transform.right * (forceJet + rbPlayer.velocity.x/2);
+            rb.velocity = transform.right * (forceJet);
         }
     }
     
