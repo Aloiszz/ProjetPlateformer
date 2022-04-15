@@ -32,7 +32,15 @@ public class ShootBow : MonoBehaviour
     void Shoot()
     {
         GameObject ArrowIns =  Instantiate(Arrow, transform.position, transform.rotation);
+
+        if (TestBow.ShootBowInstance.isNull == true)
+        {
+            ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * 0;
+        }
+        else
+        {
+            ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
+        }
         
-        ArrowIns.GetComponent<Rigidbody2D>().velocity = transform.right * LaunchForce;
     }
 }
