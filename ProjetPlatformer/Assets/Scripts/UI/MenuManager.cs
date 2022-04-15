@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Timers;
@@ -13,7 +14,21 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool MenuPrincipalOuvert;
     [SerializeField] private CanvasGroup cv;
     private Tween fadeTween;
+    public bool isPlaying;
+    public GameObject firstSelctedOption;
+    public GameObject firstSelctedMain;
+    public GameObject firstSelectedPause;
 
+    public GameObject menuPrincipal;
+    public GameObject menuOption;
+    public GameObject menuPause;
+    
+    
+    public static MenuManager instance;
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+    }
     
     void Start()
     {
@@ -41,19 +56,37 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             } 
         }
   
+        
+        if (MenuPrincipalOuvert == false)
+        {
+            if (Input.GetKeyUp(KeyCode.JoystickButton7))
+            {
+                Time.timeScale = 0;
+                menuPause.SetActive(true);
+                EventSystem.current.SetSelectedGameObject(null);
+                EventSystem.current.SetSelectedGameObject(firstSelectedPause);
+            }
+            else if (Input.GetKeyUp(KeyCode.JoystickButton7))
+            {
+                Unpause();
+            } 
+        }
+        
+        
+        
         if (MenuPrincipalOuvert)
         {
             CharacterMovement.instance.canMove = false;
             CharacterMovement.instance.canJump = false;
             CharacterMovement.instance.speed = 0;
+            
         }
         else
         {
             CharacterMovement.instance.canMove = true;
             CharacterMovement.instance.canJump = true;
-            CharacterMovement.instance.speed = 11; 
-        }
-        
+            CharacterMovement.instance.speed = 11;
+            
             if (MenuParcheminOuvert)
             {
                 CharacterMovement.instance.canMove = false;
@@ -66,14 +99,53 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 CharacterMovement.instance.canJump = true;
                 CharacterMovement.instance.speed = 11; 
             }
+        }
+        
+            
     }
 
+
+    public void Unpause()
+    {
+        menuPause.SetActive(false);
+        Time.timeScale = 1;
+    }
     public void Play()
     {
-        MenuPrincipalOuvert = false;
+        EventSystem.current.SetSelectedGameObject(null);
+        //StartCoroutine(PlayOnce());
+        mainMenu.GetComponent<CanvasGroup>().interactable = false;
         FadeOut(2f);
+        MenuPrincipalOuvert = false;
     }
 
+    /*IEnumerator PlayOnce()
+    {
+        isPlaying = true;
+        yield return new WaitForSeconds(0.5f);
+        isPlaying = false;
+    }*/
+
+
+    public void OpenOption()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedOption);
+       /* menuOption.SetActive(true);
+        //menuPrincipal.SetActive(false);*/
+    }
+
+    public void OpenMainMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
+        menuOption.SetActive(false);
+        menuPrincipal.SetActive(true);
+    }
+    
+    
+
+    
     public void Fade(float endValue, float duration, TweenCallback onEnd)
     {
         if (fadeTween != null)

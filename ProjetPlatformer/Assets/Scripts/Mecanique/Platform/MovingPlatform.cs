@@ -16,15 +16,18 @@ public class MovingPlatform : MonoBehaviour
     
     private float endValueX;
     private float startValueX;
-    public FloatingAnimation floatingScript;
     public bool floating;
-    public bool endMove;
+    private bool endMove;
 
     public float timeToArrive;
+    
+    private float y0;
+    private Vector2 temp;
+    public float amplitudeFloating;
+    public float vitesseFloating;
 
     private void Awake()
     {
-        floatingScript.enabled = false;
         if (isMovingAlone == true)
         {
             endValueX = EndValueX.transform.position.y;
@@ -38,7 +41,11 @@ public class MovingPlatform : MonoBehaviour
         {
             if (endMove)
             {
-                floatingScript.enabled = true;
+               // floatingScript.enabled = true;
+                temp = transform.position;
+                y0 = transform.position.y;
+                temp.y = y0 + amplitudeFloating *Mathf.Sin(vitesseFloating*Time.time);
+                transform.position = temp;
             }
         }
     }
