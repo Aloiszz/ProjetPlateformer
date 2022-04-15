@@ -65,6 +65,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 menuPause.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
                 EventSystem.current.SetSelectedGameObject(firstSelectedPause);
+                CharacterMovement.instance.canMove = false;
+                CharacterMovement.instance.canJump = false;
+                CharacterMovement.instance.speed = 0;
             }
             else if (Input.GetKeyUp(KeyCode.JoystickButton7))
             {
@@ -83,10 +86,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
         else
         {
-            CharacterMovement.instance.canMove = true;
-            CharacterMovement.instance.canJump = true;
-            CharacterMovement.instance.speed = 11;
-            
             if (MenuParcheminOuvert)
             {
                 CharacterMovement.instance.canMove = false;
@@ -95,44 +94,42 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             }
             else
             {
-                CharacterMovement.instance.canMove = true;
+              /*  CharacterMovement.instance.canMove = true;
                 CharacterMovement.instance.canJump = true;
-                CharacterMovement.instance.speed = 11; 
+                CharacterMovement.instance.speed = 11; */
             }
         }
-        
-            
     }
 
 
     public void Unpause()
     {
+        StartCoroutine(WaitMove());
         menuPause.SetActive(false);
         Time.timeScale = 1;
     }
     public void Play()
     {
         EventSystem.current.SetSelectedGameObject(null);
-        //StartCoroutine(PlayOnce());
+        StartCoroutine(WaitMove());
         mainMenu.GetComponent<CanvasGroup>().interactable = false;
         FadeOut(2f);
         MenuPrincipalOuvert = false;
     }
 
-    /*IEnumerator PlayOnce()
+    IEnumerator WaitMove()
     {
-        isPlaying = true;
-        yield return new WaitForSeconds(0.5f);
-        isPlaying = false;
-    }*/
+        yield return new WaitForSeconds(0.1f);
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
+        CharacterMovement.instance.speed = 11;
+    }
 
 
     public void OpenOption()
     {
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelctedOption);
-       /* menuOption.SetActive(true);
-        //menuPrincipal.SetActive(false);*/
     }
 
     public void OpenMainMenu()

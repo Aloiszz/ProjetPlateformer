@@ -72,7 +72,7 @@ public class CameraZoom : MonoBehaviour
     
     //------- Déplacement camera au lancement -------------
     
-  /*  private void FixedUpdate()
+    /*private void FixedUpdate()
     {
         if(menu.isPlaying)
         {
