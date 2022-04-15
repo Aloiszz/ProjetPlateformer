@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/camera/CameraZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/camera/CameraZoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/parchemin.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/parchemin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeIn2Tuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeIn2Tuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeInTuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeInTuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeOut2Tuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeOut2Tuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeOutTuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/FadeOutTuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Idle2Tuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Idle2Tuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/IdleTuto.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/IdleTuto.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/IndicationGrab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/IndicationGrab.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/Indication Grab 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/Indication Grab 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/IndicationActivate 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/IndicationActivate 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/IndicationRest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/IndicationRest.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/Materials/Untitled-4.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/Materials/Untitled-4.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoDoubleSaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoDoubleSaut.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoInteragir 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoInteragir 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoPlannage 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoPlannage 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoPoserBoite2 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Nouveau/TutoPoserBoite2 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/TexteTutoDoubleSaut.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/TexteTutoDoubleSaut.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/TriggerTutoDoubleSaut (2).controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/TriggerTutoDoubleSaut (2).controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Tuto Double Saut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Tuto Double Saut.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Untitled-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Tuto/Untitled-1.png.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,22 +19,21 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/ShootBow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindAreaProtect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/TestBow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/ShootBow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -159,7 +110,7 @@
       <workItem from="1649097302485" duration="23015000" />
       <workItem from="1649324055370" duration="11622000" />
       <workItem from="1649616245802" duration="1232000" />
-      <workItem from="1649950442388" duration="13866000" />
+      <workItem from="1649950147820" duration="8342000" />
     </task>
     <servers />
   </component>

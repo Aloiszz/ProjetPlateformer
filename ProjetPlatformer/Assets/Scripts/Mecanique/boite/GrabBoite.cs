@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 
 public class GrabBoite : MonoBehaviour
@@ -15,36 +16,47 @@ public class GrabBoite : MonoBehaviour
     public float forceJet;
     public float forcePose;
     
+    [Header("Renseignement")]
     public Rigidbody2D rb;
     public Rigidbody2D rbPlayer;
-    
     public CharacterMovement cm;
     public GameObject camera;
-    
     public RangeBoite range;
     public RespawnBoite respawn;
     public bool isRespawn;
     
+    [Header("UI")]
     public GameObject texteIndication;
     
+    [Header("Animator")]
     public Animator anim;
     public Animator anim2;
+    
+    [Header("----------------------------------------------")]
+    public Vector2 direction;
+    public bool isNull = false;
+
+    [Header("Joystick position")]
+    public float joystickX;
+    public float joystickY;
+
+    [Header("Tracer de la courbe")]
+    public GameObject PointPrefab;
+    public GameObject[] Points;
+    public int numberOfpoints;
+    
 
     public static GrabBoite grabBoiteinstance;
 
-    public GameObject pointPrefab;
-    public GameObject[] points;
-    public int numberOfPoints;
-    private Vector2 Direction;
-    
     void Awake()
     {
         if (grabBoiteinstance == null) grabBoiteinstance = this;
-        points = new GameObject[numberOfPoints];
+        
+        Points = new GameObject[numberOfpoints];
 
-        for (int i = 0; i < numberOfPoints; i++)
+        for (int i = 0; i < numberOfpoints; i++)
         {
-            points[i] = Instantiate(pointPrefab, transform.position, quaternion.identity);
+            Points[i] = Instantiate(PointPrefab, transform.position, quaternion.identity);
         }
     }
     
@@ -57,24 +69,15 @@ public class GrabBoite : MonoBehaviour
                 boiteGrab = false;
             }
         }
-
-        for (int i = 0; i < points.Length; i++)
-        {
-            points[i].transform.position = PointPosition(i * 0.1f);
-        }
-        
         // Si le perso peut prendre la boîte
         if (range.isAtRange == true)
         {
             LancerDeBoite();
         }
 
-        Vector2 PointPosition(float t)
+        if (boiteGrab)
         {
-            Vector2 currentPointPos = (Vector2)transform.position + (Direction.normalized * forceJet * t) + 
-                                      0.5f * Physics2D.gravity * (t*t);
-
-            return currentPointPos;
+            JoystickManager();
         }
     }
     
@@ -82,17 +85,19 @@ public class GrabBoite : MonoBehaviour
     {
         if (Input.GetButtonDown("GrabGamepad")) 
         {
+            
             if(boiteGrab == true)
             {
                 boiteGrab = false;
-                if (cm.facingRight == true)
+                Shoot();
+                /*if (cm.facingRight == true)
                 {
                     rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
                 }    
                 else
                 {
                     rb.velocity = (new Vector2(-forceJet + rbPlayer.velocity.x/2,0));
-                }
+                }*/
 
                 /*if (Input.GetKey(KeyCode.DownArrow))
                 {
@@ -111,8 +116,7 @@ public class GrabBoite : MonoBehaviour
                 boiteGrab = true;
             }
         }
-            
-            
+
         /*if (Input.GetAxisRaw ("VerticalAxis") == 1 && boiteGrab)
         {
             boiteGrab = false;
@@ -131,7 +135,7 @@ public class GrabBoite : MonoBehaviour
         {
             transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.1f,
                 player.transform.position.z);
-        }
+        } // Placement de la boite sur la tete
         
 
         if (range.isAtRange == true)
@@ -145,13 +149,74 @@ public class GrabBoite : MonoBehaviour
                 AnimInteractionBoite(false);
             }
     
-        }
+        } // UI de la boite
         else
         {
             AnimInteractionBoite(true);
-        }
+        } // UI de la boite
     }
 
+    #region JoystickManager
+    void JoystickManager()
+    {
+        joystickX = Input.GetAxisRaw("HorizontalAxis");
+        joystickY = Input.GetAxisRaw("VerticalAxis");
+
+        Vector2 MousePos = new Vector2(joystickX, -(joystickY)); //Debug.Log(Camera.main.ViewportToScreenPoint(Input.mousePosition));
+        //float MousePos = Mathf.Atan2(joystickY, joystickX) * Mathf.Rad2Deg;
+
+        //direction = transform.TransformDirection(Mathf.Abs(MousePos), 0, 0) ; //- bowPos
+        direction = MousePos;
+        
+        transform.right = direction;
+
+        for (int i = 0; i < Points.Length; i++)
+        {
+            //if (MousePos == new Vector2(0, 0))
+            //if (MousePos >-0.01f && MousePos < 0.01f)
+            if (MousePos == new Vector2(0, 0))
+            {
+                Points[i].transform.DOMove(PointPositionNull(i * 0.1f), 0.2f);
+                isNull = true;
+            }
+            else
+            {
+                Points[i].transform.DOMove(PointPosition(i * 0.1f), 0.2f);
+                isNull = false;
+            }
+            //Points[i].transform.position = PointPosition(i * 0.1f);
+        }
+    }
+    
+    Vector2 PointPosition(float t)
+    {
+        Vector2 currentPointPos = (Vector2) transform.position + (direction.normalized * forceJet * t) + 0.5f * Physics2D.gravity * (t*t);
+
+        return currentPointPos;
+    }
+    
+    Vector2 PointPositionNull(float t)
+    {
+        Vector2 currentPointPos = (Vector2) transform.position + (direction.normalized * 0 * t) + 0.5f * Physics2D.gravity * (t*t);
+
+        return currentPointPos;
+    }
+    #endregion
+
+    void Shoot()
+    {
+        if (isNull)
+        {
+            rb.velocity = transform.right * (0 + rbPlayer.velocity.x/2);
+        }
+        else
+        {
+            //rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
+            rb.velocity = transform.right * (forceJet + rbPlayer.velocity.x/2);
+        }
+    }
+    
+    
     void AnimInteractionBoite(bool verif)
     {
         if (verif)
