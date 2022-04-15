@@ -33,13 +33,12 @@ public class DeathZone : MonoBehaviour
         {
             Camera.isMoving = false;
             StartCoroutine(ReplacePlayer(collision));
+            CharacterMovement.instance.canMove = false;
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0;
         }
     }
-
-    private void Update()
-    {
-        
-    }
+    
 
     public IEnumerator ReplacePlayer(Collider2D collision)
     {
