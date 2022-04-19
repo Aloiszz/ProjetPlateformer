@@ -38,16 +38,16 @@ public class PlatformAppearJump : MonoBehaviour
         {
             if(isVisible)
             {
-                AnimatorPlatform.SetBool("isVisible", false);
                 isVisible = false;
+                AnimatorPlatform.SetBool("isVisible", isVisible);
                 //gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.1f);
-                renderer.enabled = false;
+                //renderer.enabled = false;
                 coll.enabled = false;
             }
             else
             {
-                AnimatorPlatform.SetBool("isVisible", true);
                 isVisible = true;
+                AnimatorPlatform.SetBool("isVisible", isVisible);
                 //gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
                 renderer.enabled = true;
                 coll.enabled = true;

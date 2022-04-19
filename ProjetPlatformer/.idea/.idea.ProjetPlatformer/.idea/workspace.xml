@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Boite/Circle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Boite/Circle.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/PlatformAppearJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/PlatformAppearJump.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1649324055370" duration="11622000" />
       <workItem from="1649616245802" duration="1232000" />
       <workItem from="1649950147820" duration="17690000" />
-      <workItem from="1650355604355" duration="3232000" />
+      <workItem from="1650355604355" duration="4987000" />
     </task>
     <servers />
   </component>
