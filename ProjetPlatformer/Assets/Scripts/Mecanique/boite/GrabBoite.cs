@@ -45,24 +45,24 @@ public class GrabBoite : MonoBehaviour
     public GameObject PointPrefab;
     public GameObject[] Points;
     public int numberOfpoints;
-    
+
 
     public static GrabBoite grabBoiteinstance;
 
     void Awake()
     {
+        coll = GetComponent<BoxCollider2D>();
         if (grabBoiteinstance == null) grabBoiteinstance = this;
-        
+        //RemplirArray();
+    }
+
+    void RemplirArray()
+    {
         Points = new GameObject[numberOfpoints];
         for (int i = 0; i < numberOfpoints; i++)
         {
             Points[i] = Instantiate(PointPrefab, transform.position, quaternion.identity);
         }
-    }
-
-    private void Start()
-    {
-        coll = GetComponent<BoxCollider2D>();
     }
 
     void Update()
@@ -84,9 +84,18 @@ public class GrabBoite : MonoBehaviour
         {
             //coll.enabled = false;
             JoystickManager();
+            Debug.Log(Points.Length);
+            for (int i = 0; i < Points.Length; i++)
+            {
+                Points[i].gameObject.SetActive(true);
+            }
         }
         else
         {
+            for (int i = 0; i < Points.Length; i++)
+            {
+                Points[i].gameObject.SetActive(false);
+            }
             //coll.enabled = true;
         }
     }
@@ -194,6 +203,8 @@ public class GrabBoite : MonoBehaviour
                 Points[i].transform.DOMove(PointPosition(i * 0.1f), 0.2f);
                 isNull = false;
             }
+            
+            //Destroy(Points[i].gameObject);
         }
     }
     
