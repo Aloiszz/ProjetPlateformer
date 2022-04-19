@@ -8,6 +8,7 @@ TagManager:
   - Goutte
   - PlayerSpawn
   - DeathFade
+  - "GrosseBo\xEEte"
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - ground
   - button
-  - 
+  - Parallax
   - 
   - 
   - 
@@ -44,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Parallax
+    uniqueID: 3108456175
     locked: 0
