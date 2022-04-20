@@ -1,0 +1,3744 @@
+fileFormatVersion: 2
+guid: 536b75f6ae589d84fa3c20a76fd94a98
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8455584043706789368
+    second: Piliers Ruines_0
+  - first:
+      213: -7506341539922394034
+    second: Piliers Ruines_1
+  - first:
+      213: -8436379105633761588
+    second: Piliers Ruines_2
+  - first:
+      213: 2267395572769551200
+    second: Piliers Ruines_3
+  - first:
+      213: 5270923343122464337
+    second: Piliers Ruines_4
+  - first:
+      213: -8321489052478114866
+    second: Piliers Ruines_5
+  - first:
+      213: 5645693079516738927
+    second: Piliers Ruines_6
+  - first:
+      213: -6215225392099949713
+    second: Piliers Ruines_7
+  - first:
+      213: -7802240030531323846
+    second: Piliers Ruines_8
+  - first:
+      213: -7817328201493694001
+    second: Piliers Ruines_9
+  - first:
+      213: -2491185381487280986
+    second: Piliers Ruines_10
+  - first:
+      213: 1493128490410380683
+    second: Piliers Ruines_11
+  - first:
+      213: 8298888466950357279
+    second: Piliers Ruines_12
+  - first:
+      213: -8010537537792764224
+    second: Piliers Ruines_13
+  - first:
+      213: -3840933274087919236
+    second: Piliers Ruines_14
+  - first:
+      213: -2560395316662460356
+    second: Piliers Ruines_15
+  - first:
+      213: -5249272920513167652
+    second: Piliers Ruines_16
+  - first:
+      213: 268175452112808064
+    second: Piliers Ruines_17
+  - first:
+      213: 8877911246805589523
+    second: Piliers Ruines_18
+  - first:
+      213: -5888725839329716695
+    second: Piliers Ruines_19
+  - first:
+      213: 5533442973955988447
+    second: Piliers Ruines_20
+  - first:
+      213: 5795404991526023313
+    second: Piliers Ruines_21
+  - first:
+      213: 2159902833446823184
+    second: Piliers Ruines_22
+  - first:
+      213: -7786032387830471060
+    second: Piliers Ruines_23
+  - first:
+      213: -4348076330113936127
+    second: Piliers Ruines_24
+  - first:
+      213: -4160801423066127500
+    second: Piliers Ruines_25
+  - first:
+      213: -8027513920585328319
+    second: Piliers Ruines_26
+  - first:
+      213: -1921593053223621733
+    second: Piliers Ruines_27
+  - first:
+      213: 3274360860342817162
+    second: Piliers Ruines_28
+  - first:
+      213: -7905543957229574172
+    second: Piliers Ruines_29
+  - first:
+      213: -5991746489803104913
+    second: Piliers Ruines_30
+  - first:
+      213: 4989423715331383358
+    second: Piliers Ruines_31
+  - first:
+      213: -4713202858297865220
+    second: Piliers Ruines_32
+  - first:
+      213: 8936682443351965480
+    second: Piliers Ruines_33
+  - first:
+      213: -3651318934806642721
+    second: Piliers Ruines_34
+  - first:
+      213: 2787064313358091502
+    second: Piliers Ruines_35
+  - first:
+      213: -6421237408278725102
+    second: Piliers Ruines_36
+  - first:
+      213: 4798072207255090091
+    second: Piliers Ruines_37
+  - first:
+      213: 6437688121405401378
+    second: Piliers Ruines_38
+  - first:
+      213: -2419578758824782263
+    second: Piliers Ruines_39
+  - first:
+      213: -1297050977116242366
+    second: Piliers Ruines_40
+  - first:
+      213: -123887807426912925
+    second: Piliers Ruines_41
+  - first:
+      213: 6908429057473605681
+    second: Piliers Ruines_42
+  - first:
+      213: -4305826694312825283
+    second: Piliers Ruines_43
+  - first:
+      213: -5912145887666894692
+    second: Piliers Ruines_44
+  - first:
+      213: -9043301414165512806
+    second: Piliers Ruines_45
+  - first:
+      213: -3955426980588469174
+    second: Piliers Ruines_46
+  - first:
+      213: 7713017235428632285
+    second: Piliers Ruines_47
+  - first:
+      213: 5386974170924582547
+    second: Piliers Ruines_48
+  - first:
+      213: 8667280837345576368
+    second: Piliers Ruines_49
+  - first:
+      213: 4700735169023957715
+    second: Piliers Ruines_50
+  - first:
+      213: -8592178615852689650
+    second: Piliers Ruines_51
+  - first:
+      213: -8517830118607062539
+    second: Piliers Ruines_52
+  - first:
+      213: -2902668066277220044
+    second: Piliers Ruines_53
+  - first:
+      213: -5291180811835789203
+    second: Piliers Ruines_54
+  - first:
+      213: 3161082110718454075
+    second: Piliers Ruines_55
+  - first:
+      213: -5204352800330652811
+    second: Piliers Ruines_56
+  - first:
+      213: 3607569551883806690
+    second: Piliers Ruines_57
+  - first:
+      213: -5358865005149760002
+    second: Piliers Ruines_58
+  - first:
+      213: 7311636466041152197
+    second: Piliers Ruines_59
+  - first:
+      213: 7946449640760052105
+    second: Piliers Ruines_60
+  - first:
+      213: -1243561789595580015
+    second: Piliers Ruines_61
+  - first:
+      213: -221941009423653281
+    second: Piliers Ruines_62
+  - first:
+      213: -3694990161559339841
+    second: Piliers Ruines_63
+  - first:
+      213: 3250633997984426942
+    second: Piliers Ruines_64
+  - first:
+      213: -2491249694943344980
+    second: Piliers Ruines_65
+  - first:
+      213: -7156320222648885767
+    second: Piliers Ruines_66
+  - first:
+      213: 1262628393237260378
+    second: Piliers Ruines_67
+  - first:
+      213: 5727551645173591324
+    second: Piliers Ruines_68
+  - first:
+      213: -759807689131072626
+    second: Piliers Ruines_69
+  - first:
+      213: -8019014389664267315
+    second: Piliers Ruines_70
+  - first:
+      213: -750568991410480631
+    second: Piliers Ruines_71
+  - first:
+      213: -3797820687353710880
+    second: Piliers Ruines_72
+  - first:
+      213: -6845930905801696184
+    second: Piliers Ruines_73
+  - first:
+      213: -4722442265793017314
+    second: Piliers Ruines_74
+  - first:
+      213: 3674081194711340774
+    second: Piliers Ruines_75
+  - first:
+      213: 7151712554887782318
+    second: Piliers Ruines_76
+  - first:
+      213: 8559109430975887156
+    second: Piliers Ruines_77
+  - first:
+      213: 4239890912023413716
+    second: Piliers Ruines_78
+  - first:
+      213: -2898975677580198498
+    second: Piliers Ruines_79
+  - first:
+      213: -4245595902385636032
+    second: Piliers Ruines_80
+  - first:
+      213: 2759372770790478649
+    second: Piliers Ruines_81
+  - first:
+      213: -3962615047254374053
+    second: Piliers Ruines_82
+  - first:
+      213: 8652392278060397050
+    second: Piliers Ruines_83
+  - first:
+      213: -7751323247713060034
+    second: Piliers Ruines_84
+  - first:
+      213: 6258034267056418487
+    second: Piliers Ruines_85
+  - first:
+      213: 309480489348991701
+    second: Piliers Ruines_86
+  - first:
+      213: 13752751437325233
+    second: Piliers Ruines_87
+  - first:
+      213: -6590796904801798926
+    second: Piliers Ruines_88
+  - first:
+      213: -2683870224774867919
+    second: Piliers Ruines_89
+  - first:
+      213: -4038253736485991063
+    second: Piliers Ruines_90
+  - first:
+      213: 7281008817826523358
+    second: Piliers Ruines_91
+  - first:
+      213: 2812332835589633245
+    second: Piliers Ruines_92
+  - first:
+      213: -1856953765379020992
+    second: Piliers Ruines_93
+  - first:
+      213: -7621988549691093865
+    second: Piliers Ruines_94
+  - first:
+      213: -7042878037477360623
+    second: Piliers Ruines_95
+  - first:
+      213: 7579938063005846599
+    second: Piliers Ruines_96
+  - first:
+      213: -6755905350760303390
+    second: Piliers Ruines_97
+  - first:
+      213: -5706150305132291885
+    second: Piliers Ruines_98
+  - first:
+      213: -3297978873313018304
+    second: Piliers Ruines_99
+  - first:
+      213: -176785748008549962
+    second: Piliers Ruines_100
+  - first:
+      213: -8808758018076441154
+    second: Piliers Ruines_101
+  - first:
+      213: -6642199052461916876
+    second: Piliers Ruines_102
+  - first:
+      213: 6825991131505093470
+    second: Piliers Ruines_103
+  - first:
+      213: 6969394329813652674
+    second: Piliers Ruines_104
+  - first:
+      213: 3057760680905478955
+    second: Piliers Ruines_105
+  - first:
+      213: -7042227403314004527
+    second: Piliers Ruines_106
+  - first:
+      213: 6347501545775104478
+    second: Piliers Ruines_107
+  - first:
+      213: -4279958149947108351
+    second: Piliers Ruines_108
+  - first:
+      213: 5699042541636162243
+    second: Piliers Ruines_109
+  - first:
+      213: 3150297369794720583
+    second: Piliers Ruines_110
+  - first:
+      213: -3559965651459214770
+    second: Piliers Ruines_111
+  - first:
+      213: -1768645493688949579
+    second: Piliers Ruines_112
+  - first:
+      213: -8939862369187927678
+    second: Piliers Ruines_113
+  - first:
+      213: 5767080336091666272
+    second: Piliers Ruines_114
+  - first:
+      213: 8263065122571636578
+    second: Piliers Ruines_115
+  - first:
+      213: 3791827661535025279
+    second: Piliers Ruines_116
+  - first:
+      213: 6217370913804960899
+    second: Piliers Ruines_117
+  - first:
+      213: 4689077814003740751
+    second: Piliers Ruines_118
+  - first:
+      213: 3547851983871303495
+    second: Piliers Ruines_119
+  - first:
+      213: 4020086971249708899
+    second: Piliers Ruines_120
+  - first:
+      213: -4728064062199770326
+    second: Piliers Ruines_121
+  - first:
+      213: 6489543257181665205
+    second: Piliers Ruines_122
+  - first:
+      213: -8675043114657594696
+    second: Piliers Ruines_123
+  - first:
+      213: 1013519906299611607
+    second: Piliers Ruines_124
+  - first:
+      213: 3272212211722759299
+    second: Piliers Ruines_125
+  - first:
+      213: 6941331955135128967
+    second: Piliers Ruines_126
+  - first:
+      213: -616701326578226024
+    second: Piliers Ruines_127
+  - first:
+      213: -1105757536534665378
+    second: Piliers Ruines_128
+  - first:
+      213: 2263686052207701521
+    second: Piliers Ruines_129
+  - first:
+      213: -5920545396631976665
+    second: Piliers Ruines_130
+  - first:
+      213: -4298833528335162065
+    second: Piliers Ruines_131
+  - first:
+      213: -974421966457818691
+    second: Piliers Ruines_132
+  - first:
+      213: 5228006718596617023
+    second: Piliers Ruines_133
+  - first:
+      213: 5395991269555342096
+    second: Piliers Ruines_134
+  - first:
+      213: 5932776568074528279
+    second: Piliers Ruines_135
+  - first:
+      213: -2950545788225765426
+    second: Piliers Ruines_136
+  - first:
+      213: 662696018439118842
+    second: Piliers Ruines_137
+  - first:
+      213: -4782555718636984317
+    second: Piliers Ruines_138
+  - first:
+      213: 5750679569541562626
+    second: Piliers Ruines_139
+  - first:
+      213: 2383599764623207968
+    second: Piliers Ruines_140
+  - first:
+      213: -3090585500079741735
+    second: Piliers Ruines_141
+  - first:
+      213: 1384622698110675871
+    second: Piliers Ruines_142
+  - first:
+      213: -6011215434388366721
+    second: Piliers Ruines_143
+  - first:
+      213: -1363136148818044531
+    second: Piliers Ruines_144
+  - first:
+      213: -5885816709734230958
+    second: Piliers Ruines_145
+  - first:
+      213: 890798580820477202
+    second: Piliers Ruines_146
+  - first:
+      213: 2891572203651461074
+    second: Piliers Ruines_147
+  - first:
+      213: 2173624284776608243
+    second: Piliers Ruines_148
+  - first:
+      213: 4636828441398503861
+    second: Piliers Ruines_149
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Piliers Ruines_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1195
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdaa9d53e4485570800000000000000
+      internalID: 8455584043706789368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44ca26c32e14d790800000000000000
+      internalID: -7506341539922394034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1195
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60c2ab6e5fbea80800000000000000
+      internalID: -8436379105633761588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1195
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f830a248677f10800000000000000
+      internalID: 2267395572769551200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1195
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ef021aad4162940800000000000000
+      internalID: 5270923343122464337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec37db0cbc1248c80800000000000000
+      internalID: -8321489052478114866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65f97391f7895e40800000000000000
+      internalID: 5645693079516738927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1003
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6305e08f651fb9a0800000000000000
+      internalID: -6215225392099949713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1003
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38f8dfb700e8b390800000000000000
+      internalID: -7802240030531323846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1003
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc933513b65438390800000000000000
+      internalID: -7817328201493694001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1003
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acfdca28188d6dd0800000000000000
+      internalID: -2491185381487280986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d0dea7378a8b410800000000000000
+      internalID: 1493128490410380683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11892f57139b2370800000000000000
+      internalID: 8298888466950357279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c61eef0d8ad4d090800000000000000
+      internalID: -8010537537792764224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71f200998342bac0800000000000000
+      internalID: -3840933274087919236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30a2c96606a77cd0800000000000000
+      internalID: -2560395316662460356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde3cb33716d627b0800000000000000
+      internalID: -5249272920513167652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088e9a02720c8b300800000000000000
+      internalID: 268175452112808064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1003
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eda45ed3da43b70800000000000000
+      internalID: 8877911246805589523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92696178c0b074ea0800000000000000
+      internalID: -5888725839329716695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb178f311dbacc40800000000000000
+      internalID: 5533442973955988447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_21
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1903f69622a6d6050800000000000000
+      internalID: 5795404991526023313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01525f0fe2489fd10800000000000000
+      internalID: 2159902833446823184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_23
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66ada1abc472f390800000000000000
+      internalID: -7786032387830471060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_24
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10556476d9788a3c0800000000000000
+      internalID: -4348076330113936127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_25
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473243d862dd146c0800000000000000
+      internalID: -4160801423066127500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1003
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149120eee9a889090800000000000000
+      internalID: -8027513920585328319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 811
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b6fb39c412555e0800000000000000
+      internalID: -1921593053223621733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 811
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a811d2baaddd07d20800000000000000
+      internalID: 3274360860342817162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 811
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7681108add94290800000000000000
+      internalID: -7905543957229574172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 811
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d971b205a09dca0800000000000000
+      internalID: -5991746489803104913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 811
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30ac3a1f6efd3540800000000000000
+      internalID: 4989423715331383358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 811
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbccc4d8f6579eb0800000000000000
+      internalID: -4713202858297865220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 811
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fb67a6559750c70800000000000000
+      internalID: 8936682443351965480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 811
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf313936c8e35dc0800000000000000
+      internalID: -3651318934806642721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_35
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 811
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee480ebf934ada620800000000000000
+      internalID: 2787064313358091502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 811
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eb81d299e23e6a0800000000000000
+      internalID: -6421237408278725102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_37
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 811
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba33d10504d269240800000000000000
+      internalID: 4798072207255090091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 811
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229ee13fc33475950800000000000000
+      internalID: 6437688121405401378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_39
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 811
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9461b2630fdeb6ed0800000000000000
+      internalID: -2419578758824782263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 811
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eb9652203fffde0800000000000000
+      internalID: -1297050977116242366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 811
+        width: 49
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d115e02bcd74ef0800000000000000
+      internalID: -123887807426912925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_42
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 811
+        width: 49
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13073b610abafdf50800000000000000
+      internalID: 6908429057473605681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_43
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 939
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ee61d4f61ae34c0800000000000000
+      internalID: -4305826694312825283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_44
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 955
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98045993a6d3fda0800000000000000
+      internalID: -5912145887666894692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 747
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d70ebf64dbf7280800000000000000
+      internalID: -9043301414165512806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 747
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44470f2e108b19c0800000000000000
+      internalID: -3955426980588469174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 747
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd660307f442a0b60800000000000000
+      internalID: 7713017235428632285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_48
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 747
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960a20977062ca40800000000000000
+      internalID: 5386974170924582547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b58886100e584870800000000000000
+      internalID: 8667280837345576368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dadbdc0bbd5c3140800000000000000
+      internalID: 4700735169023957715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07946b721372c880800000000000000
+      internalID: -8592178615852689650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_52
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f97d43f2a69ac980800000000000000
+      internalID: -8517830118607062539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4312da0d5c6a7b7d0800000000000000
+      internalID: -2902668066277220044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_54
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d603a24e513f196b0800000000000000
+      internalID: -5291180811835789203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_55
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39273b7e6b6edb20800000000000000
+      internalID: 3161082110718454075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_56
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 747
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5736b72b3bc66c7b0800000000000000
+      internalID: -5204352800330652811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_57
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 747
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7ac8ac469a01230800000000000000
+      internalID: 3607569551883806690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_58
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 747
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5d6c89bac71a5b0800000000000000
+      internalID: -5358865005149760002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_59
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 747
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2ec2d80a6287560800000000000000
+      internalID: 7311636466041152197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 699
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989880f98d5774e60800000000000000
+      internalID: 7946449640760052105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 699
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19908ea142bfdbee0800000000000000
+      internalID: -1243561789595580015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 699
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56263ce3d18becf0800000000000000
+      internalID: -221941009423653281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 699
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc31b36602c8bcc0800000000000000
+      internalID: -3694990161559339841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb6ba806629c1d20800000000000000
+      internalID: 3250633997984426942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca60a160a9d4d6dd0800000000000000
+      internalID: -2491249694943344980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd911e5ca4afac90800000000000000
+      internalID: -7156320222648885767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_67
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58aa3e75d1c58110800000000000000
+      internalID: 1262628393237260378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da64b10e95c7f40800000000000000
+      internalID: 5727551645173591324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836bbfaeee9475f0800000000000000
+      internalID: -759807689131072626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_70
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3c05f26ecb6b090800000000000000
+      internalID: -8019014389664267315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_71
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 683
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a1e8f9a717595f0800000000000000
+      internalID: -750568991410480631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_72
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 699
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f6a1e43e6b4bc0800000000000000
+      internalID: -3797820687353710880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_73
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 699
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c52dacc1e5ef0a0800000000000000
+      internalID: -6845930905801696184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_74
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 699
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1acd13a7c3867eb0800000000000000
+      internalID: -4722442265793017314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_75
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 635
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e656b66165fcf230800000000000000
+      internalID: 3674081194711340774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 635
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf99c16dacff3360800000000000000
+      internalID: 7151712554887782318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_77
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 635
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437730beda018c670800000000000000
+      internalID: 8559109430975887156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_78
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 635
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d30091125e17da30800000000000000
+      internalID: 4239890912023413716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_79
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 635
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9db55d0bf4c4c7d0800000000000000
+      internalID: -2898975677580198498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_80
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 635
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d337a550d9415c0800000000000000
+      internalID: -4245595902385636032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_81
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 635
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9331add4ae24b4620800000000000000
+      internalID: 2759372770790478649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 443
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5909cefb96f109c0800000000000000
+      internalID: -3962615047254374053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 443
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af17f1f3fe8731870800000000000000
+      internalID: 8652392278060397050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_84
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 443
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf5d01394cd6490800000000000000
+      internalID: -7751323247713060034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 443
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beae18620109d650800000000000000
+      internalID: 6258034267056418487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_86
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da8f888dde7b4400800000000000000
+      internalID: 309480489348991701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_87
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b32b18fd0cd03000800000000000000
+      internalID: 13752751437325233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f47b867229c884a0800000000000000
+      internalID: -6590796904801798926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134db05104af0cad0800000000000000
+      internalID: -2683870224774867919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_90
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dcbdb4f9d35f7c0800000000000000
+      internalID: -4038253736485991063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_91
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8690181f65b0560800000000000000
+      internalID: 7281008817826523358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_92
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4bc7740d9670720800000000000000
+      internalID: 2812332835589633245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 443
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04762429366ca36e0800000000000000
+      internalID: -1856953765379020992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_94
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c419d0cc1493690800000000000000
+      internalID: -7621988549691093865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_95
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cf2cb5dbba24e90800000000000000
+      internalID: -7042878037477360623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_96
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c0de01289513960800000000000000
+      internalID: 7579938063005846599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_97
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e475c7b0e33e32a0800000000000000
+      internalID: -6755905350760303390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_98
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d85a9ba78eafc0b0800000000000000
+      internalID: -5706150305132291885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_99
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e3f6b20b93b32d0800000000000000
+      internalID: -3297978873313018304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_100
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b149908c4eeb8df0800000000000000
+      internalID: -176785748008549962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_101
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 443
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb50e2cd04101c580800000000000000
+      internalID: -8808758018076441154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 251
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d3296572b22d3a0800000000000000
+      internalID: -6642199052461916876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_103
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 251
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5be359b4cacabe50800000000000000
+      internalID: 6825991131505093470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_104
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 251
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c41a20b73348b060800000000000000
+      internalID: 6969394329813652674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_105
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 251
+        width: 16
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23178973295f6a20800000000000000
+      internalID: 3057760680905478955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 251
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd72fdec7bf44e90800000000000000
+      internalID: -7042227403314004527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_107
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 251
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10b2f760bd61850800000000000000
+      internalID: 6347501545775104478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 251
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1045dd22db88a94c0800000000000000
+      internalID: -4279958149947108351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_109
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 251
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2101e2ff0171f40800000000000000
+      internalID: 5699042541636162243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_110
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 251
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743367f44ca18bb20800000000000000
+      internalID: 3150297369794720583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_111
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 251
+        width: 33
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e427e2cf916789ec0800000000000000
+      internalID: -3559965651459214770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_112
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 251
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4231f4b428477e0800000000000000
+      internalID: -1768645493688949579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_113
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 251
+        width: 32
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289eba76a8a3fe380800000000000000
+      internalID: -8939862369187927678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_114
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 251
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06752e7a209c80050800000000000000
+      internalID: 5767080336091666272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 251
+        width: 48
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4dca03fd4ca270800000000000000
+      internalID: 8263065122571636578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_116
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 251
+        width: 49
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f789b4f0b274f9430800000000000000
+      internalID: 3791827661535025279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_117
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 251
+        width: 49
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c032b7e9884650800000000000000
+      internalID: 6217370913804960899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_118
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 379
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40bbd39d63f21140800000000000000
+      internalID: 4689077814003740751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_119
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 395
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f505ef4908c3130800000000000000
+      internalID: 3547851983871303495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 187
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fc38f0dc73ac730800000000000000
+      internalID: 4020086971249708899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_121
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 187
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23da4929ca826eb0800000000000000
+      internalID: -4728064062199770326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_122
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 187
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b738d6953d7f0a50800000000000000
+      internalID: 6489543257181665205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_123
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 187
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c2a3ef3e0c9780800000000000000
+      internalID: -8675043114657594696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_124
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d986c32cfeb01e00800000000000000
+      internalID: 1013519906299611607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2e6d6bab396d20800000000000000
+      internalID: 3272212211722759299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_126
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785a5ede2a0945060800000000000000
+      internalID: 6941331955135128967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_127
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ceac039690177f0800000000000000
+      internalID: -616701326578226024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_128
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e32b016f87a0f0800000000000000
+      internalID: -1105757536534665378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_129
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ea8d0987a3a6f10800000000000000
+      internalID: 2263686052207701521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_130
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7254d25845ff5dda0800000000000000
+      internalID: -5920545396631976665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_131
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 187
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f252b03aea97754c0800000000000000
+      internalID: -4298833528335162065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_132
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 187
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b1fb52682a72f0800000000000000
+      internalID: -974421966457818691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_133
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 187
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339e41596c9d8840800000000000000
+      internalID: 5228006718596617023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_134
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 187
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b84f0787962ea40800000000000000
+      internalID: 5395991269555342096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_135
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 139
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716e7dffad4755250800000000000000
+      internalID: 5932776568074528279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_136
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 139
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf374ffc3e8d07d0800000000000000
+      internalID: -2950545788225765426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_137
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 139
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff1125848e523900800000000000000
+      internalID: 662696018439118842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_138
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 139
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3082128b9e2f0adb0800000000000000
+      internalID: -4782555718636984317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_139
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2010f9f99948ecf40800000000000000
+      internalID: 5750679569541562626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_140
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e22196b5f341120800000000000000
+      internalID: 2383599764623207968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d426cfbcd80c15d0800000000000000
+      internalID: -3090585500079741735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b64d4020b273310800000000000000
+      internalID: 1384622698110675871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_143
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a9fe4496fd39ca0800000000000000
+      internalID: -6011215434388366721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_144
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89d43515ea251de0800000000000000
+      internalID: -1363136148818044531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_145
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549b3b03e0615ea0800000000000000
+      internalID: -5885816709734230958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_146
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 123
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150a30f690cc5c00800000000000000
+      internalID: 890798580820477202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_147
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 139
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe909599de02820800000000000000
+      internalID: 2891572203651461074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_148
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 139
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1b54945c34a2e10800000000000000
+      internalID: 2173624284776608243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piliers Ruines_149
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 139
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b96cf586e2595040800000000000000
+      internalID: 4636828441398503861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 40d54361cac9c6749986abcc996c31f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
