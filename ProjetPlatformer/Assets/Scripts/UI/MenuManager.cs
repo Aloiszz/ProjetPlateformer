@@ -20,6 +20,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [SerializeField] private CanvasGroup cv;
     private Tween fadeTween;
     public Animator parchAnim;
+    public float distanceChangementPage;
 
     [Header("First Selected")]
     public GameObject firstSelctedOption;
@@ -155,9 +156,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         if (!IsChanging)
         {
             StartCoroutine(Changement());
-            float newPosPage1 = Page1.transform.position.x - 870;
-            float newPosPage2 = Page2.transform.position.x - 870;
-            float newPosPage3 = Page3.transform.position.x - 870;
+            float newPosPage1 = Page1.transform.position.x - distanceChangementPage;
+            float newPosPage2 = Page2.transform.position.x - distanceChangementPage;
+            float newPosPage3 = Page3.transform.position.x - distanceChangementPage;
             Page1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
             Page2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);
             Page3.transform.DOMove(new Vector3(newPosPage3,Page3.transform.position.y,Page3.transform.position.z), 1.5f).OnComplete((() => IsChanging = false));
@@ -176,9 +177,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         if (!IsChanging)
         {
             StartCoroutine(Changement());
-            float newPosPage1 = Page1.transform.position.x + 870;
-            float newPosPage2 = Page2.transform.position.x + 870;
-            float newPosPage3 = Page3.transform.position.x + 870;
+            float newPosPage1 = Page1.transform.position.x + distanceChangementPage;
+            float newPosPage2 = Page2.transform.position.x + distanceChangementPage;
+            float newPosPage3 = Page3.transform.position.x + distanceChangementPage;
             Page1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
             Page2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);
             Page3.transform.DOMove(new Vector3(newPosPage3,Page3.transform.position.y,Page3.transform.position.z), 1.5f).OnComplete((() => IsChanging = false));
