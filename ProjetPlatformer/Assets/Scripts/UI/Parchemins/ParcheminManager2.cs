@@ -16,6 +16,8 @@ public class ParcheminManager2 : MonoBehaviour
     public TextMeshProUGUI textParchemins;
     public GameObject indicationParchemin;
     public MenuManager mm;
+    public float déplacementCompteurIn;
+    public float déplacementCompteurOut;
 
     
     public GameObject morceauParchemin1;
@@ -66,11 +68,11 @@ public class ParcheminManager2 : MonoBehaviour
 
     IEnumerator apparitionUIParchemin()
     {
-        indicationParchemin.transform.DOMoveY(290, 1);
+        indicationParchemin.transform.DOMoveY(déplacementCompteurIn, 1);
         yield return new WaitForSeconds(1.2f);
         RefreshText();
         yield return new WaitForSeconds(1.5f);
-        indicationParchemin.transform.DOMoveY(500, 1);
+        indicationParchemin.transform.DOMoveY(déplacementCompteurOut, 1);
     }
         
         
