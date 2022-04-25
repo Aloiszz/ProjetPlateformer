@@ -14,8 +14,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public ParticleSystem ps;
     public Animator anim;
-    public Animator FeuxDeCampsAnim;
-    public Animator parchAnim;
+    
 
     [SerializeField] CameraZoom Camera;
 
@@ -38,7 +37,13 @@ public class FeuxDeCamp : MonoBehaviour
     private float graph, increment;
     private bool canRunGame;
 
+    [Header("UI")] 
+    private bool stopWakeUp;
+    public MenuManager mm;
+    public Animator FeuxDeCampsAnim;
+    public Animator parchAnim;
     public Image indicationRest;
+    public Image indicationWakeUp;
 
 
     private void Awake()
@@ -51,6 +56,7 @@ public class FeuxDeCamp : MonoBehaviour
     private void Start()
     {
         indicationRest.enabled = false;
+        indicationWakeUp.enabled = false;
         coll = GetComponent<BoxCollider2D>();
     }
 
@@ -64,6 +70,22 @@ public class FeuxDeCamp : MonoBehaviour
             Flamme.intensity = graph;
         }
 
+        if (mm.MenuParcheminOuvert)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        
+        if (!onoff)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        
+        if (!mm.MenuParcheminOuvert && stopWakeUp)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        
+        
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
             EnterCamp();
@@ -74,6 +96,7 @@ public class FeuxDeCamp : MonoBehaviour
     public void EnterCamp()
     {
         indicationRest.enabled = false;
+        indicationWakeUp.enabled = true;
         Debug.Log("enter camp");
         OnOff();
         
@@ -103,6 +126,9 @@ public class FeuxDeCamp : MonoBehaviour
     }
     public void LeaveCamp()
     {
+        stopWakeUp = true;
+        indicationWakeUp.enabled = false;
+        indicationRest.enabled = true;
         SetPlayer(false);
         SetCamera(false);
         SetAnimator(false);
@@ -157,7 +183,7 @@ public class FeuxDeCamp : MonoBehaviour
             SetAnimator(false);
         }
     }*/
-
+    
     public void OnOff()
     {
         onoff = !onoff;

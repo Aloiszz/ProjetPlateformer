@@ -28,6 +28,7 @@ public class CameraZoom : MonoBehaviour
     
     public static CameraZoom instance;
     public MenuManager menu;
+    public bool CinematiqueIntro;
    
 
     private void Awake()
@@ -67,22 +68,31 @@ public class CameraZoom : MonoBehaviour
     }
     
     //------- Déplacement camera au lancement -------------
+    
+    
+    
     void Start()
     {
-        targetOrtho = Camera.main.orthographicSize;
-        transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,50,0);
+        if (CinematiqueIntro)
+        {
+            targetOrtho = Camera.main.orthographicSize;
+            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,50,0);
+        }
+        else
+        {
+            Follow();
+        }
     }
     private void FixedUpdate()
     {
         if(menu.isPlaying)
-        {
-            Follow();
-            if (StopSmoothChange == false)
             {
-                StartCoroutine(SmoothCameraIntro());
+                Follow();
+                if (StopSmoothChange == false && CinematiqueIntro)
+                {
+                    StartCoroutine(SmoothCameraIntro());
+                }
             }
-        }
-
     }
 
     IEnumerator SmoothCameraIntro()
@@ -97,6 +107,7 @@ public class CameraZoom : MonoBehaviour
 
     public void Follow()
     {
+        
         if (isMoving == false) // permet que la camera suive le joueur
         {
             Vector3 targetPosition = targetPlayer.position + EmplacementCamera;

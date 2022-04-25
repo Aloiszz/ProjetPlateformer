@@ -21,12 +21,12 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
+    public CameraZoom cm;
 
     [Header("First Selected")]
     public GameObject firstSelctedOption;
     public GameObject firstSelctedMain;
     public GameObject firstSelectedPause;
-    public GameObject firstSelectedParchemmin;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -247,10 +247,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     IEnumerator WaitMove()
     {
-        yield return new WaitForSeconds(10.5f);
-        CharacterMovement.instance.canMove = true;
-        CharacterMovement.instance.canJump = true;
-        CharacterMovement.instance.speed = 11;
+        if (cm.CinematiqueIntro)
+        {
+            yield return new WaitForSeconds(10.5f);
+        } 
+            CharacterMovement.instance.canMove = true;
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11;
+        
     }
 
 
