@@ -66,20 +66,20 @@ public class FeuxDeCamp : MonoBehaviour
 
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            //LeFeuxDeCamp();
-
             EnterCamp();
+            
         }
     }
 
     public void EnterCamp()
     {
-        
         indicationRest.enabled = false;
         Debug.Log("enter camp");
         OnOff();
+        
         if (onoff)
         {
+            Debug.Log("Input Enter");
             canRunGame = true;
             FeuxDeCampsAnim.SetBool("isFire", true);
             if (CharacterMovement.instance.facingRight == false)
@@ -96,6 +96,7 @@ public class FeuxDeCamp : MonoBehaviour
         }
         else
         {
+            Debug.Log("Input Leave");
             LeaveCamp(); 
             OnOff();
         }
@@ -106,26 +107,25 @@ public class FeuxDeCamp : MonoBehaviour
         SetCamera(false);
         SetAnimator(false);
     }
-
     public void GoToCamp()
     {
-        Debug.Log("ICI");
         if (onoff)
         {
-            OnOff();
+            //OnOff();
         }
+        //Debug.Log(onoff);
         
         SetPlayer(true);
         SetCamera(true);
         SetAnimator(true);
         
-        if (onoff)
+        /*if (onoff)
         {
             LeaveCamp(); 
             SetPlayer(false);
             SetCamera(false);
             SetAnimator(false);
-        }
+        }*/
     }
     
     /*public void LeFeuxDeCamp()
