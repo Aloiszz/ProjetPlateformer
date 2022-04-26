@@ -10,17 +10,13 @@ public class Test : MonoBehaviour
     GamePadState state;
     GamePadState prevState;
     
+    [Header("Vibration Motor")]
+    public float leftMotor;
+    public float rightMotor;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-    
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("JumpGamepad"))
+        if (Input.GetButtonDown("GrabGamepad"))
         {
             StartCoroutine(VibrationTime());
         }
@@ -28,7 +24,7 @@ public class Test : MonoBehaviour
 
     IEnumerator VibrationTime()
     {
-        GamePad.SetVibration(playerIndex, 1, 1);
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
         yield return new WaitForSeconds(2);
         GamePad.SetVibration(playerIndex, 0, 0);
     }

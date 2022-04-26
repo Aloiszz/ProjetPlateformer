@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Timers;
 using DG.Tweening;
 using UnityEngine;
+using XInputDotNetPure;
 
 public class PlaqueDePression : MonoBehaviour
 {
@@ -19,6 +20,16 @@ public class PlaqueDePression : MonoBehaviour
     public GameObject mainCamera;
     public GameObject particulesAssociées;
     public bool particules;
+    
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    private bool doOnce;
+    
+    [Header("Vibration Motor")]
+    public float leftMotor;
+    public float rightMotor;
+    public float duration;
 
     private void Update()
     {
@@ -33,6 +44,11 @@ public class PlaqueDePression : MonoBehaviour
         if (other.tag == "Respawn")
         {
             OuverturePorte(); 
+            if (!doOnce)
+            {
+                StartCoroutine(VibrationTime());
+                doOnce = true;
+            }
         }
     }
 
@@ -70,6 +86,13 @@ public class PlaqueDePression : MonoBehaviour
                 particulesAssociées.SetActive(false);
             }
         }
+    }
+    
+    IEnumerator VibrationTime()
+    {
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
+        yield return new WaitForSeconds(duration);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
     
 }

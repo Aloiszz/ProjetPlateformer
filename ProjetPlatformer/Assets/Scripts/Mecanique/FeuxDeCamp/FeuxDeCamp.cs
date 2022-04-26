@@ -15,7 +15,6 @@ public class FeuxDeCamp : MonoBehaviour
     public ParticleSystem ps;
     public Animator anim;
     
-
     [SerializeField] CameraZoom Camera;
 
     [Header("modification camera Arriver")]
@@ -69,17 +68,14 @@ public class FeuxDeCamp : MonoBehaviour
             graph = CourbeDeFlamme.Evaluate(increment);
             Flamme.intensity = graph;
         }
-
         if (mm.MenuParcheminOuvert)
         {
             indicationWakeUp.enabled = false;
         }
-        
         if (!onoff)
         {
             indicationWakeUp.enabled = false;
         }
-        
         if (!mm.MenuParcheminOuvert && stopWakeUp)
         {
             indicationWakeUp.enabled = false;
@@ -89,7 +85,6 @@ public class FeuxDeCamp : MonoBehaviour
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
             EnterCamp();
-            
         }
     }
 
@@ -97,8 +92,7 @@ public class FeuxDeCamp : MonoBehaviour
     {
         indicationRest.enabled = false;
         indicationWakeUp.enabled = true;
-        Debug.Log("enter camp");
-        OnOff();
+        OnOff(); // On
         
         if (onoff)
         {
@@ -120,12 +114,12 @@ public class FeuxDeCamp : MonoBehaviour
         else
         {
             Debug.Log("Input Leave");
-            LeaveCamp(); 
-            OnOff();
+            LeaveCamp();
         }
     }
     public void LeaveCamp()
     {
+        OnOff(); //A remettre pour revenir comme avant // On
         stopWakeUp = true;
         indicationWakeUp.enabled = false;
         indicationRest.enabled = true;
@@ -135,10 +129,12 @@ public class FeuxDeCamp : MonoBehaviour
     }
     public void GoToCamp()
     {
-        if (onoff)
+        
+        /*if (!onoff)//A remettre pour revenir comme avant (onoff)
         {
-            //OnOff();
-        }
+            Debug.Log("Hello their");
+            OnOff();
+        }*/
         //Debug.Log(onoff);
         
         SetPlayer(true);
