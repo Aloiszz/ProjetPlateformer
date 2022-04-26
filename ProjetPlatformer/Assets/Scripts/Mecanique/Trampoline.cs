@@ -54,6 +54,7 @@ public class Trampoline : MonoBehaviour
 
         if (other.gameObject.CompareTag("Respawn"))
         {
+            Debug.Log("sa mère");
             rbBoite.velocity = new Vector2(0,forceBoite);
         }
     }
