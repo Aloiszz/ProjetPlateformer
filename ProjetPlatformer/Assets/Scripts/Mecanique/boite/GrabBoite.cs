@@ -71,6 +71,8 @@ public class GrabBoite : MonoBehaviour
         {
             if (respawn.lache)
             {
+                rb.velocity = new Vector2(0, 0);
+                transform.localRotation = new Quaternion(0, 0, 0, 0);
                 boiteGrab = false;
             }
         }

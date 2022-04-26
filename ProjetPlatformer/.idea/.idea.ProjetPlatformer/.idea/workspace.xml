@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BebeteMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BebeteMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parallax2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Parallax2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/MovingForeverPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/MovingForeverPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/DestroyPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/DestroyPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Trampoline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Trampoline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +39,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Parallax2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ClapetVent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VentOnOff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindAreaProtect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BebeteMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/TestBow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/ShootBow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
