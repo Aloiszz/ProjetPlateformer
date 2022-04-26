@@ -14,7 +14,10 @@ public class DestroyPlatform : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        StartCoroutine(TimeToDestroy());
+        if (other.gameObject.tag == "Player")
+        {
+            StartCoroutine(TimeToDestroy());
+        }
     }
 
     IEnumerator TimeToDestroy()

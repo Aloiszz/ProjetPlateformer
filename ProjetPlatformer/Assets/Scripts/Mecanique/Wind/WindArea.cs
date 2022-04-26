@@ -16,7 +16,7 @@ public class WindArea : MonoBehaviour
     public CharacterMovement Character;
 
     private Rigidbody2D rb;
-    private Rigidbody2D rbBoite;
+    public Rigidbody2D rbBoite;
 
     public GameObject particulesVent;
     public GameObject particulesVent2;
