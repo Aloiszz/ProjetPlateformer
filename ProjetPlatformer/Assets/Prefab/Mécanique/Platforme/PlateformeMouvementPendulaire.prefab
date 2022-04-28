@@ -95,10 +95,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9105e5b8add991240a34e9e8c19a1768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  timer: 0
-  distanceMax: 5
-  wind: {fileID: 0}
   waypoints:
   - {fileID: 0}
   - {fileID: 0}

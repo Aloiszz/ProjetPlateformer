@@ -8,6 +8,8 @@ public class RangeBoite : MonoBehaviour
     public bool isAtRange;
     private Animator anim;
     public GameObject player;
+    public GameObject UIpousser;
+    public bool actif = true;
     
     
     
@@ -15,6 +17,7 @@ public class RangeBoite : MonoBehaviour
     
     void Start()
     {
+        UIpousser.SetActive(false);
         anim = player.GetComponent<Animator>();
     }
     
@@ -24,6 +27,10 @@ public class RangeBoite : MonoBehaviour
             if (other.tag == "Player")
             {
                 isAtRange = true;
+                if (actif)
+                {
+                UIpousser.SetActive(true);
+                }
             }
         }
     
@@ -32,6 +39,7 @@ public class RangeBoite : MonoBehaviour
             if (other.tag == "Player")
             {
                 isAtRange = false;
+                UIpousser.SetActive(false);
                 anim.SetBool("IsGrosseBoite", false);
             }
             
