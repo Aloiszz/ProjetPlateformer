@@ -14,9 +14,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public ParticleSystem ps;
     public Animator anim;
-    public Animator FeuxDeCampsAnim;
-    public Animator parchAnim;
-
+    
     [SerializeField] CameraZoom Camera;
 
     [Header("modification camera Arriver")]
@@ -38,7 +36,13 @@ public class FeuxDeCamp : MonoBehaviour
     private float graph, increment;
     private bool canRunGame;
 
+    [Header("UI")] 
+    private bool stopWakeUp;
+    public MenuManager mm;
+    public Animator FeuxDeCampsAnim;
+    public Animator parchAnim;
     public Image indicationRest;
+    public Image indicationWakeUp;
 
 
     private void Awake()
@@ -51,6 +55,7 @@ public class FeuxDeCamp : MonoBehaviour
     private void Start()
     {
         indicationRest.enabled = false;
+        indicationWakeUp.enabled = false;
         coll = GetComponent<BoxCollider2D>();
     }
 
@@ -63,23 +68,35 @@ public class FeuxDeCamp : MonoBehaviour
             graph = CourbeDeFlamme.Evaluate(increment);
             Flamme.intensity = graph;
         }
-
+        if (mm.MenuParcheminOuvert)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        if (!onoff)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        if (!mm.MenuParcheminOuvert && stopWakeUp)
+        {
+            indicationWakeUp.enabled = false;
+        }
+        
+        
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            //LeFeuxDeCamp();
-
             EnterCamp();
         }
     }
 
     public void EnterCamp()
     {
-        
         indicationRest.enabled = false;
-        Debug.Log("enter camp");
-        OnOff();
+        indicationWakeUp.enabled = true;
+        OnOff(); // On
+        
         if (onoff)
         {
+            Debug.Log("Input Enter");
             canRunGame = true;
             FeuxDeCampsAnim.SetBool("isFire", true);
             if (CharacterMovement.instance.facingRight == false)
@@ -96,36 +113,41 @@ public class FeuxDeCamp : MonoBehaviour
         }
         else
         {
-            LeaveCamp(); 
-            OnOff();
+            Debug.Log("Input Leave");
+            LeaveCamp();
         }
     }
     public void LeaveCamp()
     {
+        OnOff(); //A remettre pour revenir comme avant // On
+        stopWakeUp = true;
+        indicationWakeUp.enabled = false;
+        indicationRest.enabled = true;
         SetPlayer(false);
         SetCamera(false);
         SetAnimator(false);
     }
-
     public void GoToCamp()
     {
-        Debug.Log("ICI");
-        if (onoff)
+        
+        /*if (!onoff)//A remettre pour revenir comme avant (onoff)
         {
+            Debug.Log("Hello their");
             OnOff();
-        }
+        }*/
+        //Debug.Log(onoff);
         
         SetPlayer(true);
         SetCamera(true);
         SetAnimator(true);
         
-        if (onoff)
+        /*if (onoff)
         {
             LeaveCamp(); 
             SetPlayer(false);
             SetCamera(false);
             SetAnimator(false);
-        }
+        }*/
     }
     
     /*public void LeFeuxDeCamp()
@@ -157,7 +179,7 @@ public class FeuxDeCamp : MonoBehaviour
             SetAnimator(false);
         }
     }*/
-
+    
     public void OnOff()
     {
         onoff = !onoff;

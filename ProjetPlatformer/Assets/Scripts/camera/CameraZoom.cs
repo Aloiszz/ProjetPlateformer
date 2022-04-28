@@ -9,6 +9,7 @@ public class CameraZoom : MonoBehaviour
     [Header("Camera")]
     public Transform targetPlayer;
     private Transform targetEmplacementCamera;
+    private bool StopSmoothChange;
 
     public Vector3 EmplacementCamera = new Vector3(5,0,-10);
     
@@ -25,10 +26,10 @@ public class CameraZoom : MonoBehaviour
     public float smoothSpeedFix = 2.0f;
     public float timeWaitForMovement = 2f;
     
-
     public static CameraZoom instance;
     public MenuManager menu;
-    public bool StopCamera;
+    public bool CinematiqueIntro;
+   
 
     private void Awake()
     {
@@ -36,11 +37,7 @@ public class CameraZoom : MonoBehaviour
     }
     
     
-    void Start()
-    {
-        targetOrtho = Camera.main.orthographicSize;
-        transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,20,0);
-    }
+   
 
     void Update()
     {
@@ -72,42 +69,45 @@ public class CameraZoom : MonoBehaviour
     
     //------- Déplacement camera au lancement -------------
     
-    /*private void FixedUpdate()
+    
+    
+    void Start()
+    {
+        if (CinematiqueIntro)
+        {
+            targetOrtho = Camera.main.orthographicSize;
+            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,50,0);
+        }
+        else
+        {
+            Follow();
+        }
+    }
+    private void FixedUpdate()
     {
         if(menu.isPlaying)
-        {
-            StartCoroutine(StartCamera());
-
-            if (StopCamera)
             {
                 Follow();
-                StopCoroutine(StartCamera());
+                if (StopSmoothChange == false && CinematiqueIntro)
+                {
+                    StartCoroutine(SmoothCameraIntro());
+                }
             }
-        }
-
     }
 
-    IEnumerator StartCamera()
+    IEnumerator SmoothCameraIntro()
     {
-        if (menu.isPlaying)
-        {
-            Debug.Log("oui");
-            Vector3 targetPosition = targetPlayer.position + EmplacementCamera - new Vector3(0,-10,0);
-            Vector3 smoothedposition = Vector3.Lerp(transform.position, targetPosition, smoothSpeed * Time.fixedDeltaTime);
-            transform.position = smoothedposition;
-            StopCamera = true;
-            Follow();
-            yield return this;
-        }
-    }*/
+        Debug.Log(StopSmoothChange);
+        smoothSpeed = 0.5f;
+        yield return new WaitForSeconds(10.5f);
+        smoothSpeed = 2;
+        StopSmoothChange = true;
+    }
+    
 
-  private void FixedUpdate()
-  {
-      Follow();
-  }
-
-  public void Follow()
+    public void Follow()
     {
+        
         if (isMoving == false) // permet que la camera suive le joueur
         {
             Vector3 targetPosition = targetPlayer.position + EmplacementCamera;

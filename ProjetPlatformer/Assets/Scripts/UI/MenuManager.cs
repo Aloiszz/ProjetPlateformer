@@ -21,12 +21,12 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
+    public CameraZoom cm;
 
     [Header("First Selected")]
     public GameObject firstSelctedOption;
     public GameObject firstSelctedMain;
     public GameObject firstSelectedPause;
-    public GameObject firstSelectedParchemmin;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -43,6 +43,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject Page2;
     public GameObject Page3;
     
+    public bool isPlaying;
+    
     
     public static MenuManager instance;
     
@@ -53,6 +55,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
+        isPlaying = false;
         mainMenu.SetActive(true);
         MenuPrincipalOuvert = true;
         menuParchemin.SetActive(false);
@@ -89,23 +92,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             CharacterMovement.instance.canMove = false;
             CharacterMovement.instance.canJump = false;
             CharacterMovement.instance.speed = 0;
-            
         }
-        else
-        {
-            if (MenuParcheminOuvert)
-            {
-                CharacterMovement.instance.canMove = false;
-                CharacterMovement.instance.canJump = false;
-                CharacterMovement.instance.speed = 0;
-            }
-            else
-            {
-              /*  CharacterMovement.instance.canMove = true;
-                CharacterMovement.instance.canJump = true;
-                CharacterMovement.instance.speed = 11; */
-            }
-        }
+        
 
         //if (Fdc.onoff)
         //{
@@ -122,7 +110,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 CloseMenuParchemin();
             }
         }
-        
     }
 
     public void OpenMenuParchemin()
@@ -250,6 +237,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     }
     public void Play()
     {
+        isPlaying = true;
         EventSystem.current.SetSelectedGameObject(null);
         StartCoroutine(WaitMove());
         mainMenu.GetComponent<CanvasGroup>().interactable = false;
@@ -259,10 +247,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     IEnumerator WaitMove()
     {
-        yield return new WaitForSeconds(0.1f);
-        CharacterMovement.instance.canMove = true;
-        CharacterMovement.instance.canJump = true;
-        CharacterMovement.instance.speed = 11;
+        if (cm.CinematiqueIntro)
+        {
+            yield return new WaitForSeconds(10.5f);
+        } 
+            CharacterMovement.instance.canMove = true;
+            CharacterMovement.instance.canJump = true;
+            CharacterMovement.instance.speed = 11;
+        
     }
 
 

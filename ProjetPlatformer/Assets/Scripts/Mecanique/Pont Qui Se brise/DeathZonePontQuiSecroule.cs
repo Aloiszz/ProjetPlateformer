@@ -114,6 +114,10 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
         PontQuisuivent4.instancePontQuiSuivent4.hingeJoint.enabled = false;
         PontQuisuivent4.instancePontQuiSuivent4.rb.gravityScale = 0;
 
+        DébutPontQuiSecroule.instancePont.rb.simulated = false;
+        DébutPontQuiSecroule.instancePont.hingeJoint.enabled = false;
+        DébutPontQuiSecroule.instancePont.rb.gravityScale = 0;
+
         collision.transform.position = playerSpawn.position;
         FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
         FeuxDeCamp.instanceFeuxdeCamp.GoToCamp();

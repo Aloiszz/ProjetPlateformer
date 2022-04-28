@@ -18,8 +18,8 @@ public class TriggerZoom : MonoBehaviour
     [Header("modification camera")]
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
-    public float smoothSpeed = 2f; 
-    public Vector3 emplacementDebutCamera;
+    public float smoothSpeed = 2f;
+    
 
 
     private void Start()
@@ -38,7 +38,9 @@ public class TriggerZoom : MonoBehaviour
             {
                 //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
                 Camera.EmplacementCamera = EmplacementCamera;
+                //Camera.EmplacementCamera = Vector3.MoveTowards(Camera.EmplacementCamera,EmplacementCamera,100* Time.deltaTime);
                 StartCoroutine(SleepCameraFixTrue());
+                
             }
             else
             {

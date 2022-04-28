@@ -71,6 +71,8 @@ public class GrabBoite : MonoBehaviour
         {
             if (respawn.lache)
             {
+                rb.velocity = new Vector2(0, 0);
+                transform.localRotation = new Quaternion(0, 0, 0, 0);
                 boiteGrab = false;
             }
         }
@@ -84,7 +86,6 @@ public class GrabBoite : MonoBehaviour
         {
             //coll.enabled = false;
             JoystickManager();
-            Debug.Log(Points.Length);
             for (int i = 0; i < Points.Length; i++)
             {
                 Points[i].gameObject.SetActive(true);

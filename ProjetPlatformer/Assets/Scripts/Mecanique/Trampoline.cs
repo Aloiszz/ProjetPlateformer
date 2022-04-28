@@ -47,13 +47,15 @@ public class Trampoline : MonoBehaviour
             else
             {
              //   StartCoroutine(cameraShake.Shake(0.1f, forceShakeBonus));
-                rb.velocity = new Vector2(0,forceBonus); 
+                //rb.velocity = new Vector2(0,forceBonus); 
+                rb.AddRelativeForce(rbBoite.transform.right*forceBoite);
                 tweener = mainCamera.transform.DOShakePosition(0.1f,forceShakeBonus,2,30,false,false);
             }
         }
 
         if (other.gameObject.CompareTag("Respawn"))
         {
+            Debug.Log("sa mère");
             rbBoite.velocity = new Vector2(0,forceBoite);
         }
     }
