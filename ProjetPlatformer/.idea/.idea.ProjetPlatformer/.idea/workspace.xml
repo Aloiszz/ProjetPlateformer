@@ -3,17 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ClapetVent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ClapetVent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Rayon Anti-Boîte.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Rayon Anti-Boîte.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActivateurVent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ActivateurVent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaquedePressionRelache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlaquedePressionRelache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Platforme/PlateformeMouvementPendulaire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Mécanique/Platforme/PlateformeMouvementPendulaire.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test LD1 nouv.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test LD1 nouv.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Trampoline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Trampoline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabBoite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VentOnOff.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VentOnOff.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LD Particulier/EntréeChute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LD Particulier/EntréeChute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabGrosseBoite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/GrabGrosseBoite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/RangeBoite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/RangeBoite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +34,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FermetureSalle2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,12 +48,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DébutPontQuiSecroule/TriggerPontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DébutPontQuiSecroule/DébutPontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ActivateurVent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ArretPiliers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">

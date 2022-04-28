@@ -15,6 +15,7 @@ public class EntréeChute : MonoBehaviour
     public ParticleSystem particuesEntree;
     public GameObject mainCamera;
     public Tween tweener;
+    public RangeBoite boite;
 
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,10 +23,11 @@ public class EntréeChute : MonoBehaviour
         if (other.CompareTag("GrosseBoîte"))
         {
             StartCoroutine(VibrationTime());
-            tweener = mainCamera.transform.DOShakePosition(1.5f,5,15,35,false,false);
+            tweener = mainCamera.transform.DOShakePosition(1.2f,2,15,20,false,false);
             particuesEntree.Play();
-            Destroy(gameObject);
-            
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            boite.actif = false;
         }
     }
     

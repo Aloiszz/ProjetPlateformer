@@ -1,9 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using XInputDotNetPure;
 
 public class GrabGrosseBoite : MonoBehaviour
 {
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    
     public bool boiteGrab;
     public GameObject player;
     private Rigidbody2D rb;
@@ -30,6 +35,7 @@ public class GrabGrosseBoite : MonoBehaviour
                 //boiteGrab = true;
                 rb.mass = 50;
                 anim.SetBool("IsGrosseBoite", true);
+                StartCoroutine(vibration());
             }
             else
             {
@@ -47,5 +53,12 @@ public class GrabGrosseBoite : MonoBehaviour
         {
             
         }*/
+    }
+
+    IEnumerator vibration()
+    {
+        GamePad.SetVibration(playerIndex, 0.1f, 0.1f);
+        yield return new WaitForSeconds(2);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
 }
