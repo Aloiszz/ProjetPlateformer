@@ -26,6 +26,8 @@ public class Parchemin : MonoBehaviour
             particulesParchemin.Play();
         
             gameObject.transform.DOScale(new Vector3(0, 0, 0), 0.5f);
+            gameObject.transform.DORotate(new Vector3(0, 0, -180), 0.8f);
+            //gameObject.transform.DOMove()
             coll.enabled = false;
 
             pm.AddParchemin();

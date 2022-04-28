@@ -1,9 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.UI;
+using XInputDotNetPure;
 
 public class FeuxDeCamp : MonoBehaviour
 {
@@ -11,10 +13,9 @@ public class FeuxDeCamp : MonoBehaviour
     public bool onoff = false;
     //public bool isInFdC;
     private BoxCollider2D coll;
-
     public ParticleSystem ps;
     public Animator anim;
-    
+    public GameObject Player;
     [SerializeField] CameraZoom Camera;
 
     [Header("modification camera Arriver")]
@@ -29,6 +30,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public static FeuxDeCamp instanceFeuxdeCamp;
     private Transform playerSpawn;
+    
 
     [Header("Animation Curve")]
     public AnimationCurve CourbeDeFlamme;
@@ -43,6 +45,20 @@ public class FeuxDeCamp : MonoBehaviour
     public Animator parchAnim;
     public Image indicationRest;
     public Image indicationWakeUp;
+    
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    private bool doOnce;
+    
+    [Header("Vibration Motor")]
+    public float leftMotor;
+    public float rightMotor;
+    public float duration;
+
+    [Header("NE PAS TOUCHER")] 
+    public Transform playerMoveToFire;
+    
 
 
     private void Awake()
@@ -90,32 +106,45 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        Player.transform.DOMove(playerMoveToFire.position,0.5f);
+        MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
         indicationWakeUp.enabled = true;
         OnOff(); // On
         
-        if (onoff)
+        if (!doOnce)
         {
-            Debug.Log("Input Enter");
-            canRunGame = true;
-            FeuxDeCampsAnim.SetBool("isFire", true);
-            if (CharacterMovement.instance.facingRight == false)
-            {
-                CharacterMovement.instance.Flip();
-            }
-
-            SetPlayer(true);
-            SetCamera(true);
-            SetAnimator(true);
-
-            ps.Play(); // allumer le feu !!!
-            playerSpawn.position = transform.position;
+            StartCoroutine(VibrationTime());
+            doOnce = true;
         }
-        else
+        
+        
+        Debug.Log("Input Enter");
+        canRunGame = true;
+        FeuxDeCampsAnim.SetBool("isFire", true);
+        if (CharacterMovement.instance.facingRight == false)
+        {
+            CharacterMovement.instance.Flip();
+        }
+
+        SetPlayer(true);
+        SetCamera(true);
+        SetAnimator(true);
+
+        ps.Play(); // allumer le feu !!!
+        playerSpawn.position = transform.position;
+        
+        if(!onoff)
         {
             Debug.Log("Input Leave");
             LeaveCamp();
         }
+        
+        /*if (Input.GetAxisRaw("Horizontal")==1)
+        {
+            Debug.Log("Input Leave");
+            LeaveCamp(); 
+        }*/
     }
     public void LeaveCamp()
     {
@@ -126,6 +155,7 @@ public class FeuxDeCamp : MonoBehaviour
         SetPlayer(false);
         SetCamera(false);
         SetAnimator(false);
+        MenuManager.instance.isInFeuxDeCamp = false;
     }
     public void GoToCamp()
     {
@@ -264,5 +294,13 @@ public class FeuxDeCamp : MonoBehaviour
             indicationRest.enabled = false;
             isInRange = false;
         }
+    }
+    
+    IEnumerator VibrationTime()
+    {
+        yield return new WaitForSeconds(duration+0.6f);
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
+        yield return new WaitForSeconds(duration);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
 }

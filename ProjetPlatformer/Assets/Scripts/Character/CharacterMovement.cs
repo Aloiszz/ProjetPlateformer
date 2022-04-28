@@ -9,6 +9,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.UI;
+using XInputDotNetPure;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -82,6 +83,15 @@ public class CharacterMovement : MonoBehaviour
    public float amplitudeFloating;
    public float vitesseFloating;
    
+   PlayerIndex playerIndex;
+   GamePadState state;
+   GamePadState prevState;
+    
+   [Header("Vibration Motor")]
+   public float leftMotor;
+   public float rightMotor;
+   public float duration;
+   
     public static CharacterMovement instance;
     private void Awake()
     {
@@ -109,6 +119,7 @@ public class CharacterMovement : MonoBehaviour
         if (isGrounded == false) // airspeed
         {
             rb.velocity = new Vector2(moveInput * (speed/airSpeed), rb.velocity.y);
+            //rb.AddForce(new Vector2(moveInput * (speed/airSpeed), rb.velocity.y));
         }
         else // ground speed
         {
@@ -267,6 +278,7 @@ public class CharacterMovement : MonoBehaviour
                     isGravityMultiplier = true;
                     animator.SetBool("isGravityMultiplier", true);
                     StartCoroutine(TimetoLandHard());
+                    StartCoroutine(VibrationTime());
                 }
             }
         }
@@ -388,6 +400,13 @@ public class CharacterMovement : MonoBehaviour
         yield return new WaitForSeconds(1);
         speed = 11;
         canJump = true;
+    }
+    
+    IEnumerator VibrationTime()
+    {
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
+        yield return new WaitForSeconds(duration);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
     #endregion
 

@@ -76,7 +76,7 @@ public class CameraZoom : MonoBehaviour
         if (CinematiqueIntro)
         {
             targetOrtho = Camera.main.orthographicSize;
-            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(0,50,0);
+            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(40,40,0);
         }
         else
         {
