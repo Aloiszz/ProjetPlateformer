@@ -86,7 +86,6 @@ public class GrabBoite : MonoBehaviour
         {
             //coll.enabled = false;
             JoystickManager();
-            Debug.Log(Points.Length);
             for (int i = 0; i < Points.Length; i++)
             {
                 Points[i].gameObject.SetActive(true);

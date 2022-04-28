@@ -5,11 +5,7 @@ using UnityEngine;
 
 public class ClapetVent : MonoBehaviour
 {
-
-    public float speed;
-    public float timer;
-    public float distanceMax;
-    public WindArea wind;
+    
     
  
 
