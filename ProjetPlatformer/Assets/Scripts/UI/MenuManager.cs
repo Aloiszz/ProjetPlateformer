@@ -18,6 +18,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [Header("Divers")]
     public FeuxDeCamp Fdc;
     [SerializeField] private CanvasGroup cv;
+    [SerializeField] private CanvasGroup CgOption;
+    [SerializeField] private CanvasGroup CgLevel;
+    [SerializeField] private CanvasGroup CgAudio;
+    [SerializeField] private CanvasGroup CgController;
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
@@ -26,6 +30,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [Header("First Selected")]
     public GameObject firstSelctedOption;
     public GameObject firstSelctedMain;
+    public GameObject firstSelectedLevel;
+    public GameObject firstSelectedAudio;
+    public GameObject firstSelectedController;
     public GameObject firstSelectedPause;
     public GameObject fleche1;
     public GameObject fleche2;
@@ -37,6 +44,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject mainMenu;
     public GameObject menuPrincipal;
     public GameObject menuOption;
+    public GameObject menuLevel;
+    public GameObject menuAudio;
+    public GameObject menuController;
     public GameObject menuPause;
     public GameObject menuParchemin;
     public GameObject Page1;
@@ -44,6 +54,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject Page3;
     
     public bool isPlaying;
+    public bool isInFeuxDeCamp;
     
     
     public static MenuManager instance;
@@ -84,9 +95,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 Unpause();
             } 
         }
-        
-        
-        
+
         if (MenuPrincipalOuvert)
         {
             CharacterMovement.instance.canMove = false;
@@ -97,10 +106,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
         //if (Fdc.onoff)
         //{
+        if (isInFeuxDeCamp)
+        {
             if (Input.GetAxis("BouttonMenuParchemin") > 0.1f || Input.GetKeyDown(KeyCode.E))
             {
                 OpenMenuParchemin();
-            }
+            }   
+        }
+        
         //}
 
         if (MenuParcheminOuvert)
@@ -112,6 +125,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
     }
 
+    #region Menu Parchemin
     public void OpenMenuParchemin()
     {
         parchAnim.SetBool("FadeInParch",false);
@@ -123,21 +137,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(fleche1);
         }
-        
+    
         if (pageOuverte == 2)
         {
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(fleche2);
         }
-        
+    
         if (pageOuverte == 3)
         {
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(fleche4);
         }
-        
     }
-
     public void ChangementPageDroite()
     {
         if (!IsChanging)
@@ -152,13 +164,11 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
         
     }
-
     IEnumerator Changement()
     {
         yield return new WaitForSeconds(0.1f);
         IsChanging = true;
     }
-    
     public void ChangementPageGauche()
     {
         if (!IsChanging)
@@ -172,7 +182,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             Page3.transform.DOMove(new Vector3(newPosPage3,Page3.transform.position.y,Page3.transform.position.z), 1.5f).OnComplete((() => IsChanging = false));
         }
     }
-
     public void ChangementSelected1()
     {
         if (!IsChanging)
@@ -183,7 +192,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
         
     }
-    
     public void ChangementSelected2()
     {
         if (!IsChanging)
@@ -193,7 +201,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             EventSystem.current.SetSelectedGameObject(fleche1);
         }
     }
-    
     public void ChangementSelected3()
     {
         if (!IsChanging)
@@ -203,7 +210,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             EventSystem.current.SetSelectedGameObject(fleche4);
         }
     }
-    
     public void ChangementSelected4()
     {
         if (!IsChanging)
@@ -213,8 +219,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             EventSystem.current.SetSelectedGameObject(fleche2);
         }
     }
-    
-    
     public void CloseMenuParchemin()
     {
         parchAnim.SetBool("FadeInParch",true);
@@ -224,7 +228,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuParchemin.SetActive(false);
     }
     
-    
+    #endregion 
     
     public void Unpause()
     {
@@ -244,7 +248,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         FadeOut(2f);
         MenuPrincipalOuvert = false;
     }
-
     IEnumerator WaitMove()
     {
         if (cm.CinematiqueIntro)
@@ -257,11 +260,22 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
     }
 
-
+    
     public void OpenOption()
     {
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelctedOption);
+        menuOption.SetActive(true);
+        menuPrincipal.SetActive(false);
+        menuLevel.SetActive(false);
+        menuAudio.SetActive(false);
+        menuController.SetActive(false);
+
+        cv.DOFade(0, 0.5f);
+        CgOption.DOFade(1, 0.5f);
+        CgLevel.DOFade(0, 0.5f);
+        CgAudio.DOFade(0, 0.5f);
+        CgController.DOFade(0, 0.5f);
     }
 
     public void OpenMainMenu()
@@ -270,7 +284,45 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         menuOption.SetActive(false);
         menuPrincipal.SetActive(true);
+        
+        cv.DOFade(1, 0.5f);
+        CgOption.DOFade(0, 0.5f);
     }
+
+    public void OpenLevelsMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedLevel);
+        menuOption.SetActive(false);
+        menuLevel.SetActive(true);
+        
+        CgOption.DOFade(0, 0.5f);
+        CgLevel.DOFade(1, 0.5f);
+    }
+    
+    public void OpenAudioMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedAudio);
+        menuOption.SetActive(false);
+        menuAudio.SetActive(true);
+        
+        CgOption.DOFade(0, 0.5f);
+        CgAudio.DOFade(1, 0.5f);
+    }
+    
+    public void OpenControllerMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedController);
+        menuOption.SetActive(false);
+        menuController.SetActive(true);
+        
+        CgOption.DOFade(0, 0.5f);
+        CgController.DOFade(1, 0.5f);
+    }
+    
+    //public void 
     
     
 

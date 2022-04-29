@@ -5,6 +5,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using XInputDotNetPure;
 
 
 public class DeathZone : MonoBehaviour
@@ -17,8 +18,16 @@ public class DeathZone : MonoBehaviour
     private Animator fadeSystem;
 
     public Animator playerAnimator;
-
     private bool verif = false;
+    
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    
+    [Header("Vibration Motor")]
+    public float leftMotor;
+    public float rightMotor;
+    public float duration;
 
     private void Awake()
     {
@@ -43,6 +52,7 @@ public class DeathZone : MonoBehaviour
     public IEnumerator ReplacePlayer(Collider2D collision)
     {
         playerAnimator.SetTrigger("Die");
+        StartCoroutine(VibrationTime());
         yield return new WaitForSeconds(1);
         fadeSystem.SetTrigger("FadeIn");
 
@@ -73,6 +83,13 @@ public class DeathZone : MonoBehaviour
         {
             CharacterMovement.instance.rb.velocity = Vector2.down;
         }
+    }
+    
+    IEnumerator VibrationTime()
+    {
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
+        yield return new WaitForSeconds(duration);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
 }
 

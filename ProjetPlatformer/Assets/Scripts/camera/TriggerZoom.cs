@@ -37,7 +37,7 @@ public class TriggerZoom : MonoBehaviour
             if (isCameraFix == true) // a valider si on veut que la camera soit fixe, qu'elle ne suivent plus le joueur
             {
                 //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
-                //Camera.EmplacementCamera = EmplacementCamera;
+                Camera.EmplacementCamera = EmplacementCamera;
                 Camera.EmplacementCamera = Vector3.MoveTowards(Camera.EmplacementCamera,EmplacementCamera,100* Time.deltaTime);
                 StartCoroutine(SleepCameraFixTrue());
                 
