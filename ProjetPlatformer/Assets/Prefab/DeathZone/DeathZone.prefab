@@ -126,3 +126,6 @@ MonoBehaviour:
   anim: {fileID: 0}
   Camera: {fileID: 0}
   playerAnimator: {fileID: 0}
+  leftMotor: 0
+  rightMotor: 0
+  duration: 0
