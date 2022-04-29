@@ -35,7 +35,6 @@ public class PilierFrappant : MonoBehaviour
     {
         if (trigger.activationFrappe)
         {
-            Debug.Log("sa mère");
             transform.position = Vector3.MoveTowards(transform.position, waypoints[_currentWaypoint].transform.position,
                 (moveSpeed * Time.deltaTime));
 

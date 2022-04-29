@@ -25,6 +25,7 @@ public class GrabBoite : MonoBehaviour
     public RangeBoite range;
     public RespawnBoite respawn;
     public bool isRespawn;
+    public bool lache2;
     
     [Header("UI")]
     public GameObject texteIndication;
@@ -54,6 +55,7 @@ public class GrabBoite : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         if (grabBoiteinstance == null) grabBoiteinstance = this;
         //RemplirArray();
+        texteIndication.SetActive(false);
     }
 
     void RemplirArray()
@@ -71,10 +73,19 @@ public class GrabBoite : MonoBehaviour
         {
             if (respawn.lache)
             {
-                rb.velocity = new Vector2(0, 0);
-                transform.localRotation = new Quaternion(0, 0, 0, 0);
-                boiteGrab = false;
+                lache2 = true;
             }
+            else
+            {
+                lache2 = false;
+            }
+        }
+
+        if (lache2)
+        {
+            rb.velocity = new Vector2(0, 0);
+            transform.localRotation = new Quaternion(0, 0, 0, 0);
+            boiteGrab = false;
         }
         // Si le perso peut prendre la boîte
         if (range.isAtRange == true)
@@ -242,19 +253,22 @@ public class GrabBoite : MonoBehaviour
     {
         if (verif)
         {
-            anim.SetBool("FadeOutGrab", true);
+            texteIndication.SetActive(false);
+            
+           /* anim.SetBool("FadeOutGrab", true);
             anim.SetBool("FadeInGrab", false);
                 
             anim2.SetBool("FadeOutGrab2", true);
-            anim2.SetBool("FadeInGrab2", false);
+            anim2.SetBool("FadeInGrab2", false);*/
         }
         else
         {
-            anim.SetBool("FadeOutGrab", false);
+            texteIndication.SetActive(true);
+           /* anim.SetBool("FadeOutGrab", false);
             anim.SetBool("FadeInGrab", true);
-                
+               
             anim2.SetBool("FadeOutGrab2", false);
-            anim2.SetBool("FadeInGrab2", true);
+            anim2.SetBool("FadeInGrab2", true);*/
         }
     }
     

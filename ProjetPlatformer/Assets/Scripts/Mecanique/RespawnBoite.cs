@@ -27,7 +27,7 @@ public class RespawnBoite : MonoBehaviour
     public IEnumerator lachelaboitedetesmorts()
     {
         lache = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.1f);
         lache = false;
     }
 }
