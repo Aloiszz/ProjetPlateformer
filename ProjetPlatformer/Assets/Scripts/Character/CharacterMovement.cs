@@ -119,11 +119,12 @@ public class CharacterMovement : MonoBehaviour
         if (isGrounded == false) // airspeed
         {
             rb.velocity = new Vector2(moveInput * (speed/airSpeed), rb.velocity.y);
-            //rb.AddForce(new Vector2(moveInput * (speed/airSpeed), rb.velocity.y));
+            //rb.AddForce(new Vector2(moveInput * (speed/airSpeed) , rb.velocity.y), ForceMode2D.Impulse);
         }
         else // ground speed
         {
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+            //rb.AddForce(new Vector2(moveInput * speed, rb.velocity.y), ForceMode2D.Impulse);
         }
         
         
