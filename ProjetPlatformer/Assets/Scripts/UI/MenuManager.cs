@@ -5,6 +5,7 @@ using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using XInputDotNetPure;
 
 public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
@@ -321,8 +322,16 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CgOption.DOFade(0, 0.5f);
         CgController.DOFade(1, 0.5f);
     }
+
+    public void JoinLevel1()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+    }
     
-    //public void 
+    public void JoinLevel2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     
     
 
