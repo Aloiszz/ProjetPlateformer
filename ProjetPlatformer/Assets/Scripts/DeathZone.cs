@@ -16,6 +16,7 @@ public class DeathZone : MonoBehaviour
     
     private Transform playerSpawn;
     private Animator fadeSystem;
+    
 
     public Animator playerAnimator;
     private bool verif = false;

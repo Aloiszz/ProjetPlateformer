@@ -14,6 +14,7 @@ public class WindArea : MonoBehaviour
     public float timeWaitForWind = 3f;
     
     public CharacterMovement Character;
+    public GrabBoite scriptBoite;
 
     private Rigidbody2D rb;
     public Rigidbody2D rbBoite;
@@ -53,15 +54,19 @@ public class WindArea : MonoBehaviour
         
         if (other.tag == "Respawn")
         {
-            if (isWindy)
+            if (scriptBoite.boiteGrab == false)
             {
-                rbBoite.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                if (isWindy)
+                {
+                    rbBoite.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                }
+                else
+                {
+                    rbBoite.AddForce(new Vector2(WindForce_X, WindForce_Y));
+                }
+                StartCoroutine(WaitForWind()); 
             }
-            else
-            {
-                rbBoite.AddForce(new Vector2(WindForce_X, WindForce_Y));
-            }
-            StartCoroutine(WaitForWind()); 
+            
         }
     }
 

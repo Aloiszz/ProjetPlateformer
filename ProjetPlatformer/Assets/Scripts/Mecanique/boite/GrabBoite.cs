@@ -24,6 +24,7 @@ public class GrabBoite : MonoBehaviour
     public GameObject camera;
     public RangeBoite range;
     public RespawnBoite respawn;
+    public RespawnBoite respawn2;
     public bool isRespawn;
     public bool lache2;
     
@@ -71,7 +72,7 @@ public class GrabBoite : MonoBehaviour
     {
         if (isRespawn)
         {
-            if (respawn.lache)
+            if (respawn.lache || respawn2.lache)
             {
                 lache2 = true;
             }

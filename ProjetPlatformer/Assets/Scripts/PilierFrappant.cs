@@ -16,7 +16,7 @@ public class PilierFrappant : MonoBehaviour
     public bool lentRapide;
     public GameObject camera;
     public FermetureSalle2 trigger;
-    
+    public GameObject deathZone;
 
 // Start is called before the first frame update
     private void Start()
@@ -52,10 +52,18 @@ public class PilierFrappant : MonoBehaviour
             if (lentRapide)
             {
                 moveSpeed = moveSpeedLent;
+                StartCoroutine(WaitUnactive());
             }
             else
             {
                 moveSpeed = moveSpeedRapide;
+                deathZone.SetActive(true);
+            }
+
+            IEnumerator WaitUnactive()
+            {
+                yield return new WaitForSeconds(0.5f);
+                deathZone.SetActive(false);
             }
         
             if (_currentWaypoint != waypoints.Count) return;

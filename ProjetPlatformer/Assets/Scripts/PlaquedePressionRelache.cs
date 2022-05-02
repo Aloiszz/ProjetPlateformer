@@ -31,6 +31,7 @@ public class PlaquedePressionRelache : MonoBehaviour
     public float leftMotor;
     public float rightMotor;
     public float duration;
+    
 
     private void Update()
     {
@@ -82,7 +83,7 @@ public class PlaquedePressionRelache : MonoBehaviour
     private void FermeturePorte()
     {
         ouvertFerme = false;
-        transform.DOMove(transform.position + new Vector3(0,0.01f,0), 1);
+        transform.DOMove(transform.position + new Vector3(0,0.04f,0), 1);
         boolStopFerme = true;
         timerFerme += Time.deltaTime;
         if (timerFerme <= DistancePorteMax)
@@ -90,7 +91,7 @@ public class PlaquedePressionRelache : MonoBehaviour
             porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.down,
                 speedPorte * Time.deltaTime);
             
-            tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false,false);
+            tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,1,1,20,false);
             if (particules)
             {
                 particulesAssociées.SetActive(true);
@@ -120,7 +121,7 @@ public class PlaquedePressionRelache : MonoBehaviour
     private void OuverturePorte()
     {
         ouvertFerme = true;
-        transform.DOMove(transform.position + new Vector3(0,-0.01f,0), 1);
+        transform.DOMove(transform.position + new Vector3(0,-0.04f,0), 1);
         boolStop = true;
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)
@@ -128,7 +129,7 @@ public class PlaquedePressionRelache : MonoBehaviour
             porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.up,
                 speedPorte * Time.deltaTime);
             
-            tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false,false);
+            tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false);
             if (particules)
             {
                 particulesAssociées.SetActive(true);

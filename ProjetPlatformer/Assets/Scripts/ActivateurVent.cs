@@ -15,11 +15,17 @@ public class ActivateurVent : MonoBehaviour
     {
         if (activateur == true)
         {
-            wind.SetActive(true);
+            StartCoroutine(waitWind());
         }
         else
         {
             wind.SetActive(false);
         }
+    }
+
+    IEnumerator waitWind()
+    {
+        yield return new WaitForSeconds(0.01f);
+        wind.SetActive(true);
     }
 }

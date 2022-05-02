@@ -19,6 +19,7 @@ public class FermetureSalle2 : MonoBehaviour
     public GameObject camera;
     public bool activationFrappe;
     public bool activation;
+    public int index;
     
     private void Update()
     {
@@ -32,9 +33,18 @@ public class FermetureSalle2 : MonoBehaviour
         if (other.tag == "Player")
         {
             FermeturePorte();
-           
             activationFrappe = !activationFrappe;
-            transform.position += new Vector3(60,0,0);
+            if (index == 0)
+            {
+                transform.position += new Vector3(60,0,0);
+                index++;
+            }
+
+            if (index == 2)
+            {
+                Destroy(gameObject);
+            }
+           
         }
     }
     
