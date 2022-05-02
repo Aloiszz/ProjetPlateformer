@@ -5012,6 +5012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isInRange: 0
   onoff: 0
+  canReturn: 0
+  canLeave: 0
   ps: {fileID: 4668063688936696107}
   anim: {fileID: 0}
   Player: {fileID: 0}
@@ -5019,9 +5021,9 @@ MonoBehaviour:
   distanceTargetArriver: 7
   dezoomSpeedArriver: 2
   EmplacementCameraArriver: {x: 0, y: 0, z: -10}
-  distanceTargetDepart: 15
-  dezoomSpeedDepart: 5
-  EmplacementCameraDepart: {x: 15, y: 0, z: -10}
+  distanceTargetDepart: 12
+  dezoomSpeedDepart: 2.5
+  EmplacementCameraDepart: {x: 10, y: 0, z: -10}
   CourbeDeFlamme:
     serializedVersion: 2
     m_Curve:
@@ -5061,9 +5063,9 @@ MonoBehaviour:
   parchAnim: {fileID: 0}
   indicationRest: {fileID: 0}
   indicationWakeUp: {fileID: 0}
-  leftMotor: 0
-  rightMotor: 0
-  duration: 0
+  leftMotor: 0.5
+  rightMotor: 0.5
+  duration: 0.3
   playerMoveToFire: {fileID: 6634342739835332145}
 --- !u!1 &4867271789030913857
 GameObject:
