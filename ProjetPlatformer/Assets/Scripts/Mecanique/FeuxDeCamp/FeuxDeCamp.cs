@@ -11,6 +11,9 @@ public class FeuxDeCamp : MonoBehaviour
 {
     public bool isInRange = false;
     public bool onoff = false;
+    public bool canReturn = false;
+    public bool canLeave = false;
+    
     //public bool isInFdC;
     private BoxCollider2D coll;
     public ParticleSystem ps;
@@ -96,11 +99,21 @@ public class FeuxDeCamp : MonoBehaviour
         {
             indicationWakeUp.enabled = false;
         }
-        
-        
+
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            EnterCamp();
+            
+            if (!canReturn)
+            {
+                EnterCamp();
+                Debug.Log("Enter");
+            }
+            if (canReturn)
+            {
+                StopAllCoroutines();
+                ReEnterCamp();
+                Debug.Log("Lautre");
+            }
         }
     }
 
@@ -111,15 +124,11 @@ public class FeuxDeCamp : MonoBehaviour
         indicationRest.enabled = false;
         indicationWakeUp.enabled = true;
         OnOff(); // On
-        
         if (!doOnce)
         {
             StartCoroutine(VibrationTime());
             doOnce = true;
         }
-        
-        
-        Debug.Log("Input Enter");
         canRunGame = true;
         FeuxDeCampsAnim.SetBool("isFire", true);
         if (CharacterMovement.instance.facingRight == false)
@@ -136,19 +145,48 @@ public class FeuxDeCamp : MonoBehaviour
         
         if(!onoff)
         {
-            Debug.Log("Input Leave");
             LeaveCamp();
         }
+    }
+
+    public void ReEnterCamp()
+    {
+        Player.transform.DOMove(playerMoveToFire.position,0.5f);
+        MenuManager.instance.isInFeuxDeCamp = true;
+        indicationRest.enabled = false;
+        indicationWakeUp.enabled = true;
         
-        /*if (Input.GetAxisRaw("Horizontal")==1)
+        OnOff();
+        
+        if (CharacterMovement.instance.facingRight == false)
         {
-            Debug.Log("Input Leave");
-            LeaveCamp(); 
-        }*/
+            CharacterMovement.instance.Flip();
+        }
+
+        if (!onoff)
+        {
+            SetPlayer(true);
+            SetCamera(true);
+            SetAnimator(true);
+        }
+        else
+        {
+            stopWakeUp = true;
+            indicationWakeUp.enabled = false;
+            indicationRest.enabled = true;
+            SetPlayer(false);
+            SetCamera(false);
+            SetAnimator(false);
+            MenuManager.instance.isInFeuxDeCamp = false;
+        }
+
+        playerSpawn.position = transform.position;
+        
     }
     public void LeaveCamp()
     {
-        OnOff(); //A remettre pour revenir comme avant // On
+        //OnOff(); //A remettre pour revenir comme avant // On
+        onoff = true;
         stopWakeUp = true;
         indicationWakeUp.enabled = false;
         indicationRest.enabled = true;
@@ -156,6 +194,7 @@ public class FeuxDeCamp : MonoBehaviour
         SetCamera(false);
         SetAnimator(false);
         MenuManager.instance.isInFeuxDeCamp = false;
+        StartCoroutine(CanReturn());
     }
     public void GoToCamp()
     {
@@ -167,10 +206,17 @@ public class FeuxDeCamp : MonoBehaviour
         }*/
         //Debug.Log(onoff);
         
-        SetPlayer(true);
+        /*SetPlayer(true);
         SetCamera(true);
         SetAnimator(true);
-        
+        canReturn = false;*/
+
+        SetPlayer(false);
+        SetCamera(true);
+        anim.SetTrigger("SortieFdC");
+        StartCoroutine(CanLeave());
+
+
         /*if (onoff)
         {
             LeaveCamp(); 
@@ -270,8 +316,7 @@ public class FeuxDeCamp : MonoBehaviour
         }
         
     }
-
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
@@ -302,5 +347,23 @@ public class FeuxDeCamp : MonoBehaviour
         GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
         yield return new WaitForSeconds(duration);
         GamePad.SetVibration(playerIndex, 0, 0);
+    }
+    
+    IEnumerator CanReturn()
+    {
+        yield return new WaitForSeconds(0.6f);
+        canReturn = true;
+    }
+
+    IEnumerator CanLeave()
+    {
+        yield return new WaitForSeconds(0.2f);
+        anim.SetBool("IsFdC", false);
+    }
+
+    IEnumerator LeaveCamera()
+    {
+        yield return new WaitForSeconds(0.4f);
+        SetCamera(false);
     }
 }

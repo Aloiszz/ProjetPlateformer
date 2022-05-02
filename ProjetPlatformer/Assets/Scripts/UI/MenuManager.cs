@@ -53,7 +53,15 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject Page1;
     public GameObject Page2;
     public GameObject Page3;
-    
+
+    [Header("Element indextion")] 
+    public int indexINT = 0;
+    public GameObject abeillos;
+    public GameObject abeillos2;
+    public GameObject index1;
+    public GameObject index2;
+    public GameObject index3;
+
     public bool isPlaying;
     public bool isInFeuxDeCamp;
     
@@ -79,6 +87,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
   
     void Update()
     {
+        IndexMove();
+            
+            
         if (MenuPrincipalOuvert == false)
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7))
@@ -124,6 +135,32 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 CloseMenuParchemin();
             }
         }
+    }
+
+    public void IndexMove()
+    {
+        if (Input.GetAxisRaw("Vertical") == 1f)
+        {
+            indexINT =- 1;
+            StartCoroutine(MonterIndex());
+        }
+        if (Input.GetAxisRaw("Vertical") == -1f)
+        {
+            indexINT =+ 1;
+            StartCoroutine(DescendreIndex(indexINT));
+        }
+    }
+
+    IEnumerator DescendreIndex(int index)
+    {
+        abeillos.transform.DOMove(index2.transform.position, 0.1f);
+        yield return new WaitForSeconds(0.01f);
+    }
+    
+    IEnumerator MonterIndex()
+    {
+        abeillos.transform.DOMove(index1.transform.position, 0.1f);
+        yield return new WaitForSeconds(0.01f);
     }
 
     #region Menu Parchemin
@@ -325,7 +362,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void JoinLevel1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
     
     public void JoinLevel2()
