@@ -74,6 +74,11 @@ public class CharacterMovement : MonoBehaviour
     public Light2D lightDoubleSaut;
     public Light2D lightDoubleSaut2;
     public ParticleSystem particlesDoubleSaut;
+    public ParticleSystem particlesSaut;
+    public ParticleSystem particlesLanding;
+    public ParticleSystem particlesMarche;
+
+    public ParticleSystem particlesSaut2;
     // public ParticleSystem particulesRetombée;
    // public ParticleSystem particulesRun;
    
@@ -132,6 +137,11 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
+        if (isGrounded && rb.velocity.x !> 0)
+        {
+            particlesMarche.Play();
+        }
+        
         if (rb.velocity.y <= 0)
         {
             stopStretch = true;
@@ -314,6 +324,8 @@ public class CharacterMovement : MonoBehaviour
             jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
+                particlesSaut.Play();
+                particlesSaut2.Play();
                 isJumpingSingle = true;
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
