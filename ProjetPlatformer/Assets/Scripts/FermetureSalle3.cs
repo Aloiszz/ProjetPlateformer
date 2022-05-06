@@ -34,7 +34,7 @@ public class FermetureSalle3 : MonoBehaviour
             FermeturePorte();
            
             activationFrappe2 = !activationFrappe2;
-            transform.position += new Vector3(30,50,0);
+            transform.position += new Vector3(60,50,0);
         }
     }
     
