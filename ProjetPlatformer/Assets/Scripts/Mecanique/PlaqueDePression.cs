@@ -20,6 +20,8 @@ public class PlaqueDePression : MonoBehaviour
     public GameObject mainCamera;
     public GameObject particulesAssociées;
     public bool particules;
+    public Vector3 enfoncement;
+    public GameObject impultionElectique;
     
     PlayerIndex playerIndex;
     GamePadState state;
@@ -54,7 +56,9 @@ public class PlaqueDePression : MonoBehaviour
 
     private void OuverturePorte()
     {
-        transform.DOMove(transform.position + new Vector3(0,-0.1f,0), 1);
+        impultionElectique.SetActive(true);
+        
+        transform.DOMove(transform.position + enfoncement, 1);
         boolStop = true;
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)

@@ -42,11 +42,41 @@ public class WindArea : MonoBehaviour
             if (isWindy)
             {
                 
-                rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                
+                if (Tempête)
+                {
+                    if (Character.isGrounded)
+                    {
+                        rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                    }
+                    else
+                    {
+                        rb.AddForce(new Vector2(WindForceNull_X*2, WindForceNull_Y*2));
+                    }
+                }
+                else
+                {
+                    rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                }
             }
             else
             {
-                rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
+                if (Tempête)
+                {
+                    if (Character.isGrounded)
+                    {
+                        rb.AddForce(new Vector2(WindForce_X, WindForce_Y));
+                    }
+                    else
+                    {
+                        rb.AddForce(new Vector2(WindForce_X*2, WindForce_Y*2));
+                    }
+                }
+                else
+                {
+                    rb.AddForce(new Vector2(WindForceNull_X, WindForceNull_Y));
+                }
+                
             }
             StartCoroutine(WaitForWind()); 
             StartCoroutine(WaitForLittleWind()); 
@@ -111,7 +141,6 @@ public class WindArea : MonoBehaviour
                 anim.SetBool("IsTempete", true);
                 if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1)
                 {
-                    Debug.Log("sa mère");
                     anim.SetBool("WalkTempete",true);
                 }
                 else
