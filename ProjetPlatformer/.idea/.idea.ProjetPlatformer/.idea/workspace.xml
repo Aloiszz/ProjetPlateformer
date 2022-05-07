@@ -24,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/ShootBow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FermetureSalle2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/PiquesQuiBougent/FinTriggerPiqueQuiBougent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Props/BougieTrigger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,7 +124,7 @@
       <workItem from="1650355604355" duration="3232000" />
       <workItem from="1650372884332" duration="17147000" />
       <workItem from="1650462163689" duration="1550000" />
-      <workItem from="1651776183079" duration="5089000" />
+      <workItem from="1651776183079" duration="21088000" />
     </task>
     <servers />
   </component>

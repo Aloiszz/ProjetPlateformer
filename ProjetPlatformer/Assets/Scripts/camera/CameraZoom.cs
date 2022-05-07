@@ -86,13 +86,13 @@ public class CameraZoom : MonoBehaviour
     private void FixedUpdate()
     {
         if(menu.isPlaying)
-            {
+        {
                 Follow();
                 if (StopSmoothChange == false && CinematiqueIntro)
                 {
                     StartCoroutine(SmoothCameraIntro());
                 }
-            }
+        }
     }
 
     IEnumerator SmoothCameraIntro()

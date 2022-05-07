@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.UI;
@@ -33,16 +34,15 @@ public class FeuxDeCamp : MonoBehaviour
 
     public static FeuxDeCamp instanceFeuxdeCamp;
     private Transform playerSpawn;
-    
 
     [Header("Animation Curve")]
     public AnimationCurve CourbeDeFlamme;
     public Light2D Flamme;
     private float graph, increment;
     private bool canRunGame;
-
-    [Header("UI")] 
     private bool stopWakeUp;
+
+    [Header("UI")]
     public MenuManager mm;
     public Animator FeuxDeCampsAnim;
     public Animator parchAnim;
@@ -91,18 +91,13 @@ public class FeuxDeCamp : MonoBehaviour
         {
             indicationWakeUp.enabled = false;
         }
-        if (!onoff)
+        /*if (!mm.MenuParcheminOuvert && stopWakeUp)
         {
             indicationWakeUp.enabled = false;
-        }
-        if (!mm.MenuParcheminOuvert && stopWakeUp)
-        {
-            indicationWakeUp.enabled = false;
-        }
+        }*/
 
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
         {
-            
             if (!canReturn)
             {
                 EnterCamp();
@@ -178,6 +173,9 @@ public class FeuxDeCamp : MonoBehaviour
             SetCamera(false);
             SetAnimator(false);
             MenuManager.instance.isInFeuxDeCamp = false;
+            MenuManager.instance.CloseMenuParchemin();
+            MenuManager.instance.parchAnim.SetBool("FadeInParch",false);
+            MenuManager.instance.parchAnim.SetBool("FadeOutParch",true);
         }
 
         playerSpawn.position = transform.position;
@@ -194,6 +192,9 @@ public class FeuxDeCamp : MonoBehaviour
         SetCamera(false);
         SetAnimator(false);
         MenuManager.instance.isInFeuxDeCamp = false;
+        MenuManager.instance.CloseMenuParchemin();
+        MenuManager.instance.parchAnim.SetBool("FadeInParch",false);
+        MenuManager.instance.parchAnim.SetBool("FadeOutParch",true);
         StartCoroutine(CanReturn());
     }
     public void GoToCamp()
@@ -322,10 +323,7 @@ public class FeuxDeCamp : MonoBehaviour
         if (other.tag == "Player")
         {
             isInRange = true;
-            if (!onoff)
-            {
-                indicationRest.enabled = true; 
-            }
+            indicationRest.enabled = true;
         }
         else
         {
