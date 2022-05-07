@@ -261,7 +261,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         parchAnim.SetBool("FadeInParch",true);
         parchAnim.SetBool("FadeOutParch",false);
-        
+
         MenuParcheminOuvert = false;
         menuParchemin.SetActive(false);
     }
