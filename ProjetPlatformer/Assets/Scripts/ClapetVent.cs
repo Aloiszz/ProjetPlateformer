@@ -42,6 +42,7 @@ public class ClapetVent : MonoBehaviour
     [SerializeField] private List<Transform> waypoints;
     [SerializeField] private float moveSpeed = 5f;
     private int _currentWaypoint;
+    public bool impultionElectique;
 
 // Start is called before the first frame update
     private void Start()
@@ -63,12 +64,19 @@ public class ClapetVent : MonoBehaviour
 
         if (Vector3.Distance(waypoints[_currentWaypoint].transform.position, transform.position) <= 0)
         {
-           
             _currentWaypoint++;
         }
         
         if (_currentWaypoint != waypoints.Count) return;
-        waypoints.Reverse();
-        _currentWaypoint = 0;
+        if (impultionElectique)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            waypoints.Reverse();
+            _currentWaypoint = 0; 
+        }
+        
     }
 }

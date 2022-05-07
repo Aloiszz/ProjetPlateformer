@@ -31,9 +31,9 @@ public class GrabBoite : MonoBehaviour
     [Header("UI")]
     public GameObject texteIndication;
     
-    [Header("Animator")]
+   /* [Header("Animator")]
     public Animator anim;
-    public Animator anim2;
+    public Animator anim2;*/
     
     [Header("----------------------------------------------")]
     public Vector2 direction;
@@ -96,6 +96,7 @@ public class GrabBoite : MonoBehaviour
         
         if (boiteGrab)
         {
+            texteIndication.SetActive(false);
             //coll.enabled = false;
             JoystickManager();
             for (int i = 0; i < Points.Length; i++)
@@ -168,7 +169,7 @@ public class GrabBoite : MonoBehaviour
 
         if (boiteGrab == true)
         {
-            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.2f,
+            transform.position = new Vector3(player.transform.position.x, player.transform.position.y + 1.22f,
                 player.transform.position.z);
         } // Placement de la boite sur la tete
         
@@ -254,7 +255,7 @@ public class GrabBoite : MonoBehaviour
     {
         if (verif)
         {
-            texteIndication.SetActive(false);
+            
             
            /* anim.SetBool("FadeOutGrab", true);
             anim.SetBool("FadeInGrab", false);
@@ -264,7 +265,7 @@ public class GrabBoite : MonoBehaviour
         }
         else
         {
-            texteIndication.SetActive(true);
+            
            /* anim.SetBool("FadeOutGrab", false);
             anim.SetBool("FadeInGrab", true);
                
