@@ -25,18 +25,15 @@ public class PilliersHorizontal : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         other.transform.parent = playerHolder.transform;
-        saveScale.x = other.transform.localScale.x;
-        saveScale.y = other.transform.localScale.y;
+        //saveScale.x = other.transform.localScale.x;
+        //saveScale.y = other.transform.localScale.y;
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
         other.transform.parent = null;
-       /*tamère.x *= transform.localScale.x;
-        tamère.y *= transform.localScale.y;
-        other.transform.localScale = tamère;*/
-       other.transform.localScale = saveScale;
+        //other.transform.localScale = Vector3.one;
     }
     
     
@@ -78,21 +75,20 @@ public class PilliersHorizontal : MonoBehaviour
             if (lentRapide)
             {
                 moveSpeed = moveSpeedLent;
-                deathzone.SetActive(true);
+                //deathzone.SetActive(true);
             }
             else
             {
                 moveSpeed = moveSpeedRapide;
-                deathzone.SetActive(false);
+                //deathzone.SetActive(false);
             }
+        }
 
         
-            if (_currentWaypoint != waypoints.Count) return;
-            waypoints.Reverse();
-            _currentWaypoint = 0;
-            lentRapide = !lentRapide;
+        if (_currentWaypoint != waypoints.Count) return;
+        waypoints.Reverse();
+        _currentWaypoint = 0;
+        lentRapide = !lentRapide;
         }
-    }
-    
-    
 }
+

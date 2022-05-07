@@ -7,7 +7,7 @@ public class BougieTrigger : MonoBehaviour
 {
     public bool isTriggered;
     public List<Bougie> bougies;
-    
+
     private int limit = 0;
 
     public static BougieTrigger instance;
