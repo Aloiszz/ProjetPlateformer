@@ -118,10 +118,11 @@ public class GrabBoite : MonoBehaviour
     {
         if (Input.GetButtonDown("GrabGamepad")) 
         {
-            if(boiteGrab == true)
+            boiteGrab = true;
+           /* if(boiteGrab == true)
             {
                 boiteGrab = false;
-                /*if (cm.facingRight == true)
+                if (cm.facingRight == true)
                 {
                     rb.velocity = (new Vector2(forceJet + rbPlayer.velocity.x/2,0));
                 }    
@@ -140,12 +141,12 @@ public class GrabBoite : MonoBehaviour
                     {
                         rb.velocity = (new Vector2(-forcePose,2.5f));
                     }
-                }*/
+                }
             }
             else
             {
                 boiteGrab = true;
-            }
+            }*/
         }
         if (Input.GetButtonDown("ThrowBox") && boiteGrab)
         {
