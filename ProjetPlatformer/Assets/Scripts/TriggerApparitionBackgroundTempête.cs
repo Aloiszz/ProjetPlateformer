@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerApparitionBackgroundTempête : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public GameObject BackgroundTempete4;
     public GameObject BackgroundTempete5;
     public GameObject BackgroundTempete6;
+    public Image Barre1;
+    public Image Barre2;
 
     public Animator playerAnim;
     public GameObject GlobalVolume;
@@ -25,7 +28,10 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
 
     IEnumerator CinematiqueTempête()
     {
-        
+        /*float newPosPage1 = Barre1.transform.position.x - distanceChangementPage;
+        float newPosPage2 = Barre2.transform.position.x - distanceChangementPage;
+        Barre1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);*/
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
