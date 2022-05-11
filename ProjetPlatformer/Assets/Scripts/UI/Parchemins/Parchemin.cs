@@ -17,7 +17,6 @@ public class Parchemin : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
     }
     
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")

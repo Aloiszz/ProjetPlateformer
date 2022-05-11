@@ -96,7 +96,6 @@ public class WindArea : MonoBehaviour
                 }
                 StartCoroutine(WaitForWind()); 
             }
-            
         }
     }
 
