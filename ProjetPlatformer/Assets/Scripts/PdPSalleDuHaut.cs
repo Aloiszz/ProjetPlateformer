@@ -19,21 +19,17 @@ public class PdPSalleDuHaut : MonoBehaviour
 
     [Header("Camera")] public CameraZoom Camera;
     public bool isCameraFix; // a cocher si l'on veut que la camera ne bouge plus 
-    public Vector3 EmplacementCamera = new Vector3(5,0,-10); /* permet d'établir une nouvelle position pour la camera (déplacement), Attention: l'emplacement est un peu bugger
-    on établie le nouvel emplacement en fonction de l'emplacement du trigger et non celui du localScale de l'éditeur */
+    public GameObject EmplacementCamera; // permet d'établir une nouvelle position pour la camera (déplacement), Attention: l'emplacement est un peu buggeron établie le nouvel emplacement en fonction de l'emplacement du trigger et non celui du localScale de l'éditeur */
+    public GameObject EmplacementCameraDeBase;
 
     //public float EmplacementCameraX;
     //public float EmplacementCameraY;
-    
-    [Header("modification camera")]
+
+    [Header("modification camera")] 
+    public float atoidejouet;
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     public float smoothSpeed = 2f;
-    
-    public float distanceTarget2;
-    public float dezoomSpeed2;
-    public float smoothSpeed2;
-    public Vector3 EmplacementCamera2;
 
     public bool salleDuHaut;
     
@@ -42,8 +38,6 @@ public class PdPSalleDuHaut : MonoBehaviour
     GamePadState prevState;
     private bool doOnce;
     
-    
-      
     [Header("Vibration Motor")]
     public float leftMotor;
     public float rightMotor;
@@ -79,17 +73,11 @@ public class PdPSalleDuHaut : MonoBehaviour
         Camera.smoothSpeed = dezoomSpeed;
         Camera.targetOrtho = distanceTarget;
         Camera.smoothSpeed = smoothSpeed;
-        Camera.EmplacementCamera = EmplacementCamera;
-        yield return new WaitForSeconds(2f);
-        Camera.smoothSpeed = dezoomSpeed2;
-        Camera.targetOrtho = distanceTarget2;
-        Camera.smoothSpeed = smoothSpeed2;
-        Camera.EmplacementCamera = EmplacementCamera2;
+        Camera.transform.DOMove(EmplacementCamera.transform.position,2f).SetEase(Ease.OutQuart);//OutQuart
         yield return new WaitForSeconds(3f);
-        EmplacementCamera = new Vector3(0, 2, -10);
-        distanceTarget = 11;
+        distanceTarget = atoidejouet;
         Camera.targetOrtho = distanceTarget;
-        Camera.EmplacementCamera = EmplacementCamera;
+        Camera.transform.DOMove(EmplacementCameraDeBase.transform.position,2f).SetEase(Ease.OutQuart);//OutQuart
         yield return new WaitForSeconds(1.5f);
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
