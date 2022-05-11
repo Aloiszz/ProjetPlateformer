@@ -141,26 +141,39 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         if (Input.GetAxisRaw("Vertical") == 1f)
         {
-            indexINT =- 1;
-            StartCoroutine(MonterIndex());
+            indexINT --;
+            StartCoroutine(MonterIndex(indexINT));
         }
         if (Input.GetAxisRaw("Vertical") == -1f)
         {
-            indexINT =+ 1;
-            StartCoroutine(DescendreIndex(indexINT));
+            indexINT ++;
+            //StartCoroutine(DescendreIndex(indexINT));
         }
     }
 
     IEnumerator DescendreIndex(int index)
     {
-        abeillos.transform.DOMove(index2.transform.position, 0.1f);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
+        if (index == 1)
+        {
+            abeillos.transform.DOMove(index2.transform.position, 0.1f);
+        }
+        else if (index == 2)
+        {
+            abeillos.transform.DOMove(index3.transform.position, 0.1f);
+        }
+        else if (index < 3)
+        {
+            abeillos.transform.DOMove(index2.transform.position, 0.1f);
+            indexINT = 1;
+        }
+        
     }
     
-    IEnumerator MonterIndex()
+    IEnumerator MonterIndex(int index)
     {
+        yield return new WaitForSeconds(0.001f);
         abeillos.transform.DOMove(index1.transform.position, 0.1f);
-        yield return new WaitForSeconds(0.01f);
     }
 
     #region Menu Parchemin
