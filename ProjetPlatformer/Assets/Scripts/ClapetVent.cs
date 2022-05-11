@@ -2,25 +2,55 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-using DG.Tweening;
 
 public class ClapetVent : MonoBehaviour
 {
-    [SerializeField] private List<Transform> waypoints;
-    public float moveSpeed = 5f;
-    private int _currentWaypoint;
     
-    public static ClapetVent instance;
     
-    private void Awake()
+ 
+
+    // Update is called once per frame
+    /*void Update()
     {
-        if (instance == null) instance = this;
+        StartCoroutine(MouvementRégulier());
+        
+        if
     }
+
+
+    private IEnumerator MouvementRégulier()
+    {
+        timer += Time.deltaTime;
+        if (timer <= distanceMax)
+        {
+        //transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.up,
+            //speed * Time.deltaTime);
+        transform.DOMove(transform.position + new Vector3(0,distanceMax,0), speed, false).OnComplete((() => timer -= distanceMax));
+        }
+        yield return new WaitForSeconds(wind.timeWaitForWind);
+        
+        //transform.position = Vector3.MoveTowards(transform.position, transform.position - Vector3.up,
+        //    speed * Time.deltaTime);
+        if (timer <= distanceMax)
+        {
+        transform.DOMove(transform.position + new Vector3(0,distanceMax,0), speed, false);
+        }
+    }*/
+    
+    
+    
+    [SerializeField] private List<Transform> waypoints;
+    [SerializeField] private float moveSpeed = 5f;
+    private int _currentWaypoint;
+
+// Start is called before the first frame update
     private void Start()
     {
         if (waypoints.Count <= 0) return;
         _currentWaypoint = 0;
     }
+
+// Update is called once per frame
     private void FixedUpdate()
     {
         HandleMovement();

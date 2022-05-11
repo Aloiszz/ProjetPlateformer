@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 
 public class TriggerZoom : MonoBehaviour
 {   
@@ -40,13 +39,11 @@ public class TriggerZoom : MonoBehaviour
                 //Camera.EmplacementCamera = new Vector3(EmplacementCameraX, EmplacementCameraY, -10f);
                 Camera.EmplacementCamera = EmplacementCamera;
                 Camera.EmplacementCamera = Vector3.MoveTowards(Camera.EmplacementCamera,EmplacementCamera,100* Time.deltaTime);
-                //Camera.transform.DOMove(EmplacementCamera, 100 * Time.deltaTime).SetEase(Ease.OutQuart);
                 StartCoroutine(SleepCameraFixTrue());
                 
             }
             else
             {
-                Camera.transform.DOKill();
                 Camera.EmplacementCamera = EmplacementCamera;
                 //Camera.targetEmplacementCamera = EmplacementCamera;
                 StartCoroutine(SleepCameraFixFalse());

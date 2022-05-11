@@ -41,7 +41,7 @@ public class DeathZone : MonoBehaviour
         
         if (collision.CompareTag("Player"))
         {
-            //Camera.isMoving = false;
+            Camera.isMoving = false;
             StartCoroutine(ReplacePlayer(collision));
             CharacterMovement.instance.canMove = false;
             CharacterMovement.instance.canJump = false;

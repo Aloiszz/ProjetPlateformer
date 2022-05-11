@@ -31,7 +31,6 @@ public class RangeBoite : MonoBehaviour
         {
             if (other.tag == "Player")
             {
-                UIGrab.SetActive(true);
                 isAtRange = true;
                 if (actif && grosseBoite)
                 {
