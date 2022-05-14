@@ -13,8 +13,10 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public GameObject BackgroundTempete4;
     public GameObject BackgroundTempete5;
     public GameObject BackgroundTempete6;
-    public Image Barre1;
-    public Image Barre2;
+    public GameObject Barre2;
+    public GameObject Barre1;
+    public float DistanceBarres;
+    public float DistanceBarres2;
 
     public Animator playerAnim;
     public GameObject GlobalVolume;
@@ -28,10 +30,10 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
 
     IEnumerator CinematiqueTempête()
     {
-        /*float newPosPage1 = Barre1.transform.position.x - distanceChangementPage;
-        float newPosPage2 = Barre2.transform.position.x - distanceChangementPage;
-        Barre1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
-        Barre2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);*/
+        float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
+        float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
@@ -46,6 +48,10 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
         GlobalVolume.SetActive(true);
         yield return new WaitForSeconds(1.5f);
+        float newPosPage3 = Barre1.transform.position.y + DistanceBarres;
+        float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,newPosPage3,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage4,Barre2.transform.position.z), 1.5f);
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;

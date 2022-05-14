@@ -15,6 +15,10 @@ public class EntréeRuineDesert : MonoBehaviour
     public ParticleSystem particulesBrisePlateforme;
     private Tween tweener;
     public GameObject MainCamera;
+    public GameObject Barre2;
+    public GameObject Barre1;
+    public float DistanceBarres;
+    public float DistanceBarres2;
 
     public CharacterMovement player;
     
@@ -42,6 +46,10 @@ public class EntréeRuineDesert : MonoBehaviour
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
+        float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
+        float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
         animPlayer.Rebind();
         animPlayer.Play("Player_Idle");
         tweener = MainCamera.transform.DOShakePosition(2,0.14f,10,40,false,false);
@@ -61,6 +69,10 @@ public class EntréeRuineDesert : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         animPlayer.Play("Player_Jump_LandingHard");
         yield return new WaitForSeconds(1f);
+        float newPosPage3 = Barre1.transform.position.y + DistanceBarres;
+        float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,newPosPage3,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage4,Barre2.transform.position.z), 1.5f);
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
