@@ -19,20 +19,20 @@ TagManager:
   - ground
   - button
   - Parallax
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - bg 1
+  - bg 2
+  - bg  3
+  - bg 4
+  - bg 5
+  - bg 5
+  - bg 6
+  - bg 7
+  - bg 8
+  - bg 9
+  - bg 10
+  - bg 11
+  - bg 12
+  - light
   - 
   - 
   - 
@@ -48,4 +48,19 @@ TagManager:
     locked: 0
   - name: Parallax
     uniqueID: 3108456175
+    locked: 0
+  - name: bg2
+    uniqueID: 765232805
+    locked: 0
+  - name: bg1
+    uniqueID: 3918182917
+    locked: 0
+  - name: light
+    uniqueID: 573043477
+    locked: 0
+  - name: bg 3gg
+    uniqueID: 440226539
+    locked: 0
+  - name: last bg
+    uniqueID: 1653505361
     locked: 0

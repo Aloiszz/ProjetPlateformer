@@ -1,0 +1,1032 @@
+fileFormatVersion: 2
+guid: 6c81bf1efb8d5bf46a53c629314280c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -974407691934966138
+    second: plante verte ruine_0
+  - first:
+      213: -2016219413342049730
+    second: plante verte ruine_1
+  - first:
+      213: 1861704921081847027
+    second: plante verte ruine_2
+  - first:
+      213: 5643740799722769153
+    second: plante verte ruine_3
+  - first:
+      213: 487437745249580317
+    second: plante verte ruine_4
+  - first:
+      213: -5537029581755736550
+    second: plante verte ruine_5
+  - first:
+      213: 4569461687520260670
+    second: plante verte ruine_6
+  - first:
+      213: -2525167874830035597
+    second: plante verte ruine_7
+  - first:
+      213: 7330341479832341896
+    second: plante verte ruine_8
+  - first:
+      213: 5663354076994957575
+    second: plante verte ruine_9
+  - first:
+      213: 3563922872586562051
+    second: plante verte ruine_10
+  - first:
+      213: 5364759433407353291
+    second: plante verte ruine_11
+  - first:
+      213: -7572520756325202744
+    second: plante verte ruine_12
+  - first:
+      213: -8842715141186648322
+    second: plante verte ruine_13
+  - first:
+      213: 4601553036144649257
+    second: plante verte ruine_14
+  - first:
+      213: 4452999616960230887
+    second: plante verte ruine_15
+  - first:
+      213: 5312784301254171858
+    second: plante verte ruine_16
+  - first:
+      213: 7950936897361149444
+    second: plante verte ruine_17
+  - first:
+      213: -1425754147215164021
+    second: plante verte ruine_18
+  - first:
+      213: 144102442206037087
+    second: plante verte ruine_19
+  - first:
+      213: 4449200548296760437
+    second: plante verte ruine_20
+  - first:
+      213: 4871268080933482991
+    second: plante verte ruine_21
+  - first:
+      213: -3431801891273810818
+    second: plante verte ruine_22
+  - first:
+      213: 774116001236139264
+    second: plante verte ruine_23
+  - first:
+      213: 6464655179685852811
+    second: plante verte ruine_24
+  - first:
+      213: -768963901496344690
+    second: plante verte ruine_25
+  - first:
+      213: 1558582373744693078
+    second: plante verte ruine_26
+  - first:
+      213: 6500541292411735638
+    second: plante verte ruine_27
+  - first:
+      213: 1021370425126320809
+    second: plante verte ruine_28
+  - first:
+      213: 5559228508833670295
+    second: plante verte ruine_29
+  - first:
+      213: -5313166890543101032
+    second: plante verte ruine_30
+  - first:
+      213: 4693433709296382620
+    second: plante verte ruine_31
+  - first:
+      213: 8051627490108249800
+    second: plante verte ruine_32
+  - first:
+      213: -6630940833270006636
+    second: plante verte ruine_33
+  - first:
+      213: -1781100612642581411
+    second: plante verte ruine_34
+  - first:
+      213: 1722681652309845496
+    second: plante verte ruine_35
+  - first:
+      213: -3407411917251811697
+    second: plante verte ruine_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plante verte ruine_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 297
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68edec7ed553a72f0800000000000000
+      internalID: -974407691934966138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 298
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a208e3023f404e0800000000000000
+      internalID: -2016219413342049730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 298
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc1ea113ca16d910800000000000000
+      internalID: 1861704921081847027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 294
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bcad30b58925e40800000000000000
+      internalID: 5643740799722769153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 295
+        width: 49
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15f7b7fb0ab3c600800000000000000
+      internalID: 487437745249580317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_5
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 9
+        width: 72
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9e9c8ee48823b0800000000000000
+      internalID: -5537029581755736550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 9
+        width: 59
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32f66bd13df96f30800000000000000
+      internalID: 4569461687520260670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 269
+        width: 100
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375178e523dc4fcd0800000000000000
+      internalID: -2525167874830035597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 244
+        width: 60
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dc7b3fcba9ab560800000000000000
+      internalID: 7330341479832341896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_9
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 247
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7017b8cf686489e40800000000000000
+      internalID: 5663354076994957575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 204
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a696b58f8957130800000000000000
+      internalID: 3563922872586562051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 207
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1dbade744737a40800000000000000
+      internalID: 5364759433407353291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 194
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4c6f83e7009e690800000000000000
+      internalID: -7572520756325202744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 194
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef60a970e6d584580800000000000000
+      internalID: -8842715141186648322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924a5863b100cdf30800000000000000
+      internalID: 4601553036144649257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 194
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e57dd10f8b3ccd30800000000000000
+      internalID: 4452999616960230887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 194
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcd6847c2dcab940800000000000000
+      internalID: 5312784301254171858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 194
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef1c67bf6675e60800000000000000
+      internalID: 7950936897361149444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 172
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d33363824b63ce0800000000000000
+      internalID: -1425754147215164021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 173
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5405fe5864fff100800000000000000
+      internalID: 144102442206037087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 169
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c93b7635cbebd30800000000000000
+      internalID: 4449200548296760437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 176
+        width: 3
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe13db1b2883a9340800000000000000
+      internalID: 4871268080933482991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 162
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5c13cc5acf50d0800000000000000
+      internalID: -3431801891273810818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 162
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d30a4d6663eba00800000000000000
+      internalID: 774116001236139264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 114
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86709c72a117b950800000000000000
+      internalID: 6464655179685852811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 130
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f363ed7671455f0800000000000000
+      internalID: -768963901496344690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 130
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fcc34496231a510800000000000000
+      internalID: 1558582373744693078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 130
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ec5f53ddf863a50800000000000000
+      internalID: 6500541292411735638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 130
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7ebd7df2ac2e00800000000000000
+      internalID: 1021370425126320809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_29
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 130
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794614eefd8562d40800000000000000
+      internalID: 5559228508833670295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 130
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bcfc80dd6d346b0800000000000000
+      internalID: -5313166890543101032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 130
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92747b771d622140800000000000000
+      internalID: 4693433709296382620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 66
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c61cabfa802dbf60800000000000000
+      internalID: 8051627490108249800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 66
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cfe42c17a2af3a0800000000000000
+      internalID: -6630940833270006636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_34
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 184
+        width: 3
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d545532fd624847e0800000000000000
+      internalID: -1781100612642581411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_35
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 183
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e20be5d138e710800000000000000
+      internalID: 1722681652309845496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante verte ruine_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 178
+        width: 3
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86e5cc1ae076b0d0800000000000000
+      internalID: -3407411917251811697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6a9669fe1bf77a8439aab972329f9de8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
