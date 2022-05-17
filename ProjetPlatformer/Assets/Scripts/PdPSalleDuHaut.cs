@@ -13,6 +13,8 @@ public class PdPSalleDuHaut : MonoBehaviour
     public GameObject porteAssociée;
     public GameObject porteAssociée2;
     public GameObject porteAssociée3;
+    public GameObject SpotPorte2;
+    public GameObject SpotPorte3;
     public bool boolStop;
     private Tween tweener;
     public GameObject mainCamera;
@@ -97,11 +99,11 @@ public class PdPSalleDuHaut : MonoBehaviour
                     speedPorte * Time.deltaTime);  
             }
 
-            porteAssociée2.transform.position = Vector3.MoveTowards(porteAssociée2.transform.position, porteAssociée2.transform.position + Vector3.up,
+            porteAssociée2.transform.position = Vector3.MoveTowards(porteAssociée2.transform.position, SpotPorte2.transform.position,
                 speedPorte * Time.deltaTime);
 
             
-                porteAssociée3.transform.position = Vector3.MoveTowards(porteAssociée3.transform.position, porteAssociée3.transform.position + new Vector3(0,2f,0),
+            porteAssociée3.transform.position = Vector3.MoveTowards(porteAssociée3.transform.position, SpotPorte3.transform.position,
                     speedPorte2 * Time.deltaTime); 
             
             
