@@ -23,6 +23,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [SerializeField] private CanvasGroup CgLevel;
     [SerializeField] private CanvasGroup CgAudio;
     [SerializeField] private CanvasGroup CgController;
+    [SerializeField] private CanvasGroup CgCredit;
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
@@ -34,6 +35,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject firstSelectedLevel;
     public GameObject firstSelectedAudio;
     public GameObject firstSelectedController;
+    public GameObject firstSelectedCredit;
     public GameObject firstSelectedPause;
     public GameObject fleche1;
     public GameObject fleche2;
@@ -48,6 +50,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject menuLevel;
     public GameObject menuAudio;
     public GameObject menuController;
+    public GameObject menuCredit;
     public GameObject menuPause;
     public GameObject menuParchemin;
     public GameObject Page1;
@@ -65,6 +68,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool isPlaying;
     public bool isInFeuxDeCamp;
     
+    [Header("Crédit")] 
+    public GameObject TxtDuCrédit;
     
     public static MenuManager instance;
     
@@ -141,39 +146,42 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         if (Input.GetAxisRaw("Vertical") == 1f)
         {
-            indexINT --;
+            
             StartCoroutine(MonterIndex(indexINT));
+            
+            if (indexINT == 1)
+            {
+                abeillos.transform.DOMove(index2.transform.position, 0.1f);
+            }
+            else if (indexINT == 2)
+            {
+                abeillos.transform.DOMove(index3.transform.position, 0.1f);
+            }
+            else if (indexINT < 3)
+            {
+                abeillos.transform.DOMove(index2.transform.position, 0.1f);
+                indexINT = 1;
+            }
         }
         if (Input.GetAxisRaw("Vertical") == -1f)
         {
-            indexINT ++;
+            
             //StartCoroutine(DescendreIndex(indexINT));
+            
         }
     }
 
     IEnumerator DescendreIndex(int index)
     {
         yield return new WaitForSeconds(0.001f);
-        if (index == 1)
-        {
-            abeillos.transform.DOMove(index2.transform.position, 0.1f);
-        }
-        else if (index == 2)
-        {
-            abeillos.transform.DOMove(index3.transform.position, 0.1f);
-        }
-        else if (index < 3)
-        {
-            abeillos.transform.DOMove(index2.transform.position, 0.1f);
-            indexINT = 1;
-        }
+        indexINT --;
         
     }
     
     IEnumerator MonterIndex(int index)
     {
-        yield return new WaitForSeconds(0.001f);
-        abeillos.transform.DOMove(index1.transform.position, 0.1f);
+        yield return new WaitForSeconds(0.0001f);
+        indexINT ++;
     }
 
     #region Menu Parchemin
@@ -321,12 +329,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuLevel.SetActive(false);
         menuAudio.SetActive(false);
         menuController.SetActive(false);
+        menuCredit.SetActive(false);
 
         cv.DOFade(0, 0.5f);
         CgOption.DOFade(1, 0.5f);
         CgLevel.DOFade(0, 0.5f);
         CgAudio.DOFade(0, 0.5f);
         CgController.DOFade(0, 0.5f);
+        CgCredit.DOFade(0, 0.5f);
     }
 
     public void OpenMainMenu()
@@ -371,6 +381,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
         CgOption.DOFade(0, 0.5f);
         CgController.DOFade(1, 0.5f);
+    }
+    
+    public void OpenCreditMenu()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedCredit);
+        menuOption.SetActive(false);
+        menuCredit.SetActive(true);
+        
+        CgOption.DOFade(0, 0.5f);
+        CgCredit.DOFade(1, 0.5f);
+
+        TxtDuCrédit.transform.DOMoveY(750, 20);
     }
 
     public void JoinLevel1()
