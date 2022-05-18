@@ -69,7 +69,7 @@ public class FinDeNiveau : MonoBehaviour
         Camera.EmplacementCamera = EmplacementCamera;
         Player.transform.DOMoveX(emptyCinématique.transform.position.x, 5);
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
 }

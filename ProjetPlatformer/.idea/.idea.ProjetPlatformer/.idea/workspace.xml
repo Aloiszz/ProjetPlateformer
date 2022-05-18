@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinDeNiveau.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinDeNiveau.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Piliers/Piliers Ruines.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Piliers/Piliers Ruines.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerApparitionBackgroundTempête.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerApparitionBackgroundTempête.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Props/Bougie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoomAvecEmpty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EffetVent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
@@ -132,7 +131,7 @@
       <workItem from="1650372884332" duration="17147000" />
       <workItem from="1650462163689" duration="1550000" />
       <workItem from="1651776183079" duration="28322000" />
-      <workItem from="1652866139006" duration="8502000" />
+      <workItem from="1652866139006" duration="10561000" />
     </task>
     <servers />
   </component>
