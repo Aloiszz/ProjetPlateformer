@@ -69,7 +69,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool isInFeuxDeCamp;
     
     [Header("Crédit")] 
-    public GameObject TxtDuCrédit;
+    public RectTransform TxtDuCrédit;
+    public RectTransform DebutSpotCredit;
+    public RectTransform FinSpotCredit;
     
     public static MenuManager instance;
     
@@ -330,6 +332,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuAudio.SetActive(false);
         menuController.SetActive(false);
         menuCredit.SetActive(false);
+        
+        TxtDuCrédit.transform.DOKill();
+        TxtDuCrédit.transform.position = DebutSpotCredit.transform.position;
 
         cv.DOFade(0, 0.5f);
         CgOption.DOFade(1, 0.5f);
@@ -393,7 +398,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CgOption.DOFade(0, 0.5f);
         CgCredit.DOFade(1, 0.5f);
 
-        TxtDuCrédit.transform.DOMoveY(750, 20);
+        TxtDuCrédit.transform.DOMove(FinSpotCredit.transform.position, 20);
     }
 
     public void JoinLevel1()
