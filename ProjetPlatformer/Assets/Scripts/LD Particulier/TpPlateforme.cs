@@ -22,6 +22,14 @@ public class TpPlateforme : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        other.transform.position += new Vector3(valeurTPX,valeurTPY,0);
+        if (other.tag == "Player")
+        {
+            
+        }
+        else
+        {
+            other.transform.position += new Vector3(valeurTPX,valeurTPY,0);
+        }
+        
     }
 }

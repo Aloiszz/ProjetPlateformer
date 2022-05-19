@@ -32,10 +32,11 @@ public class FermetureSalle2 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            FermeturePorte();
+            
             activationFrappe = !activationFrappe;
             if (index == 0)
             {
+                FermeturePorte();
                 transform.position += new Vector3(60,0,0);
                 index++;
             }
@@ -70,6 +71,11 @@ public class FermetureSalle2 : MonoBehaviour
                 porteAssociée3.transform.position = Vector3.MoveTowards(porteAssociée3.transform.position, porteAssociée3.transform.position + Vector3.down,
                     speedPorte * Time.deltaTime);
             }
+        }
+        else if (timer >= DistancePorteMax)
+        {
+            timer = 0;
+            boolStop = false;
         }
     }
 }
