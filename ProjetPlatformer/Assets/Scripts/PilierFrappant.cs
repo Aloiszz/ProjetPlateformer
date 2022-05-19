@@ -52,7 +52,7 @@ public class PilierFrappant : MonoBehaviour
             if (lentRapide)
             {
                 moveSpeed = moveSpeedLent;
-                StartCoroutine(WaitUnactive());
+               // StartCoroutine(WaitUnactive());
             }
             else
             {
@@ -62,7 +62,7 @@ public class PilierFrappant : MonoBehaviour
 
             IEnumerator WaitUnactive()
             {
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.11f);
                 deathZone.SetActive(false);
             }
         
