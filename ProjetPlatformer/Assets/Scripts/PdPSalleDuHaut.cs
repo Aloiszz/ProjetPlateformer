@@ -18,6 +18,7 @@ public class PdPSalleDuHaut : MonoBehaviour
     public bool boolStop;
     private Tween tweener;
     public GameObject mainCamera;
+    public GameObject impultionElectique;
 
     [Header("Camera")] public CameraZoom Camera;
     public bool isCameraFix; // a cocher si l'on veut que la camera ne bouge plus 
@@ -56,6 +57,7 @@ public class PdPSalleDuHaut : MonoBehaviour
     {
         if (other.tag == "Respawn")
         {
+            impultionElectique.SetActive(true);
             OuverturePorte();
             StartCoroutine(Cinématique());
             if (!doOnce)
