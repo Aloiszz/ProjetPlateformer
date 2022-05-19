@@ -91,6 +91,7 @@ public class FeuxDeCamp : MonoBehaviour
         {
             indicationWakeUp.enabled = false;
         }
+       
         /*if (!mm.MenuParcheminOuvert && stopWakeUp)
         {
             indicationWakeUp.enabled = false;
