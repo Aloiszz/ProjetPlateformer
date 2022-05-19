@@ -35,6 +35,7 @@ public class CharacterMovement : MonoBehaviour
     public int extrajumps; 
     public int extraJumpsValue = 1;// Permet un saut suplémentaire
     public bool canJump = true;
+    private bool physics;
 
     [Header("Jump over time")] 
     public float jumpTime; // temps que l'on reste en l'air quand "Space Bar" est enclenché
@@ -131,8 +132,7 @@ public class CharacterMovement : MonoBehaviour
             rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
             //rb.AddForce(new Vector2(moveInput * speed, rb.velocity.y), ForceMode2D.Impulse);
         }
-        
-        
+
     }
     
     void Update()
@@ -177,7 +177,6 @@ public class CharacterMovement : MonoBehaviour
             animator.SetBool("IsFalling",true);
             isWalking = true;
         }
-        
         
         Strike();
         if (canJump == true)
