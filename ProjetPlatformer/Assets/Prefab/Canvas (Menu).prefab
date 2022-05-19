@@ -8556,6 +8556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6910416968409992151}
   - component: {fileID: 6910416968409992150}
+  - component: {fileID: 1134051196775589267}
   - component: {fileID: 6910416968409992145}
   - component: {fileID: 6910416968409992144}
   - component: {fileID: 6910416968409992148}
@@ -8618,6 +8619,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &1134051196775589267
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910416968409992147}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!114 &6910416968409992145
 MonoBehaviour:
   m_ObjectHideFlags: 0
