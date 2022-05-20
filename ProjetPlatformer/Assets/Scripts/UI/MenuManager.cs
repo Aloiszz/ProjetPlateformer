@@ -95,11 +95,27 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     void Update()
     {
         IndexMove();
-            
+        
+        
+       /* if (MenuParcheminOuvert)
+        {
+            if (Input.GetButtonDown("Joystick1Button5") || IsChanging == false)
+            {
+                ChangementPageDroite();
+            }
+        }
+        
+        if (MenuParcheminOuvert)
+        {
+            if (Input.GetButtonDown("Joystick1Button4") || IsChanging == false)
+            {
+                ChangementPageGauche();
+            }
+        }*/
             
         if (MenuPrincipalOuvert == false)
         {
-            if (Input.GetKeyUp(KeyCode.JoystickButton7))
+            if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape))
             {
                 Time.timeScale = 0;
                 menuPause.SetActive(true);
@@ -173,13 +189,17 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(0);
+    }
     IEnumerator DescendreIndex(int index)
     {
         yield return new WaitForSeconds(0.001f);
         indexINT --;
         
     }
-    
+
     IEnumerator MonterIndex(int index)
     {
         yield return new WaitForSeconds(0.0001f);

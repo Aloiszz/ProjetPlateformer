@@ -22,6 +22,10 @@ public class FinDeNiveau : MonoBehaviour
     public float DistanceBarres;
     public float DistanceBarres2;
     public Animator animPlayer;
+    public GameObject UIMangager;
+    public GameObject MenuMangager;
+    
+    public ParcheminManager2 parchM;
     
     [Header("Vibration Motor")]
     public float leftMotor;
@@ -69,6 +73,8 @@ public class FinDeNiveau : MonoBehaviour
         Camera.EmplacementCamera = EmplacementCamera;
         Player.transform.DOMoveX(emptyCinématique.transform.position.x, 5);
         yield return new WaitForSeconds(3f);
+       // DontDestroyOnLoad(UIMangager);
+       // DontDestroyOnLoad(MenuMangager);
         SceneManager.LoadScene(1);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
