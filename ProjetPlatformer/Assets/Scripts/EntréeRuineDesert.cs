@@ -52,7 +52,7 @@ public class EntréeRuineDesert : MonoBehaviour
         Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
         animPlayer.Rebind();
         animPlayer.Play("Player_Idle");
-        tweener = MainCamera.transform.DOShakePosition(2,0.14f,10,40,false,false);
+        //tweener = MainCamera.transform.DOShakePosition(2,0.14f,10,40,false,false);
         Camera.smoothSpeed = dezoomSpeed;
         Camera.targetOrtho = 5;
         Camera.smoothSpeed = smoothSpeed;
