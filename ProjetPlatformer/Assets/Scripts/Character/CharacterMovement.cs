@@ -145,6 +145,7 @@ public class CharacterMovement : MonoBehaviour
         if (rb.velocity.y <= 0)
         {
             stopStretch = true;
+            transform.localScale = new Vector3(1, 1, 1);
         }
         else
         {

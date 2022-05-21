@@ -37,6 +37,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject firstSelectedController;
     public GameObject firstSelectedCredit;
     public GameObject firstSelectedPause;
+    public GameObject firstSelectedConfirmationRestart;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -90,16 +91,15 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         MenuParcheminOuvert = false;
         FadeIn(2f);
     }
-
-  
+    
     void Update()
     {
         IndexMove();
         
         
-       /* if (MenuParcheminOuvert)
+        if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("Joystick1Button5") || IsChanging == false)
+            if (Input.GetButtonDown("BumperDroit") && IsChanging == false)
             {
                 ChangementPageDroite();
             }
@@ -107,11 +107,11 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
         if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("Joystick1Button4") || IsChanging == false)
+            if (Input.GetButtonDown("BumperGauche") && IsChanging == false)
             {
                 ChangementPageGauche();
             }
-        }*/
+        }
             
         if (MenuPrincipalOuvert == false)
         {
@@ -191,7 +191,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void Restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Time.timeScale = 1;
     }
     IEnumerator DescendreIndex(int index)
     {
@@ -309,7 +310,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuParchemin.SetActive(false);
     }
     
-    #endregion 
+    #endregion
+
+    public void PréRestart()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedConfirmationRestart);
+    }
+
+    public void UnRestart()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedPause);
+    }
     
     public void Unpause()
     {

@@ -159,7 +159,7 @@ public class ParcheminManager2 : MonoBehaviour
              if (parcheminsObtenus == 3 && mm.MenuParcheminOuvert)
              {
                  Parchemin1.GetComponent<Image>().sprite = Image4;
-                 
+
                  morceauParchemin1.SetActive(true);
                  morceauParchemin2.SetActive(true);
                  morceauParchemin3.SetActive(true);

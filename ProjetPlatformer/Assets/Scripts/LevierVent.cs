@@ -71,6 +71,6 @@ public class LevierVent : MonoBehaviour
         {
             indicationActivate.enabled = false;
         }
-        
+
     }
 }
