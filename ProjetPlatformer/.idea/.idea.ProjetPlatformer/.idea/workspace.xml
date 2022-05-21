@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Canvas (Menu).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Canvas (Menu).prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/elise/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/elise/Global Volume Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevierVent2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevierVent2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Parchemins/ParcheminManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Parchemins/ParcheminManager2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

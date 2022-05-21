@@ -3,20 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.UI;
 
 public class LevierVent : MonoBehaviour
 {
-     public bool BouttonOn = false;
-    
+    public bool BouttonOn = false;
+    public LevierVent2 AutreLevier;
+    public Animator anim;
     public GameObject VentAssocié1;
     public GameObject VentAssocié2;
     public GameObject VentAssocié3;
     public GameObject VentSupprimé1;
     public GameObject VentSupprimé2;
     public GameObject VentSupprimé3;
+    public Light2D light;
     
     public bool isAtRange;
+    public Sprite LevierDroit;
+    public Sprite LevierGauche;
 
     //private Tween tweener;
     //public GameObject mainCamera;
@@ -53,24 +58,49 @@ public class LevierVent : MonoBehaviour
 
     void Update()
     {
+        if (BouttonOn == false)
+        {
+            anim.SetBool("ChangeState",true);
+            light.color = Color.green;
+        }
+        else
+        {
+            anim.SetBool("ChangeState",false);
+            light.color = Color.red;
+        }
+        
         if (isAtRange == true) // si le joueur est assez proche
         {
-            indicationActivate.enabled = true;
-            if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
-                {
-                    VentAssocié1.SetActive(true);
-                    VentAssocié2.SetActive(true);
-                    VentAssocié3.SetActive(true);
+            if (!BouttonOn)
+            {
+                indicationActivate.enabled = true; 
+            }
+            else
+            {
+                indicationActivate.enabled = false;
+            }
+            if (Input.GetButtonDown("GrabGamepad") && BouttonOn == false)
+            {
+                ActivateWind();
+                BouttonOn = true;
+                AutreLevier.BouttonOn2 = false;
+            }
             
-                    VentSupprimé1.SetActive(false);
-                    VentSupprimé2.SetActive(false);
-                    VentSupprimé3.SetActive(false);
-                }
         }
         else
         {
             indicationActivate.enabled = false;
         }
-
+    }
+    
+    public void ActivateWind()
+    {
+        VentSupprimé1.SetActive(false);
+        VentSupprimé2.SetActive(false);
+        VentSupprimé3.SetActive(false);
+        
+        VentAssocié1.SetActive(true);
+        VentAssocié2.SetActive(true);
+        VentAssocié3.SetActive(true);  
     }
 }
