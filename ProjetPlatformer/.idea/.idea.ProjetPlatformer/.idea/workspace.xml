@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FadeIn.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FadeIn.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FadeOut.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FadeOut.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FullOut.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/FullOut.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/Fullin.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/Fullin.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/TileMapFadeOut.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/Tilemap/TileMapFadeOut.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevierVent2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevierVent2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Props/Levier/Boutton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Props/Levier/Boutton.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevierVent2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevierVent2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent2.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Canvas (Menu).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Canvas (Menu).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Canvas (UI).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Canvas (UI).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntréeRuineDesert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntréeRuineDesert.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FadeoutTilemaps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FadeoutTilemaps.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PdPSalleDuHaut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PdPSalleDuHaut.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +63,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoomAvecEmpty.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LevierVent2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ENDGAME.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />

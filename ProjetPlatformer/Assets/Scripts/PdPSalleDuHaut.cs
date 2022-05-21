@@ -90,7 +90,7 @@ public class PdPSalleDuHaut : MonoBehaviour
    
     private void OuverturePorte()
     {
-        transform.DOMove(transform.position + new Vector3(0,-0.3f,0), 1);
+        transform.DOMove(transform.position + new Vector3(-0.05f,0,0), 1);
         boolStop = true;
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)

@@ -7,22 +7,24 @@ using UnityEngine.Tilemaps;
 
 public class FadeoutTilemaps : MonoBehaviour
 {
+    public Animator anim;
+ 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            GetComponent<TilemapRenderer>().material.DOFade(0, 1);
-            Debug.Log("hello");
+            anim.SetBool("FadeOut", true);
+            anim.SetBool("FadeIn", false);
+            Debug.Log("oui");
         }
-        
     }
     
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            GetComponent<TilemapRenderer>().material.DOFade(255, 1);
+            anim.SetBool("FadeIn", true);
+            anim.SetBool("FadeOut", false);
         }
-        
     }
 }
