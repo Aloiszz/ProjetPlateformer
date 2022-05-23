@@ -11592,7 +11592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6910416968409992147, guid: 51f92dc594bff8e41a8bf4caaa296c4d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6910416968409992148, guid: 51f92dc594bff8e41a8bf4caaa296c4d, type: 3}
       propertyPath: cm
@@ -17018,6 +17018,9 @@ MonoBehaviour:
   piedDuFeux: {fileID: 162405713}
   Anim: {fileID: 1466054515}
   AnimFdC: {fileID: 162405716}
+  mm: {fileID: 0}
+  Barre2: {fileID: 0}
+  Barre1: {fileID: 0}
   canSee: 0
   Continue: {fileID: 1173593006}
 --- !u!1 &1494117424 stripped

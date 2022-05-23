@@ -14,6 +14,9 @@ public class LoadingScript : MonoBehaviour
     public GameObject piedDuFeux;
     public Animator Anim;
     public Animator AnimFdC;
+    public MenuManager mm;
+    public GameObject Barre2;
+    public GameObject Barre1;
 
     
     [Header("UI")]
@@ -25,6 +28,10 @@ public class LoadingScript : MonoBehaviour
     {
         gameObject.transform.DOMove(pointPlayer.transform.position, Time).SetEase(Ease.Linear);
         Anim.SetBool("IsWalking", true);
+        
+        mm = GameObject.Find("Canvas (Menu)").GetComponent<MenuManager>();
+        mm.isPlaying = false;
+        //Barre1 = GameObject.Find("")
     }
 
     // Update is called once per frame
@@ -62,6 +69,9 @@ public class LoadingScript : MonoBehaviour
     
     IEnumerator Leave()
     {
+        
+        
+        
         yield return new WaitForSeconds(0.1f);
         Anim.ResetTrigger("EntreeFdC");
         Anim.SetTrigger("SortieFdC");
@@ -71,6 +81,7 @@ public class LoadingScript : MonoBehaviour
         Anim.SetBool("IsWalking", true);
         Continue.DOFade(0, 1f);
         yield return new WaitForSeconds(Time-1);
+        mm.isPlaying = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

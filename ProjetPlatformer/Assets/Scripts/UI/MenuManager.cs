@@ -15,6 +15,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool MenuPrincipalOuvert;
     public bool IsChanging;
     public int pageOuverte = 1;
+    public bool ActivateMenu = true;
 
     [Header("Divers")]
     public FeuxDeCamp Fdc;
@@ -83,13 +84,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
-        isPlaying = false;
-        mainMenu.SetActive(true);
-        MenuPrincipalOuvert = true;
+
+        if (ActivateMenu)
+        {
+            isPlaying = false;
+            mainMenu.SetActive(true);
+            MenuPrincipalOuvert = true;
+            FadeIn(2f);
+        }
+        
         menuParchemin.SetActive(false);
         parcheminManager.SetActive(false);
         MenuParcheminOuvert = false;
-        FadeIn(2f);
+        
     }
     
     void Update()
