@@ -62,6 +62,7 @@ public class FinDeNiveau : MonoBehaviour
         Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
         Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
         animPlayer.Rebind();
+        animPlayer.SetBool("Salace",true);
         animPlayer.SetBool("IsWalking", true);
         animPlayer.Play("Player_Walk",-1,0f);
         CharacterMovement.instance.animator.SetBool("IsWalking",true);
@@ -73,8 +74,8 @@ public class FinDeNiveau : MonoBehaviour
         Camera.EmplacementCamera = EmplacementCamera;
         Player.transform.DOMoveX(emptyCinématique.transform.position.x, 5);
         yield return new WaitForSeconds(3f);
-       // DontDestroyOnLoad(UIMangager);
-       // DontDestroyOnLoad(MenuMangager);
+       DontDestroyOnLoad(UIMangager);
+       DontDestroyOnLoad(MenuMangager);
         SceneManager.LoadScene(1);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
