@@ -1,0 +1,1176 @@
+fileFormatVersion: 2
+guid: 90e863dd1aa55684abc64a1dd0d33ff9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2138723601242957102
+    second: tuyau_0
+  - first:
+      213: -7964471682694594921
+    second: tuyau_1
+  - first:
+      213: -8520381311240181638
+    second: tuyau_2
+  - first:
+      213: 3733457022472550030
+    second: tuyau_3
+  - first:
+      213: -5327020058146917560
+    second: tuyau_4
+  - first:
+      213: 6353758717563739992
+    second: tuyau_5
+  - first:
+      213: -557819679151182511
+    second: tuyau_6
+  - first:
+      213: -5163181706300824174
+    second: tuyau_7
+  - first:
+      213: -3440723359134614820
+    second: tuyau_8
+  - first:
+      213: -6175909694179877010
+    second: tuyau_9
+  - first:
+      213: 68174910730454442
+    second: tuyau_10
+  - first:
+      213: 209234678758829943
+    second: tuyau_11
+  - first:
+      213: -4746601365979660012
+    second: tuyau_12
+  - first:
+      213: -7598466210573016568
+    second: tuyau_13
+  - first:
+      213: 6677160333722122082
+    second: tuyau_14
+  - first:
+      213: 7615596253663535960
+    second: tuyau_15
+  - first:
+      213: 7430515399349954752
+    second: tuyau_16
+  - first:
+      213: 589872601009429167
+    second: tuyau_17
+  - first:
+      213: -7399804133214742485
+    second: tuyau_18
+  - first:
+      213: -2244833324742696866
+    second: tuyau_19
+  - first:
+      213: -1214947459461409073
+    second: tuyau_20
+  - first:
+      213: -8773968980782650187
+    second: tuyau_21
+  - first:
+      213: 1540928105584807053
+    second: tuyau_22
+  - first:
+      213: -1158193070359513014
+    second: tuyau_23
+  - first:
+      213: 1217686737734478505
+    second: tuyau_24
+  - first:
+      213: 9055925965564568866
+    second: tuyau_25
+  - first:
+      213: 6280125878694040256
+    second: tuyau_26
+  - first:
+      213: 9007572672756014130
+    second: tuyau_27
+  - first:
+      213: 3727951995253949662
+    second: tuyau_28
+  - first:
+      213: 2566457769760008
+    second: tuyau_29
+  - first:
+      213: -7412283046243924968
+    second: tuyau_30
+  - first:
+      213: 2944083127180176381
+    second: tuyau_31
+  - first:
+      213: 6787199942609838267
+    second: tuyau_32
+  - first:
+      213: 7142338471457358352
+    second: tuyau_33
+  - first:
+      213: -7582723881647969355
+    second: tuyau_34
+  - first:
+      213: -6764670280949077431
+    second: tuyau_35
+  - first:
+      213: 6495305887863909943
+    second: tuyau_36
+  - first:
+      213: -894369340948184800
+    second: tuyau_37
+  - first:
+      213: 5878850602608561235
+    second: tuyau_38
+  - first:
+      213: 2674181556420440277
+    second: tuyau_39
+  - first:
+      213: -1348872785097856915
+    second: tuyau_40
+  - first:
+      213: -3060255806346482935
+    second: tuyau_41
+  - first:
+      213: 4954047234968973564
+    second: tuyau_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tuyau_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 425
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da5b23573ab152e0800000000000000
+      internalID: -2138723601242957102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 425
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eb451c333887190800000000000000
+      internalID: -7964471682694594921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 358
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e6a0275681c980800000000000000
+      internalID: -8520381311240181638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 358
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86f9a89167efc330800000000000000
+      internalID: 3733457022472550030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 391
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843b5ca1b7f9216b0800000000000000
+      internalID: -5327020058146917560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 391
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f9de4d3e51d2850800000000000000
+      internalID: 6353758717563739992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 329
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da87f05f93248f0800000000000000
+      internalID: -557819679151182511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 329
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295e4250891b858b0800000000000000
+      internalID: -5163181706300824174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 363
+        width: 123
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7468a5581040d0800000000000000
+      internalID: -3440723359134614820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_9
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 376
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5481cad2ca4aa0800000000000000
+      internalID: -6175909694179877010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_10
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 376
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5cea858b432f000800000000000000
+      internalID: 68174910730454442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_11
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 379
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fec1ee4d957e200800000000000000
+      internalID: 209234678758829943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 264
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411066ac43fa02eb0800000000000000
+      internalID: -4746601365979660012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_13
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 264
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802acf86d33dc8690800000000000000
+      internalID: -7598466210573016568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_14
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 123
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267f5d742f90aac50800000000000000
+      internalID: 6677160333722122082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 248
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853296c817800b960800000000000000
+      internalID: 7615596253663535960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 248
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8e25c136e7e1760800000000000000
+      internalID: 7430515399349954752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_17
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 240
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa17ed5106af2800800000000000000
+      internalID: 589872601009429167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 240
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289440c85d9e4990800000000000000
+      internalID: -7399804133214742485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 269
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50a0ca1cffb8d0e0800000000000000
+      internalID: -2244833324742696866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_20
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 248
+        width: 114
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc61a0209b3a32fe0800000000000000
+      internalID: -1214947459461409073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_21
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 200
+        width: 33
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc672ec2b99c3680800000000000000
+      internalID: -8773968980782650187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_22
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 200
+        width: 34
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c4cc5a2f9726510800000000000000
+      internalID: 1540928105584807053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 246
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48f6e3f9854defe0800000000000000
+      internalID: -1158193070359513014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_24
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 216
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa2e5ae2a716e010800000000000000
+      internalID: 1217686737734478505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 216
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22566b17fac1dad70800000000000000
+      internalID: 9055925965564568866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 216
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2db40963d772750800000000000000
+      internalID: 6280125878694040256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 216
+        width: 5
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c53282f93510d70800000000000000
+      internalID: 9007572672756014130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_28
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 200
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed402d096985cb330800000000000000
+      internalID: 3727951995253949662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_29
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 200
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80592b30e2e190000800000000000000
+      internalID: 2566457769760008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_30
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 189
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8140bf567d7422990800000000000000
+      internalID: -7412283046243924968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 190
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbabc8710c7bd820800000000000000
+      internalID: 2944083127180176381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_32
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 199
+        width: 114
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0afce336af03e50800000000000000
+      internalID: 6787199942609838267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 170
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01282d08ffeae1360800000000000000
+      internalID: 7142338471457358352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_34
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 170
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb608cfdc0c4c690800000000000000
+      internalID: -7582723881647969355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_35
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 145
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a636168301f12a0800000000000000
+      internalID: -6764670280949077431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_36
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ea1a99a46f32a50800000000000000
+      internalID: 6495305887863909943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 145
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02188cea2df8693f0800000000000000
+      internalID: -894369340948184800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 137
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c0310c97fd59150800000000000000
+      internalID: 5878850602608561235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_39
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 104
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0775705f99c1520800000000000000
+      internalID: 2674181556420440277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_40
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 113
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68ec0d3957d74de0800000000000000
+      internalID: -1348872785097856915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_41
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 105
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b24ecde89c785d0800000000000000
+      internalID: -3060255806346482935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tuyau_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 55
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0f4d866bf40c440800000000000000
+      internalID: 4954047234968973564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 73930a8f69c732440afccc51f0ff713f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
