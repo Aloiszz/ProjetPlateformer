@@ -1,0 +1,960 @@
+fileFormatVersion: 2
+guid: 1e98de169e86c5646825997c6fb40384
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2291294853791682930
+    second: autel ruine_0
+  - first:
+      213: -366795226432118661
+    second: autel ruine_1
+  - first:
+      213: -7292673523994686729
+    second: autel ruine_2
+  - first:
+      213: -3197312946784730067
+    second: autel ruine_3
+  - first:
+      213: 1989785149409087328
+    second: autel ruine_4
+  - first:
+      213: 8600663034063014224
+    second: autel ruine_5
+  - first:
+      213: 7324672233155121472
+    second: autel ruine_6
+  - first:
+      213: -5827948712975020346
+    second: autel ruine_7
+  - first:
+      213: -7651874959464918643
+    second: autel ruine_8
+  - first:
+      213: 1934080018435228649
+    second: autel ruine_9
+  - first:
+      213: -2198183311435979897
+    second: autel ruine_10
+  - first:
+      213: -1665891477390676739
+    second: autel ruine_11
+  - first:
+      213: -5666562027788544523
+    second: autel ruine_12
+  - first:
+      213: -4805615966553744315
+    second: autel ruine_13
+  - first:
+      213: -943831794695559592
+    second: autel ruine_14
+  - first:
+      213: -360266023285163216
+    second: autel ruine_15
+  - first:
+      213: 4241735721615990903
+    second: autel ruine_16
+  - first:
+      213: 8639384141134347846
+    second: autel ruine_17
+  - first:
+      213: -3964785846081998460
+    second: autel ruine_18
+  - first:
+      213: -2741031926036370129
+    second: autel ruine_19
+  - first:
+      213: 1223473705520231422
+    second: autel ruine_20
+  - first:
+      213: -7588130369193849439
+    second: autel ruine_21
+  - first:
+      213: 4788120843686969759
+    second: autel ruine_22
+  - first:
+      213: 9065877560023791910
+    second: autel ruine_23
+  - first:
+      213: 4848140556703569773
+    second: autel ruine_24
+  - first:
+      213: -2042848323412715858
+    second: autel ruine_25
+  - first:
+      213: -6979087837526267833
+    second: autel ruine_26
+  - first:
+      213: -4659391212860509929
+    second: autel ruine_27
+  - first:
+      213: 8110901349783626018
+    second: autel ruine_28
+  - first:
+      213: 8069688415834571991
+    second: autel ruine_29
+  - first:
+      213: -8269231116358677362
+    second: autel ruine_30
+  - first:
+      213: -7015872626800064497
+    second: autel ruine_31
+  - first:
+      213: 6363626042894428655
+    second: autel ruine_32
+  - first:
+      213: 3702589301814098479
+    second: autel ruine_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: autel ruine_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 183
+        width: 46
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ee014687fa330e0800000000000000
+      internalID: -2291294853791682930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 310
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7064375fa1e8eaf0800000000000000
+      internalID: -366795226432118661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_2
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 320
+        width: 11
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa866371183bca90800000000000000
+      internalID: -7292673523994686729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 325
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d248323a0dcd0a3d0800000000000000
+      internalID: -3197312946784730067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 342
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f40e11d032d9b10800000000000000
+      internalID: 1989785149409087328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_5
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 343
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059c8221671bb5770800000000000000
+      internalID: 8600663034063014224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 327
+        width: 73
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041d069969676a560800000000000000
+      internalID: 7324672233155121472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_7
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 40
+        width: 192
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cecde9f587fe1fa0800000000000000
+      internalID: -5827948712975020346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_8
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 327
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81136704441fc590800000000000000
+      internalID: -7651874959464918643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 185
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e34302978b37da10800000000000000
+      internalID: 1934080018435228649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 183
+        width: 34
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783aaaabceb7e71e0800000000000000
+      internalID: -2198183311435979897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 183
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc27cf078091e8e0800000000000000
+      internalID: -1665891477390676739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 183
+        width: 20
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f552f3cbd35c51b0800000000000000
+      internalID: -5666562027788544523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 231
+        width: 18
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c5e9a5db50f4db0800000000000000
+      internalID: -4805615966553744315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 231
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856a37dbbf5d6e2f0800000000000000
+      internalID: -943831794695559592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 231
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf179e5f3100bf0800000000000000
+      internalID: -360266023285163216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 231
+        width: 17
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770a1064a2cadda30800000000000000
+      internalID: 4241735721615990903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_17
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 231
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eb47a5a1245e770800000000000000
+      internalID: 8639384141134347846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 39
+        width: 106
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48139c187404af8c0800000000000000
+      internalID: -3964785846081998460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_19
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 119
+        width: 34
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2de8926cf5e5f9d0800000000000000
+      internalID: -2741031926036370129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 183
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef370995ad6aaf010800000000000000
+      internalID: 1223473705520231422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_21
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 199
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adc8d202ab81b690800000000000000
+      internalID: -7588130369193849439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_22
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 199
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f910b9de982d27240800000000000000
+      internalID: 4788120843686969759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_23
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 120
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62937669b9770dd70800000000000000
+      internalID: 9065877560023791910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_24
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 120
+        width: 34
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d671b77562e084340800000000000000
+      internalID: 4848140556703569773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 135
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea69bf8f54856a3e0800000000000000
+      internalID: -2042848323412715858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 135
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7486ffba69c452f90800000000000000
+      internalID: -6979087837526267833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 135
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7117fdfd064865fb0800000000000000
+      internalID: -4659391212860509929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 103
+        width: 183
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221e612edc5bf8070800000000000000
+      internalID: 8110901349783626018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_29
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 40
+        width: 23
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d487e1fbda4dff60800000000000000
+      internalID: 8069688415834571991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_30
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 40
+        width: 23
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c85d7ac1acd3d80800000000000000
+      internalID: -8269231116358677362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_31
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 103
+        width: 59
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f080232840d92ae90800000000000000
+      internalID: -7015872626800064497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 103
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9a52a8b24205850800000000000000
+      internalID: 6363626042894428655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autel ruine_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 103
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a7ac35a5d326330800000000000000
+      internalID: 3702589301814098479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e13a5d27cfd22d643a590c932c681a64
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
