@@ -1,7 +1,436 @@
 fileFormatVersion: 2
-guid: 49702d59f144aa140b144a03fbdf37a6
+guid: 500dd1276c9530e478aaef89e0db831f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4132535276681739829
+    second: props avant plan ruine-export_0
+  - first:
+      213: -664025348926180908
+    second: props avant plan ruine-export_1
+  - first:
+      213: 3282539287067328477
+    second: props avant plan ruine-export_2
+  - first:
+      213: -2699786063737155425
+    second: props avant plan ruine-export_3
+  - first:
+      213: 2588427523843636243
+    second: props avant plan ruine-export_4
+  - first:
+      213: -307857676399653205
+    second: props avant plan ruine-export_5
+  - first:
+      213: 1300457284294010862
+    second: props avant plan ruine-export_6
+  - first:
+      213: -226061363757299331
+    second: props avant plan ruine-export_7
+  - first:
+      213: -5340260272699944638
+    second: props avant plan ruine-export_8
+  - first:
+      213: -5234380711094856748
+    second: props avant plan ruine-export_9
+  - first:
+      213: 5147091087811609874
+    second: props avant plan ruine-export_10
+  - first:
+      213: -4931889165938586497
+    second: props avant plan ruine-export_11
+  - first:
+      213: -7805587367027676635
+    second: props avant plan ruine-export_12
+  - first:
+      213: 2556258647805738334
+    second: props avant plan ruine-export_13
+  - first:
+      213: -1229792090325699685
+    second: props avant plan ruine-export_14
+  - first:
+      213: -4853079263699193970
+    second: props avant plan ruine-export_15
+  - first:
+      213: 3135324386245876487
+    second: props avant plan ruine-export_16
+  - first:
+      213: -8116678820758859434
+    second: props avant plan ruine-export_17
+  - first:
+      213: 469790657116953852
+    second: props avant plan ruine-export_18
+  - first:
+      213: 5407489800790261937
+    second: props avant plan ruine-export_19
+  - first:
+      213: -7130324601837967416
+    second: props avant plan ruine-export_20
+  - first:
+      213: 8913640794651194532
+    second: props avant plan ruine-export_21
+  - first:
+      213: 533151409015798629
+    second: props avant plan ruine-export_22
+  - first:
+      213: 7793875314016507035
+    second: props avant plan ruine-export_23
+  - first:
+      213: -3520922207695724907
+    second: props avant plan ruine-export_24
+  - first:
+      213: 6236520380219887909
+    second: props avant plan ruine-export_25
+  - first:
+      213: -152879239617692997
+    second: props avant plan ruine-export_26
+  - first:
+      213: -3098705785492851069
+    second: props avant plan ruine-export_27
+  - first:
+      213: 8131821307590682299
+    second: props avant plan ruine-export_28
+  - first:
+      213: -1372315514946506253
+    second: props avant plan ruine-export_29
+  - first:
+      213: -9189734365496221078
+    second: props avant plan ruine-export_30
+  - first:
+      213: 6459928803875646972
+    second: props avant plan ruine-export_31
+  - first:
+      213: 3939953419746882198
+    second: props avant plan ruine-export_32
+  - first:
+      213: -1940292705246843548
+    second: props avant plan ruine-export_33
+  - first:
+      213: -9118993096979912210
+    second: props avant plan ruine-export_34
+  - first:
+      213: 3212836747932691375
+    second: props avant plan ruine-export_35
+  - first:
+      213: -7749416396911276084
+    second: props avant plan ruine-export_36
+  - first:
+      213: 3401679507450336067
+    second: props avant plan ruine-export_37
+  - first:
+      213: -7112537929657455125
+    second: props avant plan ruine-export_38
+  - first:
+      213: -1526665194773979848
+    second: props avant plan ruine-export_39
+  - first:
+      213: 1776426825947384816
+    second: props avant plan ruine-export_40
+  - first:
+      213: 966630422507331608
+    second: props avant plan ruine-export_41
+  - first:
+      213: -3590205497572688908
+    second: props avant plan ruine-export_42
+  - first:
+      213: -3703517119747248420
+    second: props avant plan ruine-export_43
+  - first:
+      213: -883698618545652913
+    second: props avant plan ruine-export_44
+  - first:
+      213: 4014548143574115226
+    second: props avant plan ruine-export_45
+  - first:
+      213: -4828737732485843576
+    second: props avant plan ruine-export_46
+  - first:
+      213: -7374812443816929966
+    second: props avant plan ruine-export_47
+  - first:
+      213: -9171404214914061258
+    second: props avant plan ruine-export_48
+  - first:
+      213: -2018408887309757236
+    second: props avant plan ruine-export_49
+  - first:
+      213: 4271390224523411151
+    second: props avant plan ruine-export_50
+  - first:
+      213: -5960994010645434698
+    second: props avant plan ruine-export_51
+  - first:
+      213: -4764957021262991814
+    second: props avant plan ruine-export_52
+  - first:
+      213: -1929147253277841385
+    second: props avant plan ruine-export_53
+  - first:
+      213: -5393317639998258072
+    second: props avant plan ruine-export_54
+  - first:
+      213: -7117661352463056691
+    second: props avant plan ruine-export_55
+  - first:
+      213: 2589484555413507565
+    second: props avant plan ruine-export_56
+  - first:
+      213: 2329472620154257655
+    second: props avant plan ruine-export_57
+  - first:
+      213: 5842894463655139151
+    second: props avant plan ruine-export_58
+  - first:
+      213: 4789232573665549607
+    second: props avant plan ruine-export_59
+  - first:
+      213: -2851444738575469854
+    second: props avant plan ruine-export_60
+  - first:
+      213: 6357649999318619432
+    second: props avant plan ruine-export_61
+  - first:
+      213: 1232779250690708774
+    second: props avant plan ruine-export_62
+  - first:
+      213: -2426764857761857424
+    second: props avant plan ruine-export_63
+  - first:
+      213: 6858847760965770979
+    second: props avant plan ruine-export_64
+  - first:
+      213: 1751501676429388719
+    second: props avant plan ruine-export_65
+  - first:
+      213: 1046927176177341019
+    second: props avant plan ruine-export_66
+  - first:
+      213: -6318318863669801140
+    second: props avant plan ruine-export_67
+  - first:
+      213: 4673974432886021084
+    second: props avant plan ruine-export_68
+  - first:
+      213: 7790953814363729709
+    second: props avant plan ruine-export_69
+  - first:
+      213: -8024763922877652513
+    second: props avant plan ruine-export_70
+  - first:
+      213: 648081512994276105
+    second: props avant plan ruine-export_71
+  - first:
+      213: 3862621074189348889
+    second: props avant plan ruine-export_72
+  - first:
+      213: 6509463887550446840
+    second: props avant plan ruine-export_73
+  - first:
+      213: 350040796558535332
+    second: props avant plan ruine-export_74
+  - first:
+      213: -2804223705276022284
+    second: props avant plan ruine-export_75
+  - first:
+      213: -47418501113665475
+    second: props avant plan ruine-export_76
+  - first:
+      213: -5914166199259292174
+    second: props avant plan ruine-export_77
+  - first:
+      213: -575405061085199195
+    second: props avant plan ruine-export_78
+  - first:
+      213: 3681936488979838288
+    second: props avant plan ruine-export_79
+  - first:
+      213: -5068724675051825030
+    second: props avant plan ruine-export_80
+  - first:
+      213: 4897300263093040481
+    second: props avant plan ruine-export_81
+  - first:
+      213: -4328099511912903962
+    second: props avant plan ruine-export_82
+  - first:
+      213: -1236243299076241485
+    second: props avant plan ruine-export_83
+  - first:
+      213: 2434273006903988146
+    second: props avant plan ruine-export_84
+  - first:
+      213: -2399220336094744998
+    second: props avant plan ruine-export_85
+  - first:
+      213: 3322989029632765368
+    second: props avant plan ruine-export_86
+  - first:
+      213: -5527878259091610575
+    second: props avant plan ruine-export_87
+  - first:
+      213: 5411293740689277881
+    second: props avant plan ruine-export_88
+  - first:
+      213: -775832921536624944
+    second: props avant plan ruine-export_89
+  - first:
+      213: 6591885487121287460
+    second: props avant plan ruine-export_90
+  - first:
+      213: 2212971418737000888
+    second: props avant plan ruine-export_91
+  - first:
+      213: -2851907473829005848
+    second: props avant plan ruine-export_92
+  - first:
+      213: -3119084750352507320
+    second: props avant plan ruine-export_93
+  - first:
+      213: -5491493744090816425
+    second: props avant plan ruine-export_94
+  - first:
+      213: -4856353208254714575
+    second: props avant plan ruine-export_95
+  - first:
+      213: 1634056850663887021
+    second: props avant plan ruine-export_96
+  - first:
+      213: -1626621704537600785
+    second: props avant plan ruine-export_97
+  - first:
+      213: -7067599524069956715
+    second: props avant plan ruine-export_98
+  - first:
+      213: 251513667059951214
+    second: props avant plan ruine-export_100
+  - first:
+      213: 6015727041408353465
+    second: props avant plan ruine-export_101
+  - first:
+      213: -1358377974415763014
+    second: props avant plan ruine-export_102
+  - first:
+      213: 2940615162281028700
+    second: props avant plan ruine-export_103
+  - first:
+      213: -8065436187499788383
+    second: props avant plan ruine-export_104
+  - first:
+      213: -6193014522358661227
+    second: props avant plan ruine-export_106
+  - first:
+      213: 2772591980660440928
+    second: props avant plan ruine-export_108
+  - first:
+      213: 3036071229232932077
+    second: props avant plan ruine-export_110
+  - first:
+      213: -7278556486004550262
+    second: props avant plan ruine-export_112
+  - first:
+      213: -5317514281517344425
+    second: props avant plan ruine-export_113
+  - first:
+      213: -8066693862742725399
+    second: props avant plan ruine-export_114
+  - first:
+      213: -8710588968977779165
+    second: props avant plan ruine-export_115
+  - first:
+      213: 7030122470517742729
+    second: props avant plan ruine-export_116
+  - first:
+      213: -1680398780523162390
+    second: props avant plan ruine-export_118
+  - first:
+      213: 1405342105587332942
+    second: props avant plan ruine-export_119
+  - first:
+      213: 4881953145265475278
+    second: props avant plan ruine-export_120
+  - first:
+      213: 4898215120963387175
+    second: props avant plan ruine-export_121
+  - first:
+      213: -8313977511187960833
+    second: props avant plan ruine-export_122
+  - first:
+      213: 6623868340976080933
+    second: props avant plan ruine-export_123
+  - first:
+      213: 1709954545712802892
+    second: props avant plan ruine-export_124
+  - first:
+      213: 2216673391249220889
+    second: props avant plan ruine-export_125
+  - first:
+      213: 3831427807585623317
+    second: props avant plan ruine-export_126
+  - first:
+      213: -7613095991985171464
+    second: props avant plan ruine-export_127
+  - first:
+      213: -2465504851226234202
+    second: props avant plan ruine-export_128
+  - first:
+      213: -8251473008452195418
+    second: props avant plan ruine-export_129
+  - first:
+      213: -350495323838440177
+    second: props avant plan ruine-export_130
+  - first:
+      213: 2728448613432600013
+    second: props avant plan ruine-export_131
+  - first:
+      213: -749827146514162169
+    second: props avant plan ruine-export_132
+  - first:
+      213: -5139377741890388184
+    second: props avant plan ruine-export_133
+  - first:
+      213: -1144488862798103001
+    second: props avant plan ruine-export_134
+  - first:
+      213: 4096410167540560907
+    second: props avant plan ruine-export_135
+  - first:
+      213: 5606746298827439705
+    second: props avant plan ruine-export_136
+  - first:
+      213: 2306082714353995683
+    second: props avant plan ruine-export_137
+  - first:
+      213: -136325327464987048
+    second: props avant plan ruine-export_138
+  - first:
+      213: -293691140976864783
+    second: props avant plan ruine-export_139
+  - first:
+      213: -869159610496915432
+    second: props avant plan ruine-export_140
+  - first:
+      213: -5416142859784691349
+    second: props avant plan ruine-export_141
+  - first:
+      213: 5651005985385019453
+    second: props avant plan ruine-export_142
+  - first:
+      213: -3187888763653894965
+    second: props avant plan ruine-export_144
+  - first:
+      213: -8630322685523448896
+    second: props avant plan ruine-export_145
+  - first:
+      213: 8666160786222570950
+    second: props avant plan ruine-export_147
+  - first:
+      213: -7551026884526025871
+    second: props avant plan ruine-export_148
+  - first:
+      213: 8462313398919910495
+    second: props avant plan ruine-export_149
+  - first:
+      213: 4506561900398651945
+    second: props avant plan ruine-export_150
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,7 +556,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: props avant plan ruine_0
+      name: props avant plan ruine-export_0
       rect:
         serializedVersion: 2
         x: 16
@@ -135,20 +564,20 @@ TextureImporter:
         width: 13
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34514da682264100800000000000000
-      internalID: 91798804235375677
+      spriteID: 53eb26460f6b95930800000000000000
+      internalID: 4132535276681739829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_1
+      name: props avant plan ruine-export_1
       rect:
         serializedVersion: 2
         x: 30
@@ -156,20 +585,20 @@ TextureImporter:
         width: 5
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7f179686e8938f0800000000000000
-      internalID: -560260099534096421
+      spriteID: 4d1766b9678e8c6f0800000000000000
+      internalID: -664025348926180908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_2
+      name: props avant plan ruine-export_2
       rect:
         serializedVersion: 2
         x: 40
@@ -177,20 +606,20 @@ TextureImporter:
         width: 14
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d24b1124cba57fae0800000000000000
-      internalID: -1515642984978074579
+      spriteID: ddf79e6071ced8d20800000000000000
+      internalID: 3282539287067328477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_3
+      name: props avant plan ruine-export_3
       rect:
         serializedVersion: 2
         x: 55
@@ -198,20 +627,20 @@ TextureImporter:
         width: 18
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 589d3fa92f8d6acb0800000000000000
-      internalID: -4852953011951773307
+      spriteID: f90956d01ee688ad0800000000000000
+      internalID: -2699786063737155425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_4
+      name: props avant plan ruine-export_4
       rect:
         serializedVersion: 2
         x: 78
@@ -219,20 +648,20 @@ TextureImporter:
         width: 12
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5852ae669446b0030800000000000000
-      internalID: 3461971004986369413
+      spriteID: 31c3b8d6e11fbe320800000000000000
+      internalID: 2588427523843636243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_5
+      name: props avant plan ruine-export_5
       rect:
         serializedVersion: 2
         x: 113
@@ -240,20 +669,20 @@ TextureImporter:
         width: 13
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 344a7c5ccb065fd50800000000000000
-      internalID: 6770423978709722179
+      spriteID: bae42dc03154abbf0800000000000000
+      internalID: -307857676399653205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_6
+      name: props avant plan ruine-export_6
       rect:
         serializedVersion: 2
         x: 140
@@ -261,20 +690,20 @@ TextureImporter:
         width: 15
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c965b510bc1774c0800000000000000
-      internalID: -4289928577443075641
+      spriteID: ee7e9eb82072c0210800000000000000
+      internalID: 1300457284294010862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_7
+      name: props avant plan ruine-export_7
       rect:
         serializedVersion: 2
         x: 163
@@ -282,20 +711,20 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d83d3460e96ab56a0800000000000000
-      internalID: -6459386042892692595
+      spriteID: d794ecb236edcdcf0800000000000000
+      internalID: -226061363757299331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_8
+      name: props avant plan ruine-export_8
       rect:
         serializedVersion: 2
         x: 185
@@ -303,20 +732,20 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d14d45a4cbe56ef0800000000000000
-      internalID: -115426985608658475
+      spriteID: 241d69d639593e5b0800000000000000
+      internalID: -5340260272699944638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_9
+      name: props avant plan ruine-export_9
       rect:
         serializedVersion: 2
         x: 209
@@ -324,20 +753,20 @@ TextureImporter:
         width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8563a186b34e79340800000000000000
-      internalID: 4870612465825232472
+      spriteID: 4d3d808e97ebb57b0800000000000000
+      internalID: -5234380711094856748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_10
+      name: props avant plan ruine-export_10
       rect:
         serializedVersion: 2
         x: 231
@@ -345,20 +774,20 @@ TextureImporter:
         width: 17
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 561b7cfe1d2796310800000000000000
-      internalID: 1398775405271822693
+      spriteID: 215079be2142e6740800000000000000
+      internalID: 5147091087811609874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_11
+      name: props avant plan ruine-export_11
       rect:
         serializedVersion: 2
         x: 273
@@ -366,20 +795,20 @@ TextureImporter:
         width: 10
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03ef3d15628462ea0800000000000000
-      internalID: -5897947332576281040
+      spriteID: f7c02a01fe86e8bb0800000000000000
+      internalID: -4931889165938586497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_12
+      name: props avant plan ruine-export_12
       rect:
         serializedVersion: 2
         x: 361
@@ -387,20 +816,20 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4dc93786561ab130800000000000000
-      internalID: 3583201014418361678
+      spriteID: 52ae90d35abfca390800000000000000
+      internalID: -7805587367027676635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_13
+      name: props avant plan ruine-export_13
       rect:
         serializedVersion: 2
         x: 378
@@ -408,20 +837,20 @@ TextureImporter:
         width: 10
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899724fcf02df9260800000000000000
-      internalID: 7106629702357514648
+      spriteID: e5d3b7052b7a97320800000000000000
+      internalID: 2556258647805738334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_14
+      name: props avant plan ruine-export_14
       rect:
         serializedVersion: 2
         x: 1105
@@ -429,20 +858,20 @@ TextureImporter:
         width: 142
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0972bab58418f9520800000000000000
-      internalID: 2711027648475899792
+      spriteID: b933d8c0c96eeeee0800000000000000
+      internalID: -1229792090325699685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_15
+      name: props avant plan ruine-export_15
       rect:
         serializedVersion: 2
         x: 336
@@ -450,20 +879,20 @@ TextureImporter:
         width: 8
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e159138e527fe290800000000000000
-      internalID: -7858937074486259232
+      spriteID: e8f25645f1666acb0800000000000000
+      internalID: -4853079263699193970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_16
+      name: props avant plan ruine-export_16
       rect:
         serializedVersion: 2
         x: 405
@@ -471,20 +900,20 @@ TextureImporter:
         width: 8
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c11cee221076870800000000000000
-      internalID: 8675904456698698792
+      spriteID: 70b1ec9eae8e28b20800000000000000
+      internalID: 3135324386245876487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_17
+      name: props avant plan ruine-export_17
       rect:
         serializedVersion: 2
         x: 500
@@ -492,20 +921,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d252f47f9a8a0540800000000000000
-      internalID: 4974941155850605269
+      spriteID: 6515bb4dd93cb5f80800000000000000
+      internalID: -8116678820758859434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_18
+      name: props avant plan ruine-export_18
       rect:
         serializedVersion: 2
         x: 533
@@ -513,20 +942,20 @@ TextureImporter:
         width: 34
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 996f1735774d12180800000000000000
-      internalID: -9141792159619221863
+      spriteID: cfcd0441d18058600800000000000000
+      internalID: 469790657116953852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_19
+      name: props avant plan ruine-export_19
       rect:
         serializedVersion: 2
         x: 590
@@ -534,20 +963,20 @@ TextureImporter:
         width: 46
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d0c255bb2538100800000000000000
-      internalID: 109021780528336175
+      spriteID: 1b0c6aed2534b0b40800000000000000
+      internalID: 5407489800790261937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_20
+      name: props avant plan ruine-export_20
       rect:
         serializedVersion: 2
         x: 642
@@ -555,20 +984,20 @@ TextureImporter:
         width: 35
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 389e30ae573628980800000000000000
-      internalID: -8538152585452590717
+      spriteID: 8c7283e7d8ffb0d90800000000000000
+      internalID: -7130324601837967416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_21
+      name: props avant plan ruine-export_21
       rect:
         serializedVersion: 2
         x: 690
@@ -576,20 +1005,20 @@ TextureImporter:
         width: 29
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 003193f1e88dac660800000000000000
-      internalID: 7406970642084991744
+      spriteID: 4a47d94831d93bb70800000000000000
+      internalID: 8913640794651194532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_22
+      name: props avant plan ruine-export_22
       rect:
         serializedVersion: 2
         x: 832
@@ -597,20 +1026,20 @@ TextureImporter:
         width: 18
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afba8489c462199d0800000000000000
-      internalID: -2769390185441874950
+      spriteID: 56bb2e9b162266700800000000000000
+      internalID: 533151409015798629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_23
+      name: props avant plan ruine-export_23
       rect:
         serializedVersion: 2
         x: 877
@@ -618,20 +1047,20 @@ TextureImporter:
         width: 27
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5368ac186505340800000000000000
-      internalID: 4850471914126587385
+      spriteID: b94d3abed48692c60800000000000000
+      internalID: 7793875314016507035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_24
+      name: props avant plan ruine-export_24
       rect:
         serializedVersion: 2
         x: 929
@@ -639,20 +1068,20 @@ TextureImporter:
         width: 49
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0f827125e9111a0800000000000000
-      internalID: -6840512283586006842
+      spriteID: 59e138028eb232fc0800000000000000
+      internalID: -3520922207695724907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_25
+      name: props avant plan ruine-export_25
       rect:
         serializedVersion: 2
         x: 992
@@ -660,20 +1089,20 @@ TextureImporter:
         width: 83
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cdc9e1c85db3bb90800000000000000
-      internalID: -7227224788091417149
+      spriteID: 5219d794e329c8650800000000000000
+      internalID: 6236520380219887909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_26
+      name: props avant plan ruine-export_26
       rect:
         serializedVersion: 2
         x: 18
@@ -681,20 +1110,20 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1072e6b6e578865c0800000000000000
-      internalID: -4221975811060783359
+      spriteID: bba3e0d342dd0edf0800000000000000
+      internalID: -152879239617692997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_27
+      name: props avant plan ruine-export_27
       rect:
         serializedVersion: 2
         x: 60
@@ -702,20 +1131,20 @@ TextureImporter:
         width: 10
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d951f0347acb8a40800000000000000
-      internalID: 5371609580955589075
+      spriteID: 3863048718f2ff4d0800000000000000
+      internalID: -3098705785492851069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_28
+      name: props avant plan ruine-export_28
       rect:
         serializedVersion: 2
         x: 77
@@ -723,20 +1152,20 @@ TextureImporter:
         width: 7
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd8feb3456cd03d50800000000000000
-      internalID: 6715109371895806173
+      spriteID: bb625ef15680ad070800000000000000
+      internalID: 8131821307590682299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_29
+      name: props avant plan ruine-export_29
       rect:
         serializedVersion: 2
         x: 99
@@ -744,83 +1173,20 @@ TextureImporter:
         width: 9
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe78f3c52aa3d9b0800000000000000
-      internalID: -5056510877428580619
+      spriteID: 3f13bdb5f4e84fce0800000000000000
+      internalID: -1372315514946506253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_30
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 935
-        width: 33
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80754f6f0aff0e420800000000000000
-      internalID: 2657404846951651080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_31
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 983
-        width: 33
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8807be494f53867c0800000000000000
-      internalID: -4077950137997234040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_32
-      rect:
-        serializedVersion: 2
-        x: 220
-        y: 983
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99ee4b3301f35d300800000000000000
-      internalID: 276196290972675737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_33
+      name: props avant plan ruine-export_30
       rect:
         serializedVersion: 2
         x: 295
@@ -828,20 +1194,20 @@ TextureImporter:
         width: 88
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47c2e49b721e0f20800000000000000
-      internalID: 3390667891444729677
+      spriteID: a62e56ca841877080800000000000000
+      internalID: -9189734365496221078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_34
+      name: props avant plan ruine-export_31
       rect:
         serializedVersion: 2
         x: 409
@@ -849,20 +1215,20 @@ TextureImporter:
         width: 28
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d992befd7fbb4a0800000000000000
-      internalID: -6576390289749336756
+      spriteID: cfd625d550746a950800000000000000
+      internalID: 6459928803875646972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_35
+      name: props avant plan ruine-export_32
       rect:
         serializedVersion: 2
         x: 80
@@ -870,20 +1236,20 @@ TextureImporter:
         width: 16
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b03957d2fa06ffd00800000000000000
-      internalID: 1008631147052503819
+      spriteID: 692399fa2c68da630800000000000000
+      internalID: 3939953419746882198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_36
+      name: props avant plan ruine-export_33
       rect:
         serializedVersion: 2
         x: 295
@@ -891,20 +1257,20 @@ TextureImporter:
         width: 88
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b1e1cf86b257adb0800000000000000
-      internalID: -4780761535381118543
+      spriteID: 46dea7f8012b215e0800000000000000
+      internalID: -1940292705246843548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_37
+      name: props avant plan ruine-export_34
       rect:
         serializedVersion: 2
         x: 479
@@ -912,20 +1278,20 @@ TextureImporter:
         width: 156
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 702905818ecda2a80800000000000000
-      internalID: -8490731258055192057
+      spriteID: ee9e541c714d27180800000000000000
+      internalID: -9118993096979912210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_38
+      name: props avant plan ruine-export_35
       rect:
         serializedVersion: 2
         x: 729
@@ -933,20 +1299,20 @@ TextureImporter:
         width: 96
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf43989f80c64ae50800000000000000
-      internalID: 6819694521547830524
+      spriteID: fab69d9fff9469c20800000000000000
+      internalID: 3212836747932691375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_39
+      name: props avant plan ruine-export_36
       rect:
         serializedVersion: 2
         x: 176
@@ -954,20 +1320,20 @@ TextureImporter:
         width: 123
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffc40eabb8a4b28f0800000000000000
-      internalID: -564275364308693761
+      spriteID: ccf048d58da847490800000000000000
+      internalID: -7749416396911276084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_40
+      name: props avant plan ruine-export_37
       rect:
         serializedVersion: 2
         x: 326
@@ -975,20 +1341,20 @@ TextureImporter:
         width: 6
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44328b070c1a3bf90800000000000000
-      internalID: -6939024752950893756
+      spriteID: 3439d493d71353f20800000000000000
+      internalID: 3401679507450336067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_41
+      name: props avant plan ruine-export_38
       rect:
         serializedVersion: 2
         x: 374
@@ -996,20 +1362,20 @@ TextureImporter:
         width: 30
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74726798fad0f4cb0800000000000000
-      internalID: -4877664823842298041
+      spriteID: bed6643df603b4d90800000000000000
+      internalID: -7112537929657455125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_42
+      name: props avant plan ruine-export_39
       rect:
         serializedVersion: 2
         x: 422
@@ -1017,20 +1383,20 @@ TextureImporter:
         width: 30
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f847de78a0bf5250800000000000000
-      internalID: 5935657071626635504
+      spriteID: 83d5b8e081230dae0800000000000000
+      internalID: -1526665194773979848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_43
+      name: props avant plan ruine-export_40
       rect:
         serializedVersion: 2
         x: 878
@@ -1038,20 +1404,20 @@ TextureImporter:
         width: 120
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf00778c1dedc77e0800000000000000
-      internalID: -1766291961243303685
+      spriteID: 0fb811a49c227a810800000000000000
+      internalID: 1776426825947384816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_44
+      name: props avant plan ruine-export_41
       rect:
         serializedVersion: 2
         x: 1200
@@ -1059,20 +1425,20 @@ TextureImporter:
         width: 92
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df74dc9b4c1e5550800000000000000
-      internalID: 6151385252113973206
+      spriteID: 810a2a27f392a6d00800000000000000
+      internalID: 966630422507331608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_45
+      name: props avant plan ruine-export_42
       rect:
         serializedVersion: 2
         x: 62
@@ -1080,20 +1446,20 @@ TextureImporter:
         width: 25
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dff6b2a3057cc66f0800000000000000
-      internalID: -689957495507292163
+      spriteID: 4fb76862f170d2ec0800000000000000
+      internalID: -3590205497572688908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_46
+      name: props avant plan ruine-export_43
       rect:
         serializedVersion: 2
         x: 105
@@ -1101,20 +1467,20 @@ TextureImporter:
         width: 25
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 193dba4febfb60100800000000000000
-      internalID: 73957270767784849
+      spriteID: cde23e93dc67a9cc0800000000000000
+      internalID: -3703517119747248420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_47
+      name: props avant plan ruine-export_44
       rect:
         serializedVersion: 2
         x: 148
@@ -1122,20 +1488,20 @@ TextureImporter:
         width: 9
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0da24523c1ac5df50800000000000000
-      internalID: 6905647826094795472
+      spriteID: f4b3519d9c87cb3f0800000000000000
+      internalID: -883698618545652913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_48
+      name: props avant plan ruine-export_45
       rect:
         serializedVersion: 2
         x: 176
@@ -1143,20 +1509,20 @@ TextureImporter:
         width: 123
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c618c591d516d5580800000000000000
-      internalID: -8836799841345699476
+      spriteID: a93607f344a86b730800000000000000
+      internalID: 4014548143574115226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_49
+      name: props avant plan ruine-export_46
       rect:
         serializedVersion: 2
         x: 809
@@ -1164,20 +1530,20 @@ TextureImporter:
         width: 52
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 302d1da1142fdd040800000000000000
-      internalID: 4674158349717197315
+      spriteID: 885f7a5bd90ecfcb0800000000000000
+      internalID: -4828737732485843576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_50
+      name: props avant plan ruine-export_47
       rect:
         serializedVersion: 2
         x: 1041
@@ -1185,20 +1551,20 @@ TextureImporter:
         width: 76
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4845efa0286faf730800000000000000
-      internalID: 4033807454654321796
+      spriteID: 2555921e72767a990800000000000000
+      internalID: -7374812443816929966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_51
+      name: props avant plan ruine-export_48
       rect:
         serializedVersion: 2
         x: 326
@@ -1206,20 +1572,20 @@ TextureImporter:
         width: 6
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 038304bfcf843c2f0800000000000000
-      internalID: -953838444688164816
+      spriteID: 63ce68e6570a8b080800000000000000
+      internalID: -9171404214914061258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_52
+      name: props avant plan ruine-export_49
       rect:
         serializedVersion: 2
         x: 374
@@ -1227,20 +1593,20 @@ TextureImporter:
         width: 30
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9e88e9dc41ddcc40800000000000000
-      internalID: 5534309645111824026
+      spriteID: cc4196c9fcb2df3e0800000000000000
+      internalID: -2018408887309757236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_53
+      name: props avant plan ruine-export_50
       rect:
         serializedVersion: 2
         x: 422
@@ -1248,20 +1614,20 @@ TextureImporter:
         width: 30
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a78994312367d920800000000000000
-      internalID: 3014987469815383976
+      spriteID: fce3bc547c6074b30800000000000000
+      internalID: 4271390224523411151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_54
+      name: props avant plan ruine-export_51
       rect:
         serializedVersion: 2
         x: 469
@@ -1269,20 +1635,20 @@ TextureImporter:
         width: 114
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163a2756874b33dd0800000000000000
-      internalID: -2507462138324147359
+      spriteID: 6be6f3fa78b464da0800000000000000
+      internalID: -5960994010645434698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_55
+      name: props avant plan ruine-export_52
       rect:
         serializedVersion: 2
         x: 656
@@ -1290,20 +1656,20 @@ TextureImporter:
         width: 34
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9064bcc1dbf10db40800000000000000
-      internalID: 5462901245092775433
+      spriteID: a3ead91c5d87fddb0800000000000000
+      internalID: -4764957021262991814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_56
+      name: props avant plan ruine-export_53
       rect:
         serializedVersion: 2
         x: 703
@@ -1311,20 +1677,20 @@ TextureImporter:
         width: 53
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15f90fa86284465c0800000000000000
-      internalID: -4223171220189700271
+      spriteID: 71824f05bca4a35e0800000000000000
+      internalID: -1929147253277841385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_57
+      name: props avant plan ruine-export_54
       rect:
         serializedVersion: 2
         x: 770
@@ -1332,20 +1698,20 @@ TextureImporter:
         width: 28
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90774628db4965550800000000000000
-      internalID: 6149265882878342921
+      spriteID: 8644e037e261725b0800000000000000
+      internalID: -5393317639998258072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_58
+      name: props avant plan ruine-export_55
       rect:
         serializedVersion: 2
         x: 234
@@ -1353,20 +1719,20 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f610ae475f5ddd1c0800000000000000
-      internalID: -4477187204331208337
+      spriteID: dc0c9eef5bcf83d90800000000000000
+      internalID: -7117661352463056691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_59
+      name: props avant plan ruine-export_56
       rect:
         serializedVersion: 2
         x: 262
@@ -1374,20 +1740,20 @@ TextureImporter:
         width: 18
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28189e48feae30ff0800000000000000
-      internalID: -70954854659817086
+      spriteID: ded48c4cb72bfe320800000000000000
+      internalID: 2589484555413507565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_60
+      name: props avant plan ruine-export_57
       rect:
         serializedVersion: 2
         x: 304
@@ -1395,20 +1761,20 @@ TextureImporter:
         width: 15
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af65ae9fd3a104e40800000000000000
-      internalID: 5638535586956072698
+      spriteID: 7f00b468103f35020800000000000000
+      internalID: 2329472620154257655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_61
+      name: props avant plan ruine-export_58
       rect:
         serializedVersion: 2
         x: 336
@@ -1416,20 +1782,20 @@ TextureImporter:
         width: 15
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b208fcf4b2277d80800000000000000
-      internalID: -8253089631399574861
+      spriteID: f47d246ce81261150800000000000000
+      internalID: 5842894463655139151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_62
+      name: props avant plan ruine-export_59
       rect:
         serializedVersion: 2
         x: 400
@@ -1437,20 +1803,20 @@ TextureImporter:
         width: 26
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1753c67dd1ee9dab0800000000000000
-      internalID: -4982689700773087887
+      spriteID: 72d901cb6a5c67240800000000000000
+      internalID: 4789232573665549607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_63
+      name: props avant plan ruine-export_60
       rect:
         serializedVersion: 2
         x: 720
@@ -1458,20 +1824,20 @@ TextureImporter:
         width: 32
         height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c399b812cc0bf3e40800000000000000
-      internalID: 5638419649273764156
+      spriteID: 2e27d8c2e12ad68d0800000000000000
+      internalID: -2851444738575469854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_64
+      name: props avant plan ruine-export_61
       rect:
         serializedVersion: 2
         x: 848
@@ -1479,20 +1845,20 @@ TextureImporter:
         width: 48
         height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89261d733e6c1ac90800000000000000
-      internalID: -7160223253346033000
+      spriteID: 82516a77df8ea3850800000000000000
+      internalID: 6357649999318619432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_65
+      name: props avant plan ruine-export_62
       rect:
         serializedVersion: 2
         x: 62
@@ -1500,20 +1866,20 @@ TextureImporter:
         width: 25
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7da9c1a7e896810b0800000000000000
-      internalID: -5757736062938211625
+      spriteID: 62554eb6236bb1110800000000000000
+      internalID: 1232779250690708774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_66
+      name: props avant plan ruine-export_63
       rect:
         serializedVersion: 2
         x: 105
@@ -1521,20 +1887,20 @@ TextureImporter:
         width: 25
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b2fd6c337f13420800000000000000
-      internalID: 2608137460976135006
+      spriteID: 07004bb2836625ed0800000000000000
+      internalID: -2426764857761857424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_67
+      name: props avant plan ruine-export_64
       rect:
         serializedVersion: 2
         x: 234
@@ -1542,20 +1908,20 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f33f4d92c42a5af50800000000000000
-      internalID: 6892093252763448127
+      spriteID: 3ee19d8e2b58f2f50800000000000000
+      internalID: 6858847760965770979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_68
+      name: props avant plan ruine-export_65
       rect:
         serializedVersion: 2
         x: 262
@@ -1563,20 +1929,20 @@ TextureImporter:
         width: 18
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0acf5caed4e625d0800000000000000
-      internalID: -3087528849490064884
+      spriteID: fab231fae759e4810800000000000000
+      internalID: 1751501676429388719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_69
+      name: props avant plan ruine-export_66
       rect:
         serializedVersion: 2
         x: 337
@@ -1584,20 +1950,20 @@ TextureImporter:
         width: 5
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78f51f6c9b7380930800000000000000
-      internalID: 4109595931021762439
+      spriteID: b52d0c948be678e00800000000000000
+      internalID: 1046927176177341019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_70
+      name: props avant plan ruine-export_67
       rect:
         serializedVersion: 2
         x: 345
@@ -1605,20 +1971,20 @@ TextureImporter:
         width: 5
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e1466ad63522dd0800000000000000
-      internalID: -2512353911711195548
+      spriteID: c4fcf492872d058a0800000000000000
+      internalID: -6318318863669801140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_71
+      name: props avant plan ruine-export_68
       rect:
         serializedVersion: 2
         x: 400
@@ -1626,20 +1992,20 @@ TextureImporter:
         width: 20
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df25cac1a9955df90800000000000000
-      internalID: -6929533933198748931
+      spriteID: cdbdd61abfa4dd040800000000000000
+      internalID: 4673974432886021084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_72
+      name: props avant plan ruine-export_69
       rect:
         serializedVersion: 2
         x: 434
@@ -1647,20 +2013,20 @@ TextureImporter:
         width: 20
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d96e17cdc24cb070800000000000000
-      internalID: 8123441279445920217
+      spriteID: d2fef9647370f1c60800000000000000
+      internalID: 7790953814363729709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_73
+      name: props avant plan ruine-export_70
       rect:
         serializedVersion: 2
         x: 495
@@ -1668,20 +2034,20 @@ TextureImporter:
         width: 18
         height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce2d1180ca1eecc0800000000000000
-      internalID: -3679974431412900147
+      spriteID: fd1e18aaabf42a090800000000000000
+      internalID: -8024763922877652513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_74
+      name: props avant plan ruine-export_71
       rect:
         serializedVersion: 2
         x: 523
@@ -1689,20 +2055,20 @@ TextureImporter:
         width: 33
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1faa2de7fd938a0800000000000000
-      internalID: -6324778465871859210
+      spriteID: 903858fc3b27ef800800000000000000
+      internalID: 648081512994276105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_75
+      name: props avant plan ruine-export_72
       rect:
         serializedVersion: 2
         x: 569
@@ -1710,20 +2076,20 @@ TextureImporter:
         width: 15
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fc1456bbe8b72970800000000000000
-      internalID: 8730149725196786929
+      spriteID: 9107ef4e669ca9530800000000000000
+      internalID: 3862621074189348889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_76
+      name: props avant plan ruine-export_73
       rect:
         serializedVersion: 2
         x: 688
@@ -1731,20 +2097,20 @@ TextureImporter:
         width: 16
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a63bab4c3cd90900800000000000000
-      internalID: 651293772657407651
+      spriteID: 8fc7da7cae2465a50800000000000000
+      internalID: 6509463887550446840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_77
+      name: props avant plan ruine-export_74
       rect:
         serializedVersion: 2
         x: 800
@@ -1752,20 +2118,20 @@ TextureImporter:
         width: 32
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddaff829ca12d63b0800000000000000
-      internalID: -5517716943381988643
+      spriteID: 4aa24c7ff389bd400800000000000000
+      internalID: 350040796558535332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_78
+      name: props avant plan ruine-export_75
       rect:
         serializedVersion: 2
         x: 174
@@ -1773,20 +2139,20 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df21bfb7dd3808fe0800000000000000
-      internalID: -1188805314334747907
+      spriteID: 4f10b40c5656519d0800000000000000
+      internalID: -2804223705276022284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_79
+      name: props avant plan ruine-export_76
       rect:
         serializedVersion: 2
         x: 211
@@ -1794,20 +2160,20 @@ TextureImporter:
         width: 14
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934d91338ded36630800000000000000
-      internalID: 3919221120894096441
+      spriteID: d38a65ddf19875ff0800000000000000
+      internalID: -47418501113665475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_80
+      name: props avant plan ruine-export_77
       rect:
         serializedVersion: 2
         x: 242
@@ -1815,20 +2181,20 @@ TextureImporter:
         width: 16
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8944d03e6ac81a6c0800000000000000
-      internalID: -4133868334547647336
+      spriteID: 2fd17862d29aceda0800000000000000
+      internalID: -5914166199259292174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_81
+      name: props avant plan ruine-export_78
       rect:
         serializedVersion: 2
         x: 279
@@ -1836,20 +2202,20 @@ TextureImporter:
         width: 45
         height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92196055fba6ced0800000000000000
-      internalID: -2394037081796439395
+      spriteID: 5a40e044520c308f0800000000000000
+      internalID: -575405061085199195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_82
+      name: props avant plan ruine-export_79
       rect:
         serializedVersion: 2
         x: 400
@@ -1857,20 +2223,20 @@ TextureImporter:
         width: 20
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987b8eb862e24b400800000000000000
-      internalID: 338946615050549129
+      spriteID: 055313f9abdd81330800000000000000
+      internalID: 3681936488979838288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_83
+      name: props avant plan ruine-export_80
       rect:
         serializedVersion: 2
         x: 434
@@ -1878,20 +2244,20 @@ TextureImporter:
         width: 20
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1df82c054c1d6b0a0800000000000000
-      internalID: -6866069940781019183
+      spriteID: a78574763c548a9b0800000000000000
+      internalID: -5068724675051825030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_84
+      name: props avant plan ruine-export_81
       rect:
         serializedVersion: 2
         x: 567
@@ -1899,20 +2265,20 @@ TextureImporter:
         width: 19
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a9c38ff479eba60800000000000000
-      internalID: 7691751583318317684
+      spriteID: 165761c64a4b6f340800000000000000
+      internalID: 4897300263093040481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_85
+      name: props avant plan ruine-export_82
       rect:
         serializedVersion: 2
         x: 768
@@ -1920,20 +2286,20 @@ TextureImporter:
         width: 16
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 066024fdd9a90eca0800000000000000
-      internalID: -5989617501556570528
+      spriteID: 6eac3e7dc608fe3c0800000000000000
+      internalID: -4328099511912903962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_86
+      name: props avant plan ruine-export_83
       rect:
         serializedVersion: 2
         x: 944
@@ -1941,20 +2307,20 @@ TextureImporter:
         width: 16
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f224c6e47ea4e6d0800000000000000
-      internalID: -2962050837791890698
+      spriteID: 3b78a96f44bf7dee0800000000000000
+      internalID: -1236243299076241485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_87
+      name: props avant plan ruine-export_84
       rect:
         serializedVersion: 2
         x: 1064
@@ -1962,20 +2328,20 @@ TextureImporter:
         width: 89
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83f47dcd01f984d70800000000000000
-      internalID: 9027640347837550392
+      spriteID: 2bf85d6076648c120800000000000000
+      internalID: 2434273006903988146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_88
+      name: props avant plan ruine-export_85
       rect:
         serializedVersion: 2
         x: 1184
@@ -1983,20 +2349,20 @@ TextureImporter:
         width: 67
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9abd8a65507c2df0800000000000000
-      internalID: -203664370976310628
+      spriteID: a5eed21e0d144bed0800000000000000
+      internalID: -2399220336094744998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_89
+      name: props avant plan ruine-export_86
       rect:
         serializedVersion: 2
         x: 33
@@ -2004,20 +2370,20 @@ TextureImporter:
         width: 39
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3193602f18cadc1a0800000000000000
-      internalID: -6787579389266216685
+      spriteID: 8bde7cf9ae0ad1e20800000000000000
+      internalID: 3322989029632765368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_90
+      name: props avant plan ruine-export_87
       rect:
         serializedVersion: 2
         x: 81
@@ -2025,20 +2391,20 @@ TextureImporter:
         width: 77
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 030b8c2b423f6bb10800000000000000
-      internalID: 1997050823729262640
+      spriteID: 1346d35e2080943b0800000000000000
+      internalID: -5527878259091610575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_91
+      name: props avant plan ruine-export_88
       rect:
         serializedVersion: 2
         x: 192
@@ -2046,20 +2412,20 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b64c22eaeeebcbd0800000000000000
-      internalID: -2608728866546760011
+      spriteID: 9b34415acf6c81b40800000000000000
+      internalID: 5411293740689277881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_94
+      name: props avant plan ruine-export_91
       rect:
         serializedVersion: 2
         x: 256
@@ -2067,20 +2433,20 @@ TextureImporter:
         width: 26
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cc00384c59f5d110800000000000000
-      internalID: 1285207443427560644
+      spriteID: 8b149efc7cd06be10800000000000000
+      internalID: 2212971418737000888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_95
+      name: props avant plan ruine-export_92
       rect:
         serializedVersion: 2
         x: 497
@@ -2088,20 +2454,20 @@ TextureImporter:
         width: 14
         height: 61
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a28c4c6fb1c310320800000000000000
-      internalID: 2522363357106063402
+      spriteID: 8e5f32a334dfb68d0800000000000000
+      internalID: -2851907473829005848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_96
+      name: props avant plan ruine-export_93
       rect:
         serializedVersion: 2
         x: 524
@@ -2109,20 +2475,20 @@ TextureImporter:
         width: 33
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0438448723ac96550800000000000000
-      internalID: 6154672683893424960
+      spriteID: 84e96e6f1f8c6b4d0800000000000000
+      internalID: -3119084750352507320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_97
+      name: props avant plan ruine-export_94
       rect:
         serializedVersion: 2
         x: 912
@@ -2130,20 +2496,20 @@ TextureImporter:
         width: 16
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0993c9b9834a00a90800000000000000
-      internalID: -7349694028832818800
+      spriteID: 750ef21f88b4ac3b0800000000000000
+      internalID: -5491493744090816425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_100
+      name: props avant plan ruine-export_97
       rect:
         serializedVersion: 2
         x: 37
@@ -2151,20 +2517,20 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb4939746e91fed0800000000000000
-      internalID: -2381948573534565401
+      spriteID: fec881d8d241d69e0800000000000000
+      internalID: -1626621704537600785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_101
+      name: props avant plan ruine-export_98
       rect:
         serializedVersion: 2
         x: 59
@@ -2172,20 +2538,20 @@ TextureImporter:
         width: 9
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfbf054e351211a0800000000000000
-      internalID: -6840381526831546415
+      spriteID: 5932719bda7daed90800000000000000
+      internalID: -7067599524069956715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_103
+      name: props avant plan ruine-export_100
       rect:
         serializedVersion: 2
         x: 93
@@ -2193,41 +2559,41 @@ TextureImporter:
         width: 21
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e387f5425f2946370800000000000000
-      internalID: 8314932393607657534
+      spriteID: e66a34df85e8d7300800000000000000
+      internalID: 251513667059951214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_104
+      name: props avant plan ruine-export_101
       rect:
         serializedVersion: 2
         x: 127
         y: 631
-        width: 16
+        width: 25
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab257c45fb4b5dab0800000000000000
-      internalID: -4983878678761483590
+      spriteID: 9b44bd81fd72c7350800000000000000
+      internalID: 6015727041408353465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_105
+      name: props avant plan ruine-export_102
       rect:
         serializedVersion: 2
         x: 194
@@ -2235,20 +2601,20 @@ TextureImporter:
         width: 19
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0816e8bffdcd2e0f0800000000000000
-      internalID: -1089065305314008704
+      spriteID: ab9db34ed62162de0800000000000000
+      internalID: -1358377974415763014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_106
+      name: props avant plan ruine-export_103
       rect:
         serializedVersion: 2
         x: 239
@@ -2256,20 +2622,20 @@ TextureImporter:
         width: 20
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7d7a41b2972f03c0800000000000000
-      internalID: -4391247600669786755
+      spriteID: c5c63e8f8e92fc820800000000000000
+      internalID: 2940615162281028700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_107
+      name: props avant plan ruine-export_104
       rect:
         serializedVersion: 2
         x: 280
@@ -2277,20 +2643,20 @@ TextureImporter:
         width: 16
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63f3bfc7bea0b39b0800000000000000
-      internalID: -5099470146536521930
+      spriteID: 1a78e7d1580d11090800000000000000
+      internalID: -8065436187499788383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_109
+      name: props avant plan ruine-export_106
       rect:
         serializedVersion: 2
         x: 306
@@ -2298,20 +2664,20 @@ TextureImporter:
         width: 14
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7314bc39bc93393d0800000000000000
-      internalID: -3201151363609575113
+      spriteID: 59ff9f99a1efd0aa0800000000000000
+      internalID: -6193014522358661227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_111
+      name: props avant plan ruine-export_108
       rect:
         serializedVersion: 2
         x: 328
@@ -2319,20 +2685,20 @@ TextureImporter:
         width: 23
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7ccda3e6227f8930800000000000000
-      internalID: 4147659293185657983
+      spriteID: 06fbc5277b93a7620800000000000000
+      internalID: 2772591980660440928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_113
+      name: props avant plan ruine-export_110
       rect:
         serializedVersion: 2
         x: 364
@@ -2340,62 +2706,41 @@ TextureImporter:
         width: 43
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7930619347a955c40800000000000000
-      internalID: 5500472343867556759
+      spriteID: de4663b72ba422a20800000000000000
+      internalID: 3036071229232932077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_114
+      name: props avant plan ruine-export_112
       rect:
         serializedVersion: 2
         x: 427
         y: 631
-        width: 18
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe0f9d02d557334e0800000000000000
-      internalID: -2003128366406176529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_115
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 631
-        width: 48
+        width: 54
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 354797e4a3af571d0800000000000000
-      internalID: -3353499219175836589
+      spriteID: a85551e707f5dfa90800000000000000
+      internalID: -7278556486004550262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_116
+      name: props avant plan ruine-export_113
       rect:
         serializedVersion: 2
         x: 503
@@ -2403,20 +2748,20 @@ TextureImporter:
         width: 9
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6357bd37afdc990800000000000000
-      internalID: -7363954440170817815
+      spriteID: 75997123fe46436b0800000000000000
+      internalID: -5317514281517344425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_117
+      name: props avant plan ruine-export_114
       rect:
         serializedVersion: 2
         x: 541
@@ -2424,20 +2769,20 @@ TextureImporter:
         width: 10
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ee5189413e686b50800000000000000
-      internalID: 6586635612995018466
+      spriteID: 9ec6567cba85d0090800000000000000
+      internalID: -8066693862742725399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_118
+      name: props avant plan ruine-export_115
       rect:
         serializedVersion: 2
         x: 560
@@ -2445,20 +2790,20 @@ TextureImporter:
         width: 7
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ff44b10482fc56c0800000000000000
-      internalID: -4153178107564240912
+      spriteID: 326b4afbb75cd1780800000000000000
+      internalID: -8710588968977779165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_119
+      name: props avant plan ruine-export_116
       rect:
         serializedVersion: 2
         x: 583
@@ -2466,41 +2811,20 @@ TextureImporter:
         width: 9
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a469be9f294c97f90800000000000000
-      internalID: -6955312013959784886
+      spriteID: 98c93b6c323009160800000000000000
+      internalID: 7030122470517742729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_120
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 631
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 294046703ede3e160800000000000000
-      internalID: 7053743000729683090
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_121
+      name: props avant plan ruine-export_118
       rect:
         serializedVersion: 2
         x: 160
@@ -2508,20 +2832,20 @@ TextureImporter:
         width: 11
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00d6472e15cbaefc0800000000000000
-      internalID: -3464749903430521600
+      spriteID: ae4dae556360ea8e0800000000000000
+      internalID: -1680398780523162390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_122
+      name: props avant plan ruine-export_119
       rect:
         serializedVersion: 2
         x: 48
@@ -2529,20 +2853,20 @@ TextureImporter:
         width: 10
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e605ef412383e5c10800000000000000
-      internalID: 2044133068624515182
+      spriteID: e47be6ff237c08310800000000000000
+      internalID: 1405342105587332942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_123
+      name: props avant plan ruine-export_120
       rect:
         serializedVersion: 2
         x: 59
@@ -2550,20 +2874,20 @@ TextureImporter:
         width: 10
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c477665cf9679510800000000000000
-      internalID: 1555828728782091464
+      spriteID: ece46a9158e20c340800000000000000
+      internalID: 4881953145265475278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_124
+      name: props avant plan ruine-export_121
       rect:
         serializedVersion: 2
         x: 74
@@ -2571,20 +2895,20 @@ TextureImporter:
         width: 24
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44d6628e40bcac90800000000000000
-      internalID: -7157151856556846006
+      spriteID: 72f387e53b4f9f340800000000000000
+      internalID: 4898215120963387175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_125
+      name: props avant plan ruine-export_122
       rect:
         serializedVersion: 2
         x: 144
@@ -2592,20 +2916,20 @@ TextureImporter:
         width: 16
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9187f4e85ca67cad0800000000000000
-      internalID: -2682057656347166695
+      spriteID: ffb2e0fb081de9c80800000000000000
+      internalID: -8313977511187960833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_126
+      name: props avant plan ruine-export_123
       rect:
         serializedVersion: 2
         x: 240
@@ -2613,20 +2937,20 @@ TextureImporter:
         width: 10
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2174afc9faa7fe480800000000000000
-      internalID: -8867734246597703918
+      spriteID: 528d5de4925bceb50800000000000000
+      internalID: 6623868340976080933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_127
+      name: props avant plan ruine-export_124
       rect:
         serializedVersion: 2
         x: 174
@@ -2634,20 +2958,20 @@ TextureImporter:
         width: 52
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f265fb04c8e2b100800000000000000
-      internalID: 122416068604289785
+      spriteID: c4ca64f799afab710800000000000000
+      internalID: 1709954545712802892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_128
+      name: props avant plan ruine-export_125
       rect:
         serializedVersion: 2
         x: 272
@@ -2655,20 +2979,20 @@ TextureImporter:
         width: 26
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba2ba3de550f0f110800000000000000
-      internalID: 1292797344898265771
+      spriteID: 915687474b433ce10800000000000000
+      internalID: 2216673391249220889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_129
+      name: props avant plan ruine-export_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2676,20 +3000,20 @@ TextureImporter:
         width: 40
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 528322a8f8ca0aec0800000000000000
-      internalID: -3557653973124892635
+      spriteID: 51dd1bd8a47fb2530800000000000000
+      internalID: 3831427807585623317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_130
+      name: props avant plan ruine-export_127
       rect:
         serializedVersion: 2
         x: 371
@@ -2697,20 +3021,20 @@ TextureImporter:
         width: 46
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 424ab48aa2233e0f0800000000000000
-      internalID: -1088971526099983324
+      spriteID: 8f316ccf789d85690800000000000000
+      internalID: -7613095991985171464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_131
+      name: props avant plan ruine-export_128
       rect:
         serializedVersion: 2
         x: 480
@@ -2718,20 +3042,20 @@ TextureImporter:
         width: 87
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b0a35e6632a878b0800000000000000
-      internalID: -5154191418862624591
+      spriteID: 6a278ae8664c8cdd0800000000000000
+      internalID: -2465504851226234202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_132
+      name: props avant plan ruine-export_129
       rect:
         serializedVersion: 2
         x: 57
@@ -2739,20 +3063,20 @@ TextureImporter:
         width: 28
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22db681bb4d6e7aa0800000000000000
-      internalID: -6161367068327887582
+      spriteID: 6abab795401ec7d80800000000000000
+      internalID: -8251473008452195418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_133
+      name: props avant plan ruine-export_130
       rect:
         serializedVersion: 2
         x: 63
@@ -2760,20 +3084,20 @@ TextureImporter:
         width: 44
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e93e0aa92c8b5370800000000000000
-      internalID: 8312391647816989157
+      spriteID: f0d9c272c5ac22bf0800000000000000
+      internalID: -350495323838440177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_134
+      name: props avant plan ruine-export_131
       rect:
         serializedVersion: 2
         x: 116
@@ -2781,20 +3105,20 @@ TextureImporter:
         width: 21
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f0c13306b927ab0800000000000000
-      internalID: -5011772597833298100
+      spriteID: dc5ae87de856dd520800000000000000
+      internalID: 2728448613432600013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_135
+      name: props avant plan ruine-export_132
       rect:
         serializedVersion: 2
         x: 176
@@ -2802,20 +3126,20 @@ TextureImporter:
         width: 57
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02fb9b27369c985c0800000000000000
-      internalID: -4212614547464667360
+      spriteID: 70e1419de241895f0800000000000000
+      internalID: -749827146514162169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_136
+      name: props avant plan ruine-export_133
       rect:
         serializedVersion: 2
         x: 320
@@ -2823,20 +3147,125 @@ TextureImporter:
         width: 35
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 778d61db4121109d0800000000000000
-      internalID: -2809944812221441929
+      spriteID: 82ff2106c234da8b0800000000000000
+      internalID: -5139377741890388184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_137
+      name: props avant plan ruine-export_134
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 455
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e378b6175fd10f0800000000000000
+      internalID: -1144488862798103001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_135
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 455
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04bd8af75f59d830800000000000000
+      internalID: 4096410167540560907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_136
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 503
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e785f8d0a2fcd40800000000000000
+      internalID: 5606746298827439705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_137
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 503
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af0db3b20ad00020800000000000000
+      internalID: 2306082714353995683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_138
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 471
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8568f8246dcab1ef0800000000000000
+      internalID: -136325327464987048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_139
       rect:
         serializedVersion: 2
         x: 33
@@ -2844,104 +3273,20 @@ TextureImporter:
         width: 66
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aca1479c2c1e2f70800000000000000
-      internalID: 9164293269587340452
+      spriteID: 1f1156c96799cebf0800000000000000
+      internalID: -293691140976864783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_138
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 390
-        width: 42
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85dddde64c5f0d480800000000000000
-      internalID: -8876324641524818600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_139
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 389
-        width: 30
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e62a0d28126fd220800000000000000
-      internalID: 2512834973070403300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_140
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 406
-        width: 43
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2d312ff552e9f000800000000000000
-      internalID: 70336128181419306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_141
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 407
-        width: 12
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 797e03e1934ebdd00800000000000000
-      internalID: 998642676363487127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_142
+      name: props avant plan ruine-export_140
       rect:
         serializedVersion: 2
         x: 308
@@ -2949,62 +3294,41 @@ TextureImporter:
         width: 43
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fd9036ecc1bed70800000000000000
-      internalID: 9073377547018428303
+      spriteID: 818e63370ff10f3f0800000000000000
+      internalID: -869159610496915432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_143
+      name: props avant plan ruine-export_141
       rect:
         serializedVersion: 2
-        x: 354
-        y: 356
-        width: 40
-        height: 109
+        x: 848
+        y: 471
+        width: 9
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7ed0fd20ae4a9f00800000000000000
-      internalID: 1124297506854854267
+      spriteID: b61e3c5d3cef5d4b0800000000000000
+      internalID: -5416142859784691349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_144
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 407
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3765098daed272be0800000000000000
-      internalID: -1502181464025835917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: props avant plan ruine_145
+      name: props avant plan ruine-export_142
       rect:
         serializedVersion: 2
         x: 47
@@ -3012,20 +3336,20 @@ TextureImporter:
         width: 21
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a6e4cc0afca35fa0800000000000000
-      internalID: -5813112504049146207
+      spriteID: d38fa7ed0086c6e40800000000000000
+      internalID: 5651005985385019453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: props avant plan ruine_147
+      name: props avant plan ruine-export_144
       rect:
         serializedVersion: 2
         x: 98
@@ -3033,14 +3357,119 @@ TextureImporter:
         width: 13
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24a0a4c58c81f5120800000000000000
-      internalID: 2404667974860016194
+      spriteID: bcc43f24f0852c3d0800000000000000
+      internalID: -3187888763653894965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_145
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 390
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb21603e3fea3880800000000000000
+      internalID: -8630322685523448896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_147
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 406
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd573dd153644870800000000000000
+      internalID: 8666160786222570950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 407
+        width: 12
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173d66a3e0d553790800000000000000
+      internalID: -7551026884526025871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_149
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 407
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5456a8733d207570800000000000000
+      internalID: 8462313398919910495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props avant plan ruine-export_150
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 356
+        width: 40
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a229feb268a8e30800000000000000
+      internalID: 4506561900398651945
       vertices: []
       indices: 
       edges: []
@@ -3048,7 +3477,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: eeb3d20ef3167bf488bdb41693b13357
+    spriteID: 069526694b20ed74b8d71c1d9e60c2fa
     internalID: 0
     vertices: []
     indices: 

@@ -1,0 +1,1580 @@
+fileFormatVersion: 2
+guid: 3ddc88d866748cb46ab3f897733c8dac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1543227468837174781
+    second: plante luminescent_0
+  - first:
+      213: -4172462384248209091
+    second: plante luminescent_1
+  - first:
+      213: 434544202751874618
+    second: plante luminescent_2
+  - first:
+      213: 8364895413559435383
+    second: plante luminescent_3
+  - first:
+      213: -2335025538135425897
+    second: plante luminescent_4
+  - first:
+      213: 1783870968918354689
+    second: plante luminescent_5
+  - first:
+      213: -8817397845270421977
+    second: plante luminescent_6
+  - first:
+      213: 5655472807513516162
+    second: plante luminescent_7
+  - first:
+      213: -2910682104432963082
+    second: plante luminescent_8
+  - first:
+      213: 2803056443297373414
+    second: plante luminescent_9
+  - first:
+      213: -7608771127161604212
+    second: plante luminescent_10
+  - first:
+      213: 185319482021060291
+    second: plante luminescent_11
+  - first:
+      213: -2934408777856366095
+    second: plante luminescent_13
+  - first:
+      213: 8981459060230368712
+    second: plante luminescent_14
+  - first:
+      213: -5025963600662645825
+    second: plante luminescent_15
+  - first:
+      213: 3044282139898878425
+    second: plante luminescent_16
+  - first:
+      213: -8978591125227253938
+    second: plante luminescent_17
+  - first:
+      213: 2919608241355650584
+    second: plante luminescent_18
+  - first:
+      213: -3979607749854516930
+    second: plante luminescent_20
+  - first:
+      213: -781218356401279994
+    second: plante luminescent_21
+  - first:
+      213: -6170868237506217118
+    second: plante luminescent_22
+  - first:
+      213: 6179684745954145178
+    second: plante luminescent_23
+  - first:
+      213: -4336084600953863490
+    second: plante luminescent_24
+  - first:
+      213: -3412405450389247596
+    second: plante luminescent_25
+  - first:
+      213: 6403707706293086834
+    second: plante luminescent_26
+  - first:
+      213: -8260479526484957910
+    second: plante luminescent_27
+  - first:
+      213: 3460884422409067122
+    second: plante luminescent_28
+  - first:
+      213: -6379631797421111523
+    second: plante luminescent_29
+  - first:
+      213: 934697838403376789
+    second: plante luminescent_30
+  - first:
+      213: -3542890914963556023
+    second: plante luminescent_31
+  - first:
+      213: -7672930081120701260
+    second: plante luminescent_32
+  - first:
+      213: -6836964964986214947
+    second: plante luminescent_33
+  - first:
+      213: 2285291706113633560
+    second: plante luminescent_34
+  - first:
+      213: 7673851821632782132
+    second: plante luminescent_35
+  - first:
+      213: 5138195350004796826
+    second: plante luminescent_36
+  - first:
+      213: -5315728947635014207
+    second: plante luminescent_37
+  - first:
+      213: 6675374854782133453
+    second: plante luminescent_38
+  - first:
+      213: 3472267513214903738
+    second: plante luminescent_39
+  - first:
+      213: -9192918216696221118
+    second: plante luminescent_40
+  - first:
+      213: 7215510869304135188
+    second: plante luminescent_42
+  - first:
+      213: -7584147493801575249
+    second: plante luminescent_44
+  - first:
+      213: -6769070387168218031
+    second: plante luminescent_45
+  - first:
+      213: -978186443009476098
+    second: plante luminescent_46
+  - first:
+      213: -4980378520166710444
+    second: plante luminescent_47
+  - first:
+      213: 5107139461610239926
+    second: plante luminescent_48
+  - first:
+      213: -958335573691658879
+    second: plante luminescent_49
+  - first:
+      213: -5518444428615992057
+    second: plante luminescent_50
+  - first:
+      213: -5566741332982507864
+    second: plante luminescent_51
+  - first:
+      213: -3364274863330147071
+    second: plante luminescent_52
+  - first:
+      213: 175953175919456404
+    second: plante luminescent_53
+  - first:
+      213: -6371630088544606221
+    second: plante luminescent_54
+  - first:
+      213: -2153361593027991941
+    second: plante luminescent_55
+  - first:
+      213: 4671639870352280099
+    second: plante luminescent_58
+  - first:
+      213: 1417507521344357704
+    second: plante luminescent_59
+  - first:
+      213: -472971665421390558
+    second: plante luminescent_61
+  - first:
+      213: -5538223557925238475
+    second: plante luminescent_62
+  - first:
+      213: 315877595430347497
+    second: plante luminescent_63
+  - first:
+      213: -4315084093435800929
+    second: plante luminescent_64
+  - first:
+      213: -6945170796703659531
+    second: plante luminescent_65
+  - first:
+      213: -6823247905532136621
+    second: plante luminescent_66
+  - first:
+      213: 1105936743834398631
+    second: plante luminescent_67
+  - first:
+      213: 3131763900525707925
+    second: plante luminescent_70
+  - first:
+      213: -879723720752956333
+    second: plante luminescent_71
+  - first:
+      213: -7935150653426381016
+    second: plante luminescent_73
+  - first:
+      213: -7087283395620924825
+    second: plante luminescent_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plante luminescent_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 894
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302c5502bca559ae0800000000000000
+      internalID: -1543227468837174781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 894
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31c434719f6816c0800000000000000
+      internalID: -4172462384248209091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 833
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361b3c66afc70600800000000000000
+      internalID: 434544202751874618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 834
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770218c3f04161470800000000000000
+      internalID: 8364895413559435383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 881
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cf8f105a2589fd0800000000000000
+      internalID: -2335025538135425897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_5
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 881
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ba283e13591c810800000000000000
+      internalID: 1783870968918354689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 881
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9c55506f42a580800000000000000
+      internalID: -8817397845270421977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 881
+        width: 19
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28869b0fd864c7e40800000000000000
+      internalID: 5655472807513516162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 881
+        width: 19
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1df272c0e2b97d0800000000000000
+      internalID: -2910682104432963082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_9
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 881
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec1c14ebf476e620800000000000000
+      internalID: 2803056443297373414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_10
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 881
+        width: 19
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87b84c09f6386690800000000000000
+      internalID: -7608771127161604212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_11
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 817
+        width: 47
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce13d74613629200800000000000000
+      internalID: 185319482021060291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_13
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 833
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9451283c2e647d0800000000000000
+      internalID: -2934408777856366095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 833
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdaeb1fd6d84ac70800000000000000
+      internalID: 8981459060230368712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 833
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3b570ebb0304ab0800000000000000
+      internalID: -5025963600662645825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 833
+        width: 24
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d91db81a767f3a20800000000000000
+      internalID: 3044282139898878425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_17
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 833
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fca5531f2a56380800000000000000
+      internalID: -8978591125227253938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_18
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 833
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8167e4d0a38848820800000000000000
+      internalID: 2919608241355650584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 657
+        width: 41
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39a78c16d795c8c0800000000000000
+      internalID: -3979607749854516930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 657
+        width: 41
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cefae3b0e8825f0800000000000000
+      internalID: -781218356401279994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 785
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a933f7af886a2c550800000000000000
+      internalID: 6179684745954145178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_26
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 785
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ae7070b3a8ed850800000000000000
+      internalID: 6403707706293086834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_29
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 785
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d178de45eaef677a0800000000000000
+      internalID: -6379631797421111523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_30
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 785
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596db565bb6b8fc00800000000000000
+      internalID: 934697838403376789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_31
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 785
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94973afdb7f15dec0800000000000000
+      internalID: -3542890914963556023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 657
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b434608eb6448590800000000000000
+      internalID: -7672930081120701260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 657
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5a43096983e11a0800000000000000
+      internalID: -6836964964986214947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_34
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 662
+        width: 35
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dac0fd2bcf6bf10800000000000000
+      internalID: 2285291706113633560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_35
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 625
+        width: 32
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ff76fe29ffe7a60800000000000000
+      internalID: 7673851821632782132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_37
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 721
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c534f1afacba36b0800000000000000
+      internalID: -5315728947635014207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_38
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 721
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc42dd11012b3ac50800000000000000
+      internalID: 6675374854782133453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_39
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 721
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5ad4a08e8ff2030800000000000000
+      internalID: 3472267513214903738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_40
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 721
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ba9c86913c6080800000000000000
+      internalID: -9192918216696221118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_42
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 721
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ec7ddf7e4a22460800000000000000
+      internalID: 7215510869304135188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_44
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 721
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb9c37902bfb690800000000000000
+      internalID: -7584147493801575249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_45
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 722
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f831d85e6f02a0800000000000000
+      internalID: -6769070387168218031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_46
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 673
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9315cdc98cc62f0800000000000000
+      internalID: -978186443009476098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_47
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 657
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4534a728f1422eab0800000000000000
+      internalID: -4980378520166710444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_48
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 657
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b778a3184430e640800000000000000
+      internalID: 5107139461610239926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_49
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 657
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d0d7a8fde43b2f0800000000000000
+      internalID: -958335573691658879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_50
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 545
+        width: 23
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d3c97b70c8a63b0800000000000000
+      internalID: -5518444428615992057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_51
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 545
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d7136046feb2b0800000000000000
+      internalID: -5566741332982507864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 545
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1054e6426d1bf41d0800000000000000
+      internalID: -3364274863330147071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_53
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 545
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490f7c33b7c117200800000000000000
+      internalID: 175953175919456404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_54
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 545
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7ab1c513c6397a0800000000000000
+      internalID: -6371630088544606221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_55
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 544
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76e8964a09bd12e0800000000000000
+      internalID: -2153361593027991941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_58
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 545
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a46eee5bff4d040800000000000000
+      internalID: 4671639870352280099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_59
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 545
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845cc24949ffba310800000000000000
+      internalID: 1417507521344357704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_61
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 545
+        width: 12
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dabb5b6caaf69f0800000000000000
+      internalID: -472971665421390558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_62
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 544
+        width: 10
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5398a2f44074423b0800000000000000
+      internalID: -5538223557925238475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_63
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 545
+        width: 9
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2612cdff8326400800000000000000
+      internalID: 315877595430347497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_64
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 545
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9212da11edbd14c0800000000000000
+      internalID: -4315084093435800929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 449
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9cf0e15fbcd9f90800000000000000
+      internalID: -6945170796703659531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_66
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 449
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35334585e24fe41a0800000000000000
+      internalID: -6823247905532136621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_67
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 480
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af2d48eb93195f00800000000000000
+      internalID: 1105936743834398631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_70
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 481
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920a3bbca2467b20800000000000000
+      internalID: 3131763900525707925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_71
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 481
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cf80cdfe79ac3f0800000000000000
+      internalID: -879723720752956333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_73
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 480
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fcf4fd58ea0e190800000000000000
+      internalID: -7935150653426381016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plante luminescent_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 833
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7629d7d3d49e4ad90800000000000000
+      internalID: -7087283395620924825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: c19cc7b49b4ee2048aa76e4a13ea37d5, type: 3}
+      name: _MaskTex
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
