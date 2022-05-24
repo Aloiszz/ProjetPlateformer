@@ -53,6 +53,8 @@ public class ParcheminManager2 : MonoBehaviour
     
     private void Start()
     {
+        DontDestroyOnLoad(gameObject);
+        
         RefreshText();
         Parchemin1.GetComponent<Image>().sprite = Image1;
         Parchemin2.GetComponent<Image>().sprite = Image5;
@@ -104,7 +106,9 @@ public class ParcheminManager2 : MonoBehaviour
              
              if (parcheminsObtenus == 1 && mm.MenuParcheminOuvert)
              {
-                 Parchemin1.GetComponent<Image>().sprite = Image2;   
+                 Parchemin1.GetComponent<Image>().sprite = Image2;
+                 Parchemin1.GetComponent<RectTransform>().localPosition = new Vector3(193.09f, 140.83f, 0);
+                 Parchemin1.GetComponent<RectTransform>().sizeDelta = new Vector2(616.3f, 418.4f);
                  
                  morceauParchemin1.SetActive(true);
                  morceauParchemin2.SetActive(false);
@@ -129,6 +133,8 @@ public class ParcheminManager2 : MonoBehaviour
              if (parcheminsObtenus == 2 && mm.MenuParcheminOuvert)
              {
                  Parchemin1.GetComponent<Image>().sprite = Image3;
+                 Parchemin1.GetComponent<RectTransform>().localPosition = new Vector3(180f, 130.06f, 0);
+                 Parchemin1.GetComponent<RectTransform>().sizeDelta = new Vector2(745.5507f, 794.63f);
                  
                  morceauParchemin1.SetActive(true);
                  morceauParchemin2.SetActive(true);
@@ -159,6 +165,8 @@ public class ParcheminManager2 : MonoBehaviour
              if (parcheminsObtenus == 3 && mm.MenuParcheminOuvert)
              {
                  Parchemin1.GetComponent<Image>().sprite = Image4;
+                 Parchemin1.GetComponent<RectTransform>().localPosition = new Vector3(166f, -50, 0);
+                 Parchemin1.GetComponent<RectTransform>().sizeDelta = new Vector2(535.9139f, 733.4938f);
 
                  morceauParchemin1.SetActive(true);
                  morceauParchemin2.SetActive(true);

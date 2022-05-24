@@ -5,6 +5,7 @@ using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using XInputDotNetPure;
 
@@ -15,6 +16,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool MenuPrincipalOuvert;
     public bool IsChanging;
     public int pageOuverte = 1;
+    public bool ActivateMenu = true;
+    public bool StopPause;
 
     [Header("Divers")]
     public FeuxDeCamp Fdc;
@@ -38,6 +41,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject firstSelectedCredit;
     public GameObject firstSelectedPause;
     public GameObject firstSelectedConfirmationRestart;
+    public GameObject firstSelectedOptionPause;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -48,6 +52,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject mainMenu;
     public GameObject menuPrincipal;
     public GameObject menuOption;
+    public GameObject menuOptionPause;
     public GameObject menuLevel;
     public GameObject menuAudio;
     public GameObject menuController;
@@ -57,6 +62,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject Page1;
     public GameObject Page2;
     public GameObject Page3;
+    
 
     [Header("Element indextion")] 
     public int indexINT = 0;
@@ -83,13 +89,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
-        isPlaying = false;
-        mainMenu.SetActive(true);
-        MenuPrincipalOuvert = true;
+      DontDestroyOnLoad(gameObject);
+        if (ActivateMenu)
+        {
+            isPlaying = false;
+            mainMenu.SetActive(true);
+            MenuPrincipalOuvert = true;
+            FadeIn(2f);
+        }
+        
         menuParchemin.SetActive(false);
         parcheminManager.SetActive(false);
         MenuParcheminOuvert = false;
-        FadeIn(2f);
+        
     }
     
     void Update()
@@ -99,21 +111,57 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
         if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("BumperDroit") && IsChanging == false)
+            if (pageOuverte != 3 && Input.GetKeyDown(KeyCode.Joystick1Button5) && IsChanging == false)
             {
                 ChangementPageDroite();
+                Debug.Log("droit");
+                pageOuverte += 1;
+                if (pageOuverte == 1)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche1);
+                }
+                if (pageOuverte == 2)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche3);
+                }
+                if (pageOuverte == 3)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche4);
+                }
             }
         }
+
+        
         
         if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("BumperGauche") && IsChanging == false)
+            if (pageOuverte != 1 && Input.GetKeyDown(KeyCode.Joystick1Button4) && IsChanging == false)
             {
                 ChangementPageGauche();
+                Debug.Log("gauche");
+                pageOuverte -= 1;
+                if (pageOuverte == 1)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche1);
+                }
+                if (pageOuverte == 2)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche3);
+                }
+                if (pageOuverte == 3)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche4);
+                }
             }
         }
             
-        if (MenuPrincipalOuvert == false)
+        if (MenuPrincipalOuvert == false && MenuParcheminOuvert == false && StopPause == false)
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape))
             {
@@ -125,7 +173,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 CharacterMovement.instance.canJump = false;
                 CharacterMovement.instance.speed = 0;
             }
-            else if (Input.GetKeyUp(KeyCode.JoystickButton7))
+            else if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown((KeyCode.Escape)))
             {
                 Unpause();
             } 
@@ -189,9 +237,24 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
     }
 
+    public void NonPause()
+    {
+        StopPause = true;
+    }
+    
+    public void OuiPause()
+    {
+        StopPause = false;
+    }
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        MenuParcheminOuvert = false;
+        menuParchemin.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
+        SceneManager.LoadScene(0);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         Time.timeScale = 1;
     }
     IEnumerator DescendreIndex(int index)
@@ -232,6 +295,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             EventSystem.current.SetSelectedGameObject(fleche4);
         }
     }
+
+    public void OpenPause()
+    {
+        menuPause.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedPause);
+    }
+    
     public void ChangementPageDroite()
     {
         if (!IsChanging)
@@ -316,6 +387,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedConfirmationRestart);
+        StopPause = true;
     }
 
     public void UnRestart()
@@ -354,7 +426,28 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
     }
 
-    
+    public void OpenOptionPause()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedOptionPause);
+        menuOption.GetComponent<CanvasGroup>().alpha = 1;
+        menuOptionPause.SetActive(true);
+        menuPrincipal.SetActive(false);
+        menuLevel.SetActive(false);
+        menuAudio.SetActive(false);
+        menuController.SetActive(false);
+        menuCredit.SetActive(false);
+        
+        TxtDuCrédit.transform.DOKill();
+        TxtDuCrédit.transform.position = DebutSpotCredit.transform.position;
+
+        cv.DOFade(0, 0.5f);
+        CgOption.DOFade(1, 0.5f);
+        CgLevel.DOFade(0, 0.5f);
+        CgAudio.DOFade(0, 0.5f);
+        CgController.DOFade(0, 0.5f);
+        CgCredit.DOFade(0, 0.5f);
+    }
     public void OpenOption()
     {
         EventSystem.current.SetSelectedGameObject(null);
@@ -393,6 +486,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedLevel);
         menuOption.SetActive(false);
+        menuOptionPause.SetActive(false);
         menuLevel.SetActive(true);
         
         CgOption.DOFade(0, 0.5f);
@@ -404,6 +498,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedAudio);
         menuOption.SetActive(false);
+        menuOptionPause.SetActive(false);
         menuAudio.SetActive(true);
         
         CgOption.DOFade(0, 0.5f);
@@ -415,6 +510,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedController);
         menuOption.SetActive(false);
+        menuOptionPause.SetActive(false);
         menuController.SetActive(true);
         
         CgOption.DOFade(0, 0.5f);
@@ -427,7 +523,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(firstSelectedCredit);
         menuOption.SetActive(false);
         menuCredit.SetActive(true);
-        
+        menuOptionPause.SetActive(false);
         CgOption.DOFade(0, 0.5f);
         CgCredit.DOFade(1, 0.5f);
 

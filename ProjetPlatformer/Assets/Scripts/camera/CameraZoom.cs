@@ -73,6 +73,9 @@ public class CameraZoom : MonoBehaviour
     
     void Start()
     {
+        
+         menu = GameObject.Find("Canvas (Menu)").GetComponent<MenuManager>();
+        
         if (CinematiqueIntro)
         {
             targetOrtho = Camera.main.orthographicSize;
