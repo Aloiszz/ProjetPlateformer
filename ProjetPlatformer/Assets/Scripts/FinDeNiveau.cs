@@ -24,6 +24,7 @@ public class FinDeNiveau : MonoBehaviour
     public Animator animPlayer;
     public GameObject UIMangager;
     public GameObject MenuMangager;
+    public MenuManager mm;
     
     public ParcheminManager2 parchM;
     
@@ -76,7 +77,12 @@ public class FinDeNiveau : MonoBehaviour
         yield return new WaitForSeconds(3f);
        DontDestroyOnLoad(UIMangager);
        DontDestroyOnLoad(MenuMangager);
-        SceneManager.LoadScene(1);
-        GamePad.SetVibration(playerIndex, 0, 0);
+       mm.ActivateMenu = false;
+       float newPosPage3 = Barre1.transform.position.y - DistanceBarres;
+       float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
+       Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage3,Barre1.transform.position.z), 1.5f);
+       Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage4,Barre2.transform.position.z), 1.5f);
+       SceneManager.LoadScene(2);
+       GamePad.SetVibration(playerIndex, 0, 0);
     }
 }

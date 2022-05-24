@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LD Ruines 3.unity
     guid: d7485b0b6c864554aa4faffabed659a4
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 58816e062d7c00a4fa80221bb0102778
   m_configObjects: {}
