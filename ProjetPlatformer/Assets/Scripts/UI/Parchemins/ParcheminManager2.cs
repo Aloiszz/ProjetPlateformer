@@ -53,6 +53,8 @@ public class ParcheminManager2 : MonoBehaviour
     
     private void Start()
     {
+        DontDestroyOnLoad(gameObject);
+        
         RefreshText();
         Parchemin1.GetComponent<Image>().sprite = Image1;
         Parchemin2.GetComponent<Image>().sprite = Image5;

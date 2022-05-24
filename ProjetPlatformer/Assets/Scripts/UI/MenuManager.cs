@@ -5,6 +5,7 @@ using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.SceneManagement;
 using XInputDotNetPure;
 
@@ -84,7 +85,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
-
+      DontDestroyOnLoad(gameObject);
         if (ActivateMenu)
         {
             isPlaying = false;
@@ -106,21 +107,55 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
         if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("BumperDroit") && IsChanging == false)
+            if (pageOuverte != 3 && Input.GetKeyDown(KeyCode.Joystick1Button5) && IsChanging == false)
             {
                 ChangementPageDroite();
+                Debug.Log("droit");
+                pageOuverte += 1;
+                if (pageOuverte == 1)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche1);
+                }
+                if (pageOuverte == 2)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche3);
+                }
+                if (pageOuverte == 3)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche4);
+                }
             }
         }
         
         if (MenuParcheminOuvert)
         {
-            if (Input.GetButtonDown("BumperGauche") && IsChanging == false)
+            if (pageOuverte != 1 && Input.GetKeyDown(KeyCode.Joystick1Button4) && IsChanging == false)
             {
                 ChangementPageGauche();
+                Debug.Log("gauche");
+                pageOuverte -= 1;
+                if (pageOuverte == 1)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche1);
+                }
+                if (pageOuverte == 2)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche3);
+                }
+                if (pageOuverte == 3)
+                {
+                    EventSystem.current.SetSelectedGameObject(null);
+                    EventSystem.current.SetSelectedGameObject(fleche4);
+                }
             }
         }
             
-        if (MenuPrincipalOuvert == false)
+        if (MenuPrincipalOuvert == false && MenuParcheminOuvert == false)
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape))
             {
@@ -198,7 +233,13 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        MenuParcheminOuvert = false;
+        menuParchemin.SetActive(false);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
+        SceneManager.LoadScene(0);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         Time.timeScale = 1;
     }
     IEnumerator DescendreIndex(int index)
