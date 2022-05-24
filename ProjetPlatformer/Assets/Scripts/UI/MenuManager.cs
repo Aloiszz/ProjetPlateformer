@@ -59,6 +59,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject Page1;
     public GameObject Page2;
     public GameObject Page3;
+    
 
     [Header("Element indextion")] 
     public int indexINT = 0;
