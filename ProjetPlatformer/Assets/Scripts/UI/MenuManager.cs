@@ -418,7 +418,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         if (cm.CinematiqueIntro)
         {
-            yield return new WaitForSeconds(10.5f);
+            yield return new WaitForSeconds(11.5f);
         } 
             CharacterMovement.instance.canMove = true;
             CharacterMovement.instance.canJump = true;

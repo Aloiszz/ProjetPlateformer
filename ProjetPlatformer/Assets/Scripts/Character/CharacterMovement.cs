@@ -70,8 +70,8 @@ public class CharacterMovement : MonoBehaviour
     public bool isWalking;
     
     [Header("SFX")]
-    public GameObject LineRenderPlannage_1;
-    public GameObject LineRenderPlannage_2;
+    public TrailRenderer LineRenderPlannage_1;
+    public TrailRenderer LineRenderPlannage_2;
     public Light2D lightDoubleSaut;
     public Light2D lightDoubleSaut2;
     public ParticleSystem particlesDoubleSaut;
@@ -110,6 +110,9 @@ public class CharacterMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
         rb.gravityScale = gravityScale;
+        
+        LineRenderPlannage_1 = GameObject.Find("LineRenderPlannage_1").GetComponent<TrailRenderer>();
+        LineRenderPlannage_2 = GameObject.Find("LineRenderPlannage_2").GetComponent<TrailRenderer>();
     }
 
     // physics of the game
@@ -137,10 +140,7 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-        if (isGrounded && rb.velocity.x !> 0)
-        {
-            particlesMarche.Play();
-        }
+      
         
         if (rb.velocity.y <= 0)
         {
@@ -201,6 +201,10 @@ public class CharacterMovement : MonoBehaviour
     }
     public void Flip()
     {
+        if (isGrounded)
+        {
+            particlesMarche.Play();
+        }
         facingRight = !facingRight;
         Quaternion Scaler = transform.localRotation;
         if (!facingRight)
@@ -259,8 +263,8 @@ public class CharacterMovement : MonoBehaviour
                     //rb.gravityScale = gravityScale - gravityPlannage; 
                     Stamina.instance.UseStamina(35);
                     
-                    LineRenderPlannage_1.SetActive(true);
-                    LineRenderPlannage_2.SetActive(true);
+                    LineRenderPlannage_1.emitting = true ;
+                    LineRenderPlannage_2.emitting = true ;
                 }
                 else
                 {
@@ -276,8 +280,8 @@ public class CharacterMovement : MonoBehaviour
             }
             else
             {
-                LineRenderPlannage_1.SetActive(false);
-                LineRenderPlannage_2.SetActive(false);
+                LineRenderPlannage_1.emitting = false;
+                LineRenderPlannage_2.emitting = false;
                 
                 isPlannage = false;
                 animator.SetBool("isPlanning", false);
@@ -303,8 +307,11 @@ public class CharacterMovement : MonoBehaviour
         }
         #endregion
         
-        if (isGrounded == true) {
-            extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
+        if (isGrounded == true)
+        {
+            LineRenderPlannage_1.emitting = false;
+            LineRenderPlannage_2.emitting = false;
+                extrajumps = extraJumpsValue; // reprise de la valeur des jump quand character touche le ground
             animator.ResetTrigger("IsJumping");
             animator.SetBool("isGrounded", true);
             animator.SetBool("isPlanning", false);
@@ -356,6 +363,8 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0 && !isCoyotejump) // Le double Saut
         {
+            LineRenderPlannage_1.emitting = false;
+            LineRenderPlannage_2.emitting = false;
             StartCoroutine(fadeInAndOut(true, 1));
             StartCoroutine(fadeInAndOut(false, 1));
             particlesDoubleSaut.transform.position = transform.position;
