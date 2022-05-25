@@ -9,7 +9,6 @@ using XInputDotNetPure;
 
 public class LoadingScript : MonoBehaviour
 {
-
     public float Time;
     public GameObject pointPlayer;
     public GameObject pointPlayer2;
