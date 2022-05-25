@@ -29,6 +29,7 @@ public class CameraZoom : MonoBehaviour
     public static CameraZoom instance;
     public MenuManager menu;
     public bool CinematiqueIntro;
+    public Animator animPlayer;
    
 
     private void Awake()
@@ -73,13 +74,12 @@ public class CameraZoom : MonoBehaviour
     
     void Start()
     {
-        
-         menu = GameObject.Find("Canvas (Menu)").GetComponent<MenuManager>();
+        menu = GameObject.Find("Canvas (Menu)").GetComponent<MenuManager>();
         
         if (CinematiqueIntro)
         {
             targetOrtho = Camera.main.orthographicSize;
-            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(40,40,0);
+            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(50,50,0);
         }
         else
         {
@@ -100,9 +100,13 @@ public class CameraZoom : MonoBehaviour
 
     IEnumerator SmoothCameraIntro()
     {
-        Debug.Log(StopSmoothChange);
         smoothSpeed = 0.5f;
+        animPlayer.Play("Idle Feu de camp");
+        animPlayer.SetTrigger("Sortie FdC");
         yield return new WaitForSeconds(10.5f);
+        animPlayer.ResetTrigger("Sortie FdC");
+        animPlayer.SetTrigger("Sortie FdC");
+        animPlayer.SetBool("IsFdC", false);
         smoothSpeed = 2;
         StopSmoothChange = true;
     }

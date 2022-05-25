@@ -162,9 +162,15 @@ TextureImporter:
         width: 559
         height: 595
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -279.5, y: -297.5}
+        - {x: -278.5, y: 297.5}
+        - {x: 85.5, y: 296.5}
+        - {x: 63.5, y: -120.5}
+        - {x: 279.5, y: -127.5}
+        - {x: 279.5, y: -297.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -183,7 +189,7 @@ TextureImporter:
         width: 38
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -204,7 +210,7 @@ TextureImporter:
         width: 33
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,36 +223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: export grotte_3
-      rect:
-        serializedVersion: 2
-        x: 1288
-        y: 1872
-        width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07deb0625c0b665d0800000000000000
-      internalID: -3069571735213052560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: export grotte_4
       rect:
         serializedVersion: 2
-        x: 1312
+        x: 1301
         y: 1859
-        width: 20
+        width: 49
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -254,27 +239,6 @@ TextureImporter:
       bones: []
       spriteID: 19213868466eadc00800000000000000
       internalID: 926305992805913233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: export grotte_5
-      rect:
-        serializedVersion: 2
-        x: 1335
-        y: 1867
-        width: 15
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6c334adcbda080d0800000000000000
-      internalID: -3422544690174280597
       vertices: []
       indices: 
       edges: []
@@ -288,7 +252,7 @@ TextureImporter:
         width: 19
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -309,7 +273,7 @@ TextureImporter:
         width: 265
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -330,7 +294,7 @@ TextureImporter:
         width: 194
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

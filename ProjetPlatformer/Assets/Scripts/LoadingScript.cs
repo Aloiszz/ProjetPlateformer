@@ -69,9 +69,6 @@ public class LoadingScript : MonoBehaviour
     
     IEnumerator Leave()
     {
-        
-        
-        
         yield return new WaitForSeconds(0.1f);
         Anim.ResetTrigger("EntreeFdC");
         Anim.SetTrigger("SortieFdC");
