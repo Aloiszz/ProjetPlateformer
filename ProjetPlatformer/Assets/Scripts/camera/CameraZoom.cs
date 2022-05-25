@@ -79,7 +79,7 @@ public class CameraZoom : MonoBehaviour
         if (CinematiqueIntro)
         {
             targetOrtho = Camera.main.orthographicSize;
-            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(50,50,0);
+            transform.position = targetPlayer.position + EmplacementCamera + new Vector3(50,25,0);
         }
         else
         {
@@ -101,14 +101,21 @@ public class CameraZoom : MonoBehaviour
     IEnumerator SmoothCameraIntro()
     {
         smoothSpeed = 0.5f;
+        animPlayer.SetBool("IsWalking", false);
+        animPlayer.SetTrigger("EntreeFdC");
+        animPlayer.SetBool("IsFdC", true);
         animPlayer.Play("Idle Feu de camp");
-        animPlayer.SetTrigger("Sortie FdC");
+        //animPlayer.SetTrigger("Sortie FdC");
         yield return new WaitForSeconds(10.5f);
-        animPlayer.ResetTrigger("Sortie FdC");
-        animPlayer.SetTrigger("Sortie FdC");
+        targetOrtho = 7;
+        animPlayer.ResetTrigger("EntreeFdC");
+        animPlayer.SetTrigger("SortieFdC");
+        yield return new WaitForSeconds(0.1f);
+        animPlayer.ResetTrigger("SortieFdC");
         animPlayer.SetBool("IsFdC", false);
         smoothSpeed = 2;
         StopSmoothChange = true;
+        
     }
     
 

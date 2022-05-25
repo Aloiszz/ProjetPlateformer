@@ -110,6 +110,9 @@ public class CharacterMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
         rb.gravityScale = gravityScale;
+        
+        LineRenderPlannage_1 = GameObject.Find("LineRenderPlannage_1").GetComponent<TrailRenderer>();
+        LineRenderPlannage_2 = GameObject.Find("LineRenderPlannage_2").GetComponent<TrailRenderer>();
     }
 
     // physics of the game
