@@ -4,6 +4,8 @@ using System.Resources;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using XInputDotNetPure;
 
 public class LoadingScript : MonoBehaviour
 {
@@ -17,11 +19,28 @@ public class LoadingScript : MonoBehaviour
     public MenuManager mm;
     public GameObject Barre2;
     public GameObject Barre1;
-
     
     [Header("UI")]
     public bool canSee = false;
     public CanvasGroup Continue;
+    public CanvasGroup loading;
+
+    [Header("Animation Curve")]
+    public AnimationCurve AnimLoading;
+    public Slider Slider;
+    private float graph, increment;
+    private bool canRunGame;
+    private bool stopWakeUp;
+    
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    private bool doOnce;
+    
+    [Header("Vibration Motor")]
+    public float leftMotor;
+    public float rightMotor;
+    public float duration;
 
     // Start is called before the first frame update
     void Start()
@@ -37,8 +56,21 @@ public class LoadingScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Slider.value = 1;
+        increment += UnityEngine.Time.deltaTime;
+        graph = AnimLoading.Evaluate(increment);
+        Slider.value = graph;
+        
+        
+        
         StartCoroutine(WaitForSecond());
         StartCoroutine(WaitForLevel());
+        //StartCoroutine(VibrationTime());
+        if (!canSee)
+        {
+            StartCoroutine(Loading());
+        }
+        
 
         if (canSee)
         {
@@ -67,6 +99,12 @@ public class LoadingScript : MonoBehaviour
         Continue.DOFade(1, 1f);
     }
     
+    IEnumerator Loading()
+    {
+        yield return new WaitForSeconds(0.5f);
+        loading.DOFade(1, 1);
+    }
+
     IEnumerator Leave()
     {
         yield return new WaitForSeconds(0.1f);
@@ -77,8 +115,17 @@ public class LoadingScript : MonoBehaviour
         gameObject.transform.DOMove(pointPlayer2.transform.position, Time-1).SetEase(Ease.Linear);
         Anim.SetBool("IsWalking", true);
         Continue.DOFade(0, 1f);
+        loading.DOFade(0, 1f);
         yield return new WaitForSeconds(Time-1);
         mm.isPlaying = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+    
+    IEnumerator VibrationTime()
+    {
+        yield return new WaitForSeconds(duration+0.6f);
+        GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
+        yield return new WaitForSeconds(duration);
+        GamePad.SetVibration(playerIndex, 0, 0);
     }
 }
