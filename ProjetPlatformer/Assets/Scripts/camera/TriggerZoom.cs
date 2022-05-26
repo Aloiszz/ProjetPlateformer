@@ -20,12 +20,11 @@ public class TriggerZoom : MonoBehaviour
     public float distanceTarget = 9.999f; // permet d'établir la distance entre target et camera, plus la valeur est grande plus l'objet est loin
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     public float smoothSpeed = 2f;
-    
 
 
     private void Start()
     {
-      //  Camera.EmplacementCamera = emplacementDebutCamera;
+        gameObject.GetComponent<SpriteRenderer>().DOColor(new Color(0,255,190,0),1);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
