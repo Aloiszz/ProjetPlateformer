@@ -76,11 +76,11 @@ public class CharacterMovement : MonoBehaviour
     public Light2D lightDoubleSaut2;
     public ParticleSystem particlesDoubleSaut;
     public ParticleSystem particlesSaut;
-    public ParticleSystem particlesLanding;
     public ParticleSystem particlesMarche;
-
-    public ParticleSystem particlesSaut2;
-    // public ParticleSystem particulesRetombée;
+    public ParticleSystem particulesRetombée;
+    public bool dansLesAirs;
+    public bool blockCinematiques;
+     
    // public ParticleSystem particulesRun;
    
    [Header("Floating")]
@@ -140,7 +140,24 @@ public class CharacterMovement : MonoBehaviour
     
     void Update()
     {
-      
+
+        if (!isGrounded)
+        {
+            dansLesAirs = true;
+        }
+
+        if (!blockCinematiques && isGrounded && moveInput != 0)
+        {
+            ParticleSystem dustWalk = Instantiate(particlesMarche, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
+            particlesMarche.Play();
+        }
+
+        if (dansLesAirs && isGrounded)
+        {
+            ParticleSystem dustWalk = Instantiate(particulesRetombée, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
+            particlesMarche.Play();
+        }
+        
         
         if (rb.velocity.y <= 0)
         {
@@ -183,6 +200,7 @@ public class CharacterMovement : MonoBehaviour
         if (canJump == true)
         {
             Jump();
+            
             if (!stopStretch)
             {
                 transform.localScale = new Vector3(1 - rb.velocity.y * stretch, 1 + rb.velocity.y * stretch); 
@@ -225,15 +243,17 @@ public class CharacterMovement : MonoBehaviour
         Gizmos.DrawRay(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down) * 0.09f);
         Gizmos.DrawRay(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down) * 0.09f);
     }
-
+    
     #region Jump
-    void Jump()
+    public void Jump()
     {
+
         bool wasGrounded = isGrounded;
         RaycastHit2D hit1 = Physics2D.Raycast(raycastSaut1.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
         RaycastHit2D hit2 = Physics2D.Raycast(raycastSaut2.transform.position, transform.TransformDirection(Vector2.down), 0.09f, groundLayerMask);
         if (hit1 ||hit2)
         {
+            StartCoroutine(ParticulesRetombée());
             isGrounded = true;
         }
         else 
@@ -331,8 +351,10 @@ public class CharacterMovement : MonoBehaviour
             jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
+                dansLesAirs = true;
+                ParticleSystem dustJump = Instantiate(particlesSaut,
+                    new Vector3(transform.position.x, transform.position.y - 0.6f, transform.position.z), transform.rotation);
                 particlesSaut.Play();
-                particlesSaut2.Play();
                 isJumpingSingle = true;
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
@@ -354,6 +376,11 @@ public class CharacterMovement : MonoBehaviour
             jumpBufferCounter -= Time.deltaTime;
         }
         
+        IEnumerator ParticulesRetombée()
+        {
+            yield return new WaitForSeconds(0.01f);
+            dansLesAirs= false;
+        }
         
         if (jumpBufferCounter > 0f)
         {
@@ -431,12 +458,6 @@ public class CharacterMovement : MonoBehaviour
         GamePad.SetVibration(playerIndex, 0, 0);
     }
     #endregion
-
-    /*private void OnCollisionEnter2D(Collision2D other)
-    {
-        //particulesRetombée.transform.position = transform.position;
-        //particulesRetombée.Play();
-    }*/
 
     void Strike() // Tire un raycast a droite ou a gauche en fonction du Flip du Player, permettra de frapper un ennemi
     {

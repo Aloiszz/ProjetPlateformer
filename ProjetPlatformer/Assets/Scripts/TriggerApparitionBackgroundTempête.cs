@@ -35,6 +35,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
         Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
         Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
+        CharacterMovement.instance.blockCinematiques = true;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
@@ -56,6 +57,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.blockCinematiques = false;
         EffetVent.SetActive(true);
         Destroy(gameObject);
     }
