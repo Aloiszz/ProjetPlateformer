@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: glow violet
   m_Shader: {fileID: -6465566751694194690, guid: 7d43bbe47ed0f0749b140156cbfe3773, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
@@ -142,7 +142,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_09ab1f1054474a44a6758c9b85ba5f2c: {r: 0, g: 0, b: 0, a: 0}
+    - Color_09ab1f1054474a44a6758c9b85ba5f2c: {r: 3.9533494, g: 0.7658321, b: 3.4151971, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}

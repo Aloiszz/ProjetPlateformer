@@ -90,7 +90,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_a3acc9fe63bc45459a6572f4c52dc9bb: 59.13
+    - Vector1_a3acc9fe63bc45459a6572f4c52dc9bb: 47.62
     - _AlphaClip: 0
     - _Blend: 0
     - _BlendOp: 0
@@ -133,15 +133,15 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_68567f91522142eeb3d9c20817cb2f38: {r: 0.6415094, g: 0.52954787, b: 0.52954787, a: 0}
-    - Vector2_3f3bc5773ea74b44a73ead1e644322a6: {r: 0.62, g: 0, b: 0, a: 0}
+    - Color_68567f91522142eeb3d9c20817cb2f38: {r: 0.30314332, g: 0.16345963, b: 0.06686985, a: 0}
+    - Vector2_3f3bc5773ea74b44a73ead1e644322a6: {r: -10.68, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 5.278032, g: 5.278032, b: 5.278032, a: 1}
-    - _FogSize: {r: 20.21, g: 0, b: 0, a: 0}
-    - _FogSpeed: {r: -8, g: 0, b: 0, a: 0}
+    - _FogSize: {r: -8.2, g: 0, b: 0, a: 0}
+    - _FogSpeed: {r: -6.25, g: 0, b: 0, a: 0}
     - _Fog_Speed_2: {r: 0, g: 0, b: 0, a: 0}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
