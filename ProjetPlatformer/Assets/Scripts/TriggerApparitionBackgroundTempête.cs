@@ -18,6 +18,8 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public float DistanceBarres;
     public float DistanceBarres2;
     public GameObject EffetVent;
+ 
+
 
     public Animator playerAnim;
     public GameObject GlobalVolume;
@@ -26,6 +28,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         StartCoroutine(CinematiqueTempête());
+        
     }
 
 
