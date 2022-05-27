@@ -21,12 +21,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     [Header("Divers")]
     public FeuxDeCamp Fdc;
+    public GameObject Parcheminmanager;
     [SerializeField] private CanvasGroup cv;
     [SerializeField] private CanvasGroup CgOption;
     [SerializeField] private CanvasGroup CgLevel;
     [SerializeField] private CanvasGroup CgAudio;
     [SerializeField] private CanvasGroup CgController;
     [SerializeField] private CanvasGroup CgCredit;
+    [SerializeField] private CanvasGroup CgOptionpause;
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
@@ -165,7 +167,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape))
             {
-                Time.timeScale = 0;
+                //Time.timeScale = 0;
                 menuPause.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
                 EventSystem.current.SetSelectedGameObject(firstSelectedPause);
@@ -256,6 +258,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         Time.timeScale = 1;
+        Destroy(Parcheminmanager);
+        Destroy(gameObject);
+        
+        
     }
     IEnumerator DescendreIndex(int index)
     {
@@ -430,9 +436,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedOptionPause);
-        menuOption.GetComponent<CanvasGroup>().alpha = 1;
         menuOptionPause.SetActive(true);
-        menuPrincipal.SetActive(false);
         menuLevel.SetActive(false);
         menuAudio.SetActive(false);
         menuController.SetActive(false);
@@ -440,9 +444,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         
         TxtDuCrédit.transform.DOKill();
         TxtDuCrédit.transform.position = DebutSpotCredit.transform.position;
-
+        
         cv.DOFade(0, 0.5f);
-        CgOption.DOFade(1, 0.5f);
+        CgOptionpause.DOFade(1, 0.5f);
         CgLevel.DOFade(0, 0.5f);
         CgAudio.DOFade(0, 0.5f);
         CgController.DOFade(0, 0.5f);
