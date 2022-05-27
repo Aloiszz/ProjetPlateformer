@@ -83,7 +83,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public RectTransform FinSpotCredit;
     
     public static MenuManager instance;
-    
+
     private void Awake()
     {
         if (instance == null) instance = this;

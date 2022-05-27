@@ -91,10 +91,14 @@ public class FeuxDeCamp : MonoBehaviour
         {
             indicationWakeUp.enabled = false;
         }
+        if(mm.MenuParcheminOuvert == false && canLeave)
+        {
+            indicationWakeUp.enabled = true;
+        }
        
         /*if (!mm.MenuParcheminOuvert && stopWakeUp)
         {
-            indicationWakeUp.enabled = false;
+            indicationWakeUp.enabled = true;
         }*/
 
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
@@ -115,6 +119,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        canLeave = true;
         Player.transform.DOMove(playerMoveToFire.position,0.5f);
         MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
@@ -131,7 +136,7 @@ public class FeuxDeCamp : MonoBehaviour
         {
             CharacterMovement.instance.Flip();
         }
-
+        
         SetPlayer(true);
         SetCamera(true);
         SetAnimator(true);
@@ -142,11 +147,13 @@ public class FeuxDeCamp : MonoBehaviour
         if(!onoff)
         {
             LeaveCamp();
+            canLeave = false;
         }
     }
 
     public void ReEnterCamp()
     {
+        canLeave = true;
         Player.transform.DOMove(playerMoveToFire.position,0.5f);
         MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
@@ -167,6 +174,7 @@ public class FeuxDeCamp : MonoBehaviour
         }
         else
         {
+            canLeave = false;
             stopWakeUp = true;
             indicationWakeUp.enabled = false;
             indicationRest.enabled = true;
