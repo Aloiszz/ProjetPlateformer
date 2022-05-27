@@ -12,7 +12,9 @@ public class EntréeRuineDesert : MonoBehaviour
     public Tilemap TilemapFadeOut;
     public Animator anim;
     public Animator animPlayer;
+    public CharacterMovement cm;
     public ParticleSystem particulesBrisePlateforme;
+    public ParticleSystem particulesRetombée;
     private Tween tweener;
     public GameObject MainCamera;
     public GameObject Barre2;
@@ -43,13 +45,23 @@ public class EntréeRuineDesert : MonoBehaviour
 
     IEnumerator BriserPlateforme()
     {
+        cm.blockCinematiques = true;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
         animPlayer.Rebind();
         animPlayer.Play("Player_Idle");
+        yield return new WaitForSeconds(0.1f);
+        animPlayer.Play("Player_Idle");
         float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
         float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
+        Camera.EmplacementCamera = EmplacementCamera;
+        Camera.smoothSpeed = dezoomSpeed;
+        Camera.targetOrtho = 7;
+        Camera.smoothSpeed = smoothSpeed;
+        Camera.EmplacementCamera = EmplacementCamera;
+        EmplacementCamera = new Vector3(0, 0, -10);
+        Camera.EmplacementCamera = EmplacementCamera;
         yield return new WaitForSeconds(0.8f);
         Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
         Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
@@ -69,6 +81,9 @@ public class EntréeRuineDesert : MonoBehaviour
         Camera.smoothSpeed = 10;
         yield return new WaitForSeconds(0.5f);
         animPlayer.Play("Player_Jump_LandingHard");
+        yield return new WaitForSeconds(0.001f);
+        ParticleSystem dustWalk = Instantiate(particulesRetombée, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
+        particulesRetombée.Play();
         yield return new WaitForSeconds(1f);
         float newPosPage3 = Barre1.transform.position.y + DistanceBarres;
         float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
@@ -77,7 +92,7 @@ public class EntréeRuineDesert : MonoBehaviour
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
-        
+        cm.blockCinematiques = false;
 
     }
 }

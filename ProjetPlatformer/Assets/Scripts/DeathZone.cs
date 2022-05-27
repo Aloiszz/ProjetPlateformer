@@ -16,6 +16,8 @@ public class DeathZone : MonoBehaviour
     
     private Transform playerSpawn;
     private Animator fadeSystem;
+    public GameObject nuage;
+    public Camera mainCamera;
     
 
     public Animator playerAnimator;
@@ -58,7 +60,9 @@ public class DeathZone : MonoBehaviour
         fadeSystem.SetTrigger("FadeIn");
 
         collision.transform.position = playerSpawn.position;
+        nuage.transform.position = new Vector3(mainCamera.transform.position.x - 45, 0, 0);
         
+
         //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
         //FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
         
