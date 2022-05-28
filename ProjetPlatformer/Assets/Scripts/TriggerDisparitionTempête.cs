@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class TriggerDisparitionTempête : MonoBehaviour
 {
+    public float nouvelleVitesseNuages;
+    public GameObject triggerTempete;
     
     public GameObject BackgroundTempete1;
     public GameObject BackgroundTempete2;
@@ -54,6 +56,14 @@ public class TriggerDisparitionTempête : MonoBehaviour
         nuage4.GetComponent<SpriteRenderer>().sprite = nuageSprite4;
         nuage5.GetComponent<SpriteRenderer>().sprite = nuageSprite5;
         nuage6.GetComponent<SpriteRenderer>().sprite = nuageSprite6;
+        nuage1.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        nuage2.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        nuage3.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        nuage4.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        nuage5.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        nuage6.GetComponent<DéplacementNuages>().parallaxSpeedX = nouvelleVitesseNuages;
+        
+        
         
         BackgroundTempete1.GetComponent<SpriteRenderer>().DOFade(0, 2);
         BackgroundTempete2.GetComponent<SpriteRenderer>().DOFade(0, 2);
@@ -61,6 +71,7 @@ public class TriggerDisparitionTempête : MonoBehaviour
         BackgroundTempete4.GetComponent<SpriteRenderer>().DOFade(0, 2);
         BackgroundTempete5.GetComponent<SpriteRenderer>().DOFade(0, 2);
         BackgroundTempete6.GetComponent<SpriteRenderer>().DOFade(0,2);
+        triggerTempete.SetActive(true);
         GlobalVolume.SetActive(false);
     }
 }

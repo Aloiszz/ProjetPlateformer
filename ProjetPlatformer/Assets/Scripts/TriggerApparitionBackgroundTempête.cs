@@ -60,6 +60,6 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
         CharacterMovement.instance.blockCinematiques = false;
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
