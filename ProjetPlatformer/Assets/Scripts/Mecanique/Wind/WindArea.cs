@@ -23,16 +23,25 @@ public class WindArea : MonoBehaviour
     public GameObject particulesVent2;
     public Animator anim;
     public bool Tempête;
+
+    public bool letsHaveTempete = false;
+    public List<GameObject> listEffetVent;
+    public static WindArea instance;
+    
+    
     
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
+        if (instance == null) instance = this;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        letsHaveTempete = true;
         isWindy = true;
         anim.SetBool("isDoubleJumping",false);
+        StartCoroutine(WaitforWindEffetc());
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -101,6 +110,7 @@ public class WindArea : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        letsHaveTempete = false;
         isWindy = false;
         if (Tempête)
         {
@@ -155,5 +165,14 @@ public class WindArea : MonoBehaviour
     {
         particulesVent2.SetActive(true);
         yield return new WaitForSeconds(timeWaitForWind - 2);
+    }
+
+    IEnumerator WaitforWindEffetc()
+    {
+        yield return new WaitForSeconds(4);
+        for (int i = 0; i < listEffetVent.Count; i++)
+        {
+            listEffetVent[i].SetActive(true);
+        }
     }
 }
