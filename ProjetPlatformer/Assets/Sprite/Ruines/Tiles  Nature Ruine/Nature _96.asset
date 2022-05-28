@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nature _96
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 229506611129747811, guid: 58b5da7649bd50449a53d50fbd708adc, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Transform:
     e00: 1
     e01: 0
