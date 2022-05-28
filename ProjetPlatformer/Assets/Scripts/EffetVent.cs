@@ -14,6 +14,8 @@ public class EffetVent : MonoBehaviour
 
     public static EffetVent instance;
     public WindArea windArea;
+    
+    private SpriteRenderer renderer;
 
     private void Awake()
     {
@@ -22,6 +24,7 @@ public class EffetVent : MonoBehaviour
 
     private void Start()
     {
+        renderer = GetComponent<SpriteRenderer>();
         animTempete.SetBool("CanBegin", true);
         animTempete.SetBool("CanEnd", false);
     }
@@ -35,15 +38,18 @@ public class EffetVent : MonoBehaviour
 
         if (windArea.isWindy == false)
         {
+            renderer.enabled = true;
             //GetComponent<Animator>().Play("AnimationVent",5);
             animTempete.SetBool("CanBegin", true);
             animTempete.SetBool("CanEnd", false);
         }
         else 
         {
+            renderer.enabled = false;
             animTempete.SetBool("CanEnd", true);
             animTempete.SetBool("CanBegin", false);
         }
+        
     }
     
 

@@ -137,15 +137,15 @@ public class WindArea : MonoBehaviour
             {
                 anim.SetBool("IsTempete", false);
                 anim.SetBool("WalkTempete",false);
-                particulesVent.SetActive(false);
+                //particulesVent.SetActive(false);
             }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
             
             if (Tempête)
             {
-                particulesVent2.SetActive(false);
-                particulesVent.SetActive(true);
+                //particulesVent2.SetActive(false);
+                //particulesVent.SetActive(true);
             }
             
             yield return new WaitForSeconds(timeWaitForWind);
@@ -172,7 +172,7 @@ public class WindArea : MonoBehaviour
 
     IEnumerator WaitForLittleWind()
     {
-        particulesVent2.SetActive(true);
+        //particulesVent2.SetActive(true);
         yield return new WaitForSeconds(timeWaitForWind - 2);
     }
 
