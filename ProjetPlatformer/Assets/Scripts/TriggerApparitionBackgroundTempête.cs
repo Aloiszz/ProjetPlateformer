@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class TriggerApparitionBackgroundTempête : MonoBehaviour
 {
+    public GameObject effetPoussière;
     public GameObject BackgroundTempete1;
     public GameObject BackgroundTempete2;
     public GameObject BackgroundTempete3;
@@ -30,10 +31,15 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         
     }
 
-
+   /* private IEnumerator AccelerationPoussière()
+    {
+        effetPoussière.GetComponent<SpriteRenderer>().material.shader.        
+    }*/
+   
     IEnumerator CinematiqueTempête()
     {
-        float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
+        effetPoussière.GetComponent<SpriteRenderer>().DOColor(new Color(255, 255, 255, 255),10);
+;       float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
         float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
         Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
         Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);

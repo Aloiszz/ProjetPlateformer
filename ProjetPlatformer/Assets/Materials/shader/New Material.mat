@@ -140,8 +140,8 @@ Material:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 5.278032, g: 5.278032, b: 5.278032, a: 1}
-    - _FogSize: {r: -8.2, g: 0, b: 0, a: 0}
-    - _FogSpeed: {r: -6.25, g: 0, b: 0, a: 0}
+    - _FogSize: {r: 13.62, g: 0, b: 0, a: 0}
+    - _FogSpeed: {r: 1.5, g: 0, b: 0, a: 0}
     - _Fog_Speed_2: {r: 0, g: 0, b: 0, a: 0}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

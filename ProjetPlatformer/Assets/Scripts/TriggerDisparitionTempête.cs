@@ -15,8 +15,14 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public GameObject BackgroundTempete4;
     public GameObject BackgroundTempete5;
     public GameObject BackgroundTempete6;
-   
-    
+
+    public GameObject effetVent1;
+    public GameObject effetVent2;
+    public GameObject effetVent3;
+    public GameObject effetVent4;
+    public GameObject effetVent5;
+
+    public GameObject effetPoussière;
     public GameObject planetes;
     public GameObject ciel;
     public GameObject nuage1;
@@ -45,11 +51,18 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        effetPoussière.SetActive(false);
         planetes.SetActive(false);
         nuageSup1.SetActive(true);
         nuageSup2.SetActive(true);
         nuageSup3.SetActive(true);
         nuageSup4.SetActive(true);
+        
+        effetVent1.SetActive(false);
+        effetVent2.SetActive(false);
+        effetVent3.SetActive(false);
+        effetVent4.SetActive(false);
+        effetVent5.SetActive(false);
         
         ciel.GetComponent<SpriteRenderer>().sprite = cielSprite1;
         nuage1.GetComponent<SpriteRenderer>().sprite = nuageSprite1;
