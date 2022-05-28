@@ -3,26 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DéplacementNuages.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DéplacementNuages.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntréeRuineDesert.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntréeRuineDesert.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerApparitionBackgroundTempête.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerApparitionBackgroundTempête.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerDisparitionTempête.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerDisparitionTempête.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/aplat nuages tempete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/aplat nuages tempete-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 10-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 10-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 11-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 11-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 12-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 12-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 13-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 13-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 14-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 14-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 2-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 3-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 3-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 4-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 4-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 5-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 5-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 6-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 6-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 7-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 7-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 8-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 8-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 9-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete 9-Sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/V2/Nuages/Après Tempête/nuages tempete-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Canvas (UI).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Canvas (UI).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD 1 + mieux2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Parchemins/ParcheminManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Parchemins/ParcheminManager2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/VRAIE VRAIE tilemap/Langer_Elise.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

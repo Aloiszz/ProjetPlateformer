@@ -48,6 +48,8 @@ public class FeuxDeCamp : MonoBehaviour
     public Animator parchAnim;
     public Image indicationRest;
     public Image indicationWakeUp;
+    public bool activeTuto;
+    public GameObject tutoFdC;
     
     PlayerIndex playerIndex;
     GamePadState state;
@@ -61,7 +63,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     [Header("NE PAS TOUCHER")] 
     public Transform playerMoveToFire;
-    
+
 
 
     private void Awake()
@@ -91,10 +93,14 @@ public class FeuxDeCamp : MonoBehaviour
         {
             indicationWakeUp.enabled = false;
         }
+        if(mm.MenuParcheminOuvert == false && canLeave)
+        {
+            indicationWakeUp.enabled = true;
+        }
        
         /*if (!mm.MenuParcheminOuvert && stopWakeUp)
         {
-            indicationWakeUp.enabled = false;
+            indicationWakeUp.enabled = true;
         }*/
 
         if (isInRange == true && Input.GetButtonDown("GrabGamepad"))
@@ -115,6 +121,12 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        if (activeTuto)
+        {
+            tutoFdC.GetComponent<SpriteRenderer>().DOColor(new Color(255,255,255,255), 0.1f);
+        }
+        CharacterMovement.instance.blockCinematiques = true;
+        canLeave = true;
         Player.transform.DOMove(playerMoveToFire.position,0.5f);
         MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
@@ -131,7 +143,7 @@ public class FeuxDeCamp : MonoBehaviour
         {
             CharacterMovement.instance.Flip();
         }
-
+        
         SetPlayer(true);
         SetCamera(true);
         SetAnimator(true);
@@ -142,11 +154,13 @@ public class FeuxDeCamp : MonoBehaviour
         if(!onoff)
         {
             LeaveCamp();
+            canLeave = false;
         }
     }
 
     public void ReEnterCamp()
     {
+        canLeave = true;
         Player.transform.DOMove(playerMoveToFire.position,0.5f);
         MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
@@ -167,6 +181,7 @@ public class FeuxDeCamp : MonoBehaviour
         }
         else
         {
+            canLeave = false;
             stopWakeUp = true;
             indicationWakeUp.enabled = false;
             indicationRest.enabled = true;
@@ -184,7 +199,12 @@ public class FeuxDeCamp : MonoBehaviour
     }
     public void LeaveCamp()
     {
+        if (activeTuto)
+        {
+            tutoFdC.GetComponent<SpriteRenderer>().DOColor(new Color(255,255,255,0), 0.1f);
+        }
         //OnOff(); //A remettre pour revenir comme avant // On
+        CharacterMovement.instance.blockCinematiques = false;
         onoff = true;
         stopWakeUp = true;
         indicationWakeUp.enabled = false;

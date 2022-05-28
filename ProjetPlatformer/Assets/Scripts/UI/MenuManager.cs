@@ -83,7 +83,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public RectTransform FinSpotCredit;
     
     public static MenuManager instance;
-    
+
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -314,9 +314,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         if (!IsChanging)
         {
             StartCoroutine(Changement());
-            float newPosPage1 = Page1.transform.position.x - distanceChangementPage;
-            float newPosPage2 = Page2.transform.position.x - distanceChangementPage;
-            float newPosPage3 = Page3.transform.position.x - distanceChangementPage;
+            float newPosPage1 = Page1.transform.position.x - Screen.width + 20;
+            float newPosPage2 = Page2.transform.position.x - Screen.width + 20;
+            float newPosPage3 = Page3.transform.position.x - Screen.width + 20;
             Page1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
             Page2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);
             Page3.transform.DOMove(new Vector3(newPosPage3,Page3.transform.position.y,Page3.transform.position.z), 1.5f).OnComplete((() => IsChanging = false));
@@ -325,17 +325,17 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     }
     IEnumerator Changement()
     {
-        yield return new WaitForSeconds(0.1f);
         IsChanging = true;
+        yield return true;
     }
     public void ChangementPageGauche()
     {
         if (!IsChanging)
         {
             StartCoroutine(Changement());
-            float newPosPage1 = Page1.transform.position.x + distanceChangementPage;
-            float newPosPage2 = Page2.transform.position.x + distanceChangementPage;
-            float newPosPage3 = Page3.transform.position.x + distanceChangementPage;
+            float newPosPage1 = Page1.transform.position.x + Screen.width - 20;
+            float newPosPage2 = Page2.transform.position.x + Screen.width - 20;
+            float newPosPage3 = Page3.transform.position.x + Screen.width - 20;
             Page1.transform.DOMove(new Vector3(newPosPage1,Page1.transform.position.y,Page1.transform.position.z), 1.5f);
             Page2.transform.DOMove(new Vector3(newPosPage2,Page2.transform.position.y,Page2.transform.position.z), 1.5f);
             Page3.transform.DOMove(new Vector3(newPosPage3,Page3.transform.position.y,Page3.transform.position.z), 1.5f).OnComplete((() => IsChanging = false));
