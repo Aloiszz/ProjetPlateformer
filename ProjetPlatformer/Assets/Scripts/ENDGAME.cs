@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
+using System.Linq;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,9 +12,19 @@ public class ENDGAME : MonoBehaviour
 {
     private bool inRange = false;
     private bool bouge = false;
+    private bool portedetesmorts;
+    private float timerGauche;
+    private float timerDroit;
+    
     public GameObject Stel;
     public GameObject WaypointStel;
-    
+    public float speedStel;
+    public GameObject[] portesdeDroite;
+    public int porteDroiteActuelle;
+    public GameObject[] portesdeGauche;
+    public int porteGaucheActuelle;
+   
+
     public Animator anim;
     public GameObject Player;
     [SerializeField] CameraZoom Camera;
@@ -24,66 +35,129 @@ public class ENDGAME : MonoBehaviour
     public Vector3 EmplacementCameraArriver = new Vector3(0,0,-10);
     
     [Header("UI")]
-    public MenuManager mm;
-    public Animator FeuxDeCampsAnim;
-    public Animator parchAnim;
     public Image indicationRest;
-    public Image indicationWakeUp;
-    public bool activeTuto;
-    public GameObject tutoFdC;
+   
     
     [Header("NE PAS TOUCHER")] 
     public Transform playerMoveToFire;
-    
+
+    void Start()
+    {
+        indicationRest.enabled = false;
+        portesdeDroite = GameObject.FindGameObjectsWithTag("portesDroites");
+        portesdeGauche = GameObject.FindGameObjectsWithTag("portesGauches");
+        portesdeDroite.Reverse();
+        portesdeGauche.Reverse();
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
             inRange = true;
+            indicationRest.enabled = true;
         }
     }
-
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            indicationRest.enabled = false;
+        }
+    }
+    
     private void Update()
     {
         if (inRange)
         {
+            
             if (Input.GetButtonDown("GrabGamepad"))
             {
-                Player.transform.DOMove(playerMoveToFire.position,0.5f);
-                Player.transform.parent = Stel.transform;
-                Stel.transform.DOScale(new Vector3(0.2f, 0.2f, 0.2f), 0.1f);
+                indicationRest.enabled = false;
+                Player.transform.DOMove(playerMoveToFire.position + new Vector3(0,0.85f,0),0.5f);
                 StartCoroutine(BougeMoiLeCu());
                 StartCoroutine(Credit());
                 Debug.Log("Ce fut une belle aventure... J'espère que ce jeu on s'en rapellera comme étant une source d'apprentissage majeur.");
                 SetPlayer();
                 SetAnimator();
                 SetCamera();
+                portesdeDroite.Reverse();
+                portesdeGauche.Reverse();
+                StartCoroutine(ActivationActivationPortes());
             }
         }
+       
 
+        IEnumerator ActivationActivationPortes()
+        {
+            yield return new WaitForSeconds(7f);
+            portedetesmorts = true;
+        }
+        
+        if (portedetesmorts)
+        {
+            OuverturePorteDroite();
+            OuverturePorteGauche();
+        }
+        
         if (bouge)
         {
-            Stel.transform.localScale = new Vector3(1, 1, 1);
-            Stel.transform.Translate(Vector3.down * Time.deltaTime * 5);
+            Stel.transform.position = Vector3.MoveTowards(Stel.transform.position, WaypointStel.transform.position,
+                speedStel * Time.deltaTime); 
         }
         
     }
 
+    void OuverturePorteDroite()
+    {
+        if (porteDroiteActuelle >= portesdeDroite.Length)
+        {
+            return;
+        }
+        
+        timerDroit += Time.deltaTime;
+        portesdeDroite[porteDroiteActuelle].transform.DOMove(portesdeDroite[porteDroiteActuelle].transform.position + new Vector3(10, 0, 0),2);
+        
+        if (timerDroit >= 0.53f)
+        {
+            timerDroit = 0;
+            porteDroiteActuelle++;
+        }
+    }
+    
+    void OuverturePorteGauche()
+    {
+        if (porteGaucheActuelle >= portesdeGauche.Length)
+        {
+            return;
+        }
+        
+        timerGauche += Time.deltaTime;
+        portesdeGauche[porteGaucheActuelle].transform.DOMove(portesdeGauche[porteGaucheActuelle].transform.position + new Vector3(-10, 0, 0),2);
+        
+        if (timerGauche >= 0.53f)
+        {
+            timerGauche = 0;
+            porteGaucheActuelle++;
+        }
+    }
+        
+        
     IEnumerator BougeMoiLeCu()
     {
-        yield return new WaitForSeconds(2);
-        //Stel.transform.DOMove(WaypointStel.transform.position, 10);
+        yield return new WaitForSeconds(7);
         bouge = true;
 
     }
     IEnumerator Credit()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(19);
         MenuManager.instance.OpenCreditMenu();
     }
     
     public void SetPlayer()
     {
+        CharacterMovement.instance.blockCinematiques = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
         CharacterMovement.instance.canMove = false;
@@ -102,7 +176,5 @@ public class ENDGAME : MonoBehaviour
         anim.SetBool("IsFdC", true);
         anim.SetBool("isGrounded", true);
         anim.ResetTrigger("SortieFdC");
-        parchAnim.SetBool("FadeInParch",true);
-        parchAnim.SetBool("FadeOutParch",false);
     }
 }

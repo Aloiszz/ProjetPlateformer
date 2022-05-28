@@ -9,6 +9,8 @@ TagManager:
   - PlayerSpawn
   - DeathFade
   - "GrosseBo\xEEte"
+  - portesDroites
+  - portesGauches
   layers:
   - Default
   - TransparentFX
