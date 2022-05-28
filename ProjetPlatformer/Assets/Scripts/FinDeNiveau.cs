@@ -13,7 +13,9 @@ public class FinDeNiveau : MonoBehaviour
     GamePadState state;
     GamePadState prevState;
     private bool doOnce;
-    
+
+    public TrailRenderer tr1;
+    public TrailRenderer tr2;
     public GameObject MainCamera;
     public GameObject Barre2;
     public GameObject Barre1;
@@ -55,6 +57,8 @@ public class FinDeNiveau : MonoBehaviour
 
     IEnumerator CinématiqueFindeNiveau()
     {
+        tr1.emitting = false;
+        tr2.emitting = false;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;

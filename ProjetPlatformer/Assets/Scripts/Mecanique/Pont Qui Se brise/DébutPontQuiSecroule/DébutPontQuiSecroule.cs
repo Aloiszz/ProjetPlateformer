@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ public class DébutPontQuiSecroule : MonoBehaviour
 {
     public bool isNotSimulated;
     public TriggerPontQuiSecroule trigger;
+
+    public ParticleSystem particulesPiliers;
     
     public Rigidbody2D rb;
     public HingeJoint2D hingeJoint;
@@ -33,6 +36,15 @@ public class DébutPontQuiSecroule : MonoBehaviour
             rb.gravityScale = 1;
             rb.simulated = true;
             rb.angularVelocity = 0f;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            
+            particulesPiliers.Play();
         }
     }
 }
