@@ -17,8 +17,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public GameObject Barre1;
     public float DistanceBarres;
     public float DistanceBarres2;
-    public GameObject EffetVent;
- 
+    
 
 
     public Animator playerAnim;
@@ -61,7 +60,6 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
         CharacterMovement.instance.blockCinematiques = false;
-        EffetVent.SetActive(true);
         Destroy(gameObject);
     }
 }

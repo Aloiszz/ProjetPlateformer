@@ -124,6 +124,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAtRange: 0
   player: {fileID: 0}
+  UIpousser: {fileID: 0}
+  UIGrab: {fileID: 0}
+  actif: 1
+  grosseBoite: 0
 --- !u!1 &2518200364507101244
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,10 +238,10 @@ MonoBehaviour:
   camera: {fileID: 0}
   range: {fileID: 1293014354}
   respawn: {fileID: 0}
+  respawn2: {fileID: 0}
   isRespawn: 0
+  lache2: 0
   texteIndication: {fileID: 0}
-  anim: {fileID: 0}
-  anim2: {fileID: 0}
   direction: {x: 0, y: 0}
   isNull: 0
   joystickX: 0
@@ -272,7 +276,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0062894, y: 1.0062894}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
