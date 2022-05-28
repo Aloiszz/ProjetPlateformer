@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4716766285478002046}
   - component: {fileID: 4716766285478002045}
   - component: {fileID: 4716766285478002044}
+  - component: {fileID: 8285816611740619485}
   m_Layer: 0
   m_Name: WindArea
   m_TagString: Untagged
@@ -129,6 +130,39 @@ MonoBehaviour:
   WindForceNull_Y: 0
   timeWaitForWind: 0
   Character: {fileID: 0}
+  scriptBoite: {fileID: 0}
+  rbBoite: {fileID: 0}
   particulesVent: {fileID: 0}
+  particulesVent2: {fileID: 0}
+  anim: {fileID: 0}
+  "Temp\xEAte": 0
+  letsHaveTempete: 0
+  listEffetVent: []
+  animTempete: {fileID: 0}
+  indicationTempeteState: 0
+  effetVent: {fileID: 0}
+--- !u!114 &8285816611740619485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4716766285478002035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822b5d31489f31a4a8fa7f48a169a470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWindy: 0
+  WindForce_X: 0
+  WindForceNull_X: 0
+  WindForce_Y: 0
+  WindForceNull_Y: 0
+  timeWaitForWind: 0
+  Character: {fileID: 0}
+  scriptBoite: {fileID: 0}
+  rbBoite: {fileID: 0}
+  particulesVent: {fileID: 0}
+  particulesVent2: {fileID: 0}
   anim: {fileID: 0}
   "Temp\xEAte": 0
