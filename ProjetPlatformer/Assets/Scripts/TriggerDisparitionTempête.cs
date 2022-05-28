@@ -36,10 +36,12 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public Sprite nuageSprite5;
     public Sprite nuageSprite6;
     public Sprite cielSprite1;
-   
 
-    
-    
+    public List<GameObject> animTempete;
+
+
+
+
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -73,5 +75,10 @@ public class TriggerDisparitionTempête : MonoBehaviour
         BackgroundTempete6.GetComponent<SpriteRenderer>().DOFade(0,2);
         triggerTempete.SetActive(true);
         GlobalVolume.SetActive(false);
+
+        for (int i = 0; i < animTempete.Count; i++)
+        {
+            animTempete[i].SetActive(false);
+        }
     }
 }

@@ -27,8 +27,10 @@ public class WindArea : MonoBehaviour
     public bool letsHaveTempete = false;
     public List<GameObject> listEffetVent;
     public static WindArea instance;
-    
-    
+
+    public Animator animTempete;
+    public bool indicationTempeteState = false;
+    public EffetVent effetVent;
     
     private void Awake()
     {
@@ -36,7 +38,7 @@ public class WindArea : MonoBehaviour
         if (instance == null) instance = this;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         letsHaveTempete = true;
         isWindy = true;
@@ -44,13 +46,16 @@ public class WindArea : MonoBehaviour
         StartCoroutine(WaitforWindEffetc());
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
             if (isWindy)
             {
-                
+                animTempete.SetBool("CanEnd", true);
+                animTempete.SetBool("CanBegin", false);
+
+                indicationTempeteState = false;
                 
                 if (Tempête)
                 {
@@ -70,6 +75,10 @@ public class WindArea : MonoBehaviour
             }
             else
             {
+                animTempete.SetBool("CanBegin", true);
+                animTempete.SetBool("CanEnd", false);
+                indicationTempeteState = true;
+                
                 if (Tempête)
                 {
                     if (Character.isGrounded)
@@ -108,7 +117,7 @@ public class WindArea : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    public void OnTriggerExit2D(Collider2D other)
     {
         letsHaveTempete = false;
         isWindy = false;
@@ -120,7 +129,7 @@ public class WindArea : MonoBehaviour
         //rb.AddForce(new Vector2(WindForce, 0));
     }
 
-    IEnumerator WaitForWind()
+    public IEnumerator WaitForWind()
     {
         while (isWindy)
         {
@@ -128,15 +137,15 @@ public class WindArea : MonoBehaviour
             {
                 anim.SetBool("IsTempete", false);
                 anim.SetBool("WalkTempete",false);
-                particulesVent.SetActive(false);
+                //particulesVent.SetActive(false);
             }
             yield return new WaitForSeconds(timeWaitForWind);
             isWindy = false;
             
             if (Tempête)
             {
-                particulesVent2.SetActive(false);
-                particulesVent.SetActive(true);
+                //particulesVent2.SetActive(false);
+                //particulesVent.SetActive(true);
             }
             
             yield return new WaitForSeconds(timeWaitForWind);
@@ -163,13 +172,14 @@ public class WindArea : MonoBehaviour
 
     IEnumerator WaitForLittleWind()
     {
-        particulesVent2.SetActive(true);
+        //particulesVent2.SetActive(true);
         yield return new WaitForSeconds(timeWaitForWind - 2);
     }
 
-    IEnumerator WaitforWindEffetc()
+    public IEnumerator WaitforWindEffetc()
     {
-        yield return new WaitForSeconds(4);
+        animTempete.SetBool("CanBegin", true);
+        yield return new WaitForSeconds(timeWaitForWind);
         for (int i = 0; i < listEffetVent.Count; i++)
         {
             listEffetVent[i].SetActive(true);

@@ -23,7 +23,7 @@ public class TriggerDéplacementparchemin : MonoBehaviour
         {
             limit++;
             
-            Parchemin.transform.DOMove(ParcheminSpot.transform.position, durationToArrive).SetEase(Ease.OutQuart);
+            Parchemin.transform.DOMove(ParcheminSpot.transform.position, durationToArrive).SetEase(Ease.OutCubic);
              
         }
     }
