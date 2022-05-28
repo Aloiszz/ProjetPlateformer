@@ -13,6 +13,7 @@ public class EntréeChute : MonoBehaviour
     GamePadState prevState;
     
     public ParticleSystem particuesEntree;
+    public ParticleSystem particuesEntree2;
     public GameObject mainCamera;
     public Tween tweener;
     public RangeBoite boite;
@@ -25,6 +26,7 @@ public class EntréeChute : MonoBehaviour
             StartCoroutine(VibrationTime());
             tweener = mainCamera.transform.DOShakePosition(1.2f,2,15,20,false,false);
             particuesEntree.Play();
+            particuesEntree2.Play();
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
             boite.actif = false;

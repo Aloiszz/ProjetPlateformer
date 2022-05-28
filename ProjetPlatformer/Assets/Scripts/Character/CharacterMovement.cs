@@ -146,7 +146,7 @@ public class CharacterMovement : MonoBehaviour
             dansLesAirs = true;
         }
 
-        if (!blockCinematiques && isGrounded && moveInput != 0)
+        if (!blockCinematiques && isGrounded && moveInput != 0 && rb.velocity.x != 0)
         {
             ParticleSystem dustWalk = Instantiate(particlesMarche, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
             particlesMarche.Play();

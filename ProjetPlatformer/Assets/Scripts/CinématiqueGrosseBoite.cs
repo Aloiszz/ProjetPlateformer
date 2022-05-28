@@ -31,6 +31,7 @@ public class CinématiqueGrosseBoite : MonoBehaviour
 
     IEnumerator Cinématique()
     {
+        CharacterMovement.instance.blockCinematiques = true;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
@@ -48,5 +49,6 @@ public class CinématiqueGrosseBoite : MonoBehaviour
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.blockCinematiques = false;
     }
 }
