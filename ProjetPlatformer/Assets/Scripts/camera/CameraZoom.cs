@@ -30,8 +30,7 @@ public class CameraZoom : MonoBehaviour
     public MenuManager menu;
     public bool CinematiqueIntro;
     public Animator animPlayer;
-   
-
+    
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -95,6 +94,11 @@ public class CameraZoom : MonoBehaviour
                 {
                     StartCoroutine(SmoothCameraIntro());
                 }
+
+                if (StopSmoothChange)
+                {
+                    StopAllCoroutines();
+                }
         }
     }
 
@@ -105,7 +109,8 @@ public class CameraZoom : MonoBehaviour
         animPlayer.SetTrigger("EntreeFdC");
         animPlayer.SetBool("IsFdC", true);
         animPlayer.Play("Idle Feu de camp");
-        //animPlayer.SetTrigger("Sortie FdC");
+        targetOrtho = 8;
+        //animPlayer.SetTrigger("SortieFdC");
         yield return new WaitForSeconds(10.5f);
         targetOrtho = 7;
         animPlayer.ResetTrigger("EntreeFdC");
