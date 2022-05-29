@@ -26,14 +26,14 @@ public class GrabGrosseBoite : MonoBehaviour
     void Update()
     {
         //boiteGrab = false;
-        rb.mass = 500;
+        rb.mass = 800;
         if (range.isAtRange)
         {
             //boiteGrab = false;
             if (Input.GetButton("GrabGamepad"))
             {
                 //boiteGrab = true;
-                rb.mass = 50;
+                rb.mass = 80;
                 anim.SetBool("IsGrosseBoite", true);
                 StartCoroutine(vibration());
             }
