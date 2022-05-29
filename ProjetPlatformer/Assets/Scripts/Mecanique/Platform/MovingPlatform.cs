@@ -3,12 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+ using UnityEngine.Experimental.Rendering.Universal;
 
-public class MovingPlatform : MonoBehaviour
+ public class MovingPlatform : MonoBehaviour
 {
     public bool isMovingAlone = false;
     public bool isMovingWithThePlayer = false;
     public bool isMovingWithTrigger = false;
+    public bool saFaitDeLaLumière = false;
 
     [Header("Position de départ et fin des platformes")]
     public GameObject EndValueX;
@@ -25,6 +27,13 @@ public class MovingPlatform : MonoBehaviour
     private Vector2 temp;
     public float amplitudeFloating;
     public float vitesseFloating;
+    
+    [Header("Animation Curve")]
+    public AnimationCurve CourbeDeFlamme;
+    public Light2D Flamme;
+    private float graph, increment;
+    private bool canRunGame = false;
+    private bool stopWakeUp;
 
     private void Awake()
     {
@@ -48,6 +57,14 @@ public class MovingPlatform : MonoBehaviour
                 transform.position = temp;
             }
         }
+        
+        if (canRunGame)
+        {
+            Flamme.intensity = 1;
+            increment += Time.deltaTime;
+            graph = CourbeDeFlamme.Evaluate(increment);
+            Flamme.intensity = graph;
+        }
     }
 
     public void Salope()
@@ -68,8 +85,18 @@ public class MovingPlatform : MonoBehaviour
             endValueX = EndValueX.transform.position.x;
             gameObject.transform.DOMoveX(endValueX, timeToArrive);
         }
+        
+        
     }
-    
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (saFaitDeLaLumière)
+        {
+            canRunGame = true;
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other) // quand la platforme revien
     {
         if (isMovingWithThePlayer == true)
