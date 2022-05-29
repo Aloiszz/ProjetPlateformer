@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using XInputDotNetPure;
 
@@ -20,6 +21,18 @@ public class CinématiqueGrosseBoite : MonoBehaviour
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     public float smoothSpeed = 2f;
     
+    public GameObject Barre2;
+    public GameObject Barre1;
+    public float DistanceBarres;
+    public float DistanceBarres2;
+
+
+    private void Start()
+    {
+        Barre1 = GameObject.Find("Barre 2");
+        Barre2 = GameObject.Find("Barre 1");
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "GrosseBoîte")
@@ -35,6 +48,10 @@ public class CinématiqueGrosseBoite : MonoBehaviour
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
+        float newPosPage1 = Barre1.transform.position.y - DistanceBarres;
+        float newPosPage2 = Barre2.transform.position.y - DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage1,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage2,Barre2.transform.position.z), 1.5f);
         yield return new WaitForSeconds(0.3f);
         Camera.smoothSpeed = dezoomSpeed;
         Camera.targetOrtho = distanceTarget;
@@ -46,6 +63,10 @@ public class CinématiqueGrosseBoite : MonoBehaviour
         Camera.targetOrtho = distanceTarget;
         Camera.EmplacementCamera = EmplacementCamera;
         yield return new WaitForSeconds(1.5f);
+        float newPosPage3 = Barre1.transform.position.y - DistanceBarres;
+        float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
+        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage3,Barre1.transform.position.z), 1.5f);
+        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage4,Barre2.transform.position.z), 1.5f);
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
