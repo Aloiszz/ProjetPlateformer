@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.U2D;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class Stamina : MonoBehaviour
 {
@@ -36,16 +37,19 @@ public class Stamina : MonoBehaviour
         {
             CharacterMovement.instance.isPlannage = false;
             staminaBar.gameObject.SetActive(true);
+            //staminaBar.GetComponent<SpriteRenderer>().DOFade(1, 0.3f);
         }
         else
         {
             CharacterMovement.instance.isPlannage = true;
             staminaBar.gameObject.SetActive(false);
+            //staminaBar.GetComponent<SpriteRenderer>().DOFade(0, 0.3f);
         }
 
         if (currentStamina < maxStamina )
         {
             staminaBar.gameObject.SetActive(true);
+            //staminaBar.GetComponent<SpriteRenderer>().DOFade(0, 0.3f);
         }
     }
 

@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &14268549
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -22162,7 +22162,7 @@ MonoBehaviour:
   Slider: {fileID: 1773094222}
   leftMotor: 0.5
   rightMotor: 0.5
-  duration: 0
+  duration: 0.3
 --- !u!1 &1494117424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 59216849, guid: 51f92dc594bff8e41a8bf4caaa296c4d, type: 3}
@@ -24093,6 +24093,10 @@ PrefabInstance:
     - target: {fileID: 6023462722963502890, guid: 2fd32d90e1e15db43b6f7c607c7cbe94, type: 3}
       propertyPath: m_Name
       value: Particle System (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023462722963502890, guid: 2fd32d90e1e15db43b6f7c607c7cbe94, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6023462722963502895, guid: 2fd32d90e1e15db43b6f7c607c7cbe94, type: 3}
       propertyPath: m_RootOrder

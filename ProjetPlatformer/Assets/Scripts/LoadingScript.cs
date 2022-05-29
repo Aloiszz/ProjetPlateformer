@@ -4,6 +4,7 @@ using System.Resources;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 using XInputDotNetPure;
 
@@ -60,11 +61,15 @@ public class LoadingScript : MonoBehaviour
         graph = AnimLoading.Evaluate(increment);
         Slider.value = graph;
         
-        
+        if (!doOnce)
+        {
+            StartCoroutine(VibrationTime());
+            doOnce = true;
+        }
         
         StartCoroutine(WaitForSecond());
         StartCoroutine(WaitForLevel());
-        //StartCoroutine(VibrationTime());
+        
         if (!canSee)
         {
             StartCoroutine(Loading());
@@ -122,9 +127,10 @@ public class LoadingScript : MonoBehaviour
     
     IEnumerator VibrationTime()
     {
-        yield return new WaitForSeconds(duration+0.6f);
+        yield return new WaitForSeconds(Time+0.9f);
         GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
         yield return new WaitForSeconds(duration);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
+    
 }
