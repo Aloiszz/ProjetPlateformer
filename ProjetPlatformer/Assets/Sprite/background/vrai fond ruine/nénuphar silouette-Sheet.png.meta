@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: ac0302739c1902448b4a794f43dd8d42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3780674975271341365
+    second: "n\xE9nuphar silouette-Sheet_0"
+  - first:
+      213: -9144116896492884495
+    second: "n\xE9nuphar silouette-Sheet_1"
+  - first:
+      213: 922856696589158643
+    second: "n\xE9nuphar silouette-Sheet_2"
+  - first:
+      213: -8321537908659064680
+    second: "n\xE9nuphar silouette-Sheet_3"
+  - first:
+      213: 8506367351593365486
+    second: "n\xE9nuphar silouette-Sheet_4"
+  - first:
+      213: -7470759095768190927
+    second: "n\xE9nuphar silouette-Sheet_5"
+  - first:
+      213: -1411716909780420728
+    second: "n\xE9nuphar silouette-Sheet_6"
+  - first:
+      213: -6705797318156308700
+    second: "n\xE9nuphar silouette-Sheet_7"
+  - first:
+      213: 2920546883483852313
+    second: "n\xE9nuphar silouette-Sheet_8"
+  - first:
+      213: -4598370656243231048
+    second: "n\xE9nuphar silouette-Sheet_9"
+  - first:
+      213: -6984637466386186423
+    second: "n\xE9nuphar silouette-Sheet_10"
+  - first:
+      213: -8144479971919626836
+    second: "n\xE9nuphar silouette-Sheet_11"
+  - first:
+      213: 4264162503400036447
+    second: "n\xE9nuphar silouette-Sheet_12"
+  - first:
+      213: 2427773849127033074
+    second: "n\xE9nuphar silouette-Sheet_13"
+  - first:
+      213: 5161773102648729692
+    second: "n\xE9nuphar silouette-Sheet_14"
+  - first:
+      213: -2438827957757560886
+    second: "n\xE9nuphar silouette-Sheet_15"
+  - first:
+      213: 128445250516566614
+    second: "n\xE9nuphar silouette-Sheet_16"
+  - first:
+      213: 1983876963065016236
+    second: "n\xE9nuphar silouette-Sheet_17"
+  - first:
+      213: 7215929890725568036
+    second: "n\xE9nuphar silouette-Sheet_18"
+  - first:
+      213: -7621714255269934135
+    second: "n\xE9nuphar silouette-Sheet_19"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 50
+        width: 19
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53dc140fbd7a77430800000000000000
+      internalID: 3780674975271341365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 50
+        width: 19
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fde4e75122991180800000000000000
+      internalID: -9144116896492884495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 48
+        width: 19
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f889caa645aecc00800000000000000
+      internalID: 922856696589158643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 47
+        width: 19
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890fd698c55f38c80800000000000000
+      internalID: -8321537908659064680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 49
+        width: 32
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefe3b0a900bc0670800000000000000
+      internalID: 8506367351593365486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 51
+        width: 32
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130f7362f28825890800000000000000
+      internalID: -7470759095768190927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 52
+        width: 32
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887302d33f2986ce0800000000000000
+      internalID: -1411716909780420728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 53
+        width: 32
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fa6833ed830f2a0800000000000000
+      internalID: -6705797318156308700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 401
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91edde3baedd78820800000000000000
+      internalID: 2920546883483852313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 49
+        width: 48
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6da09504e4f20c0800000000000000
+      internalID: -4598370656243231048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 79
+        width: 48
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fba230b35911f90800000000000000
+      internalID: -6984637466386186423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 81
+        width: 48
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad7279ed9ef8fe80800000000000000
+      internalID: -8144479971919626836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 82
+        width: 48
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5813bf44395d2b30800000000000000
+      internalID: 4264162503400036447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 15
+        width: 64
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f81330f37f21b120800000000000000
+      internalID: 2427773849127033074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 16
+        width: 64
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c502b82e94d42a740800000000000000
+      internalID: 5161773102648729692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 17
+        width: 64
+        height: 544
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b195d4ea872ed0800000000000000
+      internalID: -2438827957757560886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 21
+        width: 64
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652402a564458c100800000000000000
+      internalID: 128445250516566614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 314
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf229d3695288b10800000000000000
+      internalID: 1983876963065016236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 228
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e12d40102242460800000000000000
+      internalID: 7215929890725568036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "n\xE9nuphar silouette-Sheet_19"
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 162
+        width: 21
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbca13344b3a3690800000000000000
+      internalID: -7621714255269934135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e55bcc27fd3028a4a84e11841145f834
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
