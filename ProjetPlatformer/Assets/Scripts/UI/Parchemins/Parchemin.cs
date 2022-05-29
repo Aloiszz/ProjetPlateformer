@@ -7,6 +7,7 @@ using DG.Tweening;
 public class Parchemin : MonoBehaviour
 {
     public ParcheminManager2 pm;
+    public StockageParchemins stock;
     public ParticleSystem particulesParchemin;
     public ParticleSystem particulesParchemin2;
 
@@ -28,7 +29,7 @@ public class Parchemin : MonoBehaviour
             gameObject.transform.DORotate(new Vector3(0, 0, -180), 0.8f);
             //gameObject.transform.DOMove()
             coll.enabled = false;
-
+            
             pm.AddParchemin();
         }
        
