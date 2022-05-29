@@ -12,6 +12,9 @@ public class PontQuiSuivent1 : MonoBehaviour
     public HingeJoint2D hingeJoint;
     
     public static PontQuiSuivent1 instancePontQuiSuivent1;
+    
+    public ParticleSystem particules;
+    public GameObject particulesPoint;
 
     // public GameObject mainCamera;
     //  private Tween tweener;
@@ -38,6 +41,15 @@ public class PontQuiSuivent1 : MonoBehaviour
             rb.simulated = true;
             rb.velocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+    }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
+            particules.Play();
         }
     }
 }
