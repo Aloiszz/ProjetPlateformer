@@ -29,6 +29,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [SerializeField] private CanvasGroup CgController;
     [SerializeField] private CanvasGroup CgCredit;
     [SerializeField] private CanvasGroup CgOptionpause;
+    [SerializeField] private CanvasGroup CgCreditFin;
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
@@ -44,6 +45,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject firstSelectedPause;
     public GameObject firstSelectedConfirmationRestart;
     public GameObject firstSelectedOptionPause;
+    public GameObject firstSelectedCreditFin;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -61,6 +63,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject menuCredit;
     public GameObject menuPause;
     public GameObject menuParchemin;
+    public GameObject menuCreditFin;
     public GameObject Page1;
     public GameObject Page2;
     public GameObject Page3;
@@ -81,6 +84,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public RectTransform TxtDuCrédit;
     public RectTransform DebutSpotCredit;
     public RectTransform FinSpotCredit;
+    
+    public RectTransform TxtDuCréditFin;
+    public RectTransform DebutSpotCreditFin;
+    public RectTransform FinSpotCreditFin;
     
     public static MenuManager instance;
 
@@ -532,6 +539,31 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CgCredit.DOFade(1, 0.5f);
 
         TxtDuCrédit.transform.DOMove(FinSpotCredit.transform.position, 20);
+    }
+
+    public void OpendCreditFin()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedCreditFin);
+        menuOption.SetActive(false);
+        menuCreditFin.SetActive(true);
+        menuOptionPause.SetActive(false);
+        CgOption.DOFade(0, 0.5f);
+        CgCreditFin.DOFade(1, 0.5f);
+
+        TxtDuCréditFin.transform.DOMove(FinSpotCreditFin.transform.position, 20);
+    }
+
+    public void OpenRestartEndGame()
+    {
+        SceneManager.LoadScene(0);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
+        menuCreditFin.SetActive(false);
+        menuPrincipal.SetActive(true);
+        cv.DOFade(1, 0.5f);
+        CgCreditFin.DOFade(0, 0.5f);
+        
     }
 
     public void JoinLevel1()
