@@ -19,6 +19,7 @@ public class PdPSalleDuHaut : MonoBehaviour
     private Tween tweener;
     public GameObject mainCamera;
     public GameObject impultionElectique;
+    public Vector3 emfoncement;
 
     [Header("Camera")] public CameraZoom Camera;
     public bool isCameraFix; // a cocher si l'on veut que la camera ne bouge plus 
@@ -90,7 +91,7 @@ public class PdPSalleDuHaut : MonoBehaviour
    
     private void OuverturePorte()
     {
-        transform.DOMove(transform.position + new Vector3(-0.05f,0,0), 1);
+        transform.DOMove(transform.position + emfoncement, 1);
         boolStop = true;
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)
