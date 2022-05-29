@@ -18,7 +18,7 @@ public class RespawnBoite : MonoBehaviour
         if (other.tag == "Respawn")
         {
             GrabBoite.grabBoiteinstance.boiteGrab = false;
-            GrabBoite.grabBoiteinstance.GetComponent<SpriteRenderer>().DOFade(0, 5f);
+            //GrabBoite.grabBoiteinstance.GetComponent<SpriteRenderer>().DOFade(0, 5f);
             other.transform.position = TpBoite.position;
             StartCoroutine("lachelaboitedetesmorts");
             éclair.Play();

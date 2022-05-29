@@ -15,6 +15,7 @@ public class ENDGAME : MonoBehaviour
     private bool portedetesmorts;
     private float timerGauche;
     private float timerDroit;
+    private bool doOnce = false;
     
     public GameObject Stel;
     public GameObject WaypointStel;
@@ -70,20 +71,24 @@ public class ENDGAME : MonoBehaviour
     {
         if (inRange)
         {
-            
             if (Input.GetButtonDown("GrabGamepad"))
             {
-                indicationRest.enabled = false;
-                Player.transform.DOMove(playerMoveToFire.position + new Vector3(0,0.85f,0),0.5f);
-                StartCoroutine(BougeMoiLeCu());
-                StartCoroutine(Credit());
-                Debug.Log("Ce fut une belle aventure... J'espère que ce jeu on s'en rapellera comme étant une source d'apprentissage majeur.");
-                SetPlayer();
-                SetAnimator();
-                StartCoroutine(SetCamera());
-                portesdeDroite.Reverse();
-                portesdeGauche.Reverse();
-                StartCoroutine(ActivationActivationPortes());
+                if (doOnce == false)
+                {
+                    indicationRest.enabled = false;
+                    Player.transform.DOMove(playerMoveToFire.position + new Vector3(0,0.85f,0),0.5f);
+                    StartCoroutine(BougeMoiLeCu());
+                    StartCoroutine(Credit());
+                    Debug.Log("Ce fut une belle aventure... J'espère que ce jeu on s'en rapellera comme étant une source d'apprentissage majeur.");
+                    SetPlayer();
+                    SetAnimator();
+                    StartCoroutine(SetCamera());
+                    portesdeDroite.Reverse();
+                    portesdeGauche.Reverse();
+                    StartCoroutine(ActivationActivationPortes());
+                    doOnce = true;
+                }
+                
             }
         }
        
@@ -152,7 +157,7 @@ public class ENDGAME : MonoBehaviour
     IEnumerator Credit()
     {
         yield return new WaitForSeconds(19);
-        MenuManager.instance.OpenCreditMenu();
+        MenuManager.instance.OpendCreditFin();
     }
     
     public void SetPlayer()
