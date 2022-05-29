@@ -12,6 +12,8 @@ public class RangeBoite : MonoBehaviour
     public GameObject UIGrab;
     public bool actif = true;
     public bool grosseBoite;
+    public GameObject triggerCinématique;
+    public bool STOP;
     
     
     
@@ -19,7 +21,7 @@ public class RangeBoite : MonoBehaviour
     
     void Start()
     {
-        if (grosseBoite)
+        if (grosseBoite && STOP == false)
         {
             UIpousser.SetActive(false);
         }
@@ -29,10 +31,18 @@ public class RangeBoite : MonoBehaviour
     // On check à quel moment le player est à porté de prendre la boîte
         private void OnTriggerEnter2D(Collider2D other)
         {
+            if (other.gameObject.tag == "Finish")
+            {
+                STOP = true;
+            }
             if (other.tag == "Player")
             {
-                UIGrab.SetActive(true);
-                isAtRange = true;
+                
+                if (STOP == false)
+                {
+                    isAtRange = true;
+                    UIGrab.SetActive(true);
+                }
                 if (actif && grosseBoite)
                 {
                     UIpousser.SetActive(true);
