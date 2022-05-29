@@ -5,6 +5,7 @@ using System.Linq;
 using DG.Tweening;
 using Unity.Mathematics;
 using UnityEngine;
+using XInputDotNetPure;
 
 public class DeathZonePontQuiSecroule : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     
     private Transform playerSpawn;
     private Animator fadeSystem;
+    
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
     
     private int y = 0;
     private int z = 0;
@@ -53,7 +58,7 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-
+            GamePad.SetVibration(playerIndex, 0, 0);
             triggerPont.tweener.Kill();
             
             Camera.isMoving = false;

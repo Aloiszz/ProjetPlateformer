@@ -12,6 +12,8 @@ public class PontQuiSuivent : MonoBehaviour
 
     public Rigidbody2D rb;
     public HingeJoint2D hingeJoint;
+    public ParticleSystem particules;
+    public GameObject particulesPoint;
     
     public static PontQuiSuivent instancePontQuiSuivent;
 
@@ -40,6 +42,15 @@ public class PontQuiSuivent : MonoBehaviour
             rb.simulated = true;
             rb.velocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
+            particules.Play();
         }
     }
 }

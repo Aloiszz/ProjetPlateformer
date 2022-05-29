@@ -21,6 +21,7 @@ public class EntréeRuineDesert : MonoBehaviour
     public GameObject Barre1;
     public float DistanceBarres;
     public float DistanceBarres2;
+    public GameObject lumièreAmbiante;
 
     public CharacterMovement player;
     
@@ -79,6 +80,7 @@ public class EntréeRuineDesert : MonoBehaviour
          plateforme.SetActive(false);
         particulesBrisePlateforme.Play();
         Camera.smoothSpeed = 10;
+        lumièreAmbiante.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         animPlayer.Play("Player_Jump_LandingHard");
         yield return new WaitForSeconds(0.001f);

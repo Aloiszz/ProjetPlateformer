@@ -7,13 +7,15 @@ public class DébutPontQuiSecroule : MonoBehaviour
 {
     public bool isNotSimulated;
     public TriggerPontQuiSecroule trigger;
-
-    public ParticleSystem particulesPiliers;
+    
     
     public Rigidbody2D rb;
     public HingeJoint2D hingeJoint;
     
     public static DébutPontQuiSecroule instancePont;
+    
+    public ParticleSystem particules;
+    public GameObject particulesPoint;
     
     private void Awake()
     {
@@ -44,7 +46,8 @@ public class DébutPontQuiSecroule : MonoBehaviour
         if (other.gameObject.tag != "Player")
         {
             
-            particulesPiliers.Play();
+            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
+            particules.Play();
         }
     }
 }

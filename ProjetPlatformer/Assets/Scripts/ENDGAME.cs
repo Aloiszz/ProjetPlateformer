@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
@@ -46,8 +46,8 @@ public class ENDGAME : MonoBehaviour
         indicationRest.enabled = false;
         portesdeDroite = GameObject.FindGameObjectsWithTag("portesDroites");
         portesdeGauche = GameObject.FindGameObjectsWithTag("portesGauches");
-        portesdeDroite.Reverse();
-        portesdeGauche.Reverse();
+        Array.Sort(portesdeDroite, (a,b) => a.name.CompareTo(b.name));
+        Array.Sort(portesdeGauche, (a,b) => a.name.CompareTo(b.name));
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -80,7 +80,7 @@ public class ENDGAME : MonoBehaviour
                 Debug.Log("Ce fut une belle aventure... J'espère que ce jeu on s'en rapellera comme étant une source d'apprentissage majeur.");
                 SetPlayer();
                 SetAnimator();
-                SetCamera();
+                StartCoroutine(SetCamera());
                 portesdeDroite.Reverse();
                 portesdeGauche.Reverse();
                 StartCoroutine(ActivationActivationPortes());
@@ -162,13 +162,17 @@ public class ENDGAME : MonoBehaviour
         CharacterMovement.instance.speed = 0;
         CharacterMovement.instance.canMove = false;
     }
-    public void SetCamera()
+    IEnumerator SetCamera()
     {
          Camera.isMoving = false;
          Camera.smoothSpeed = dezoomSpeedArriver;
          Camera.targetOrtho = distanceTargetArriver; 
          Camera.EmplacementCamera = EmplacementCameraArriver;
-        
+         yield return new WaitForSeconds(5);
+         Camera.smoothSpeed = 15;
+         Camera.targetOrtho = 7;
+         Camera.EmplacementCamera = new Vector3(0, -3.5f, -20);
+
     }
     public void SetAnimator()
     {

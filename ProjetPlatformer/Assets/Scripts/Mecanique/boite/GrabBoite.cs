@@ -97,7 +97,7 @@ public class GrabBoite : MonoBehaviour
         if (boiteGrab)
         {
             texteIndication.SetActive(false);
-            //coll.enabled = false;
+            coll.size = new Vector2(0.5f, 0.5f);
             JoystickManager();
             for (int i = 0; i < Points.Length; i++)
             {
@@ -110,7 +110,7 @@ public class GrabBoite : MonoBehaviour
             {
                 Points[i].gameObject.SetActive(false);
             }
-            //coll.enabled = true;
+            coll.size = new Vector2(1, 1);
         }
     }
     

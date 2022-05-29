@@ -11,6 +11,9 @@ public class PontQuiSuivent3 : MonoBehaviour
     
     public static PontQuiSuivent3 instancePontQuiSuivent3;
 
+    public ParticleSystem particules;
+    public GameObject particulesPoint;
+    
     // public GameObject mainCamera;
     //  private Tween tweener;
     private void Awake()
@@ -36,6 +39,15 @@ public class PontQuiSuivent3 : MonoBehaviour
             rb.simulated = true;
             rb.velocity = Vector2.zero;
             rb.angularVelocity = 0f;
+        }
+    }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
+            particules.Play();
         }
     }
 }

@@ -15,6 +15,9 @@ public class PontQuiSecroulle : MonoBehaviour
     public HingeJoint2D hingeJoint;
     
     public static PontQuiSecroulle instancePont;
+    
+    public ParticleSystem particules;
+    public GameObject particulesPoint;
 
     // public GameObject mainCamera;
   //  private Tween tweener;
@@ -44,6 +47,15 @@ public class PontQuiSecroulle : MonoBehaviour
             rb.gravityScale = 1;
             rb.simulated = true;
             rb.angularVelocity = 0f;
+        }
+    }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
+            particules.Play();
         }
     }
 }

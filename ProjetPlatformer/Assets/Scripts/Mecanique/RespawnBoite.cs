@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class RespawnBoite : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class RespawnBoite : MonoBehaviour
     
     public Transform TpBoite;
     public bool lache;
+    public ParticleSystem éclair;
     
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -16,8 +18,10 @@ public class RespawnBoite : MonoBehaviour
         if (other.tag == "Respawn")
         {
             GrabBoite.grabBoiteinstance.boiteGrab = false;
+            GrabBoite.grabBoiteinstance.GetComponent<SpriteRenderer>().DOFade(0, 5f);
             other.transform.position = TpBoite.position;
             StartCoroutine("lachelaboitedetesmorts");
+            éclair.Play();
         }
         
        
