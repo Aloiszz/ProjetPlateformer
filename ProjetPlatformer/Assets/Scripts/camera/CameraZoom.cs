@@ -110,14 +110,13 @@ public class CameraZoom : MonoBehaviour
         animPlayer.SetBool("IsFdC", true);
         animPlayer.Play("Idle Feu de camp");
         targetOrtho = 8;
-        //animPlayer.SetTrigger("SortieFdC");
+        //.SetTrigger("SortieFdC");
         yield return new WaitForSeconds(10.5f);
         targetOrtho = 7;
         animPlayer.ResetTrigger("EntreeFdC");
+        animPlayer.SetBool("IsFdC", false);
         animPlayer.SetTrigger("SortieFdC");
         yield return new WaitForSeconds(0.1f);
-        animPlayer.ResetTrigger("SortieFdC");
-        animPlayer.SetBool("IsFdC", false);
         smoothSpeed = 2;
         StopSmoothChange = true;
         
