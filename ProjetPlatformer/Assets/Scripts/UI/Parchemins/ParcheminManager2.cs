@@ -53,7 +53,7 @@ public class ParcheminManager2 : MonoBehaviour
     
     private void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         
         RefreshText();
         Parchemin1.GetComponent<Image>().sprite = Image1;
@@ -90,7 +90,9 @@ public class ParcheminManager2 : MonoBehaviour
     
     
     private void Update()
-         {
+    {
+        mm = GameObject.FindWithTag("MENU").GetComponent<MenuManager>();
+        
              if (parcheminsObtenus == 0 && mm.MenuParcheminOuvert)
              {
                  morceauParchemin1.SetActive(false);

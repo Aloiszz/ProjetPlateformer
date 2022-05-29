@@ -18,6 +18,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public int pageOuverte = 1;
     public bool ActivateMenu = true;
     public bool StopPause;
+    public bool OptionPause;
 
     [Header("Divers")]
     public FeuxDeCamp Fdc;
@@ -52,7 +53,6 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject fleche4;
     
     [Header("Éléments du Menu")]
-    public GameObject parcheminManager;
     public GameObject mainMenu;
     public GameObject menuPrincipal;
     public GameObject menuOption;
@@ -98,6 +98,12 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     void Start()
     {
+        parchAnim = GameObject.Find("IndicationParchemins").GetComponent<Animator>();
+        Fdc = GameObject.Find("FeuxDeCamp").GetComponent<FeuxDeCamp>();
+        cm = GameObject.Find("Main Camera").GetComponent<CameraZoom>();
+        
+       
+        
       DontDestroyOnLoad(gameObject);
         if (ActivateMenu)
         {
@@ -108,13 +114,18 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         }
         
         menuParchemin.SetActive(false);
-        parcheminManager.SetActive(false);
+        //parcheminManager.SetActive(false);
         MenuParcheminOuvert = false;
         
     }
     
     void Update()
     {
+        
+        parchAnim = GameObject.Find("IndicationParchemins").GetComponent<Animator>();
+        Fdc = GameObject.Find("FeuxDeCamp").GetComponent<FeuxDeCamp>();
+        cm = GameObject.Find("Main Camera").GetComponent<CameraZoom>();
+
         IndexMove();
         
         
@@ -170,9 +181,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
             }
         }
             
-        if (MenuPrincipalOuvert == false && MenuParcheminOuvert == false && StopPause == false)
+        if (MenuPrincipalOuvert == false && MenuParcheminOuvert == false && OptionPause == false)
         {
-            if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape) && OptionPause == false)
             {
                 //Time.timeScale = 0;
                 menuPause.SetActive(true);
@@ -259,6 +270,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         MenuParcheminOuvert = false;
         menuParchemin.SetActive(false);
+        OptionPause = false;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         SceneManager.LoadScene(0);
@@ -411,6 +423,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void Unpause()
     {
+        OptionPause = false;
         menuPause.SetActive(false);
         Time.timeScale = 1;
         if (!Fdc.onoff)
@@ -441,6 +454,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void OpenOptionPause()
     {
+        OptionPause = true;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedOptionPause);
         menuOptionPause.SetActive(true);

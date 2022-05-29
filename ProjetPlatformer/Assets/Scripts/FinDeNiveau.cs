@@ -79,8 +79,7 @@ public class FinDeNiveau : MonoBehaviour
         Camera.EmplacementCamera = EmplacementCamera;
         Player.transform.DOMoveX(emptyCinématique.transform.position.x, 5);
         yield return new WaitForSeconds(3f);
-       DontDestroyOnLoad(UIMangager);
-       DontDestroyOnLoad(MenuMangager);
+        DontDestroyOnLoad(MenuMangager);
        mm.ActivateMenu = false;
        float newPosPage3 = Barre1.transform.position.y - DistanceBarres;
        float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
