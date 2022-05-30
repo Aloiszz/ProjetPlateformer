@@ -426,6 +426,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         OptionPause = false;
         menuPause.SetActive(false);
         Time.timeScale = 1;
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
+        CharacterMovement.instance.speed = 11;
         if (!Fdc.onoff)
         {
             StartCoroutine(WaitMove());
@@ -570,14 +573,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void OpenRestartEndGame()
     {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         SceneManager.LoadScene(0);
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelctedMain);
         menuCreditFin.SetActive(false);
-        menuPrincipal.SetActive(true);
-        cv.DOFade(1, 0.5f);
         CgCreditFin.DOFade(0, 0.5f);
-        
+        Time.timeScale = 1;
     }
 
     public void JoinLevel1()

@@ -103,6 +103,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 8169249167081068517}
   - {fileID: 1613568805}
   - {fileID: 531160942}
   - {fileID: 742549172}
@@ -2709,7 +2710,7 @@ RectTransform:
   - {fileID: 183266896}
   - {fileID: 2058184545}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2878,7 +2879,7 @@ RectTransform:
   - {fileID: 1683862022}
   - {fileID: 1346741284}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3865,7 +3866,7 @@ RectTransform:
   - {fileID: 1090635177}
   - {fileID: 341249213}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4310,8 +4311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 55}
-  m_SizeDelta: {x: 859.9589, y: 447.8593}
+  m_AnchoredPosition: {x: 9, y: 42.07386}
+  m_SizeDelta: {x: 859.9589, y: 473.7115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &929000572
 CanvasRenderer:
@@ -5185,7 +5186,7 @@ GameObject:
   - component: {fileID: 1177178442}
   - component: {fileID: 1177178441}
   m_Layer: 5
-  m_Name: Parchemin2
+  m_Name: Parchemin 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6081,7 +6082,7 @@ RectTransform:
   - {fileID: 919710944}
   - {fileID: 1290435492}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7606,8 +7607,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -150.78607, y: -54.451}
-  m_SizeDelta: {x: 198.2591, y: 90.924}
+  m_AnchoredPosition: {x: -149.5367, y: -70.622314}
+  m_SizeDelta: {x: 222.7858, y: 105.8794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1496961777
 CanvasRenderer:
@@ -7660,18 +7661,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
+    m_SelectOnRight: {fileID: 1616173364}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.4627451}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
-    m_SelectedColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -8186,7 +8187,7 @@ RectTransform:
   - {fileID: 1311176381}
   - {fileID: 999695216}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8267,8 +8268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 150.68185, y: -55.199295}
-  m_SizeDelta: {x: 197.2341, y: 89.4276}
+  m_AnchoredPosition: {x: 147.0643, y: -70.622}
+  m_SizeDelta: {x: 221.1627, y: 105.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1616173366
 CanvasRenderer:
@@ -8321,18 +8322,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 4
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnLeft: {fileID: 1496961775}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.745283, g: 0.745283, b: 0.745283, a: 0}
+    m_NormalColor: {r: 0, g: 0, b: 0, a: 0.4627451}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+    m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -9879,10 +9880,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.6862745}
+    m_NormalColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8509804}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -9998,7 +9999,7 @@ RectTransform:
   - {fileID: 967254176}
   - {fileID: 49810712}
   m_Father: {fileID: 25206242}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10688,8 +10689,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.03499, y: -739}
-  m_SizeDelta: {x: 902.4145, y: 288.3599}
+  m_AnchoredPosition: {x: -15.368507, y: -739}
+  m_SizeDelta: {x: 1009.2215, y: 288.3599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8588997338009324973
 CanvasRenderer:
@@ -10720,8 +10721,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nMelissa\n\n\nGame Design :\n\nAlo\xEFs Tupinon\nEthan Dehay\nK\xE9vin
-    Dubois\n\nGame Art :\n\nThomas\nElise\nLouis\nAm\xE9lie\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank
-    you for playing!"
+    Dubois\n\nGame Art :\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAm\xE9lie
+    Delnegro\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11058,6 +11059,81 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &792376221400597604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8169249167081068517}
+  - component: {fileID: 5703612603210256213}
+  - component: {fileID: 547521542174603800}
+  m_Layer: 5
+  m_Name: FondNoir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8169249167081068517
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792376221400597604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 25206242}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.26641846, y: -31.126194}
+  m_SizeDelta: {x: 1923.5308, y: 1099.6777}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5703612603210256213
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792376221400597604}
+  m_CullTransparentMesh: 1
+--- !u!114 &547521542174603800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792376221400597604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.0627451}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1220109425776666941
 GameObject:
   m_ObjectHideFlags: 0
@@ -11316,7 +11392,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6910416968409992148}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: OpenRestartEndGame
+        m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13865,10 +13941,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.84313726}
+    m_NormalColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8509804}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.6862745}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -14663,7 +14739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.11372549}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.0627451}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -15869,7 +15945,7 @@ GameObject:
   - component: {fileID: 6910416968245373910}
   - component: {fileID: 6910416968245373911}
   m_Layer: 0
-  m_Name: Parchemin2
+  m_Name: Parchemin 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16392,7 +16468,7 @@ GameObject:
   - component: {fileID: 6910416968409992148}
   m_Layer: 5
   m_Name: Canvas (Menu)
-  m_TagString: Untagged
+  m_TagString: MENU
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16525,6 +16601,7 @@ MonoBehaviour:
   pageOuverte: 1
   ActivateMenu: 1
   StopPause: 0
+  OptionPause: 0
   Fdc: {fileID: 0}
   Parcheminmanager: {fileID: 0}
   cv: {fileID: 6910416968329103923}
@@ -16552,7 +16629,6 @@ MonoBehaviour:
   fleche2: {fileID: 772100206}
   fleche3: {fileID: 188118529}
   fleche4: {fileID: 1432045352}
-  parcheminManager: {fileID: 6910416968062199000}
   mainMenu: {fileID: 6910416968329103917}
   menuPrincipal: {fileID: 6910416968329103917}
   menuOption: {fileID: 6910416968914665089}
@@ -17696,7 +17772,7 @@ GameObject:
   - component: {fileID: 6910416969099332202}
   - component: {fileID: 6910416969099332203}
   m_Layer: 0
-  m_Name: Parchemin1
+  m_Name: Parchemin 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19773,10 +19849,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.6862745}
+    m_NormalColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8509804}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -19811,18 +19887,6 @@ MonoBehaviour:
       - m_Target: {fileID: 6910416968409992148}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Unpause
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6910416968409992148}
-        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: OuiPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19930,10 +19994,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.6862745}
+    m_NormalColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0.8509804}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -20784,8 +20848,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.03499, y: -739}
-  m_SizeDelta: {x: 902.4145, y: 288.3599}
+  m_AnchoredPosition: {x: -11.4127, y: -739}
+  m_SizeDelta: {x: 1001.3099, y: 288.3599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9002732633083331728
 CanvasRenderer:
@@ -20816,8 +20880,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\nMelissa\n\n\nGame Design :\n\nAlo\xEFs Tupinon\nEthan Dehay\nK\xE9vin
-    Dubois\n\nGame Art :\n\nThomas\nElise\nLouis\nAm\xE9lie\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank
-    you for playing!"
+    Dubois\n\nGame Art :\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAm\xE9lie
+    DelNegro\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
