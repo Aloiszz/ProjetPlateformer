@@ -95,7 +95,7 @@ public class ParcheminManager2 : MonoBehaviour
     {
         mm = GameObject.FindWithTag("MENU").GetComponent<MenuManager>();
         Parchemin1 = GameObject.Find("Parchemin1");
-        Parchemin2 = GameObject.Find("Parchemin2");
+        Parchemin2 = GameObject.Find("Parchemin 2");
         Parchemin3 = GameObject.Find("Parchemin3");
         morceauParchemin1 = GameObject.Find("1Emplacement Morceau Parchemin");
         morceauParchemin2 = GameObject.Find("2Emplacement Morceau Parchemin ");
