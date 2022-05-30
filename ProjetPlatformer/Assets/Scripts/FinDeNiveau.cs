@@ -27,7 +27,7 @@ public class FinDeNiveau : MonoBehaviour
     public GameObject UIMangager;
     public GameObject MenuMangager;
     public MenuManager mm;
-    
+
     public ParcheminManager2 parchM;
     
     [Header("Vibration Motor")]
