@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+ using System.Runtime.Remoting.Messaging;
  using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
@@ -15,18 +16,25 @@ public class ENDGAME : MonoBehaviour
     private float timerGauche;
     private float timerDroit;
     private bool doOnce = false;
+    public float speedStel;
+    public int porteDroiteActuelle;
+    public int porteGaucheActuelle;
     
+    
+    [Header ("GameObjects")] 
+    public GameObject Player;
+    public GameObject[] portesdeGauche;
+    public GameObject[] portesdeDroite;
     public GameObject Stel;
     public GameObject WaypointStel;
-    public float speedStel;
-    public GameObject[] portesdeDroite;
-    public int porteDroiteActuelle;
-    public GameObject[] portesdeGauche;
-    public int porteGaucheActuelle;
+    public GameObject Escaliers1;
+    public GameObject Escaliers2;
+    public GameObject FondFadeOut1;
+    public GameObject FondFadeOut2;
+    
    
-
+    [Header ("Autre")] 
     public Animator anim;
-    public GameObject Player;
     [SerializeField] CameraZoom Camera;
     
     [Header("modification camera Arriver")]
@@ -90,7 +98,16 @@ public class ENDGAME : MonoBehaviour
                 
             }
         }
-       
+
+
+        IEnumerator OuvertureHaut()
+        {
+            yield return new WaitForSeconds(3);
+            Escaliers1.transform.DOMove(new Vector3(-5, 0),2);
+            Escaliers2.transform.DOMove(new Vector3(5, 0),2);
+            FondFadeOut1.GetComponent<SpriteRenderer>().material.DOFade(0, 2);
+            FondFadeOut2.GetComponent<SpriteRenderer>().material.DOFade(0, 2);
+        }
 
         IEnumerator ActivationActivationPortes()
         {
