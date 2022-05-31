@@ -23,7 +23,7 @@ public class PilliersHorizontal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
+        /*if (!other.CompareTag("Player")) return;
         other.transform.parent = playerHolder.transform;
         //saveScale.x = other.transform.localScale.x;
         //saveScale.y = other.transform.localScale.y;
@@ -33,7 +33,7 @@ public class PilliersHorizontal : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         other.transform.parent = null;
-        //other.transform.localScale = Vector3.one;
+        //other.transform.localScale = Vector3.one;*/
     }
     
     

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -34,10 +35,18 @@ public class FermetureSalle3 : MonoBehaviour
             FermeturePorte();
            
             activationFrappe2 = !activationFrappe2;
-            transform.position += new Vector3(60,50,0);
+            //transform.position += new Vector3(60,50,0);
         }
     }
     
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            activationFrappe2 = false;
+        }
+    }
+
     private void FermeturePorte()
     {
         boolStop = true;
