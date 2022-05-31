@@ -52,6 +52,7 @@ public class PilierFrappant : MonoBehaviour
             if (lentRapide)
             {
                 moveSpeed = moveSpeedLent;
+                moveSpeed = moveSpeedLent;
                 deathZone.GetComponent<BoxCollider2D>().enabled = false;
                 //StartCoroutine(WaitUnactive());
             }

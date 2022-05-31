@@ -35,6 +35,12 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public GameObject nuageSup2;
     public GameObject nuageSup3;
     public GameObject nuageSup4;
+    public GameObject nuageSup5;
+    public GameObject nuageSup6;
+    public GameObject nuageSup7;
+    public GameObject nuageSup8;
+    public GameObject nuageSup9;
+    public GameObject nuageSup10;
     public Sprite nuageSprite1;
     public Sprite nuageSprite2;
     public Sprite nuageSprite3;
@@ -42,6 +48,7 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public Sprite nuageSprite5;
     public Sprite nuageSprite6;
     public Sprite cielSprite1;
+    public GameObject WindZone;
 
     public List<GameObject> animTempete;
 
@@ -51,12 +58,19 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        WindZone.SetActive(false);
         effetPoussière.SetActive(false);
         planetes.SetActive(false);
         nuageSup1.SetActive(true);
         nuageSup2.SetActive(true);
         nuageSup3.SetActive(true);
         nuageSup4.SetActive(true);
+        nuageSup5.SetActive(true);
+        nuageSup6.SetActive(true);
+        nuageSup7.SetActive(true);
+        nuageSup8.SetActive(true);
+        nuageSup9.SetActive(true);
+        nuageSup10.SetActive(true);
         
         effetVent1.SetActive(false);
         effetVent2.SetActive(false);
