@@ -587,7 +587,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         SceneManager.LoadScene(0);
         menuLevel.SetActive(false);
-        Play();
+        Restart();
     }
     
     public void JoinLevel2()
