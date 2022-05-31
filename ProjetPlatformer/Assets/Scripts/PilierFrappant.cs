@@ -45,25 +45,27 @@ public class PilierFrappant : MonoBehaviour
 
                 if (lentRapide)
                 {
-                    tweener = camera.transform.DOShakePosition(0.1f,1,1,10,false, false);
+                    tweener = camera.transform.DOShakePosition(0.1f,0.5f,1,10,false, false);
                 }
             }
 
             if (lentRapide)
             {
                 moveSpeed = moveSpeedLent;
-               // StartCoroutine(WaitUnactive());
+                deathZone.GetComponent<BoxCollider2D>().enabled = false;
+                //StartCoroutine(WaitUnactive());
             }
             else
             {
                 moveSpeed = moveSpeedRapide;
-                deathZone.SetActive(true);
+                deathZone.GetComponent<BoxCollider2D>().enabled = true;
+                //deathZone.SetActive(true);
             }
 
             IEnumerator WaitUnactive()
             {
-                yield return new WaitForSeconds(0.11f);
-                deathZone.SetActive(false);
+                yield return new WaitForSeconds(0.4f);
+                deathZone.GetComponent<BoxCollider2D>().enabled = false;
             }
         
             if (_currentWaypoint != waypoints.Count) return;

@@ -31,6 +31,10 @@ public class ENDGAME : MonoBehaviour
     public GameObject Escaliers2;
     public GameObject FondFadeOut1;
     public GameObject FondFadeOut2;
+    public GameObject AvantPlanG;
+    public GameObject AvantPlanD;
+    public GameObject SolCentreG;
+    public GameObject SolCentreD;
     
    
     [Header ("Autre")] 
@@ -92,6 +96,7 @@ public class ENDGAME : MonoBehaviour
                     StartCoroutine(SetCamera());
                     portesdeDroite.Reverse();
                     portesdeGauche.Reverse();
+                    StartCoroutine(OuvertureHaut());
                     StartCoroutine(ActivationActivationPortes());
                     doOnce = true;
                 }
@@ -102,16 +107,26 @@ public class ENDGAME : MonoBehaviour
 
         IEnumerator OuvertureHaut()
         {
-            yield return new WaitForSeconds(3);
-            Escaliers1.transform.DOMove(new Vector3(-5, 0),2);
-            Escaliers2.transform.DOMove(new Vector3(5, 0),2);
-            FondFadeOut1.GetComponent<SpriteRenderer>().material.DOFade(0, 2);
-            FondFadeOut2.GetComponent<SpriteRenderer>().material.DOFade(0, 2);
+            yield return new WaitForSeconds(4.5f);
+              for (float i = 1; i >= 0; i -= Time.deltaTime)
+            {
+                // set color with i as alpha
+                FondFadeOut1.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, i);
+                FondFadeOut2.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, i);
+                AvantPlanG.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, i);
+                AvantPlanD.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, i);
+                yield return null;
+            }
+              
+            SolCentreD.transform.DOMove(SolCentreD.transform.position + new Vector3(3, 0),2);
+            SolCentreG.transform.DOMove(SolCentreG.transform.position + new Vector3(-3, 0),2);
+            Escaliers1.transform.DOMove(Escaliers1.transform.position + new Vector3(-3, 0),2);
+            Escaliers2.transform.DOMove(Escaliers2.transform.position + new Vector3(3, 0),2);
         }
 
         IEnumerator ActivationActivationPortes()
         {
-            yield return new WaitForSeconds(7f);
+            yield return new WaitForSeconds(7.5f);
             portedetesmorts = true;
         }
         
@@ -137,9 +152,9 @@ public class ENDGAME : MonoBehaviour
         }
         
         timerDroit += Time.deltaTime;
-        portesdeDroite[porteDroiteActuelle].transform.DOMove(portesdeDroite[porteDroiteActuelle].transform.position + new Vector3(10, 0, 0),2);
+        portesdeDroite[porteDroiteActuelle].transform.DOMove(portesdeDroite[porteDroiteActuelle].transform.position + new Vector3(5, 0, 0),5);
         
-        if (timerDroit >= 0.53f)
+        if (timerDroit >= 1f)
         {
             timerDroit = 0;
             porteDroiteActuelle++;
@@ -154,9 +169,9 @@ public class ENDGAME : MonoBehaviour
         }
         
         timerGauche += Time.deltaTime;
-        portesdeGauche[porteGaucheActuelle].transform.DOMove(portesdeGauche[porteGaucheActuelle].transform.position + new Vector3(-10, 0, 0),2);
+        portesdeGauche[porteGaucheActuelle].transform.DOMove(portesdeGauche[porteGaucheActuelle].transform.position + new Vector3(-5, 0, 0),5);
         
-        if (timerGauche >= 0.53f)
+        if (timerGauche >= 1f)
         {
             timerGauche = 0;
             porteGaucheActuelle++;
