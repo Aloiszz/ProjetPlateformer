@@ -585,12 +585,16 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void JoinLevel1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(0);
+        menuLevel.SetActive(false);
+        Play();
     }
     
     public void JoinLevel2()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
+        menuLevel.SetActive(false);
+        Play();
     }
     
     
