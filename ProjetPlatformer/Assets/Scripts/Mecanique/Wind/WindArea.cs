@@ -28,6 +28,7 @@ public class WindArea : MonoBehaviour
     public List<GameObject> listEffetVent;
     public static WindArea instance;
 
+    public GameObject effetPoussière;
     public Animator animTempete;
     public bool indicationTempeteState = false;
     public EffetVent effetVent;
@@ -178,6 +179,7 @@ public class WindArea : MonoBehaviour
 
     public IEnumerator WaitforWindEffetc()
     {
+        effetPoussière.GetComponent<SpriteRenderer>().sharedMaterial.SetFloat("FogSpeed", 5);
         animTempete.SetBool("CanBegin", true);
         yield return new WaitForSeconds(timeWaitForWind);
         for (int i = 0; i < listEffetVent.Count; i++)
