@@ -28,8 +28,11 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public GameObject EmptyDéplaTempete;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        StartCoroutine(CinematiqueTempête());
-        
+        if (!doOnce)
+        {
+            StartCoroutine(CinematiqueTempête());
+            doOnce = true;
+        }
     }
 
     private void Update()
@@ -37,7 +40,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
         if (doOnce)
         {
             GlobalVolume.weight += 1 * Time.deltaTime;
-            doOnce = true;
+            
         }
         
     }

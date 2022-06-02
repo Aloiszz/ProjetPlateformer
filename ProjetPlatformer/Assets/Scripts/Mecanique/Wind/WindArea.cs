@@ -33,6 +33,8 @@ public class WindArea : MonoBehaviour
     public Animator animTempete;
     public bool indicationTempeteState = false;
     public EffetVent effetVent;
+
+    public EffetPoussière effet;
     
     private void Awake()
     {
@@ -56,8 +58,8 @@ public class WindArea : MonoBehaviour
             {
                 animTempete.SetBool("CanEnd", true);
                 animTempete.SetBool("CanBegin", false);
-
                 indicationTempeteState = false;
+                effet.fadeAway = false;
                 
                 if (Tempête)
                 {
@@ -80,6 +82,7 @@ public class WindArea : MonoBehaviour
                 animTempete.SetBool("CanBegin", true);
                 animTempete.SetBool("CanEnd", false);
                 indicationTempeteState = true;
+                effet.fadeAway = true;
                 
                 if (Tempête)
                 {
