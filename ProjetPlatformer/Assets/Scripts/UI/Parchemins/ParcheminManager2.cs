@@ -19,7 +19,7 @@ public class ParcheminManager2 : MonoBehaviour
     public float déplacementCompteurIn;
     public float déplacementCompteurOut;
 
-    
+    [Header("Morceau Parchemin")]
     public GameObject morceauParchemin1;
     public GameObject morceauParchemin2;
     public GameObject morceauParchemin3;
@@ -30,6 +30,7 @@ public class ParcheminManager2 : MonoBehaviour
     public GameObject morceauParchemin8;
     public GameObject morceauParchemin9;
     
+    [Header("GameObject et image")]
     public GameObject Parchemin1;
     public Sprite Image1;
     public Sprite Image2;
@@ -45,7 +46,7 @@ public class ParcheminManager2 : MonoBehaviour
     public Sprite Image10;
     public Sprite Image11;
     public Sprite Image12;
-    
+    public Image indicationParch;
     
     
     
@@ -67,9 +68,21 @@ public class ParcheminManager2 : MonoBehaviour
     {
         parcheminsObtenus += 1;
         StartCoroutine(apparitionUIParchemin());
+        StartCoroutine(DoScaleScrolls());
     }
 
-
+    IEnumerator DoScaleScrolls()
+    {
+        /*while (FeuxDeCamp.instanceFeuxdeCamp.isInRange && Input.GetButtonDown("BouttonMenuParchemin"))
+        {
+            indicationParch.rectTransform.DOScale(new Vector2(1.5f, 1.5f), 1f);
+            yield return new WaitForSeconds(1);
+            indicationParch.rectTransform.DOScale(new Vector2(1f, 1f), 1f);
+            yield return new WaitForSeconds(1);
+        }*/
+        return null;
+    }
+    
     IEnumerator apparitionUIParchemin()
     {
         indicationParchemin.transform.DOMoveY(déplacementCompteurIn, 1);
@@ -84,11 +97,6 @@ public class ParcheminManager2 : MonoBehaviour
     {
         textParchemins.text = "" + parcheminsObtenus;
     }
-  
-    
-    
-    
-    
     
     
     private void Update()
@@ -120,33 +128,33 @@ public class ParcheminManager2 : MonoBehaviour
                  morceauParchemin7.GetComponent<Image>().enabled = false;
                  morceauParchemin8.GetComponent<Image>().enabled = false;
                  morceauParchemin9.GetComponent<Image>().enabled = false;
-             }
+        }
              
-             if (parcheminsObtenus == 1 && mm.MenuParcheminOuvert)
-             {
-                 Parchemin1.GetComponent<Image>().sprite = Image2;
-                 Parchemin1.GetComponent<RectTransform>().localPosition = new Vector3(180, 119.75f, 0);
-                 Parchemin1.GetComponent<RectTransform>().sizeDelta = new Vector2(963.9696f, 576.35f);
-                    
-                 morceauParchemin1.GetComponent<Image>().enabled = true;
-                 morceauParchemin2.GetComponent<Image>().enabled = false;
-                 morceauParchemin3.GetComponent<Image>().enabled = false;   
-                 morceauParchemin4.GetComponent<Image>().enabled = false;
-                 morceauParchemin5.GetComponent<Image>().enabled = false;
-                 morceauParchemin6.GetComponent<Image>().enabled = false;
-                 morceauParchemin7.GetComponent<Image>().enabled = false;
-                 morceauParchemin8.GetComponent<Image>().enabled = false;
-                 morceauParchemin9.GetComponent<Image>().enabled = false;
+        if (parcheminsObtenus == 1 && mm.MenuParcheminOuvert)
+          {
+             Parchemin1.GetComponent<Image>().sprite = Image2;
+             Parchemin1.GetComponent<RectTransform>().localPosition = new Vector3(180, 119.75f, 0);
+             Parchemin1.GetComponent<RectTransform>().sizeDelta = new Vector2(963.9696f, 576.35f);
+                
+             morceauParchemin1.GetComponent<Image>().enabled = true;
+             morceauParchemin2.GetComponent<Image>().enabled = false;
+             morceauParchemin3.GetComponent<Image>().enabled = false;   
+             morceauParchemin4.GetComponent<Image>().enabled = false;
+             morceauParchemin5.GetComponent<Image>().enabled = false;
+             morceauParchemin6.GetComponent<Image>().enabled = false;
+             morceauParchemin7.GetComponent<Image>().enabled = false;
+             morceauParchemin8.GetComponent<Image>().enabled = false;
+             morceauParchemin9.GetComponent<Image>().enabled = false;
 
-                 if (mm.pageOuverte == 1)
+             if (mm.pageOuverte == 1)
+             {
+                 //morceauParchemin1.transform.localScale = new Vector3(0,0,0);
+                 morceauParchemin1.transform.DOScale(new Vector3(2, 2, 2),2).OnComplete((() =>
                  {
-                     //morceauParchemin1.transform.localScale = new Vector3(0,0,0);
-                     morceauParchemin1.transform.DOScale(new Vector3(2, 2, 2),2).OnComplete((() =>
-                     {
-                         morceauParchemin1.transform.DOScale(new Vector3(1, 1, 1), 1.5f).Kill();
-                     } ));  
-                 }
+                     morceauParchemin1.transform.DOScale(new Vector3(1, 1, 1), 1.5f).Kill();
+                 } ));  
              }
+          }
              
              if (parcheminsObtenus == 2 && mm.MenuParcheminOuvert)
              {
