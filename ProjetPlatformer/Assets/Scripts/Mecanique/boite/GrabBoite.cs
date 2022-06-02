@@ -101,7 +101,7 @@ public class GrabBoite : MonoBehaviour
             JoystickManager();
             for (int i = 0; i < Points.Length; i++)
             {
-                Points[i].gameObject.SetActive(true);
+                //Points[i].gameObject.SetActive(true);
             }
         }
         else
@@ -210,11 +210,13 @@ public class GrabBoite : MonoBehaviour
         {
             if (MousePos == new Vector2(0, 0))
             {
+                Points[i].gameObject.SetActive(false);
                 Points[i].transform.DOMove(PointPositionNull(i * 0.1f), 0.2f);
                 isNull = true;
             }
             else
             {
+                Points[i].gameObject.SetActive(true);
                 Points[i].transform.DOMove(PointPosition(i * 0.1f), 0.2f);
                 isNull = false;
             }
