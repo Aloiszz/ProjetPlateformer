@@ -1,13 +1,12 @@
 {
   "dependencies": {
     "com.aarthificial.pixelgraphics": {
-      "version": "https://github.com/aarthificial/pixelgraphics.git",
+      "version": "file:com.aarthificial.pixelgraphics@dbe057aecd",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.render-pipelines.universal": "10.4.0"
-      },
-      "hash": "dbe057aecdea1e512bc036e4925e2de414bb3c46"
+      }
     },
     "com.unity.2d.animation": {
       "version": "5.0.10",
