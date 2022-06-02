@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class WindArea : MonoBehaviour
@@ -179,7 +180,7 @@ public class WindArea : MonoBehaviour
 
     public IEnumerator WaitforWindEffetc()
     {
-        effetPoussière.GetComponent<SpriteRenderer>().sharedMaterial.SetFloat("FogSpeed", 5);
+       
         animTempete.SetBool("CanBegin", true);
         yield return new WaitForSeconds(timeWaitForWind);
         for (int i = 0; i < listEffetVent.Count; i++)
