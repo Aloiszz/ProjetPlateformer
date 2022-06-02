@@ -122,15 +122,26 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
         DébutPontQuiSecroule.instancePont.rb.simulated = false;
         DébutPontQuiSecroule.instancePont.hingeJoint.enabled = false;
         DébutPontQuiSecroule.instancePont.rb.gravityScale = 0;
-
+        
+        fadeSystem.SetTrigger("FadeIn");
+        yield return new WaitForSeconds(0.2f);
+        
         collision.transform.position = playerSpawn.position;
+        Camera.transform.position = new Vector3(playerSpawn.position.x, playerSpawn.position.y, -10);
+        
         FeuxDeCamp.instanceFeuxdeCamp.onoff = false;
         FeuxDeCamp.instanceFeuxdeCamp.GoToCamp();
         //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
-        fadeSystem.SetTrigger("FadeIn");
         
+        CharacterMovement.instance.speed = 0;
+        CharacterMovement.instance.canMove = false;
+        CharacterMovement.instance.canJump = false;
         
-        yield return new WaitForSeconds(0.2f);
         anim.SetBool("isGrounded", true);
+        
+        yield return new WaitForSeconds(0.8f);
+        CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
     }
 }

@@ -45,9 +45,8 @@ public class DébutPontQuiSecroule : MonoBehaviour
     {
         if (other.gameObject.tag != "Player")
         {
-            
-            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
-            particules.Play();
+            Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
+            //particules.Play();
         }
     }
 }

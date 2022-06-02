@@ -44,12 +44,12 @@ public class PontQuiSuivent1 : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag != "Player")
         {
-            ParticleSystem dustWalk = Instantiate(particules, particulesPoint.transform.position, particulesPoint.transform.rotation);
-            particules.Play();
+            Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
+            //particules.Play();
         }
     }
 }
