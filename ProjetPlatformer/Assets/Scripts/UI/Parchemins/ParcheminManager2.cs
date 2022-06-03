@@ -73,14 +73,13 @@ public class ParcheminManager2 : MonoBehaviour
 
     IEnumerator DoScaleScrolls()
     {
-        /*while (FeuxDeCamp.instanceFeuxdeCamp.isInRange && Input.GetButtonDown("BouttonMenuParchemin"))
+        while (FeuxDeCamp.instanceFeuxdeCamp.isInRange && Input.GetButtonDown("BouttonMenuParchemin"))
         {
             indicationParch.rectTransform.DOScale(new Vector2(1.5f, 1.5f), 1f);
             yield return new WaitForSeconds(1);
             indicationParch.rectTransform.DOScale(new Vector2(1f, 1f), 1f);
             yield return new WaitForSeconds(1);
-        }*/
-        return null;
+        }
     }
     
     IEnumerator apparitionUIParchemin()
