@@ -29,6 +29,7 @@ public class ParcheminManager2 : MonoBehaviour
     public GameObject morceauParchemin7;
     public GameObject morceauParchemin8;
     public GameObject morceauParchemin9;
+    public AnimationIconeParch icone;
     
     [Header("GameObject et image")]
     public GameObject Parchemin1;
@@ -66,6 +67,7 @@ public class ParcheminManager2 : MonoBehaviour
 
     public void AddParchemin()
     {
+        icone.NewParchemin = true;
         parcheminsObtenus += 1;
         StartCoroutine(apparitionUIParchemin());
         //StartCoroutine(DoScaleScrolls());

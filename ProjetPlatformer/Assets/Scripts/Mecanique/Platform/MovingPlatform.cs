@@ -60,7 +60,7 @@ using DG.Tweening;
         
         if (canRunGame)
         {
-            Flamme.intensity = 1;
+            Flamme.intensity = 2;
             increment += Time.deltaTime;
             graph = CourbeDeFlamme.Evaluate(increment);
             Flamme.intensity = graph;

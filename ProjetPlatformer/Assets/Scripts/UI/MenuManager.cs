@@ -39,6 +39,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public Animator parchAnim;
     public float distanceChangementPage;
     public CameraZoom cm;
+    public AnimationIconeParch icone;
 
     [Header("First Selected")]
     public GameObject firstSelctedOption;
@@ -310,6 +311,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     #region Menu Parchemin
     public void OpenMenuParchemin()
     {
+        icone.NewParchemin = false;
         parchAnim.SetBool("FadeInParch",false);
         parchAnim.SetBool("FadeOutParch",true);
         MenuParcheminOuvert = true;
