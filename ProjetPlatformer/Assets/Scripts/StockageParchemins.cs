@@ -34,12 +34,10 @@ public class StockageParchemins : MonoBehaviour
         if (level1 == true)
         {
             nbDeParchemins = parcheminManager.parcheminsObtenus;
-            Debug.Log("1");
         }
         else if (level1 == false)
         {
            parcheminManager.parcheminsObtenus = nbDeParchemins;
-           Debug.Log("2");
         }
 
 

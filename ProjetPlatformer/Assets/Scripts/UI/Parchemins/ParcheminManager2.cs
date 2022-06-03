@@ -68,7 +68,7 @@ public class ParcheminManager2 : MonoBehaviour
     {
         parcheminsObtenus += 1;
         StartCoroutine(apparitionUIParchemin());
-        StartCoroutine(DoScaleScrolls());
+        //StartCoroutine(DoScaleScrolls());
     }
 
     IEnumerator DoScaleScrolls()

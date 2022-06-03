@@ -3,11 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class TriggerDisparitionTempête : MonoBehaviour
 {
     public float nouvelleVitesseNuages;
     public GameObject triggerTempete;
+    public Light2D globalLight;
     
     public GameObject BackgroundTempete1;
     public GameObject BackgroundTempete2;
@@ -58,6 +60,8 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        globalLight.intensity = 0.3f;
+        
         WindZone.SetActive(false);
         effetPoussière.SetActive(false);
         planetes.SetActive(false);
