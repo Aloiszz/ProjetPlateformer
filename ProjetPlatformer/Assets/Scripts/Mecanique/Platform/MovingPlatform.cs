@@ -65,6 +65,13 @@ using DG.Tweening;
             graph = CourbeDeFlamme.Evaluate(increment);
             Flamme.intensity = graph;
         }
+        else
+        {
+            Flamme.intensity = graph;
+            increment = 0;
+            graph = CourbeDeFlamme.Evaluate(increment);
+            Flamme.intensity = graph;
+        }
     }
 
     public void Salope()
@@ -104,5 +111,15 @@ using DG.Tweening;
             startValueX = StartValueX.transform.position.x;
             gameObject.transform.DOMoveX(startValueX, timeToArrive);
         }
+        if (saFaitDeLaLumière)
+        {
+            StartCoroutine(WaitForTheLight());
+        }
+    }
+
+    IEnumerator WaitForTheLight()
+    {
+        yield return new WaitForSeconds(1f);
+        canRunGame = false;
     }
 }

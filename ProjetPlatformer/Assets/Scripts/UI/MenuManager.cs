@@ -31,6 +31,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     [SerializeField] private CanvasGroup CgCredit;
     [SerializeField] private CanvasGroup CgOptionpause;
     [SerializeField] private CanvasGroup CgCreditFin;
+    [SerializeField] private CanvasGroup CgLevelPause;
+    [SerializeField] private CanvasGroup CgAudioPause;
+    [SerializeField] private CanvasGroup CgControllerPause;
+    [SerializeField] private CanvasGroup CgCréditPause;
     private Tween fadeTween;
     public Animator parchAnim;
     public float distanceChangementPage;
@@ -47,6 +51,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject firstSelectedConfirmationRestart;
     public GameObject firstSelectedOptionPause;
     public GameObject firstSelectedCreditFin;
+    public GameObject firstSelectedLevelPause;
+    public GameObject firstSelectedAudioPause;
+    public GameObject firstSelectedControllerPause;
+    public GameObject firstSelectedCreditPause;
     public GameObject fleche1;
     public GameObject fleche2;
     public GameObject fleche3;
@@ -64,6 +72,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public GameObject menuPause;
     public GameObject menuParchemin;
     public GameObject menuCreditFin;
+    public GameObject menuLevelPause;
+    public GameObject menuAudioPause;
+    public GameObject menuControllerPause;
+    public GameObject menuCreditPause;
     public GameObject Page1;
     public GameObject Page2;
     public GameObject Page3;
@@ -461,20 +473,20 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedOptionPause);
         menuOptionPause.SetActive(true);
-        menuLevel.SetActive(false);
-        menuAudio.SetActive(false);
-        menuController.SetActive(false);
-        menuCredit.SetActive(false);
+        menuLevelPause.SetActive(false);
+        menuAudioPause.SetActive(false);
+        menuControllerPause.SetActive(false);
+        menuCreditPause.SetActive(false);
         
         TxtDuCrédit.transform.DOKill();
         TxtDuCrédit.transform.position = DebutSpotCredit.transform.position;
         
         cv.DOFade(0, 0.5f);
         CgOptionpause.DOFade(1, 0.5f);
-        CgLevel.DOFade(0, 0.5f);
-        CgAudio.DOFade(0, 0.5f);
-        CgController.DOFade(0, 0.5f);
-        CgCredit.DOFade(0, 0.5f);
+        CgLevelPause.DOFade(0, 0.5f);
+        CgAudioPause.DOFade(0, 0.5f);
+        CgControllerPause.DOFade(0, 0.5f);
+        CgCréditPause.DOFade(0, 0.5f);
     }
     public void OpenOption()
     {
@@ -596,8 +608,51 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuLevel.SetActive(false);
         Play();
     }
-    
-    
+
+    public void OpenLevelPause()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedLevelPause);
+        menuOptionPause.SetActive(false);
+        menuLevelPause.SetActive(true);
+        
+        CgOptionpause.DOFade(0, 0.5f);
+        CgLevelPause.DOFade(1, 0.5f);
+    }
+
+    public void OpenAudioPause()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedAudioPause);
+        menuOptionPause.SetActive(false);
+        menuAudioPause.SetActive(true);
+        
+        CgOptionpause.DOFade(0, 0.5f);
+        CgAudioPause.DOFade(1, 0.5f);
+    }
+
+    public void OpenControllerPause()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedControllerPause);
+        menuOptionPause.SetActive(false);
+        menuControllerPause.SetActive(true);
+        
+        CgOptionpause.DOFade(0, 0.5f);
+        CgControllerPause.DOFade(1, 0.5f);
+    }
+
+    public void OpenCreditPause()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstSelectedCreditPause);
+        menuCreditPause.SetActive(true);
+        menuOptionPause.SetActive(false);
+        CgOptionpause.DOFade(0, 0.5f);
+        CgCréditPause.DOFade(1, 0.5f);
+
+        TxtDuCréditFin.transform.DOMove(FinSpotCreditFin.transform.position, 20);
+    }
 
     
     public void Fade(float endValue, float duration, TweenCallback onEnd)
