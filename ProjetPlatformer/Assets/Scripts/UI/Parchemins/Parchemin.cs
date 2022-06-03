@@ -7,9 +7,8 @@ using DG.Tweening;
 public class Parchemin : MonoBehaviour
 {
     public ParcheminManager2 pm;
-    public StockageParchemins stock;
     public ParticleSystem particulesParchemin;
-    public ParticleSystem particulesParchemin2;
+   
 
     private Collider2D coll;
     

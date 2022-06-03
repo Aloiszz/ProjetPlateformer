@@ -18,11 +18,14 @@ public class PontQuiSecroulle : MonoBehaviour
     
     public ParticleSystem particules;
     public GameObject particulesPoint;
+    public bool doOnce;
 
     // public GameObject mainCamera;
   //  private Tween tweener;
     private void Awake()
     {
+        doOnce = false;
+        
         if (instancePont == null) instancePont = this;
         
         rb = GetComponent<Rigidbody2D>();
@@ -50,10 +53,11 @@ public class PontQuiSecroulle : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag != "Player")
+        if (other.gameObject.tag != "Player" && doOnce == false)
         {
+            doOnce = true;
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();
         }

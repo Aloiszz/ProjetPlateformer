@@ -14,11 +14,14 @@ public class PontQuisuivent4 : MonoBehaviour
     
     public ParticleSystem particules;
     public GameObject particulesPoint;
+    public bool doOnce;
 
     // public GameObject mainCamera;
     //  private Tween tweener;
     private void Awake()
     {
+        doOnce = false;
+        
         if (instancePontQuiSuivent4 == null) instancePontQuiSuivent4 = this;
         
         rb = GetComponent<Rigidbody2D>();
@@ -34,6 +37,7 @@ public class PontQuisuivent4 : MonoBehaviour
     {
         if (trigger.isTriggered == true)
         {
+            doOnce = false;
             //  tweener = mainCamera.transform.DOShakePosition(1.5f,5,1,35,false);
             hingeJoint.enabled = true;
             rb.gravityScale = 1;
@@ -43,10 +47,12 @@ public class PontQuisuivent4 : MonoBehaviour
         }
     }
     
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag != "Player")
+        if (other.gameObject.tag != "Player" && doOnce == false)
         {
+            Debug.Log("touche");
+            doOnce = true;
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();
         }
