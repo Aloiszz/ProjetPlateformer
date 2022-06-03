@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 438436139}
   - component: {fileID: 438436138}
   - component: {fileID: 438436137}
+  - component: {fileID: 1742954244}
   m_Layer: 5
   m_Name: IndicationParchemins
   m_TagString: Untagged
@@ -319,8 +320,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -463.62592, y: -300.43408}
-  m_SizeDelta: {x: 327.6006, y: 72.8488}
+  m_AnchoredPosition: {x: -500.01, y: -262}
+  m_SizeDelta: {x: 169.3323, y: 161.6884}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &438436139
 CanvasRenderer:
@@ -350,7 +351,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3464828686279660911, guid: 8d8a059984308ef44856a0ff95bf5b49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d96eaf374a8b26448517cf371b35a88, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -379,6 +380,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1742954244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438436135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a3593d943f6614483891ac58d93afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewParchemin: 0
 --- !u!1 &449747615
 GameObject:
   m_ObjectHideFlags: 0
@@ -3081,6 +3095,7 @@ MonoBehaviour:
   morceauParchemin7: {fileID: 0}
   morceauParchemin8: {fileID: 0}
   morceauParchemin9: {fileID: 0}
+  icone: {fileID: 1742954244}
   Parchemin1: {fileID: 0}
   Image1: {fileID: 21300000, guid: ad7317a31402536479cc9f17af36431d, type: 3}
   Image2: {fileID: 21300000, guid: e152e4faf30407f499541e7da1fbc8a7, type: 3}
@@ -3096,6 +3111,7 @@ MonoBehaviour:
   Image10: {fileID: 21300000, guid: d620dbe902971b4418a74f9e07551ef4, type: 3}
   Image11: {fileID: 21300000, guid: 1899bb401ebbc3c4eb7934ab2dab4a81, type: 3}
   Image12: {fileID: 21300000, guid: 608243c59c203e9438b5e7c039f0e0ab, type: 3}
+  indicationParch: {fileID: 0}
 --- !u!1 &5163831553838543849
 GameObject:
   m_ObjectHideFlags: 0
