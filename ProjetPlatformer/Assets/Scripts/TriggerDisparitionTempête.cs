@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using UnityEditor.ShaderGraph;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
@@ -51,7 +52,7 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public Sprite nuageSprite6;
     public Sprite cielSprite1;
     public GameObject WindZone;
-    public GameObject DecorMontagne;
+    public List<GameObject> DecorMontagne;
 
     public List<GameObject> animTempete;
 
@@ -108,8 +109,11 @@ public class TriggerDisparitionTempête : MonoBehaviour
         triggerTempete.SetActive(true);
         GlobalVolume.SetActive(false);
 
-        DecorMontagne.GetComponent<SpriteRenderer>().DOColor(Color.black, 0.5f);
-
+        for (int i = 0; i < DecorMontagne.Count; i++)
+        {
+            DecorMontagne[i].GetComponent<SpriteRenderer>().color = new Color(0.5f, 0.5f, 0.5f, 1);
+        }
+        
         for (int i = 0; i < animTempete.Count; i++)
         {
             animTempete[i].SetActive(false);
