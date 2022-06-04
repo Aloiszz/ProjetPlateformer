@@ -443,6 +443,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.animator.SetBool("IsFdC", false);
+        CharacterMovement.instance.animator.SetTrigger("SortieFdC");
+        
         if (!Fdc.onoff)
         {
             StartCoroutine(WaitMove());
