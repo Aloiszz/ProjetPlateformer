@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 39152f1d27b80bd4093f812a2308abfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5700588763989095010
+    second: "d\xE9bris vent_0"
+  - first:
+      213: 6201148651512273737
+    second: "d\xE9bris vent_1"
+  - first:
+      213: 2585990685292265127
+    second: "d\xE9bris vent_2"
+  - first:
+      213: 8041850628900568839
+    second: "d\xE9bris vent_3"
+  - first:
+      213: 3255485182167206422
+    second: "d\xE9bris vent_4"
+  - first:
+      213: -423751099547643265
+    second: "d\xE9bris vent_5"
+  - first:
+      213: -2767011702795287851
+    second: "d\xE9bris vent_6"
+  - first:
+      213: -1878512977240311669
+    second: "d\xE9bris vent_7"
+  - first:
+      213: 590664111017523391
+    second: "d\xE9bris vent_8"
+  - first:
+      213: 5682054027836483285
+    second: "d\xE9bris vent_9"
+  - first:
+      213: -6951640828691703045
+    second: "d\xE9bris vent_10"
+  - first:
+      213: 2401551923957307184
+    second: "d\xE9bris vent_11"
+  - first:
+      213: 1256636045462746067
+    second: "d\xE9bris vent_12"
+  - first:
+      213: 2425441458709840506
+    second: "d\xE9bris vent_13"
+  - first:
+      213: 6135758634487389549
+    second: "d\xE9bris vent_14"
+  - first:
+      213: -2789863797788263599
+    second: "d\xE9bris vent_15"
+  - first:
+      213: -4850110672774967977
+    second: "d\xE9bris vent_16"
+  - first:
+      213: 6888300513817232104
+    second: "d\xE9bris vent_17"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "d\xE9bris vent_0"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 123
+        width: 22
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2623720274f8c1f40800000000000000
+      internalID: 5700588763989095010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_1"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 136
+        width: 18
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b18cce7d7ee0650800000000000000
+      internalID: 6201148651512273737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_2"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 218
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae705db3d843e320800000000000000
+      internalID: 2585990685292265127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_3"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 218
+        width: 4
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fbe581a846a9f60800000000000000
+      internalID: 8041850628900568839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_4"
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 206
+        width: 13
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61acf9e568ecd2d20800000000000000
+      internalID: 3255485182167206422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_5"
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 140
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72184ebe988e1af0800000000000000
+      internalID: -423751099547643265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_6"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 155
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2c98d34899999d0800000000000000
+      internalID: -2767011702795287851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_7"
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 155
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8831a5666e2ee5e0800000000000000
+      internalID: -1878512977240311669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_8"
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 153
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb875c621e5723800800000000000000
+      internalID: 590664111017523391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_9"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 169
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d665c39806bade40800000000000000
+      internalID: 5682054027836483285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_10"
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 44
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa9ab76f7fc68f90800000000000000
+      internalID: -6951640828691703045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_11"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 45
+        width: 11
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037912930c6045120800000000000000
+      internalID: 2401551923957307184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_12"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 45
+        width: 16
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d332cd43d7707110800000000000000
+      internalID: 1256636045462746067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_13"
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 20
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72c7e9f726e8a120800000000000000
+      internalID: 2425441458709840506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_14"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 65
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d182c28f7962550800000000000000
+      internalID: 6135758634487389549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_15"
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 21
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bbb1148a96849d0800000000000000
+      internalID: -2789863797788263599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_16"
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 205
+        width: 1
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dcae34a02f0bcb0800000000000000
+      internalID: -4850110672774967977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "d\xE9bris vent_17"
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 204
+        width: 2
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2873052d8289f50800000000000000
+      internalID: 6888300513817232104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a43e34ff32abcb74d8c4425d59482498
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
