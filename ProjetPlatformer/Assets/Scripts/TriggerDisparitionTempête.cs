@@ -51,6 +51,7 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public Sprite nuageSprite6;
     public Sprite cielSprite1;
     public GameObject WindZone;
+    public GameObject DecorMontagne;
 
     public List<GameObject> animTempete;
 
@@ -106,6 +107,8 @@ public class TriggerDisparitionTempête : MonoBehaviour
         BackgroundTempete6.GetComponent<SpriteRenderer>().DOFade(0,2);
         triggerTempete.SetActive(true);
         GlobalVolume.SetActive(false);
+
+        DecorMontagne.GetComponent<SpriteRenderer>().DOColor(Color.black, 0.5f);
 
         for (int i = 0; i < animTempete.Count; i++)
         {
