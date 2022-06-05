@@ -50,20 +50,36 @@ public class TriggerDisparitionTempête : MonoBehaviour
     public Sprite nuageSprite5;
     public Sprite nuageSprite6;
     public Sprite cielSprite1;
-    public GameObject WindZone;
+    public List<GameObject> WindZone;
     public List<GameObject> DecorMontagne;
+    public List<GameObject> FondUnisMontagne;
 
     public List<GameObject> animTempete;
+    private bool doOnce = false;
 
-
+    private void Update()
+    {
+        if (doOnce)
+        {
+            if (globalLight.intensity >= 0.3f)
+            {
+                globalLight.intensity -= 0.2f * Time.deltaTime;
+            }
+        }
+        
+    }
 
 
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        globalLight.intensity = 0.3f;
+        doOnce = true;
         
-        WindZone.SetActive(false);
+        for (int i = 0; i < WindZone.Count; i++)
+        {
+            WindZone[i].SetActive(false);
+        }
+        
         effetPoussière.SetActive(false);
         planetes.SetActive(false);
         nuageSup1.SetActive(true);
@@ -111,6 +127,11 @@ public class TriggerDisparitionTempête : MonoBehaviour
         for (int i = 0; i < DecorMontagne.Count; i++)
         {
             DecorMontagne[i].GetComponent<SpriteRenderer>().color = new Color(0.5f, 0.5f, 0.5f, 1);
+        }
+        
+        for (int i = 0; i < FondUnisMontagne.Count; i++)
+        {
+            FondUnisMontagne[i].GetComponent<SpriteRenderer>().color = new Color(0.2f, 0.1f, 0.1f, 1);
         }
         
         for (int i = 0; i < animTempete.Count; i++)
