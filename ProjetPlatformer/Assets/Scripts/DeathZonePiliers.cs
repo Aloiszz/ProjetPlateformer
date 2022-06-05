@@ -31,7 +31,7 @@ public class DeathZonePiliers : MonoBehaviour
             gameObject.SetActive(true);
             OuverturePorte();
             codeTrigger.index = 0;
-            trigger.transform.position -= new Vector3(60, 0, 0);
+            //trigger.transform.position -= new Vector3(60, 0, 0);
         }
     }
     

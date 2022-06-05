@@ -20,6 +20,8 @@ public class FermetureSalle2 : MonoBehaviour
     public bool activationFrappe;
     public bool activation;
     public int index;
+    public GameObject spotPorteAssocierFermer;
+    public GameObject spotPorteAssocierOuverte;
     
     private void Update()
     {
@@ -32,20 +34,29 @@ public class FermetureSalle2 : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            
+            FermeturePorte();
             activationFrappe = !activationFrappe;
-            if (index == 0)
+            /*if (index == 0)
             {
-                FermeturePorte();
-                transform.position += new Vector3(60,0,0);
+                
+                //transform.position += new Vector3(60,0,0);
                 index++;
-            }
+            }*/
 
-            if (index == 2)
-            {
+            /*if (index == 2)
+            {   
                 Destroy(gameObject);
-            }
+            }*/
            
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            activationFrappe = false;
+            porteAssociée.transform.DOMove(spotPorteAssocierOuverte.transform.position, 1.5f).SetEase(Ease.Linear);
         }
     }
     
@@ -55,8 +66,9 @@ public class FermetureSalle2 : MonoBehaviour
         timer += Time.deltaTime;
         if (timer <= DistancePorteMax)
         {
-            porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.down,
-                speedPorte * Time.deltaTime);
+            porteAssociée.transform.DOMove(spotPorteAssocierFermer.transform.position, 1.5f).SetEase(Ease.Linear);
+            /*porteAssociée.transform.position = Vector3.MoveTowards(porteAssociée.transform.position, porteAssociée.transform.position + Vector3.down,
+                speedPorte * Time.deltaTime);*/
             
             if (particules)
             {
