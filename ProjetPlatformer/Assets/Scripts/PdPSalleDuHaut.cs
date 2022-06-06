@@ -47,6 +47,8 @@ public class PdPSalleDuHaut : MonoBehaviour
     public float rightMotor;
     public float duration;
 
+    public AudioSource AudioData;
+
     private void Update()
     {
         if (boolStop == true)
@@ -59,11 +61,13 @@ public class PdPSalleDuHaut : MonoBehaviour
         if (other.tag == "Respawn")
         {
             impultionElectique.SetActive(true);
+            
             OuverturePorte();
             StartCoroutine(Cinématique());
             if (!doOnce)
             {
                 StartCoroutine(VibrationTime());
+                PlaySound();
                 doOnce = true;
             }
         }
@@ -118,6 +122,11 @@ public class PdPSalleDuHaut : MonoBehaviour
         {
             boolStop = false;
         }
+    }
+
+    private void PlaySound()
+    {
+        AudioData.Play();
     }
     
     IEnumerator VibrationTime()
