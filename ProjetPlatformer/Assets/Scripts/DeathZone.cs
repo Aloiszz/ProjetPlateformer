@@ -56,11 +56,8 @@ public class DeathZone : MonoBehaviour
     {
         playerAnimator.SetTrigger("Die");
         StartCoroutine(VibrationTime());
-        yield return new WaitForSeconds(1);
-        fadeSystem.SetTrigger("FadeIn");
-
-        collision.transform.position = playerSpawn.position;
-        nuage.transform.position = new Vector3(mainCamera.transform.position.x - 999, 0, 0);
+        yield return new WaitForSeconds(0.6f);
+        
         
 
         //FeuxDeCamp.instanceFeuxdeCamp.LeFeuxDeCamp();
@@ -70,11 +67,28 @@ public class DeathZone : MonoBehaviour
         //FeuxDeCamp.instanceFeuxdeCamp.OnOff();
         FeuxDeCamp.instanceFeuxdeCamp.GoToCamp();
         
-
-        playerAnimator.SetBool("IsFdC", true);
+        fadeSystem.SetTrigger("FadeIn");
         
         yield return new WaitForSeconds(0.2f);
+        playerAnimator.SetBool("IsFdC", true);
+        yield return new WaitForSeconds(0.1f);
+        playerAnimator.SetTrigger("SortieFdC");
+        playerAnimator.SetBool("IsFdC", false);
+
+        collision.transform.position = playerSpawn.position;
+        nuage.transform.position = new Vector3(mainCamera.transform.position.x - 999, 0, 0);
+        Camera.transform.position = new Vector3(playerSpawn.position.x, playerSpawn.position.y, -10);
+        
+        CharacterMovement.instance.speed = 0;
+        CharacterMovement.instance.canMove = false;
+        CharacterMovement.instance.canJump = false;
+        
         anim.SetBool("isGrounded", true);
+        
+        yield return new WaitForSeconds(0.8f);
+        CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
         
         if (CharacterMovement.instance.facingRight == false)
         {
