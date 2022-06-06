@@ -11,6 +11,7 @@ public class RespawnBoite : MonoBehaviour
     public Transform TpBoite;
     public bool lache;
     public ParticleSystem éclair;
+    public AudioSource AudioData;
     
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,6 +23,7 @@ public class RespawnBoite : MonoBehaviour
             other.transform.position = TpBoite.position;
             StartCoroutine("lachelaboitedetesmorts");
             éclair.Play();
+            AudioData.Play();
         }
         
        

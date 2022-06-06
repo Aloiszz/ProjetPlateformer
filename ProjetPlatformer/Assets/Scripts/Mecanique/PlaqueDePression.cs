@@ -33,6 +33,8 @@ public class PlaqueDePression : MonoBehaviour
     public float rightMotor;
     public float duration;
 
+    public AudioSource AudioData;
+
     private void Update()
     {
         if (boolStop == true)
@@ -45,6 +47,7 @@ public class PlaqueDePression : MonoBehaviour
     {
         if (other.tag == "Respawn")
         {
+            AudioData.Play();
             OuverturePorte(); 
             if (!doOnce)
             {
@@ -57,7 +60,6 @@ public class PlaqueDePression : MonoBehaviour
     private void OuverturePorte()
     {
         impultionElectique.SetActive(true);
-        
         transform.DOMove(transform.position + enfoncement, 1);
         boolStop = true;
         timer += Time.deltaTime;
@@ -67,6 +69,7 @@ public class PlaqueDePression : MonoBehaviour
                 speedPorte * Time.deltaTime);
             
             tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false);
+            
             if (particules)
             {
                 particulesAssociées.SetActive(true);
