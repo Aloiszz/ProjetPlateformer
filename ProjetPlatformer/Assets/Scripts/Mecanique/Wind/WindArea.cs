@@ -35,7 +35,7 @@ public class WindArea : MonoBehaviour
     public EffetVent effetVent;
 
     public EffetPoussière effet;
-    
+
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
