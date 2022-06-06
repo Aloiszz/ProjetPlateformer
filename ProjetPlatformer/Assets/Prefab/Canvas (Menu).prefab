@@ -15937,7 +15937,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6910416968409992148}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: OpenPause
+        m_MethodName: OpenOptionPause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18982,6 +18982,7 @@ MonoBehaviour:
   parchAnim: {fileID: 0}
   distanceChangementPage: 1750
   cm: {fileID: 0}
+  icone: {fileID: 0}
   firstSelctedOption: {fileID: 430646408}
   firstSelctedMain: {fileID: 6910416968315586360}
   firstSelectedLevel: {fileID: 1404014709}

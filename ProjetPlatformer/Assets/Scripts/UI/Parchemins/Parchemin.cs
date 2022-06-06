@@ -8,6 +8,8 @@ public class Parchemin : MonoBehaviour
 {
     public ParcheminManager2 pm;
     public ParticleSystem particulesParchemin;
+
+    public AudioSource AudioData;
    
 
     private Collider2D coll;
@@ -21,6 +23,7 @@ public class Parchemin : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            AudioData.Play();
             //particulesParchemin2.Play();
             particulesParchemin.Play();
         

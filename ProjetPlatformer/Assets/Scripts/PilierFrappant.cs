@@ -18,6 +18,8 @@ public class PilierFrappant : MonoBehaviour
     public FermetureSalle2 trigger;
     public GameObject deathZone;
 
+    public AudioSource AudioData;
+
 // Start is called before the first frame update
     private void Start()
     {
@@ -46,6 +48,7 @@ public class PilierFrappant : MonoBehaviour
                 if (lentRapide)
                 {
                     tweener = camera.transform.DOShakePosition(0.1f,0.5f,1,10,false, false);
+                    AudioData.Play();
                 }
             }
 
