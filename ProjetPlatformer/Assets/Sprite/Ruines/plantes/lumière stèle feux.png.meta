@@ -3,8 +3,8 @@ guid: a5ae4af9e9fb86541a4d30f1a8fa8f37
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1941206509137127032
-    second: "lumi\xE8re st\xE8le feux_0"
+      213: 5728414187571235732
+    second: "lumi\xE8re st\xE8le feux_1"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 1
+  alphaUsage: 0
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -130,7 +130,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "lumi\xE8re st\xE8le feux_0"
+      name: "lumi\xE8re st\xE8le feux_1"
       rect:
         serializedVersion: 2
         x: 8
@@ -144,8 +144,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889943307f27f05e0800000000000000
-      internalID: -1941206509137127032
+      spriteID: 49bcd786a5a6f7f40800000000000000
+      internalID: 5728414187571235732
       vertices: []
       indices: 
       edges: []
@@ -153,7 +153,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 73ab6b4d58229c749b31c785d8642a3e
+    spriteID: 37b893b898cfe274eaff245f707e844b
     internalID: 0
     vertices: []
     indices: 
