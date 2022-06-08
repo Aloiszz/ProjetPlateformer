@@ -11,7 +11,8 @@ public class PlatformAppearJump : MonoBehaviour
 
     private SpriteRenderer renderer;
     private Collider2D coll;
-    
+
+    public AudioSource AudioData;
 
     private void Awake()
     {
@@ -51,6 +52,7 @@ public class PlatformAppearJump : MonoBehaviour
                 //gameObject.transform.DOScale(new Vector3(1, 1, 0), 0.1f);
                 renderer.enabled = true;
                 coll.enabled = true;
+                AudioData.Play();
             }
         }
     }

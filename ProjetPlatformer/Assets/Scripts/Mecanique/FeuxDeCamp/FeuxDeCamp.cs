@@ -60,6 +60,9 @@ public class FeuxDeCamp : MonoBehaviour
     public float leftMotor;
     public float rightMotor;
     public float duration;
+    
+    [Header("Audio Source")]
+    public AudioSource audioData;
 
     [Header("NE PAS TOUCHER")] 
     public Transform playerMoveToFire;
@@ -121,6 +124,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     public void EnterCamp()
     {
+        
         if (activeTuto)
         {
             tutoFdC.GetComponent<SpriteRenderer>().DOColor(new Color(255,255,255,255), 0.1f);
@@ -135,6 +139,7 @@ public class FeuxDeCamp : MonoBehaviour
         if (!doOnce)
         {
             StartCoroutine(VibrationTime());
+            audioData.Play(0);
             doOnce = true;
         }
         canRunGame = true;

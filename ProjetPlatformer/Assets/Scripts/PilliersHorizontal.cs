@@ -21,6 +21,9 @@ public class PilliersHorizontal : MonoBehaviour
     public GameObject deathzone;
     public GameObject playerHolder;
 
+    [Header("Sound")] 
+    public AudioSource AudioData;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         /*if (!other.CompareTag("Player")) return;
@@ -69,6 +72,7 @@ public class PilliersHorizontal : MonoBehaviour
                 if (lentRapide)
                 {
                     tweener = camera.transform.DOShakePosition(0.1f,1,1,10,false, false);
+                    AudioData.Play();
                 }
             }
 

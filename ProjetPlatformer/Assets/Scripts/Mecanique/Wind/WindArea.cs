@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class WindArea : MonoBehaviour
 {
@@ -35,11 +36,33 @@ public class WindArea : MonoBehaviour
     public EffetVent effetVent;
 
     public EffetPoussière effet;
+
+    public Light2D globalLight;
     
+
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
         if (instance == null) instance = this;
+    }
+    
+    private void Update()
+    {
+        if (!isWindy && letsHaveTempete)
+        {
+            if (globalLight.intensity >= 0.3f)
+            {
+                globalLight.intensity -= 0.4f * Time.deltaTime;
+            }
+        }
+        else
+        {
+            if (globalLight.intensity <= 1f)
+            {
+                globalLight.intensity += 0.4f * Time.deltaTime;
+            }
+        }
+        
     }
 
     public void OnTriggerEnter2D(Collider2D other)

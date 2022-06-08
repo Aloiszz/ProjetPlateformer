@@ -114,6 +114,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         parchAnim = GameObject.Find("IndicationParchemins").GetComponent<Animator>();
         Fdc = GameObject.Find("FeuxDeCamp").GetComponent<FeuxDeCamp>();
         cm = GameObject.Find("Main Camera").GetComponent<CameraZoom>();
+        icone = GameObject.Find("IndicationParchemins").GetComponent<AnimationIconeParch>();
         
        
         

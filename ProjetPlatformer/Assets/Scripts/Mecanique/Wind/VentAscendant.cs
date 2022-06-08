@@ -24,6 +24,8 @@ public class VentAscendant : MonoBehaviour
     public bool Tempête;
     public static VentAscendant instance;
     
+    public AudioSource VentNormaux;
+    
     
     private void Awake()
     {
@@ -35,6 +37,7 @@ public class VentAscendant : MonoBehaviour
     {
         isWindy = true;
         anim.SetBool("isDoubleJumping",false);
+        VentNormaux.Play();
     }
 
     public void OnTriggerStay2D(Collider2D other)

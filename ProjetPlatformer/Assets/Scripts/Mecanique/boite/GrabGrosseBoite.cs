@@ -15,6 +15,8 @@ public class GrabGrosseBoite : MonoBehaviour
     private Animator anim;
     public CharacterMovement cm;
     public RangeBoite range;
+
+    public AudioSource AudioData;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +31,11 @@ public class GrabGrosseBoite : MonoBehaviour
         rb.mass = 800;
         if (range.isAtRange)
         {
+            
             //boiteGrab = false;
             if (Input.GetButton("GrabGamepad"))
             {
+                AudioData.Play();
                 //boiteGrab = true;
                 rb.mass = 80;
                 anim.SetBool("IsGrosseBoite", true);
