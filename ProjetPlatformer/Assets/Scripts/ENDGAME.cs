@@ -86,6 +86,7 @@ public class ENDGAME : MonoBehaviour
             {
                 if (doOnce == false)
                 {
+                    CharacterMovement.instance.blockCinematiques = true;
                     indicationRest.enabled = false;
                     Player.transform.DOMove(playerMoveToFire.position + new Vector3(0,0.85f,0),0.5f);
                     StartCoroutine(BougeMoiLeCu());

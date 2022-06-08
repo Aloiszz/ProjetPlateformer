@@ -83,11 +83,13 @@ public class CharacterMovement : MonoBehaviour
 
     [Header("-------Sound------")] 
     public AudioSource source;
+    public AudioSource source2;
     [Header("Jump")]
     public AudioClip jumpAudio;
     public AudioClip doubleSautAudio;
     public AudioClip plannageAudio;
     public AudioClip retombeAudio;
+    public AudioClip footstep;
     
      
    // public ParticleSystem particulesRun;
@@ -160,11 +162,17 @@ public class CharacterMovement : MonoBehaviour
         {
             ParticleSystem dustWalk = Instantiate(particlesMarche, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
             particlesMarche.Play();
+            if (source2.isPlaying == false)
+            {
+                source2.PlayOneShot(footstep);
+            }
+            
         }
 
         if (dansLesAirs && isGrounded)
         {
-            ParticleSystem dustWalk = Instantiate(particulesRetombée, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
+            source.PlayOneShot(retombeAudio,0.5f);  
+          ParticleSystem dustWalk = Instantiate(particulesRetombée, new Vector3(transform.position.x,transform.position.y - 0.6f,transform.position.z), transform.rotation);
             particlesMarche.Play();
         }
         
@@ -265,7 +273,6 @@ public class CharacterMovement : MonoBehaviour
         {
             StartCoroutine(ParticulesRetombée());
             isGrounded = true;
-            //source.PlayOneShot(retombeAudio,0.5f);
         }
         else 
         {

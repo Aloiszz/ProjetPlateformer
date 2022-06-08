@@ -35,7 +35,14 @@ public class GrabBoite : MonoBehaviour
     public Animator anim;
     public Animator anim2;*/
     
-    [Header("----------------------------------------------")]
+   [Header("-------Sound------")] 
+   public AudioSource source;
+   public AudioClip grab;
+   public AudioClip jet;
+   public AudioClip retombéeBoite;
+
+
+   [Header("----------------------------------------------")]
     public Vector2 direction;
     public bool isNull = false;
 
@@ -118,6 +125,7 @@ public class GrabBoite : MonoBehaviour
     {
         if (Input.GetButtonDown("GrabGamepad")) 
         {
+            source.PlayOneShot(grab);
             boiteGrab = true;
            /* if(boiteGrab == true)
             {
@@ -150,6 +158,7 @@ public class GrabBoite : MonoBehaviour
         }
         if (Input.GetButtonDown("ThrowBox") && boiteGrab)
         {
+            source.PlayOneShot(jet);
             boiteGrab = false;
             Shoot();
         }
@@ -276,5 +285,19 @@ public class GrabBoite : MonoBehaviour
             anim2.SetBool("FadeInGrab2", true);*/
         }
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag != "Player")
+        {
+                StartCoroutine(WaitSound());
+        }
+      
+    }
+
+    IEnumerator WaitSound()
+    {
+        source.PlayOneShot(retombéeBoite);
+        yield return new WaitForSeconds(0.2f);
+    }
 }

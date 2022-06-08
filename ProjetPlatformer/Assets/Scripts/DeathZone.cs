@@ -18,6 +18,7 @@ public class DeathZone : MonoBehaviour
     private Animator fadeSystem;
     public GameObject nuage;
     public Camera mainCamera;
+    public static bool isDying;
     
 
     public Animator playerAnimator;
@@ -31,23 +32,39 @@ public class DeathZone : MonoBehaviour
     public float leftMotor;
     public float rightMotor;
     public float duration;
+    
+    [Header("-------Sound------")] 
+    public AudioSource source;
+    public AudioClip Mort;
 
     private void Awake()
     {
         playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
         fadeSystem = GameObject.FindGameObjectWithTag("DeathFade").GetComponent<Animator>();
     }
-    
+
+    IEnumerator IsDying()
+    {
+        yield return new WaitForSeconds(0.1f);
+        isDying = true;
+        yield return new WaitForSeconds(2f);
+        isDying = false;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
         if (collision.CompareTag("Player"))
         {
-            //Camera.isMoving = false;
-            StartCoroutine(ReplacePlayer(collision));
-            CharacterMovement.instance.canMove = false;
-            CharacterMovement.instance.canJump = false;
-            CharacterMovement.instance.speed = 0;
+            StartCoroutine(IsDying());
+            if (isDying == false)
+            {
+                source.PlayOneShot(Mort);
+                //Camera.isMoving = false;
+                StartCoroutine(ReplacePlayer(collision));
+                CharacterMovement.instance.canMove = false;
+                CharacterMovement.instance.canJump = false;
+                CharacterMovement.instance.speed = 0; 
+            }
         }
     }
     
@@ -100,7 +117,7 @@ public class DeathZone : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            CharacterMovement.instance.rb.velocity = Vector2.down;
+            CharacterMovement.instance.rb.velocity = new Vector2(0,-0.5f);
         }
     }
     
