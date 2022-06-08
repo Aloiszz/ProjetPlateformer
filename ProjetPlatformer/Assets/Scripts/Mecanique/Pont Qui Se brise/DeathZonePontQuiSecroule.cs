@@ -21,6 +21,10 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     
     //public GameObject pontQuiSecrouleGameObject;
     
+    [Header("-------Sound------")] 
+    public AudioSource source;
+    public AudioClip Mort;
+    
     private Transform playerSpawn;
     private Animator fadeSystem;
     
@@ -58,6 +62,7 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            source.PlayOneShot(Mort);
             GamePad.SetVibration(playerIndex, 0, 0);
             triggerPont.tweener.Kill();
             
