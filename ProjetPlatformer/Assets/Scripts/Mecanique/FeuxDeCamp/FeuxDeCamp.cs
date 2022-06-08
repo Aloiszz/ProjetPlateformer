@@ -135,7 +135,7 @@ public class FeuxDeCamp : MonoBehaviour
         MenuManager.instance.isInFeuxDeCamp = true;
         indicationRest.enabled = false;
         indicationWakeUp.enabled = true;
-        OnOff(); // On
+        OnOff(); // Onz
         if (!doOnce)
         {
             StartCoroutine(VibrationTime());
