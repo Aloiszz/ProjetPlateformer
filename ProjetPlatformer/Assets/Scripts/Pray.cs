@@ -65,7 +65,7 @@ public class Pray : MonoBehaviour
 
     public void PrayForTheGods()
     {
-        Player.transform.DOMove(playerMoveToPray.transform.position, 0.5f);
+        //Player.transform.DOMove(playerMoveToPray.transform.position, 0.5f);
         
         if (CharacterMovement.instance.facingRight == false)
         {
