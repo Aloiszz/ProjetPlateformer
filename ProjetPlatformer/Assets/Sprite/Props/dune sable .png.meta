@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -856,6 +857,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      dune sable _23: 1693531186978623436
+      dune sable _10: 681431591527760185
+      dune sable _16: -6074067752828285576
+      dune sable _18: 1164777263476245125
+      dune sable _7: 1179052736375250416
+      dune sable _17: -1328072106349420159
+      dune sable _5: -5425826205739668822
+      dune sable _20: -3979805187621759822
+      dune sable _1: 6578399294346249553
+      dune sable _25: 7586858862867144948
+      dune sable _26: -8861207874257264490
+      dune sable _24: 915720012807057608
+      dune sable _4: 4837586530812244524
+      dune sable _6: 2474365853304384228
+      dune sable _19: 3353278141139408503
+      dune sable _13: -5368177446381572232
+      dune sable _29: 130471631933136925
+      dune sable _0: 6378061173954949618
+      dune sable _8: -8767417796287212012
+      dune sable _28: -7332435796636909518
+      dune sable _2: 8974630619276065188
+      dune sable _12: 124693797524270966
+      dune sable _14: -3971157303415428479
+      dune sable _3: 4091698509964166012
+      dune sable _27: -5570853895424160064
+      dune sable _9: -1722497171177033961
+      dune sable _11: 2398456328704542223
+      dune sable _21: -8182258374092098662
+      dune sable _22: -4813598568036187311
+      dune sable _15: -827179579061395599
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

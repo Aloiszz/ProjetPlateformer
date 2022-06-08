@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -616,6 +617,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "n\xE9nuphar silouette-Sheet_4": 8506367351593365486
+      "n\xE9nuphar silouette-Sheet_3": -8321537908659064680
+      "n\xE9nuphar silouette-Sheet_9": -4598370656243231048
+      "n\xE9nuphar silouette-Sheet_13": 2427773849127033074
+      "n\xE9nuphar silouette-Sheet_6": -1411716909780420728
+      "n\xE9nuphar silouette-Sheet_0": 3780674975271341365
+      "n\xE9nuphar silouette-Sheet_18": 7215929890725568036
+      "n\xE9nuphar silouette-Sheet_10": -6984637466386186423
+      "n\xE9nuphar silouette-Sheet_12": 4264162503400036447
+      "n\xE9nuphar silouette-Sheet_11": -8144479971919626836
+      "n\xE9nuphar silouette-Sheet_17": 1983876963065016236
+      "n\xE9nuphar silouette-Sheet_5": -7470759095768190927
+      "n\xE9nuphar silouette-Sheet_16": 128445250516566614
+      "n\xE9nuphar silouette-Sheet_15": -2438827957757560886
+      "n\xE9nuphar silouette-Sheet_14": 5161773102648729692
+      "n\xE9nuphar silouette-Sheet_19": -7621714255269934135
+      "n\xE9nuphar silouette-Sheet_8": 2920546883483852313
+      "n\xE9nuphar silouette-Sheet_1": -9144116896492884495
+      "n\xE9nuphar silouette-Sheet_7": -6705797318156308700
+      "n\xE9nuphar silouette-Sheet_2": 922856696589158643
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

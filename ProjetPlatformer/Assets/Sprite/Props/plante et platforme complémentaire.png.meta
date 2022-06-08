@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "plante et platforme compl\xE9mentaire_7": 8144989842915599692
+      "plante et platforme compl\xE9mentaire_0": 3689850480540164780
+      "plante et platforme compl\xE9mentaire_1": 198755679426119694
+      "plante et platforme compl\xE9mentaire_8": -7925785083402198182
+      "plante et platforme compl\xE9mentaire_4": -3788210624169940658
+      "plante et platforme compl\xE9mentaire_2": -160599053067554733
+      "plante et platforme compl\xE9mentaire_5": -8708314325114371772
+      "plante et platforme compl\xE9mentaire_3": -3894799366217059111
+      "plante et platforme compl\xE9mentaire_6": -8485410384287434391
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

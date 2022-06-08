@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      mousse mural ruine_6: -5111332721295215228
+      mousse mural ruine_2: -5583078629392702792
+      mousse mural ruine_4: -4671678595313628016
+      mousse mural ruine_3: -3795917136653181309
+      mousse mural ruine_1: -4576814217855352965
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

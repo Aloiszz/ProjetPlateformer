@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      aterrisage_0: 3957813461664201999
+      aterrisage_1: -6442103850457793884
+      aterrisage_2: -7448901965658162894
+      aterrisage_3: 7204030698120364170
+      aterrisage_4: 7388605954626928193
+      aterrisage_5: -6104304434642062179
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

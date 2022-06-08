@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "light d\xE9sert light_1": -999206920087813726
+      "light d\xE9sert light_3": -5738230643173891055
+      "light d\xE9sert light_0": -2534968533314145554
+      "light d\xE9sert light_4": -6016627113923317217
+      "light d\xE9sert light_8": 8940845119745178416
+      "light d\xE9sert light_2": -8547322909595755463
+      "light d\xE9sert light_6": 3299353282740979340
+      "light d\xE9sert light_7": 4543330426717739470
+      "light d\xE9sert light_5": 1709952110607035974
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

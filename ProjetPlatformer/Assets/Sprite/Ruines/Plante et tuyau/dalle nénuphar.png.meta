@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "dalle n\xE9nuphar_6": -626521954600185147
+      "dalle n\xE9nuphar_5": 8842943995198304173
+      "dalle n\xE9nuphar_7": 510262566338413644
+      "dalle n\xE9nuphar_4": -3297968507322375015
+      "dalle n\xE9nuphar_2": -8820893087766905702
+      "dalle n\xE9nuphar_1": -1280393588650501921
+      "dalle n\xE9nuphar_0": -2766620463685720944
+      "dalle n\xE9nuphar_3": 6282892307766721370
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

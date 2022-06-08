@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -568,6 +569,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "d\xE9bris vent_15": -2789863797788263599
+      "d\xE9bris vent_6": -2767011702795287851
+      "d\xE9bris vent_8": 590664111017523391
+      "d\xE9bris vent_7": -1878512977240311669
+      "d\xE9bris vent_5": -423751099547643265
+      "d\xE9bris vent_4": 3255485182167206422
+      "d\xE9bris vent_17": 6888300513817232104
+      "d\xE9bris vent_3": 8041850628900568839
+      "d\xE9bris vent_12": 1256636045462746067
+      "d\xE9bris vent_10": -6951640828691703045
+      "d\xE9bris vent_16": -4850110672774967977
+      "d\xE9bris vent_0": 5700588763989095010
+      "d\xE9bris vent_11": 2401551923957307184
+      "d\xE9bris vent_1": 6201148651512273737
+      "d\xE9bris vent_9": 5682054027836483285
+      "d\xE9bris vent_13": 2425441458709840506
+      "d\xE9bris vent_2": 2585990685292265127
+      "d\xE9bris vent_14": 6135758634487389549
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

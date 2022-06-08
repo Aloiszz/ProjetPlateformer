@@ -5,7 +5,7 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using XInputDotNetPure;
+//using XInputDotNetPure;
 
 
 public class DeathZone : MonoBehaviour
@@ -24,9 +24,9 @@ public class DeathZone : MonoBehaviour
     public Animator playerAnimator;
     private bool verif = false;
     
-    PlayerIndex playerIndex;
+   /* PlayerIndex playerIndex;
     GamePadState state;
-    GamePadState prevState;
+    GamePadState prevState;*/
     
     [Header("Vibration Motor")]
     public float leftMotor;
@@ -72,7 +72,7 @@ public class DeathZone : MonoBehaviour
     public IEnumerator ReplacePlayer(Collider2D collision)
     {
         playerAnimator.SetTrigger("Die");
-        StartCoroutine(VibrationTime());
+      //  StartCoroutine(VibrationTime());
         yield return new WaitForSeconds(0.6f);
         
         
@@ -120,12 +120,14 @@ public class DeathZone : MonoBehaviour
             CharacterMovement.instance.rb.velocity = new Vector2(0,-0.5f);
         }
     }
-    
+    /*
     IEnumerator VibrationTime()
     {
+        Debug.Log("hello world");
         GamePad.SetVibration(playerIndex, leftMotor, rightMotor);
         yield return new WaitForSeconds(duration);
         GamePad.SetVibration(playerIndex, 0, 0);
-    }
+        Debug.Log("hello world dONE");
+    }*/
 }
 

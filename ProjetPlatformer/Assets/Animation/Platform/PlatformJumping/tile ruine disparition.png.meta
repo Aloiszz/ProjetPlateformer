@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tile ruine disparition_3: 8485176467282552953
+      tile ruine disparition_0: 6133695038029581231
+      tile ruine disparition_2: 4844660075086888825
+      tile ruine disparition_1: 7137472043433542225
+      tile ruine disparition_4: -8446649131703170722
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

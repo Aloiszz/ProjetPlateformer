@@ -7,7 +7,7 @@ using System.Timers;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.UI;
 using XInputDotNetPure;
 
@@ -72,8 +72,8 @@ public class CharacterMovement : MonoBehaviour
     [Header("SFX")]
     public TrailRenderer LineRenderPlannage_1;
     public TrailRenderer LineRenderPlannage_2;
-    public Light2D lightDoubleSaut;
-    public Light2D lightDoubleSaut2;
+    public UnityEngine.Rendering.Universal.Light2D lightDoubleSaut;
+    public UnityEngine.Rendering.Universal.Light2D lightDoubleSaut2;
     public ParticleSystem particlesDoubleSaut;
     public ParticleSystem particlesSaut;
     public ParticleSystem particlesMarche;

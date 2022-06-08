@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.UI;
 
 public class LevierVent2 : MonoBehaviour
@@ -15,7 +15,7 @@ public class LevierVent2 : MonoBehaviour
     public GameObject VentSupprimé1;
     public GameObject VentSupprimé2;
     public GameObject VentSupprimé3;
-    public Light2D light;
+    public UnityEngine.Rendering.Universal.Light2D light;
     
     public bool isAtRange;
     

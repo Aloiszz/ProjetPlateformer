@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -688,6 +689,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      feuillage et platforme feuille_9: 5951188260742233478
+      feuillage et platforme feuille_22: -4033714211417298479
+      feuillage et platforme feuille_14: -5707333036709739787
+      feuillage et platforme feuille_1: 1625309659792419546
+      feuillage et platforme feuille_18: 72395892844232814
+      feuillage et platforme feuille_11: -5498031128914252977
+      feuillage et platforme feuille_21: 6508088928000349093
+      feuillage et platforme feuille_16: 7916958434344142972
+      feuillage et platforme feuille_2: 1221879815116966754
+      feuillage et platforme feuille_12: 4720417300361869297
+      feuillage et platforme feuille_15: -7610699213145121112
+      feuillage et platforme feuille_10: 6530490664725452858
+      feuillage et platforme feuille_13: -8838923820200494810
+      feuillage et platforme feuille_23: 2907018772590239589
+      feuillage et platforme feuille_8: -2021802736952591573
+      feuillage et platforme feuille_3: 2420284746386866227
+      feuillage et platforme feuille_19: -3709986997779215931
+      feuillage et platforme feuille_20: 5445697755967076873
+      feuillage et platforme feuille_17: 6581827389882981669
+      feuillage et platforme feuille_5: -1202443795206622076
+      feuillage et platforme feuille_4: 2361194292717087374
+      feuillage et platforme feuille_6: 5578745706094340571
+      feuillage et platforme feuille_7: -8228153742724992324
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

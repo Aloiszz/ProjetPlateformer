@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -472,6 +473,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bebete-Sheet_0: 8121484017223765676
+      bebete-Sheet_2: 4900478957857529888
+      bebete-Sheet_9: 6139281782067501399
+      bebete-Sheet_5: 7051990078752476619
+      bebete-Sheet_7: 1892957068157742317
+      bebete-Sheet_12: -6249436271953234545
+      bebete-Sheet_6: -652462638695375757
+      bebete-Sheet_11: 8924805864084527868
+      bebete-Sheet_13: 3716313460647583594
+      bebete-Sheet_4: 2392826520450172959
+      bebete-Sheet_1: 7634465382976594089
+      bebete-Sheet_8: -5169685496468230314
+      bebete-Sheet_3: -6914219741075542485
+      bebete-Sheet_10: -7264940708604629138
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

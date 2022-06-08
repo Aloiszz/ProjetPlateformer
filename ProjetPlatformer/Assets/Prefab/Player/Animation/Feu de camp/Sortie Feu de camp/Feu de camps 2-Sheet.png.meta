@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Feu de camps 2-Sheet_5: 8583199979770201429
+      Feu de camps 2-Sheet_3: 4859350620413809934
+      Feu de camps 2-Sheet_0: -3969403414382892035
+      Feu de camps 2-Sheet_1: -4809363412910912487
+      Feu de camps 2-Sheet_7: -9139746587447900515
+      Feu de camps 2-Sheet_2: -1090678618701523994
+      Feu de camps 2-Sheet_6: 5520602034880825223
+      Feu de camps 2-Sheet_8: 2456333235200774655
+      Feu de camps 2-Sheet_4: 7476778092359912382
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -126,6 +126,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -952,6 +953,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      autel ruine_24: 4848140556703569773
+      autel ruine_1: -366795226432118661
+      autel ruine_23: 9065877560023791910
+      autel ruine_26: -6979087837526267833
+      autel ruine_32: 6363626042894428655
+      autel ruine_9: 1934080018435228649
+      autel ruine_3: -3197312946784730067
+      autel ruine_2: -7292673523994686729
+      autel ruine_4: 1989785149409087328
+      autel ruine_30: -8269231116358677362
+      autel ruine_7: -5827948712975020346
+      autel ruine_20: 1223473705520231422
+      autel ruine_21: -7588130369193849439
+      autel ruine_16: 4241735721615990903
+      autel ruine_6: 7324672233155121472
+      autel ruine_5: 8600663034063014224
+      autel ruine_14: -943831794695559592
+      autel ruine_33: 3702589301814098479
+      autel ruine_8: -7651874959464918643
+      autel ruine_31: -7015872626800064497
+      autel ruine_17: 8639384141134347846
+      autel ruine_15: -360266023285163216
+      autel ruine_12: -5666562027788544523
+      autel ruine_19: -2741031926036370129
+      autel ruine_29: 8069688415834571991
+      autel ruine_28: 8110901349783626018
+      autel ruine_0: -2291294853791682930
+      autel ruine_13: -4805615966553744315
+      autel ruine_27: -4659391212860509929
+      autel ruine_10: -2198183311435979897
+      autel ruine_18: -3964785846081998460
+      autel ruine_11: -1665891477390676739
+      autel ruine_25: -2042848323412715858
+      autel ruine_22: 4788120843686969759
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

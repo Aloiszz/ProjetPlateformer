@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class Bougie : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class Bougie : MonoBehaviour
     
     [Header("Animation Curve")]
     public AnimationCurve CourbeDeFlamme;
-    public Light2D Flamme;
+    public UnityEngine.Rendering.Universal.Light2D Flamme;
     private float graph, increment;
     private bool canRunGame;
     

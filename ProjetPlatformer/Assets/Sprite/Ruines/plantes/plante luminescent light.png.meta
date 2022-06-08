@@ -171,6 +171,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1312,6 +1313,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      plante luminescent light_38: 648378388489208332
+      plante luminescent light_4: 1248168679048824075
+      plante luminescent light_10: 5354785842493312578
+      plante luminescent light_12: -4859710702718252551
+      plante luminescent light_42: -3588709659321957975
+      plante luminescent light_13: -772278919480183503
+      plante luminescent light_68: 1577403704770669761
+      plante luminescent light_0: -4426078603012310273
+      plante luminescent light_8: 9105701908204556976
+      plante luminescent light_47: -4677050065057947958
+      plante luminescent light_65: -2180942972580125502
+      plante luminescent light_34: 8065213173313289653
+      plante luminescent light_7: 7359326257108290231
+      plante luminescent light_5: 4105481483136980473
+      plante luminescent light_51: -8142843075575067688
+      plante luminescent light_6: 2221239688819668879
+      plante luminescent light_35: -5221043822930444657
+      plante luminescent light_18: -920971902093635170
+      plante luminescent light_62: -1702396332135706882
+      plante luminescent light_15: 3882138296176562462
+      plante luminescent light_58: 4749533791796112127
+      plante luminescent light_17: 3186366436640159912
+      plante luminescent light_69: 3407929651285996304
+      plante luminescent light_39: 5092715428209946592
+      plante luminescent light_14: -3222023195009475942
+      plante luminescent light_30: 4674594970339883500
+      plante luminescent light_9: -6125545436000674169
+      plante luminescent light_16: 6974520407712660130
+      plante luminescent light_44: -5347205632076883355
+      plante luminescent light_19: -4575758995679158944
+      plante luminescent light_57: 4122237276704606229
+      plante luminescent light_66: 4642903424261732104
+      plante luminescent light_3: -2778704119283235772
+      plante luminescent light_56: 6447404107277992135
+      plante luminescent light_61: -8664665760884312159
+      plante luminescent light_11: 2714920583466615230
+      plante luminescent light_1: 1412819330276397342
+      plante luminescent light_31: 4494563468669050617
+      plante luminescent light_48: -1308693631746223010
+      plante luminescent light_64: 3209681733596706058
+      plante luminescent light_50: -7647971189471189579
+      plante luminescent light_43: 4753941997654010174
+      plante luminescent light_49: -1283179505618346758
+      plante luminescent light_41: 612614140103546129
+      plante luminescent light_2: -4103983688509292861
+      plante luminescent light_46: -8254765982456817205
+      plante luminescent light_40: 719133269218365783
+      plante luminescent light_45: -2616133402704196236
+      plante luminescent light_63: 239776075310865782
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

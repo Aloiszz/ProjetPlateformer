@@ -30,6 +30,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -247,6 +248,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      plaque de pression_3: 5634770696063842597
+      plaque de pression_4: -2697685873911818678
+      plaque de pression_0: 1980813693529779380
+      plaque de pression_1: 2931950948908406086
+      plaque de pression_2: -1901055455384074521
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

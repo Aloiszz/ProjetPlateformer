@@ -138,6 +138,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1048,6 +1049,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      couloir_31: 3727599808918751218
+      couloir_30: 5077551814108528576
+      couloir_32: -1104483773688316827
+      couloir_0: 793365549292413696
+      couloir_7: 8082731200062869520
+      couloir_11: 488525299216262216
+      couloir_25: -2762645364227315863
+      couloir_36: 3883757026128299627
+      couloir_37: -6698073199459183889
+      couloir_14: 7853964167674286751
+      couloir_9: 1276129880602378459
+      couloir_19: -5953033210061830110
+      couloir_34: 6603078233914087305
+      couloir_5: 8789779233500394716
+      couloir_18: -5890383119801322519
+      couloir_12: 512659522801581935
+      couloir_3: 2056966099257883726
+      couloir_24: -7572189518597954242
+      couloir_26: -8705035535237455569
+      couloir_35: -6221882646469116210
+      couloir_29: -8249307971409091298
+      couloir_23: -6068897719964592488
+      couloir_28: -251119593046218212
+      couloir_1: -4836380744677090258
+      couloir_21: 2622739862259062079
+      couloir_15: 1927495249171522305
+      couloir_13: -1267937137154223268
+      couloir_20: 1388777317344532903
+      couloir_2: 5043840189468446160
+      couloir_27: -1953957594868121810
+      couloir_6: -7084268882918743651
+      couloir_8: -8204388840151392428
+      couloir_17: 4003407400662474495
+      couloir_33: -8772528305814130783
+      couloir_4: 8936608036874917608
+      couloir_22: -1422755761245967031
+      couloir_10: 8832971043494089078
+      couloir_16: 3955027567923126158
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

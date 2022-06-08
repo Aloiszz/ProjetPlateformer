@@ -93,6 +93,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -688,6 +689,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "d\xE9part feux_23": 6130316044065642719
+      "d\xE9part feux_1": -6316071513304834738
+      "d\xE9part feux_3": 9035551584334114842
+      "d\xE9part feux_15": -6309126405303091792
+      "d\xE9part feux_19": -8030495228371751455
+      "d\xE9part feux_6": -8070459677304355489
+      "d\xE9part feux_21": -9198413715845464621
+      "d\xE9part feux_17": -7414876947387606387
+      "d\xE9part feux_18": -2529668092652318040
+      "d\xE9part feux_22": -3142982267569080263
+      "d\xE9part feux_14": 1382778044998889680
+      "d\xE9part feux_7": -2422129426710816598
+      "d\xE9part feux_0": -3341604737469812611
+      "d\xE9part feux_13": -3343862127726388032
+      "d\xE9part feux_2": -4032675199481270812
+      "d\xE9part feux_4": -6523164102733338464
+      "d\xE9part feux_20": 5139215957490162665
+      "d\xE9part feux_10": -6101039962647197158
+      "d\xE9part feux_11": -6166407174775585537
+      "d\xE9part feux_12": -3677382525779861716
+      "d\xE9part feux_8": -820520714647966671
+      "d\xE9part feux_16": 4719990531821811640
+      "d\xE9part feux_9": -6350606531855948048
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      feux continue (1)_3: -7123629553504217037
+      feux continue (1)_5: -3819598117913643653
+      feux continue (1)_0: -7578791471998152500
+      feux continue (1)_4: -9166322103994212292
+      feux continue (1)_1: 2181058898623764521
+      feux continue (1)_2: 3541512306233041741
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

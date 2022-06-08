@@ -219,6 +219,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1572,6 +1573,66 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: c19cc7b49b4ee2048aa76e4a13ea37d5, type: 3}
       name: _MaskTex
+    nameFileIdTable:
+      plante luminescent_35: 7673851821632782132
+      plante luminescent_21: -781218356401279994
+      plante luminescent_9: 2803056443297373414
+      plante luminescent_53: 175953175919456404
+      plante luminescent_55: -2153361593027991941
+      plante luminescent_64: -4315084093435800929
+      plante luminescent_66: -6823247905532136621
+      plante luminescent_39: 3472267513214903738
+      plante luminescent_15: -5025963600662645825
+      plante luminescent_67: 1105936743834398631
+      plante luminescent_32: -7672930081120701260
+      plante luminescent_70: 3131763900525707925
+      plante luminescent_1: -4172462384248209091
+      plante luminescent_18: 2919608241355650584
+      plante luminescent_10: -7608771127161604212
+      plante luminescent_58: 4671639870352280099
+      plante luminescent_3: 8364895413559435383
+      plante luminescent_4: -2335025538135425897
+      plante luminescent_14: 8981459060230368712
+      plante luminescent_31: -3542890914963556023
+      plante luminescent_12: -7087283395620924825
+      plante luminescent_7: 5655472807513516162
+      plante luminescent_54: -6371630088544606221
+      plante luminescent_20: -3979607749854516930
+      plante luminescent_38: 6675374854782133453
+      plante luminescent_33: -6836964964986214947
+      plante luminescent_42: 7215510869304135188
+      plante luminescent_46: -978186443009476098
+      plante luminescent_44: -7584147493801575249
+      plante luminescent_47: -4980378520166710444
+      plante luminescent_13: -2934408777856366095
+      plante luminescent_73: -7935150653426381016
+      plante luminescent_40: -9192918216696221118
+      plante luminescent_11: 185319482021060291
+      plante luminescent_8: -2910682104432963082
+      plante luminescent_51: -5566741332982507864
+      plante luminescent_45: -6769070387168218031
+      plante luminescent_17: -8978591125227253938
+      plante luminescent_50: -5518444428615992057
+      plante luminescent_52: -3364274863330147071
+      plante luminescent_5: 1783870968918354689
+      plante luminescent_34: 2285291706113633560
+      plante luminescent_37: -5315728947635014207
+      plante luminescent_0: -1543227468837174781
+      plante luminescent_6: -8817397845270421977
+      plante luminescent_49: -958335573691658879
+      plante luminescent_59: 1417507521344357704
+      plante luminescent_29: -6379631797421111523
+      plante luminescent_23: 6179684745954145178
+      plante luminescent_71: -879723720752956333
+      plante luminescent_30: 934697838403376789
+      plante luminescent_26: 6403707706293086834
+      plante luminescent_48: 5107139461610239926
+      plante luminescent_61: -472971665421390558
+      plante luminescent_16: 3044282139898878425
+      plante luminescent_2: 434544202751874618
+      plante luminescent_62: -5538223557925238475
+      plante luminescent_63: 315877595430347497
+      plante luminescent_65: -6945170796703659531
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

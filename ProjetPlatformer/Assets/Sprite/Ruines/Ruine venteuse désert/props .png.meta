@@ -141,6 +141,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1072,6 +1073,46 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      props _28: -1811370829843056041
+      props _12: 1294621411034873311
+      props _30: 6426271591609361783
+      props _7: 5732918512009898906
+      props _13: 3408918810666385438
+      props _4: -7420619911369572010
+      props _9: 3583528622105945441
+      props _21: -7770285722673526942
+      props _19: -4253719649589256838
+      props _24: -9087649632168976799
+      props _26: -7714723969543864000
+      props _37: 8375525051529021878
+      props _34: -6856820079692740324
+      props _35: 1868064704948915579
+      props _14: 1164858521933070469
+      props _38: -6963654901962846254
+      props _33: 4024225922603712583
+      props _2: 771508986307804252
+      props _22: 8837519015830060425
+      props _27: 626042245146660785
+      props _0: 265720535207672241
+      props _29: -211544275374613810
+      props _20: 3610574037644373892
+      props _3: 8158607928341452374
+      props _1: -5459336698727519822
+      props _17: 5572920993805775316
+      props _5: -2066887677373867078
+      props _11: -5021057900246966158
+      props _18: -3686305734470566016
+      props _8: -6057233022423747017
+      props _32: -4380288126339941589
+      props _6: -2547994696852466286
+      props _23: 8213182188559708558
+      props _15: -6692563826991765893
+      props _10: -5404275837302956849
+      props _31: -8627597199815521176
+      props _25: 4945372449211196
+      props _36: 1087299724264653610
+      props _16: 3201798621831889434
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -85,6 +85,8 @@ public class FinDeNiveau : MonoBehaviour
        float newPosPage4 = Barre2.transform.position.y + DistanceBarres2;
        Barre1.transform.DOMove(new Vector3(Barre1.transform.position.x,-newPosPage3,Barre1.transform.position.z), 1.5f);
        Barre2.transform.DOMove(new Vector3(Barre2.transform.position.x,newPosPage4,Barre2.transform.position.z), 1.5f);
+  
+       Debug.Log("TOTO "+ (SceneManager.GetActiveScene().buildIndex - 1));
        SceneManager.LoadScene(2);
        GamePad.SetVibration(playerIndex, 0, 0);
     }

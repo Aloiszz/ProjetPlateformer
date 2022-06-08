@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Landing soft-Sheet_4: 163382946824107747
+      Landing soft-Sheet_1: 1261784506941339305
+      Landing soft-Sheet_5: -3507511265666242267
+      Landing soft-Sheet_3: 579251125271642766
+      Landing soft-Sheet_0: -3927294125090749020
+      Landing soft-Sheet_2: -3999110331255170589
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

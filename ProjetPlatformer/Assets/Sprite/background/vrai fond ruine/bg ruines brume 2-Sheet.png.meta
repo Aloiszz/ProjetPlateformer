@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bg ruines brume 2-Sheet_2: 5953810489297483861
+      bg ruines brume 2-Sheet_1: 1783793279586600267
+      bg ruines brume 2-Sheet_3: -1807854467411924511
+      bg ruines brume 2-Sheet_0: 929201227942486714
+      bg ruines brume 2-Sheet_4: -6648473424795837562
+      bg ruines brume 2-Sheet_5: 5464173278382841508
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class WindArea : MonoBehaviour
 {
@@ -37,7 +37,7 @@ public class WindArea : MonoBehaviour
 
     public EffetPoussière effet;
 
-    public Light2D globalLight;
+    public UnityEngine.Rendering.Universal.Light2D globalLight;
     
 
     private void Awake()
@@ -48,6 +48,7 @@ public class WindArea : MonoBehaviour
     
     private void Update()
     {
+        if (globalLight is null) return;
         if (!isWindy && letsHaveTempete)
         {
             if (globalLight.intensity >= 0.3f)

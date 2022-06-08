@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -712,6 +713,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      feuille ruine_20: -672095863902057206
+      feuille ruine_10: -6476795503289674937
+      feuille ruine_16: -7785067657901243637
+      feuille ruine_1: 5477741715562500609
+      feuille ruine_3: -731295814173699967
+      feuille ruine_11: -2932895982039026794
+      feuille ruine_21: -8627880717305860244
+      feuille ruine_2: 1128827423143712920
+      feuille ruine_22: 6369868036673489341
+      feuille ruine_12: -3731966428224336574
+      feuille ruine_7: -5407387372664221022
+      feuille ruine_15: -6391525651837990035
+      feuille ruine_6: 584797296023313765
+      feuille ruine_9: 6570325094306650938
+      feuille ruine_19: 3199885208548933471
+      feuille ruine_23: -1234629950764392697
+      feuille ruine_14: 2516724321637300637
+      feuille ruine_17: -7678988393355750190
+      feuille ruine_18: 5810850893842653104
+      feuille ruine_5: 3150829908147654342
+      feuille ruine_0: -1289912008845596835
+      feuille ruine_8: 3040817558320341515
+      feuille ruine_13: 5508808996894847636
+      feuille ruine_4: 5337544677380144727
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

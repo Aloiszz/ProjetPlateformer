@@ -111,17 +111,20 @@ public class LoadingScript : MonoBehaviour
 
     IEnumerator Leave()
     {
+        Debug.Log("CACA "+ (SceneManager.GetActiveScene().buildIndex - 1));
         yield return new WaitForSeconds(0.1f);
         Anim.ResetTrigger("EntreeFdC");
         Anim.SetTrigger("SortieFdC");
         Anim.SetBool("IsFdC", false);
         yield return new WaitForSeconds(0.5f);
+        Debug.Log("poupou "+ (SceneManager.GetActiveScene().buildIndex - 1));
         gameObject.transform.DOMove(pointPlayer2.transform.position, Time-1).SetEase(Ease.Linear);
         Anim.SetBool("IsWalking", true);
         Continue.DOFade(0, 1f);
         loading.DOFade(0, 1f);
         yield return new WaitForSeconds(Time-1);
         mm.isPlaying = true;
+        Debug.Log("HOLA "+ (SceneManager.GetActiveScene().buildIndex - 1));
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
     

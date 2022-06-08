@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
- using UnityEngine.Experimental.Rendering.Universal;
+ 
 
  public class MovingPlatform : MonoBehaviour
 {
@@ -30,7 +30,7 @@ using DG.Tweening;
     
     [Header("Animation Curve")]
     public AnimationCurve CourbeDeFlamme;
-    public Light2D Flamme;
+    public UnityEngine.Rendering.Universal.Light2D Flamme;
     private float graph, increment;
     private bool canRunGame = false;
     private bool stopWakeUp;
@@ -60,6 +60,7 @@ using DG.Tweening;
         
         if (canRunGame)
         {
+            if (Flamme is null || CourbeDeFlamme is null) return;
             Flamme.intensity = 2;
             increment += Time.deltaTime;
             graph = CourbeDeFlamme.Evaluate(increment);
@@ -67,6 +68,7 @@ using DG.Tweening;
         }
         else
         {
+            if (Flamme is null || CourbeDeFlamme is null) return;
             Flamme.intensity = graph;
             increment = 0;
             graph = CourbeDeFlamme.Evaluate(increment);

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.UI;
 
 public class LevierVent : MonoBehaviour
@@ -17,7 +17,7 @@ public class LevierVent : MonoBehaviour
     public GameObject VentSupprimé1;
     public GameObject VentSupprimé2;
     public GameObject VentSupprimé3;
-    public Light2D light;
+    public UnityEngine.Rendering.Universal.Light2D light;
     
     public bool isAtRange;
     public Sprite LevierDroit;

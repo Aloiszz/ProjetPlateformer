@@ -42,6 +42,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,6 +281,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      personnage principale course-Sheet_3: 5129111477411094439
+      personnage principale course-Sheet_1: 7677813930972567529
+      personnage principale course-Sheet_2: 2799710870344759222
+      personnage principale course-Sheet_4: -2883286172087871955
+      personnage principale course-Sheet_5: -2443358179037708439
+      personnage principale course-Sheet_0: 9092885760095345897
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -354,6 +355,16 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 1b5eeca1582654d48a15bc75d2cdcfcb, type: 3}
       name: _MaskTex
+    nameFileIdTable:
+      "light d\xE9sert _0": -3020159149557325423
+      "light d\xE9sert _3": 7779781172683724218
+      "light d\xE9sert _7": 8553318642709149976
+      "light d\xE9sert _1": -3105966547031263644
+      "light d\xE9sert _8": -6444376843436359245
+      "light d\xE9sert _2": 2536824247304839864
+      "light d\xE9sert _4": 3345395301717400961
+      "light d\xE9sert _5": -6927252482632365475
+      "light d\xE9sert _6": -2624360247794099338
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

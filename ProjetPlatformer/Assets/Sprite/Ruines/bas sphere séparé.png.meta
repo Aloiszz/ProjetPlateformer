@@ -30,6 +30,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -457,6 +458,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "bas sphere s\xE9par\xE9_2": -1971683418301870596
+      "bas sphere s\xE9par\xE9_40": -6245935390683140234
+      "bas sphere s\xE9par\xE9_39": -8837196223694634211
+      "bas sphere s\xE9par\xE9_44": 2426289660434519399
+      "bas sphere s\xE9par\xE9_38": -5924240418429701414
+      "bas sphere s\xE9par\xE9_16": 4065439496576953038
+      "bas sphere s\xE9par\xE9_66": 3793315061797484928
+      "bas sphere s\xE9par\xE9_0": -6757312631647755293
+      "bas sphere s\xE9par\xE9_48": -726374867617311314
+      "bas sphere s\xE9par\xE9_42": -3910171451559725399
+      "bas sphere s\xE9par\xE9_1": -4760077705003487511
+      "bas sphere s\xE9par\xE9_45": -1012457787454633637
+      "bas sphere s\xE9par\xE9_41": 5368371524812290040
+      "bas sphere s\xE9par\xE9_65": 3709421987650361492
+      "bas sphere s\xE9par\xE9_43": -2958847190835874404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

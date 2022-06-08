@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 using UnityEngine.UI;
 using XInputDotNetPure;
 
@@ -37,7 +37,7 @@ public class FeuxDeCamp : MonoBehaviour
 
     [Header("Animation Curve")]
     public AnimationCurve CourbeDeFlamme;
-    public Light2D Flamme;
+    public UnityEngine.Rendering.Universal.Light2D Flamme;
     private float graph, increment;
     private bool canRunGame;
     private bool stopWakeUp;

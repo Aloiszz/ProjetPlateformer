@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      statues perso des autres jeux_6: 9009531749061479436
+      statues perso des autres jeux_1: 7128454871927760950
+      statues perso des autres jeux_0: -8100431571705168360
+      statues perso des autres jeux_3: -7718366218079163245
+      statues perso des autres jeux_2: 5131797033704520147
+      statues perso des autres jeux_5: 2611013214904570445
+      statues perso des autres jeux_7: -7115312057841970305
+      statues perso des autres jeux_4: -3836309544504473378
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

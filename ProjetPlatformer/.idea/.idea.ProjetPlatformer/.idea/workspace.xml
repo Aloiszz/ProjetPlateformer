@@ -1,7 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="" />
+    <list default="true" id="24a3f392-0551-47ce-b969-7c010a28586b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjetPlatformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Animaux/bebete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Animaux/bebete-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/PlatformDestroy/platformer qui se casse.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Platform/PlatformDestroy/platformer qui se casse.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Platform/PlatformJumping/tile ruine disparition.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Platform/PlatformJumping/tile ruine disparition.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/Idle/feux continue (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/Idle/feux continue (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/Start/départ feux.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/Start/départ feux.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/buche.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Props/FeuxDeCamp/buche.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/aterrisage.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/aterrisage.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/course.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/course.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/impultion saut.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/impultion saut.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWall_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/DryWall_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Ground_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Ground_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Hammer_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Hammer_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/HardHat_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/HardHat_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Jigsaw_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Jigsaw_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/LightBulb_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/LightBulb_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Liquid_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Liquid_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/OBS_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/OBS_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintBrush_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintBrush_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintLabel_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/PaintLabel_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Transparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Transparent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_White_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_White_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Strap_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Strap_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Stud_Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ExampleAssets/Materials/Stud_Mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Physique Fils.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Physique Fils.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Physique Herbe.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Physique Herbe.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/material parchemi.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/material parchemi.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/mterial papyrus 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/mterial papyrus 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/New Material 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/New Material 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/New Material 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/New Material 4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/New Material 5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/New Material 5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/Poussière 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/Poussière 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/Poussière.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/Poussière.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/Shader Graphs_ilumination hyéroglyphe.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/Shader Graphs_ilumination hyéroglyphe.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/Sprite-0001-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/Sprite-0001-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/glyph sphere de fin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/glyph sphere de fin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/ilumination glyph.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/ilumination glyph.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/luciole qui lmonte 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/luciole qui lmonte 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/luciole qui lmonte.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/luciole qui lmonte.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/shader/rainDrop.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/shader/rainDrop.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New 2D Renderer Data.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Entrée Feu de camp/Feu de camps-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Entrée Feu de camp/Feu de camps-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Idle Feu de Camp/Feu de camps-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Idle Feu de Camp/Feu de camps-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Sortie Feu de camp/Feu de camps 2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Feu de camp/Sortie Feu de camp/Feu de camps 2-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle Tempête/Idle tempete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle Tempête/Idle tempete-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle/Idle-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Idle/Idle-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Ascension/Ascension-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Ascension/Ascension-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Descent/Descent-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Descent/Descent-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Double Jump/Double jump-Sheet (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Double Jump/Double jump-Sheet (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Double Jump/Double jump-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Double Jump/Double jump-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Landing Hard/Landing hard-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Landing Hard/Landing hard-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Landing Soft/Landing soft-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Landing Soft/Landing soft-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Planner/Planner-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Planner/Planner-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Start/Start-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Jump/Start/Start-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Mort/Mort-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Mort/Mort-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Pousse Boite/Pousse -Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Pousse Boite/Pousse -Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/TempêteWalk/Walk tempete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/TempêteWalk/Walk tempete-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/M_Animation_Player_Walk.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/M_Animation_Player_Walk.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/player_walk_sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player/Animation/Walk/player_walk_sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/Untitled-1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/Untitled-1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/particule 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/particule 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/particule systeme papyrus.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/Materials/particule systeme papyrus.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/eclaboussures.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/eclaboussures.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/light glow ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/light glow ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/lucioles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/lucioles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/onde.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/onde.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/trail.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/trail.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/traits.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/traits.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/vent 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/vent 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/vent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Anciennes scènes/vent.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LD Ruines 3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FaireDesChoseBelle/Ruine/ToutLesCharacters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FaireDesChoseBelle/Ruine/ToutLesCharacters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinDeNiveau.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinDeNiveau.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevierVent2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevierVent2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/MovingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Ruche/RalentissementMonstres.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Ruche/RalentissementMonstres.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Props/Bougie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Props/Bougie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerDisparitionTempête.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerDisparitionTempête.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/2D Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/2D Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP Asset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP Asset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 3.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 5.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion 6.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Water Reflexion.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Water Reflexion.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/LAVRAIE TileMap/tiles set désert roche -Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/LAVRAIE TileMap/tiles set désert roche -Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/NewTileMap/Sprite-0001-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/NewTileMap/Sprite-0001-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/NewTileMap/Sprite-0004-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/NewTileMap/Sprite-0004-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/2 derniers rocher géant.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/2 derniers rocher géant.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/Materials/soleil.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/Materials/soleil.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/couloir.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/couloir.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/dune sable .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/dune sable .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/débris vent.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/débris vent.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/export grotte.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/export grotte.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/export plante désert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/export plante désert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/export platforme début.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/export platforme début.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/feuillage et platforme feuille.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/feuillage et platforme feuille.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/herbe.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/herbe.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/montagne géante désert (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/montagne géante désert (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/montagne géante désert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/montagne géante désert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/passage secret parchemin désert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/passage secret parchemin désert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombe 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombe 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombe.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombe.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/pilier qui tombet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/plante et platforme complémentaire.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/plante et platforme complémentaire.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/plaque de pression.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/plaque de pression.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/props tour.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/props tour.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/roche et caillou .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/roche et caillou .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/silhouette/bord rouge désert silhouette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/silhouette/bord rouge désert silhouette.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/silhouette/props avant plan ruine rouge désert.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/silhouette/props avant plan ruine rouge désert.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/termitière 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/termitière 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Props/tour ruine (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Props/tour ruine (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Avant plant/bord noir silhouette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Avant plant/bord noir silhouette.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Avant plant/props avant plan ruine-export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Avant plant/props avant plan ruine-export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escalier désert .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escalier désert .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escaliers LD ruine .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escaliers LD ruine .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escaliers v2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Escaliers/escaliers v2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Lumières/light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Lumières/light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/New Nature + Dégradé brique/Tiles nature et dégradé ruine .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/New Nature + Dégradé brique/Tiles nature et dégradé ruine .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Patch briques hautes + basses + ver plate sans line clair/Brique hautes + basses .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Patch briques hautes + basses + ver plate sans line clair/Brique hautes + basses .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Piques + rails/Piques -export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Piques + rails/Piques -export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Piques + rails/Piques .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Piques + rails/Piques .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/autel ruine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/autel ruine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonnade.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonnade.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonne unique.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonne unique.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonne.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/colonne.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/dalle nénuphar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/dalle nénuphar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/grand tuyau .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/grand tuyau .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/grille.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/grille.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/lumière stèle feux.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/lumière stèle feux.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/pilier qui tombe.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/pilier qui tombe.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/plante luminescente.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/plante luminescente.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/props avant plan ruine-export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/props avant plan ruine-export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/stèle feux.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/stèle feux.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/tuyau.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Plante et tuyau/tuyau.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Porte fin jeu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Porte fin jeu.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Portes + Cratère/portes et sol caisse .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Portes + Cratère/portes et sol caisse .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Piliers Ruines.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Piliers Ruines.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props Ruines  .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props Ruines  .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props Ruines sombre  .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props Ruines sombre  .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props ruines 2 Statues.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Props ruines 2 Statues.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Silouhette bleu piliers .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/Silouhette bleu piliers .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/petites platformes.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/petites platformes.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/plantes  .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/plantes  .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/statues perso des autres jeux.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Props Ruines/statues perso des autres jeux.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/Structures/structure .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/Structures/structure .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond  1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond  1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond pillier .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/fond pillier .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/pillier .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/pillier .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/platforme .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/platforme .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/poteau .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/poteau .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/props .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/props .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable devant .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable devant .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable fond .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/sable fond .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/structure .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Ruine venteuse désert/structure .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles  Nature Ruine/Nature .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles  Nature Ruine/Nature .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Piliers/Piliers Ruines.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Piliers/Piliers Ruines.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Tiles Ruine/Ruine Tiles .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/Transition ruine surface/transition début LD ruines .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/Transition ruine surface/transition début LD ruines .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/bas sphere séparé.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/bas sphere séparé.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/pilier qui tombe-export.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/pilier qui tombe-export.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/course.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/course.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/feuille ruine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/feuille ruine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow bleu.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow bleu.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow rouge.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow rouge.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow violet 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/glow violet 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/herbe bleu.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/herbe bleu.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/impultion saut.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/impultion saut.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/light désert .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/light désert .png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/light désert light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/light désert light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/mousse mural ruine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/mousse mural ruine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/nénuphar.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/nénuphar.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante luminescent light.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante luminescent light.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante luminescent.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante luminescent.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante verte ruine.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/Ruines/plantes/plante verte ruine.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/TempeteSprite.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/TempeteSprite.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/Interaction/Materials/Untitled-4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/Interaction/Materials/Untitled-4.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/Ne Pas Utiliser.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/Ne Pas Utiliser.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001 (1) 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001 (1) 1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001 (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001 (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/Sprite-0001.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/UI/curseur boite.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/UI/curseur boite.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/VRAIE VRAIE tilemap/Langer_Elise.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/VRAIE VRAIE tilemap/tiles set final (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/VRAIE VRAIE tilemap/tiles set final (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/Bëbêtes/bebete-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/Bëbêtes/bebete-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/bg ruines brume 2-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/bg ruines brume 2-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/nénuphar silouette-Sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/nénuphar silouette-Sheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/silhouette nénuphar (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/background/vrai fond ruine/silhouette nénuphar (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite/water/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite/water/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRP-HighQuality.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRP-HighQuality.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/New Material 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/New Material 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/New Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/poussière qui s'éffondre blur.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/poussière qui s'éffondre blur.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/poussière qui s'éffondre.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VFX/material/sol qui s'éffondre/poussière qui s'éffondre.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.aarthificial.pixelgraphics@dbe057aecd/Editor/Common/VelocityEmitterEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.aarthificial.pixelgraphics@dbe057aecd/Editor/Common/VelocityEmitterEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/com.aarthificial.pixelgraphics@dbe057aecd/Runtime/Materials/Velocity/debug_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.aarthificial.pixelgraphics@dbe057aecd/Runtime/Materials/Velocity/debug_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,39 +250,39 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DébutPontQuiSecroule/DébutPontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EffetPoussière.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ENDGAME.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/ShootBow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FermetureSalle2.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/VentAscendant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager/Tonnerre/Tonnerre.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndPhysics.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/PiquesQuiBougent/FinTriggerPiqueQuiBougent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FaireDesChoseBelle/Ruine/ToutLesCharacters.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Props/BougieTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Props/TriggerDéplacementparchemin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Canvas/NoActiveCameraInSceneDoesNotCrashEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DébutPontQuiSecroule/TriggerPontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Props/Bougie.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevierVent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/FermetureSalle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadingScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/20/3e9a040a/Scene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/Canvas/AssertionFailureOnOutputVertexCount.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/Cinemachien/CinemachineSwitcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Pont Qui Se brise/DeathZonePontQuiSecroule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/TriggerMovingPlatform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LD Particulier/TutoDoublejump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/camera/TriggerZoomAvecEmpty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindAreaProtect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/boite/TestBow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Canvas/CanvasSizeCorrectInAwakeAndStart.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/CanvasRenderer/ChangingHierarchyOfCanvasRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4D9F7249-F1DE-41E3-8466-8FEA10E9822F/87/a2ddc4ca/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestLaunchers/PlayerLauncher.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/Canvas/CreateSceneUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mecanique/Bouton/BoutonTimer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Stamina.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/TilemapPrefabStageHelper.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mecanique/Platform/MovingPlatform.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mecanique/Wind/WindArea.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LoadingScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FinDeNiveau.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DeathZone.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mecanique/FeuxDeCamp/FeuxDeCamp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Runtime/Shaders/Foliage/foliage_pixelart_shader.shadergraph" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Mecanique/Ruche/RalentissementMonstres.cs" />
+    </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -142,6 +373,8 @@
       <workItem from="1653899145465" duration="6488000" />
       <workItem from="1654171980302" duration="17935000" />
       <workItem from="1654340583958" duration="5374000" />
+      <workItem from="1654544654638" duration="233000" />
+      <workItem from="1654548271921" duration="4966000" />
     </task>
     <servers />
   </component>

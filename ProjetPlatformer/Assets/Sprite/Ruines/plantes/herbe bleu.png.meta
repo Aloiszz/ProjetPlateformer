@@ -75,6 +75,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -544,6 +545,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      herbe bleu_12: -626382686920998032
+      herbe bleu_5: -7129928768434478821
+      herbe bleu_16: -8813802373475463673
+      herbe bleu_15: 347572182306645015
+      herbe bleu_7: 4571037474685746480
+      herbe bleu_8: 3643196288087660059
+      herbe bleu_0: -5353312729019244830
+      herbe bleu_4: -3570107323908948654
+      herbe bleu_11: 6858979827793556895
+      herbe bleu_2: -1664980838357056916
+      herbe bleu_9: 9170963552851099701
+      herbe bleu_14: -4183921718658812498
+      herbe bleu_1: -3905024866434497026
+      herbe bleu_13: 9047275520080904904
+      herbe bleu_6: -429103879935069793
+      herbe bleu_3: 1537410348553320909
+      herbe bleu_10: 5595534091649728024
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

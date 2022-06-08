@@ -48,6 +48,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -328,6 +329,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Walk tempete-Sheet_3: 1726518394921839014
+      Walk tempete-Sheet_1: 6393008675183888570
+      Walk tempete-Sheet_2: 3871423382079006276
+      Walk tempete-Sheet_0: -619765696501854692
+      Walk tempete-Sheet_6: 462746961965050111
+      Walk tempete-Sheet_4: 6397632436013082613
+      Walk tempete-Sheet_7: 1857828437689003711
+      Walk tempete-Sheet_5: -3591980663812033572
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

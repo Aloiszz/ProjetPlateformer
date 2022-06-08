@@ -126,6 +126,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -952,6 +953,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "n\xE9nuphar_11": -6754483676405887512
+      "n\xE9nuphar_0": -7379036721925481179
+      "n\xE9nuphar_6": 786213843657657013
+      "n\xE9nuphar_21": -3907311056976504548
+      "n\xE9nuphar_28": 5952087626772838367
+      "n\xE9nuphar_3": 7037900257968592772
+      "n\xE9nuphar_1": 8321305905567388659
+      "n\xE9nuphar_30": -5569434515950669246
+      "n\xE9nuphar_20": -7645563965632556527
+      "n\xE9nuphar_10": -2089304017143555524
+      "n\xE9nuphar_32": -7265686702950454601
+      "n\xE9nuphar_22": 2356794248371930648
+      "n\xE9nuphar_18": 3751118530502091344
+      "n\xE9nuphar_37": -7502759382490604388
+      "n\xE9nuphar_5": -581050985771406259
+      "n\xE9nuphar_34": 6588917536209560881
+      "n\xE9nuphar_4": -7360760690030365180
+      "n\xE9nuphar_27": 8191820257543819476
+      "n\xE9nuphar_23": -2832095355483688784
+      "n\xE9nuphar_24": -1379474415116448545
+      "n\xE9nuphar_12": -4412542777078668049
+      "n\xE9nuphar_35": 3929379676895265151
+      "n\xE9nuphar_15": 1830856845117005236
+      "n\xE9nuphar_36": -3907824277798839534
+      "n\xE9nuphar_29": 740702033736344957
+      "n\xE9nuphar_14": -5501795366487031847
+      "n\xE9nuphar_8": 2182863703306372283
+      "n\xE9nuphar_2": 8598773247189840212
+      "n\xE9nuphar_13": -7207654916288544584
+      "n\xE9nuphar_7": -6355837676454935389
+      "n\xE9nuphar_19": -5284374611826337568
+      "n\xE9nuphar_17": -3730140192896291518
+      "n\xE9nuphar_16": 3914816884086052095
+      "n\xE9nuphar_33": -3848619268987093665
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

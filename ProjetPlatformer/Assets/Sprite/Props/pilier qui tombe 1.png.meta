@@ -51,6 +51,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -352,6 +353,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pilier qui tombe 1_8: -319700822873740918
+      pilier qui tombe 1_0: -6133855397880057354
+      pilier qui tombe 1_6: 8358722705167477309
+      pilier qui tombe 1_1: 7220903287173870485
+      pilier qui tombe 1_7: 2871684305616590203
+      pilier qui tombe 1_3: -6008819868231747173
+      pilier qui tombe 1_4: 5284625534336898621
+      pilier qui tombe 1_5: 1655602762730629264
+      pilier qui tombe 1_2: -6695486153594896106
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

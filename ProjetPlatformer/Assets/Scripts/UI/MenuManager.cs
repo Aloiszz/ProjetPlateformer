@@ -456,9 +456,11 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         isPlaying = true;
         EventSystem.current.SetSelectedGameObject(null);
+        Debug.Log("ROUKOUKOUj "+ (SceneManager.GetActiveScene().buildIndex - 1));
         StartCoroutine(WaitMove());
         mainMenu.GetComponent<CanvasGroup>().interactable = false;
         FadeOut(2f);
+        Debug.Log("ROUKOUKOUL "+ (SceneManager.GetActiveScene().buildIndex - 1));
         MenuPrincipalOuvert = false;
     }
     IEnumerator WaitMove()
@@ -467,6 +469,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         {
             yield return new WaitForSeconds(11.5f);
         } 
+        Debug.Log("ROUKOUKOUM "+ (SceneManager.GetActiveScene().buildIndex - 1));
             CharacterMovement.instance.canMove = true;
             CharacterMovement.instance.canJump = true;
             CharacterMovement.instance.speed = 11;
@@ -603,6 +606,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void JoinLevel1()
     {
+        Debug.Log("RIKIKI "+ (SceneManager.GetActiveScene().buildIndex - 1));
         SceneManager.LoadScene(0);
         menuLevel.SetActive(false);
         Restart();
@@ -610,8 +614,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void JoinLevel2()
     {
+        Debug.Log("ROUKOUKOU "+ (SceneManager.GetActiveScene().buildIndex - 1));
         SceneManager.LoadScene(1);
         menuLevel.SetActive(false);
+        Debug.Log("ROUKOUKOUK "+ (SceneManager.GetActiveScene().buildIndex - 1));
         Play();
     }
 

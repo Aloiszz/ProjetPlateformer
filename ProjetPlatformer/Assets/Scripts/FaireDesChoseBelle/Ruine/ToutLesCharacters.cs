@@ -2,14 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class ToutLesCharacters : MonoBehaviour
 {
 
     [Header("Animation Curve pour Loupiote")]
     public AnimationCurve curve;
-    public List<Light2D> loupiote;
+    public List<UnityEngine.Rendering.Universal.Light2D> loupiote;
     private float graph, increment;
     private bool canRunGame = false;
     private bool stopWakeUp;
@@ -17,7 +17,7 @@ public class ToutLesCharacters : MonoBehaviour
     [Header("Animation Curve ")] 
     public float timeToWait;
     public AnimationCurve curve2;
-    public List<Light2D> loupiote2;
+    public List<UnityEngine.Rendering.Universal.Light2D> loupiote2;
     private float graph2, increment2;
     private bool canRunGame2 = false;
     private bool stopWakeUp2;

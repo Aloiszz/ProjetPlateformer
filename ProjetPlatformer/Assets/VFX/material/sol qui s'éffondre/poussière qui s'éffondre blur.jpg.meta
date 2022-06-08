@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -256,6 +257,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "poussi\xE8re qui s'\xE9ffondre blur_3": 5233577738085020351
+      "poussi\xE8re qui s'\xE9ffondre blur_4": 2748092585671032552
+      "poussi\xE8re qui s'\xE9ffondre blur_0": -4215388991419843437
+      "poussi\xE8re qui s'\xE9ffondre blur_2": -3820116605537959016
+      "poussi\xE8re qui s'\xE9ffondre blur_1": -2930008865288746218
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

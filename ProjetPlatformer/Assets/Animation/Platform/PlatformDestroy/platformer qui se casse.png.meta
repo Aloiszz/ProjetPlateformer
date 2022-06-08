@@ -30,6 +30,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -310,6 +311,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      platformer qui se casse_24: -3146749244734923900
+      platformer qui se casse_5: 3583945862504774639
+      platformer qui se casse_4: 890474077201313560
+      platformer qui se casse_0: -3243683741453769258
+      platformer qui se casse_1: -942190657653372590
+      platformer qui se casse_11: 7941458467230372294
+      platformer qui se casse_2: -5090637353079559279
+      platformer qui se casse_3: -7504717600573661686
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

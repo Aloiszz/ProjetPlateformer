@@ -45,6 +45,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      props tour_2: -8168243836839950337
+      props tour_5: -5311288084098347602
+      props tour_1: 7535405314165560059
+      props tour_6: 5624340116823325040
+      props tour_0: -1430918900605451170
+      props tour_3: -2712395695667710461
+      props tour_4: 1418187073122261416
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

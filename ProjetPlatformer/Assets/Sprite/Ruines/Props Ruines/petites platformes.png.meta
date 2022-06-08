@@ -45,6 +45,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -304,6 +305,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      petites platformes_0: 2405558841595666505
+      petites platformes_2: -8481439348108622441
+      petites platformes_1: 5748516741134168006
+      petites platformes_6: 1639421006071484584
+      petites platformes_3: 8158335752741552693
+      petites platformes_5: -7848803098577675970
+      petites platformes_4: 3345084931349957949
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
