@@ -80,14 +80,24 @@ public class CharacterMovement : MonoBehaviour
     public ParticleSystem particulesRetombée;
     public bool dansLesAirs;
     public bool blockCinematiques;
+
+    [Header("-------Sound------")] 
+    public AudioSource source;
+    [Header("Jump")]
+    public AudioClip jumpAudio;
+    public AudioClip doubleSautAudio;
+    public AudioClip plannageAudio;
+    public AudioClip retombeAudio;
+    
      
    // public ParticleSystem particulesRun;
    
    [Header("Floating")]
-   private float y0;
-   private Vector2 temp;
    public float amplitudeFloating;
    public float vitesseFloating;
+   private float y0;
+   private Vector2 temp;
+   
    
    PlayerIndex playerIndex;
    GamePadState state;
@@ -200,7 +210,7 @@ public class CharacterMovement : MonoBehaviour
         if (canJump == true)
         {
             Jump();
-            
+
             if (!stopStretch)
             {
                 transform.localScale = new Vector3(1 - rb.velocity.y * stretch, 1 + rb.velocity.y * stretch); 
@@ -255,6 +265,7 @@ public class CharacterMovement : MonoBehaviour
         {
             StartCoroutine(ParticulesRetombée());
             isGrounded = true;
+            //source.PlayOneShot(retombeAudio,0.5f);
         }
         else 
         {
@@ -264,13 +275,14 @@ public class CharacterMovement : MonoBehaviour
                 StartCoroutine(CoyoteTimeJump());
             }
         }
+        
 
         #region Jump Gravity // permet de gérer la déscente du perso lors du saut (plus de gravité)
         if (rb.velocity.y < -1f) // si joueur tombe alors applique gravityMultiplier sauf si il garde "espace" enfoncé
         {
             animator.SetBool("IsFalling",true);
             animator.SetBool("isDoubleJumping", false);
-            
+
             if (Input.GetButton("JumpGamepad") == true) 
             {
                 if (isPlannage)
@@ -316,6 +328,14 @@ public class CharacterMovement : MonoBehaviour
                     StartCoroutine(VibrationTime());
                 }
             }
+            
+            if (Input.GetButtonDown("JumpGamepad") == true)
+            {
+                if (isPlannage)
+                {
+                    source.PlayOneShot(plannageAudio);
+                }
+            }
         }
         else
         {
@@ -351,6 +371,7 @@ public class CharacterMovement : MonoBehaviour
             jumpBufferCounter = jumpBufferTime;
             if (isGrounded == true)
             {
+                source.PlayOneShot(jumpAudio, 0.2f);
                 dansLesAirs = true;
                 ParticleSystem dustJump = Instantiate(particlesSaut,
                     new Vector3(transform.position.x, transform.position.y - 0.6f, transform.position.z), transform.rotation);
@@ -390,6 +411,7 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0 && !isCoyotejump) // Le double Saut
         {
+            source.PlayOneShot(doubleSautAudio, 0.5f);
             LineRenderPlannage_1.emitting = false;
             LineRenderPlannage_2.emitting = false;
             StartCoroutine(fadeInAndOut(true, 1));
