@@ -11,7 +11,7 @@ public class SteleFeudeCamp : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("oui"); 
-            shader.SetColor("_Color", new Color(255,255,255,255));
+            //shader.SetColor("_Color", new Color(255,255,255,255));
         }
         
     }

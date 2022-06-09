@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CameraZoom : MonoBehaviour
 {
+
     [Header("Camera")]
     public Transform targetPlayer;
     private Transform targetEmplacementCamera;
@@ -30,6 +31,9 @@ public class CameraZoom : MonoBehaviour
     public MenuManager menu;
     public bool CinematiqueIntro;
     public Animator animPlayer;
+
+    public GameObject Waypoint1;
+    public GameObject Waypoint2;
     
     private void Awake()
     {
@@ -104,12 +108,12 @@ public class CameraZoom : MonoBehaviour
 
     IEnumerator SmoothCameraIntro()
     {
-        smoothSpeed = 0.5f;
+        smoothSpeed = 0.3f;
         animPlayer.SetBool("IsWalking", false);
         animPlayer.SetTrigger("EntreeFdC");
         animPlayer.SetBool("IsFdC", true);
         animPlayer.Play("Idle Feu de camp");
-        targetOrtho = 8;
+        targetOrtho = 5;
         //.SetTrigger("SortieFdC");
         yield return new WaitForSeconds(10.5f);
         targetOrtho = 7;
@@ -119,7 +123,6 @@ public class CameraZoom : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         smoothSpeed = 2;
         StopSmoothChange = true;
-        
     }
     
 
