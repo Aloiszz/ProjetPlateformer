@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Timers;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Tilemaps;
 
 public class EntréeRuineDesert : MonoBehaviour
@@ -50,6 +51,8 @@ public class EntréeRuineDesert : MonoBehaviour
         StartCoroutine(Sound());
         StartCoroutine(BriserPlateforme());
     }
+    
+    
 
     IEnumerator BriserPlateforme()
     {
