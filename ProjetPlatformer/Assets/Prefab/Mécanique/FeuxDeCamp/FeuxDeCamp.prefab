@@ -70,7 +70,7 @@ AudioSource:
   m_GameObject: {fileID: 1507475247094365371}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4031694295632061995, guid: 196e3384b7588cf44ba69fb8ee84726f, type: 2}
   m_audioClip: {fileID: 8300000, guid: f54719c979c984242b5ed8b12551bea7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -5151,8 +5151,8 @@ MonoBehaviour:
   dezoomSpeedArriver: 2
   EmplacementCameraArriver: {x: 0, y: 0, z: -10}
   distanceTargetDepart: 12
-  dezoomSpeedDepart: 2.5
-  EmplacementCameraDepart: {x: 5, y: 3, z: -10}
+  dezoomSpeedDepart: 5
+  EmplacementCameraDepart: {x: 2, y: 5, z: -10}
   CourbeDeFlamme:
     serializedVersion: 2
     m_Curve:

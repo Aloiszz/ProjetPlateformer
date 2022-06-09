@@ -267,6 +267,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -13.966225
       objectReference: {fileID: 0}
+    - target: {fileID: 4205300073146733947, guid: b2062e6b4c6e5e14cbf7bb3a26b8df43, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 4031694295632061995, guid: 196e3384b7588cf44ba69fb8ee84726f, type: 2}
     - target: {fileID: 5679361055072563988, guid: b2062e6b4c6e5e14cbf7bb3a26b8df43, type: 3}
       propertyPath: "\xE9clair"
       value: 
