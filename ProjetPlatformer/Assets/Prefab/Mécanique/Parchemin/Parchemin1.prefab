@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4b41bf1c20989824c8ae5d86d18c226d, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: b9165c51c9564b543a171deaa75e729f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,8 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6703435d0e6742e42b22fbf084a1775e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitudeFloating: 0
-  vitesseFloating: 0
+  amplitudeFloating: 0.5
+  vitesseFloating: 1.1
 --- !u!61 &3173592545250384637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -133,7 +133,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7044027, y: 2.3899372}
+    oldSize: {x: 2.6875, y: 2.375}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -289,7 +289,7 @@ AudioSource:
   m_GameObject: {fileID: 8223377072141352120}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4031694295632061995, guid: 196e3384b7588cf44ba69fb8ee84726f, type: 2}
   m_audioClip: {fileID: 8300000, guid: d3d71821024b6d44b8a9bf69872f6e96, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

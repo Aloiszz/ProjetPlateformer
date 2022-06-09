@@ -114,7 +114,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         parchAnim = GameObject.Find("IndicationParchemins").GetComponent<Animator>();
         Fdc = GameObject.Find("FeuxDeCamp").GetComponent<FeuxDeCamp>();
         cm = GameObject.Find("Main Camera").GetComponent<CameraZoom>();
-        icone = GameObject.Find("IndicationParchemins").GetComponent<AnimationIconeParch>();
+       
         
        
         
@@ -139,6 +139,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         parchAnim = GameObject.Find("IndicationParchemins").GetComponent<Animator>();
         Fdc = GameObject.Find("FeuxDeCamp").GetComponent<FeuxDeCamp>();
         cm = GameObject.Find("Main Camera").GetComponent<CameraZoom>();
+        icone = GameObject.Find("IndicationParchemins").GetComponent<AnimationIconeParch>();
 
         IndexMove();
         
@@ -603,15 +604,19 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public void JoinLevel1()
     {
-        SceneManager.LoadScene(0);
+        OptionPause = false;
+        menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
+        SceneManager.LoadScene(0);
         Restart();
     }
     
     public void JoinLevel2()
     {
-        SceneManager.LoadScene(1);
+        OptionPause = false;
+        menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
+        SceneManager.LoadScene(1);
         Play();
     }
 

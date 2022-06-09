@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3686092166050891322}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.277, y: 14.25, z: 0}
+  m_LocalPosition: {x: 0.2086, y: 3.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5679361055072563991}
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TpBoite: {fileID: 1917431927247578682}
-  lache: 0
+  lache: 1
   "\xE9clair": {fileID: 0}
   AudioData: {fileID: 4205300073146733947}
 --- !u!61 &5679361055072563978
@@ -198,7 +198,7 @@ AudioSource:
   m_GameObject: {fileID: 5730888956844610176}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4031694295632061995, guid: 196e3384b7588cf44ba69fb8ee84726f, type: 2}
   m_audioClip: {fileID: 8300000, guid: f458ae825564c474bb959a147f74b897, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
