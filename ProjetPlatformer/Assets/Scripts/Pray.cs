@@ -75,6 +75,7 @@ public class Pray : MonoBehaviour
         
         //psFleur.Play();
         SetPlayer(true);
+        SetAnimator(true);
         
         Camera.smoothSpeed = dezoomSpeed;
         Camera.targetOrtho = distanceTarget;
@@ -98,6 +99,7 @@ public class Pray : MonoBehaviour
     public void LeaveTheGods()
     {
         SetPlayer(false);
+        SetAnimator(false);
         Camera.transform.DOKill();
         
         Camera.smoothSpeed = dezoomSpeedBase;
