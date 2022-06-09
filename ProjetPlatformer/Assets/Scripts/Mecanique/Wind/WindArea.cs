@@ -39,6 +39,12 @@ public class WindArea : MonoBehaviour
 
     public Light2D globalLight;
     
+    [Header("-------Sound------")] 
+    public AudioSource source;
+    public AudioSource source2;
+    public AudioClip ventActif;
+    public AudioClip ventInactif;
+
 
     private void Awake()
     {
@@ -50,6 +56,12 @@ public class WindArea : MonoBehaviour
     {
         if (!isWindy && letsHaveTempete)
         {
+            if (TriggerApparitionBackgroundTempête.instance.startSound == true)
+            {
+                source2.mute = false;
+                source.mute = true;
+                source.PlayOneShot(ventInactif);
+            }
             if (globalLight.intensity >= 0.3f)
             {
                 globalLight.intensity -= 0.4f * Time.deltaTime;
@@ -57,13 +69,19 @@ public class WindArea : MonoBehaviour
         }
         else
         {
+           if (TriggerApparitionBackgroundTempête.instance.startSound)
+            {
+                source2.mute = true;
+                source.mute = false;
+                source2.PlayOneShot(ventActif);
+            }
             if (globalLight.intensity <= 1f)
             {
                 globalLight.intensity += 0.4f * Time.deltaTime;
             }
         }
-        
     }
+    
 
     public void OnTriggerEnter2D(Collider2D other)
     {
@@ -206,10 +224,10 @@ public class WindArea : MonoBehaviour
 
     public IEnumerator WaitforWindEffetc()
     {
-       
         animTempete.SetBool("CanBegin", true);
         yield return new WaitForSeconds(timeWaitForWind);
-        for (int i = 0; i < listEffetVent.Count; i++)
+        if (TriggerApparitionBackgroundTempête.instance.startSound)
+            for (int i = 0; i < listEffetVent.Count; i++)
         {
             listEffetVent[i].SetActive(true);
         }

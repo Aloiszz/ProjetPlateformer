@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class TriggerApparitionBackgroundTempête : MonoBehaviour
 {
+    public static TriggerApparitionBackgroundTempête instance;
+    
     public GameObject effetPoussière;
     public GameObject BackgroundTempete1;
     public GameObject BackgroundTempete2;
@@ -19,6 +21,7 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public GameObject Barre1;
     public float DistanceBarres;
     public float DistanceBarres2;
+    public bool startSound;
 
     private bool doOnce = false;
 
@@ -26,10 +29,17 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     public Volume GlobalVolume;
     
     public GameObject EmptyDéplaTempete;
+    
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!doOnce)
         {
+            startSound = true;
             StartCoroutine(CinematiqueTempête());
             doOnce = true;
         }
