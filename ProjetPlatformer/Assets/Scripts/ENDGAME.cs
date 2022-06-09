@@ -82,12 +82,20 @@ using DG.Tweening;
         }
     }
     
+    IEnumerator Music()
+    {
+        MuqiqueManager.instance.Crédits = true;
+        yield return new WaitForSeconds(0.5f);
+        MuqiqueManager.instance.Crédits = false; 
+    }
+    
     private void Update()
     {
         if (inRange)
         {
             if (Input.GetButtonDown("GrabGamepad"))
             {
+                StartCoroutine(Music());
                 if (doOnce == false)
                 {
                     if (CharacterMovement.instance.facingRight == false)

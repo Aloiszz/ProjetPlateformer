@@ -602,8 +602,16 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         Time.timeScale = 1;
     }
 
+    IEnumerator Music()
+    {
+        MuqiqueManager.instance.MusicStart = true;
+        yield return new WaitForSeconds(0.5f);
+        MuqiqueManager.instance.MusicStart = false; 
+    }
+    
     public void JoinLevel1()
     {
+        StartCoroutine(Music());
         OptionPause = false;
         menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
@@ -611,8 +619,16 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         Restart();
     }
     
+    IEnumerator Music2()
+    {
+        MuqiqueManager.instance.MusicRuines = true;
+        yield return new WaitForSeconds(0.5f);
+        MuqiqueManager.instance.MusicRuines = false; 
+    }
+    
     public void JoinLevel2()
     {
+        StartCoroutine(Music2());
         OptionPause = false;
         menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
