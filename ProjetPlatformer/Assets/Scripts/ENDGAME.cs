@@ -7,8 +7,9 @@ using System.Linq;
  using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+ using UnityEngine.Rendering.Universal;
 
-public class ENDGAME : MonoBehaviour
+ public class ENDGAME : MonoBehaviour
 {
     private bool inRange = false;
     private bool bouge = false;
@@ -36,6 +37,9 @@ public class ENDGAME : MonoBehaviour
     public GameObject SolCentreG;
     public GameObject SolCentreD;
     
+    public GameObject lumiereSphere;
+    public GameObject lumiereSphereSpot;
+    public float timeForLumiereSpot = 2f;
    
     [Header ("Autre")] 
     public Animator anim;
@@ -86,6 +90,10 @@ public class ENDGAME : MonoBehaviour
             {
                 if (doOnce == false)
                 {
+                    if (CharacterMovement.instance.facingRight == false)
+                    {
+                        CharacterMovement.instance.Flip();
+                    }
                     CharacterMovement.instance.blockCinematiques = true;
                     indicationRest.enabled = false;
                     Player.transform.DOMove(playerMoveToFire.position + new Vector3(0,0.85f,0),0.5f);
@@ -100,6 +108,7 @@ public class ENDGAME : MonoBehaviour
                     StartCoroutine(OuvertureHaut());
                     StartCoroutine(ActivationActivationPortes());
                     doOnce = true;
+                    lumiereSphere.transform.DOMove(lumiereSphereSpot.transform.position, timeForLumiereSpot).SetEase(Ease.OutQuart);
                 }
                 
             }
@@ -213,9 +222,11 @@ public class ENDGAME : MonoBehaviour
     }
     public void SetAnimator()
     {
-        anim.SetTrigger("EntreeFdC");
+        /*anim.SetTrigger("EntreeFdC");
         anim.SetBool("IsFdC", true);
         anim.SetBool("isGrounded", true);
-        anim.ResetTrigger("SortieFdC");
+        anim.ResetTrigger("SortieFdC");*/
+        anim.SetBool("IsDodo", true);
+        CharacterMovement.instance.GetComponent<BoxCollider2D>().size = new Vector2(0.5f,0.5f);
     }
 }
