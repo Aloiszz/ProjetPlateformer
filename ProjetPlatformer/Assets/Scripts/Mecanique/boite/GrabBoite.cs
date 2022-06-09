@@ -125,7 +125,10 @@ public class GrabBoite : MonoBehaviour
     {
         if (Input.GetButtonDown("GrabGamepad")) 
         {
-            source.PlayOneShot(grab);
+            if (boiteGrab == false)
+            {
+                source.PlayOneShot(grab); 
+            }
             boiteGrab = true;
            /* if(boiteGrab == true)
             {

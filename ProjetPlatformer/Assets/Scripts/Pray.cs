@@ -12,6 +12,7 @@ public class Pray : MonoBehaviour
     
     public ParticleSystem psFleur;
     public GameObject Player;
+    public Animator anim;
     
     
     [Header("Camera")]
@@ -74,6 +75,7 @@ public class Pray : MonoBehaviour
         
         //psFleur.Play();
         SetPlayer(true);
+        SetAnimator(true);
         
         Camera.smoothSpeed = dezoomSpeed;
         Camera.targetOrtho = distanceTarget;
@@ -97,6 +99,7 @@ public class Pray : MonoBehaviour
     public void LeaveTheGods()
     {
         SetPlayer(false);
+        SetAnimator(false);
         Camera.transform.DOKill();
         
         Camera.smoothSpeed = dezoomSpeedBase;
@@ -140,6 +143,18 @@ public class Pray : MonoBehaviour
             CharacterMovement.instance.canMove = true;
         }
         
+    }
+
+    public void SetAnimator(bool verif)
+    {
+        if (verif) // arriver dans le feux de camp
+        {
+            anim.SetBool("isPraying" , true);
+        }
+        else // départ du feux de camp
+        {
+            anim.SetBool("isPraying" , false);
+        }
     }
     
     

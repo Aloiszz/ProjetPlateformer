@@ -17,7 +17,6 @@ public class Tonnerre : MonoBehaviour
     {
         if (canMakeNoise)
         {
-            
             StartCoroutine(StartNoise());
         }
     }
