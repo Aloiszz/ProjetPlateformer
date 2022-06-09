@@ -4877,8 +4877,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d78367a0322f94698727b1f907d360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioData: {fileID: 813686230245014995}
-  canMakeNoise: 1
+  source: {fileID: 813686230245014995}
+  tonnerreSound: {fileID: 8300000, guid: d5c448548c52a7348b7cbad284f899ad, type: 3}
+  canMakeNoise: 0
+  WindArea: {fileID: 0}
 --- !u!82 &813686230245014995
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4889,7 +4891,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d5c448548c52a7348b7cbad284f899ad, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
