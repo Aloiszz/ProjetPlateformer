@@ -39,11 +39,11 @@ public class WindArea : MonoBehaviour
 
     public Light2D globalLight;
     
-    [Header("-------Sound------")] 
+    /*[Header("-------Sound------")] 
     public AudioSource source;
     public AudioSource source2;
     public AudioClip ventActif;
-    public AudioClip ventInactif;
+    public AudioClip ventInactif;*/
 
 
     private void Awake()
@@ -58,9 +58,9 @@ public class WindArea : MonoBehaviour
         {
             if (TriggerApparitionBackgroundTempête.instance.startSound == true)
             {
-                source2.mute = false;
+                /*source2.mute = false;
                 source.mute = true;
-                source.PlayOneShot(ventInactif);
+                source.PlayOneShot(ventInactif);*/
             }
             if (globalLight.intensity >= 0.3f)
             {
@@ -71,9 +71,9 @@ public class WindArea : MonoBehaviour
         {
            if (TriggerApparitionBackgroundTempête.instance.startSound)
             {
-                source2.mute = true;
+                /*source2.mute = true;
                 source.mute = false;
-                source2.PlayOneShot(ventActif);
+                source2.PlayOneShot(ventActif);*/
             }
             if (globalLight.intensity <= 1f)
             {
