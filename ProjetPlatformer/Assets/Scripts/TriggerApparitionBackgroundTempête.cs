@@ -34,11 +34,18 @@ public class TriggerApparitionBackgroundTempête : MonoBehaviour
     {
         if (instance == null) instance = this;
     }
-    
+
+    IEnumerator Music()
+    {
+        MuqiqueManager.instance.MusicTempete = true;
+        yield return new WaitForSeconds(0.5f);
+        MuqiqueManager.instance.MusicTempete = false; 
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!doOnce)
         {
+            StartCoroutine(Music());
             startSound = true;
             StartCoroutine(CinematiqueTempête());
             doOnce = true;

@@ -340,7 +340,7 @@ public class CharacterMovement : MonoBehaviour
             {
                 if (isPlannage)
                 {
-                    source.PlayOneShot(plannageAudio);
+                    source.PlayOneShot(plannageAudio,0.5f);
                 }
             }
         }
@@ -418,7 +418,7 @@ public class CharacterMovement : MonoBehaviour
         
         if (Input.GetButtonDown("DoubleJumpGamepad") && isGrounded == false && extrajumps > 0 && !isCoyotejump) // Le double Saut
         {
-            source.PlayOneShot(doubleSautAudio, 0.5f);
+            source.PlayOneShot(doubleSautAudio, 0.2f);
             LineRenderPlannage_1.emitting = false;
             LineRenderPlannage_2.emitting = false;
             StartCoroutine(fadeInAndOut(true, 1));
