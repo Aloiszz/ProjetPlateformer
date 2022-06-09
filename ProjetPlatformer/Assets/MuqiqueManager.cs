@@ -10,7 +10,7 @@ public class MuqiqueManager : MonoBehaviour
     public int musicIndex = 0;
     public static MuqiqueManager instance;
 
-    public bool MusicStart = true;
+    public bool MusicStart;
     public bool MusicTempete;
     public bool MusicPostTempete;
     public bool MusicRuines;
@@ -20,6 +20,7 @@ public class MuqiqueManager : MonoBehaviour
 
     public bool DoOnce;
     public bool DoOnce2;
+    public bool DoOnce3 = true;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -28,8 +29,8 @@ public class MuqiqueManager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
-        audioSource.clip = playlist[0];
-        audioSource.Play();
+        //audioSource.clip = playlist[0];
+        //audioSource.Play();
     }
     
 
@@ -148,6 +149,12 @@ public class MuqiqueManager : MonoBehaviour
         {
             StartCoroutine(Music2());
         }
+        
+        if (SceneManager.GetActiveScene().name == "LD 1 + mieux2")
+        {
+            StartCoroutine(Music3());
+            DoOnce2 = true;
+        }
     }
     
     IEnumerator Music()
@@ -170,6 +177,18 @@ public class MuqiqueManager : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
             Chargement = false;
             DoOnce = false;
+        }
+     
+    }
+    
+    IEnumerator Music3()
+    {
+        if (DoOnce3)
+        {
+            MusicStart = true;
+            yield return new WaitForSeconds(0.5f);
+            MusicStart = false;
+            DoOnce3 = false;
         }
      
     }
