@@ -1,0 +1,744 @@
+fileFormatVersion: 2
+guid: 0c56fe8edd6360d46be550052abed366
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3931040449524727686
+    second: "relever pri\xE8re_0"
+  - first:
+      213: -3292819253115629285
+    second: "relever pri\xE8re_1"
+  - first:
+      213: -7643514148855486
+    second: "relever pri\xE8re_2"
+  - first:
+      213: -2240681054635799716
+    second: "relever pri\xE8re_3"
+  - first:
+      213: -6304329572906144473
+    second: "relever pri\xE8re_4"
+  - first:
+      213: 2036017193110033546
+    second: "relever pri\xE8re_5"
+  - first:
+      213: 6645266582034706762
+    second: "relever pri\xE8re_6"
+  - first:
+      213: -3153698544857227749
+    second: "relever pri\xE8re_7"
+  - first:
+      213: 8893325436039931857
+    second: "relever pri\xE8re_8"
+  - first:
+      213: -7112224644911228721
+    second: "relever pri\xE8re_9"
+  - first:
+      213: -7447306111604011595
+    second: "relever pri\xE8re_10"
+  - first:
+      213: -1861310029821238566
+    second: "relever pri\xE8re_11"
+  - first:
+      213: 9197567375440564591
+    second: "relever pri\xE8re_12"
+  - first:
+      213: -83723323464333285
+    second: "relever pri\xE8re_13"
+  - first:
+      213: 847355983809498940
+    second: "relever pri\xE8re_14"
+  - first:
+      213: 3982017974095979485
+    second: "relever pri\xE8re_15"
+  - first:
+      213: -6005299275732841851
+    second: "relever pri\xE8re_16"
+  - first:
+      213: 6737546826956679508
+    second: "relever pri\xE8re_17"
+  - first:
+      213: -6642233324143493726
+    second: "relever pri\xE8re_18"
+  - first:
+      213: 5356468473808514980
+    second: "relever pri\xE8re_19"
+  - first:
+      213: -5209975216000826878
+    second: "relever pri\xE8re_20"
+  - first:
+      213: -429708390967975725
+    second: "relever pri\xE8re_21"
+  - first:
+      213: 5287716915403076242
+    second: "relever pri\xE8re_22"
+  - first:
+      213: 3372250573676378933
+    second: "relever pri\xE8re_23"
+  - first:
+      213: -8670459978321246894
+    second: "relever pri\xE8re_24"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "relever pri\xE8re_0"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 84
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a700368e9832279c0800000000000000
+      internalID: -3931040449524727686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_1"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 84
+        width: 140
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11d97cd55e8d42d0800000000000000
+      internalID: -3292819253115629285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_2"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 84
+        width: 142
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241625ea348d4eff0800000000000000
+      internalID: -7643514148855486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_3"
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 84
+        width: 142
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b4c73d37087e0e0800000000000000
+      internalID: -2240681054635799716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_4"
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 84
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d60fbb7a58288a0800000000000000
+      internalID: -6304329572906144473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_5"
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 84
+        width: 142
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8459ef89d2614c10800000000000000
+      internalID: 2036017193110033546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_6"
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 84
+        width: 142
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41f3fb8fbab83c50800000000000000
+      internalID: 6645266582034706762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_7"
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 84
+        width: 140
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e5e19e1efcb34d0800000000000000
+      internalID: -3153698544857227749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_8"
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 84
+        width: 141
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d72b1f7d507b6b70800000000000000
+      internalID: 8893325436039931857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_9"
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 84
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8994d1e5d4c4d90800000000000000
+      internalID: -7112224644911228721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_10"
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 84
+        width: 140
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd4f3c8c8ad5a890800000000000000
+      internalID: -7447306111604011595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_11"
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 84
+        width: 127
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad222a7b36c4b26e0800000000000000
+      internalID: -1861310029821238566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_12"
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 84
+        width: 128
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f615bd21cc254af70800000000000000
+      internalID: 9197567375440564591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_13"
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 83
+        width: 120
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b184e75b41e86def0800000000000000
+      internalID: -83723323464333285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_14"
+      rect:
+        serializedVersion: 2
+        x: 4808
+        y: 84
+        width: 114
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f444d17c962cb00800000000000000
+      internalID: 847355983809498940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_15"
+      rect:
+        serializedVersion: 2
+        x: 5159
+        y: 84
+        width: 113
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd32633ff38f24730800000000000000
+      internalID: 3982017974095979485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_16"
+      rect:
+        serializedVersion: 2
+        x: 5494
+        y: 84
+        width: 134
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a880c4024e8aca0800000000000000
+      internalID: -6005299275732841851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_17"
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 83
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459205e5423908d50800000000000000
+      internalID: 6737546826956679508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_18"
+      rect:
+        serializedVersion: 2
+        x: 6173
+        y: 84
+        width: 106
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad3a27dbfb02d3a0800000000000000
+      internalID: -6642233324143493726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_19"
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 84
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af6fe772bff55a40800000000000000
+      internalID: 5356468473808514980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_20"
+      rect:
+        serializedVersion: 2
+        x: 6811
+        y: 84
+        width: 127
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2028ea9052372b7b0800000000000000
+      internalID: -5209975216000826878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_21"
+      rect:
+        serializedVersion: 2
+        x: 7147
+        y: 84
+        width: 133
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0695fbe7e590af0800000000000000
+      internalID: -429708390967975725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_22"
+      rect:
+        serializedVersion: 2
+        x: 7497
+        y: 84
+        width: 120
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292bc6fd48eb16940800000000000000
+      internalID: 5287716915403076242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_23"
+      rect:
+        serializedVersion: 2
+        x: 7833
+        y: 84
+        width: 120
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b7691a704acce20800000000000000
+      internalID: 3372250573676378933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "relever pri\xE8re_24"
+      rect:
+        serializedVersion: 2
+        x: 8168
+        y: 84
+        width: 120
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255cbe876965ca780800000000000000
+      internalID: -8670459978321246894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8d54927f8905546489bb7894e881b6c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
