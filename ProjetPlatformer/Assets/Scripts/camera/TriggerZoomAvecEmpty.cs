@@ -32,6 +32,7 @@ public class TriggerZoomAvecEmpty : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player"){
+            Camera.transform.DOKill();
             Camera.smoothSpeed = dezoomSpeed;
             Camera.targetOrtho = distanceTarget;
             Camera.smoothSpeed = smoothSpeed;

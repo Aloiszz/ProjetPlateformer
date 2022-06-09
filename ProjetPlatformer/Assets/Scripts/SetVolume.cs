@@ -5,10 +5,27 @@ using UnityEngine.Audio;
 
 public class SetVolume : MonoBehaviour
 {
+    public bool Slidermusique;
+    public bool Slidereffets;
+    public bool Sliderambiance;
     public AudioMixer mixer;
 
     public void SetLevel(float sliderValue)
     {
-        mixer.SetFloat("MusicVol", Mathf.Log10(sliderValue)*20);
+        //if (Slidermusique)
+       // {
+            mixer.SetFloat("Music", Mathf.Log10(sliderValue)*20);
+        //}
+        
+        //if (Slidereffets)
+       // {
+            mixer.SetFloat("SoundEffect", Mathf.Log10(sliderValue)*20);
+       // }
+        
+        if (Sliderambiance)
+        {
+            mixer.SetFloat("Ambiance", Mathf.Log10(sliderValue)*20);
+        }
+       
     }
 }

@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 9f3640ffe74014041a8edcb4640661f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4119120783747788399
+    second: "Pri\xE8re_0"
+  - first:
+      213: -6189556875471069266
+    second: "Pri\xE8re_1"
+  - first:
+      213: -3647151575394334576
+    second: "Pri\xE8re_2"
+  - first:
+      213: -3804320869107849451
+    second: "Pri\xE8re_3"
+  - first:
+      213: -3099587761378681350
+    second: "Pri\xE8re_4"
+  - first:
+      213: -1322124072949276459
+    second: "Pri\xE8re_5"
+  - first:
+      213: 5117035791360792743
+    second: "Pri\xE8re_6"
+  - first:
+      213: -4968544805749277189
+    second: "Pri\xE8re_7"
+  - first:
+      213: 6204097289737619817
+    second: "Pri\xE8re_8"
+  - first:
+      213: 4345553711100772239
+    second: "Pri\xE8re_9"
+  - first:
+      213: -8633735970817857302
+    second: "Pri\xE8re_10"
+  - first:
+      213: 1247960877895715367
+    second: "Pri\xE8re_11"
+  - first:
+      213: -7502836126085731389
+    second: "Pri\xE8re_12"
+  - first:
+      213: -2027420256567787561
+    second: "Pri\xE8re_13"
+  - first:
+      213: -4545017445878261993
+    second: "Pri\xE8re_14"
+  - first:
+      213: 957870028538853785
+    second: "Pri\xE8re_15"
+  - first:
+      213: 659888549099515939
+    second: "Pri\xE8re_16"
+  - first:
+      213: 274138828783467840
+    second: "Pri\xE8re_17"
+  - first:
+      213: -2040341101607755762
+    second: "Pri\xE8re_18"
+  - first:
+      213: 5731604225220708025
+    second: "Pri\xE8re_19"
+  - first:
+      213: 2177681004247712979
+    second: "Pri\xE8re_20"
+  - first:
+      213: 849345252347203196
+    second: "Pri\xE8re_21"
+  - first:
+      213: 2014745804920005227
+    second: "Pri\xE8re_22"
+  - first:
+      213: -5363745822754620349
+    second: "Pri\xE8re_23"
+  - first:
+      213: -3264451001789078788
+    second: "Pri\xE8re_24"
+  - first:
+      213: 6528568432227407313
+    second: "Pri\xE8re_25"
+  - first:
+      213: 3073793733578729528
+    second: "Pri\xE8re_26"
+  - first:
+      213: -6264136848650838173
+    second: "Pri\xE8re_27"
+  - first:
+      213: -3082271694804438108
+    second: "Pri\xE8re_28"
+  - first:
+      213: -6575850407560804389
+    second: "Pri\xE8re_29"
+  - first:
+      213: -1188976033883071499
+    second: "Pri\xE8re_30"
+  - first:
+      213: 7349107621205334219
+    second: "Pri\xE8re_31"
+  - first:
+      213: -7609337058434082982
+    second: "Pri\xE8re_32"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Pri\xE8re_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 12
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e273e578e0a2930800000000000000
+      internalID: 4119120783747788399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_1"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf5870c0d64a1aa0800000000000000
+      internalID: -6189556875471069266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_2"
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 12
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0984d9237f6b26dc0800000000000000
+      internalID: -3647151575394334576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_3"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 12
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517a8316356543bc0800000000000000
+      internalID: -3804320869107849451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_4"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 12
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd10e47a5d0cf4d0800000000000000
+      internalID: -3099587761378681350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_5"
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 12
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0adda192fd6ade0800000000000000
+      internalID: -1322124072949276459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_6"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 12
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a81507e0fc530740800000000000000
+      internalID: 5117035791360792743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_7"
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 12
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb3bad2de2c0bb0800000000000000
+      internalID: -4968544805749277189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_8"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 12
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96946c24d91691650800000000000000
+      internalID: 6204097289737619817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_9"
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 12
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fba8693128e4c30800000000000000
+      internalID: 4345553711100772239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_10"
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 12
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8a3e6c0eece2880800000000000000
+      internalID: -8633735970817857302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_11"
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 12
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a0f847ec5a15110800000000000000
+      internalID: 1247960877895715367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_12"
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 12
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb21b88b4290e790800000000000000
+      internalID: -7502836126085731389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_13"
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 12
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df78d4b4082dd3e0800000000000000
+      internalID: -2027420256567787561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_14"
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 12
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7171978a6badce0c0800000000000000
+      internalID: -4545017445878261993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_15"
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 12
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9993d0847b90b4d00800000000000000
+      internalID: 957870028538853785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_16"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 12
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320bc60a325682900800000000000000
+      internalID: 659888549099515939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_17"
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 12
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04db7c4ffcfedc300800000000000000
+      internalID: 274138828783467840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_18"
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 12
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006a0a04904fa3e0800000000000000
+      internalID: -2040341101607755762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_19"
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 12
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6886decafba8f40800000000000000
+      internalID: 5731604225220708025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_20"
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 12
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d40d44e55da83e10800000000000000
+      internalID: 2177681004247712979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_21"
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 12
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ec1d9c10b79cb00800000000000000
+      internalID: 849345252347203196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_22"
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 12
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6227fe82a0d5fb10800000000000000
+      internalID: 2014745804920005227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_23"
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 12
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cb931b7952095b0800000000000000
+      internalID: -5363745822754620349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_24"
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 12
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2a1b31c1752b2d0800000000000000
+      internalID: -3264451001789078788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_25"
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 12
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d55eb636622a9a50800000000000000
+      internalID: 6528568432227407313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_26"
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 12
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83828c27d1f48aa20800000000000000
+      internalID: 3073793733578729528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_27"
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 12
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f5bb799b05119a0800000000000000
+      internalID: -6264136848650838173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_28"
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 12
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3b0f169329935d0800000000000000
+      internalID: -3082271694804438108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_29"
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 12
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd70b3905e2edb4a0800000000000000
+      internalID: -6575850407560804389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_30"
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 12
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb52fdb898ef7fe0800000000000000
+      internalID: -1188976033883071499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_31"
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 12
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85f0ab1764df560800000000000000
+      internalID: 7349107621205334219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Pri\xE8re_32"
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 12
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5712d7e244366690800000000000000
+      internalID: -7609337058434082982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f8289dd0b9484d54daf860a4f097c232
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
