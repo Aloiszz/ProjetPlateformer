@@ -4829,7 +4829,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726366565105205969}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -47.08379, y: -53.100742, z: -27.371479}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6110,8 +6110,8 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
-        key1: {r: 1, g: 1, b: 1, a: 0.007843138}
-        key2: {r: 0, g: 0, b: 0, a: 0.007843138}
+        key1: {r: 1, g: 1, b: 1, a: 0.003921569}
+        key2: {r: 0, g: 0, b: 0, a: 0.003921569}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -6129,7 +6129,7 @@ ParticleSystem:
         atime1: 21203
         atime2: 45104
         atime3: 65535
-        atime4: 0
+        atime4: 65535
         atime5: 0
         atime6: 0
         atime7: 0
@@ -9583,8 +9583,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1501286151
+  m_SortingLayer: 42
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -10278,7 +10278,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1.83, y: 1, z: 1}
+    m_Scale: {x: 3.8, y: 1, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -10476,7 +10476,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 48.98
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -10915,8 +10915,8 @@ ParticleSystem:
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
-        key1: {r: 1, g: 1, b: 1, a: 0.003921569}
-        key2: {r: 0, g: 0, b: 0, a: 0.003921569}
+        key1: {r: 1, g: 1, b: 1, a: 0.011764706}
+        key2: {r: 0, g: 0, b: 0, a: 0.011764706}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
