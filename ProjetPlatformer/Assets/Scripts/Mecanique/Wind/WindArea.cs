@@ -39,13 +39,10 @@ public class WindArea : MonoBehaviour
 
     public Light2D globalLight;
     
-    /*[Header("-------Sound------")] 
-    public AudioSource source;
-    public AudioSource source2;
-    public AudioClip ventActif;
-    public AudioClip ventInactif;*/
-
-
+    [Header("-------Sound------")] 
+    public AudioSource sourceTemepeteOff;
+    public AudioSource sourceTempeteOn;
+    
     private void Awake()
     {
         rb = Character.GetComponent<Rigidbody2D>();
@@ -54,30 +51,29 @@ public class WindArea : MonoBehaviour
     
     private void Update()
     {
-        if (!isWindy && letsHaveTempete)
+        sourceTemepeteOff.mute = true;
+        sourceTempeteOn.mute = true;
+        if (letsHaveTempete)
         {
-            if (TriggerApparitionBackgroundTempête.instance.startSound == true)
+            sourceTemepeteOff.mute = false;
+            sourceTempeteOn.mute = false;
+            if (isWindy)
             {
-                /*source2.mute = false;
-                source.mute = true;
-                source.PlayOneShot(ventInactif);*/
+                sourceTempeteOn.mute = true;
+                sourceTempeteOn.Play();
+                if (globalLight.intensity <= 1f)
+                {
+                    globalLight.intensity += 0.4f * Time.deltaTime;
+                }
             }
-            if (globalLight.intensity >= 0.3f)
+            else
             {
-                globalLight.intensity -= 0.4f * Time.deltaTime;
-            }
-        }
-        else
-        {
-           if (TriggerApparitionBackgroundTempête.instance.startSound)
-            {
-                /*source2.mute = true;
-                source.mute = false;
-                source2.PlayOneShot(ventActif);*/
-            }
-            if (globalLight.intensity <= 1f)
-            {
-                globalLight.intensity += 0.4f * Time.deltaTime;
+                sourceTemepeteOff.mute = true;
+                sourceTemepeteOff.Play();
+                if (globalLight.intensity >= 0.3f)
+                {
+                    globalLight.intensity -= 0.4f * Time.deltaTime;
+                }
             }
         }
     }

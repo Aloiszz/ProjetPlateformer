@@ -108,12 +108,12 @@ public class CameraZoom : MonoBehaviour
 
     IEnumerator SmoothCameraIntro()
     {
-        smoothSpeed = 0.3f;
+        smoothSpeed = 0.5f;
         animPlayer.SetBool("IsWalking", false);
         animPlayer.SetTrigger("EntreeFdC");
         animPlayer.SetBool("IsFdC", true);
         animPlayer.Play("Idle Feu de camp");
-        targetOrtho = 5;
+        targetOrtho = 6;
         //.SetTrigger("SortieFdC");
         yield return new WaitForSeconds(10.5f);
         targetOrtho = 7;
