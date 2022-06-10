@@ -11,6 +11,7 @@ public class GlobalLightEntreRuine : MonoBehaviour
     public Light2D globalLight;
     public bool isActive = false;
 
+    public TriggerApparitionBackgroundTempête Trigger;
 
     private void OnTriggerEnter2D(Collider2D col)
     {
@@ -32,12 +33,21 @@ public class GlobalLightEntreRuine : MonoBehaviour
     {
         if (isActive)
         {
-            if (globalLight.intensity <= 1.5f && globalLight.intensity >= 0f)
+            if (globalLight.intensity >= 0f)
             {
-                Debug.Log("True");
                 globalLight.intensity -= 0.4f;
             }
         }
-        
+        else
+        {
+            if (globalLight.intensity <= 1)
+            {
+                globalLight.intensity += 0.4f * Time.deltaTime;
+                if (Trigger.startSound)
+                {
+                    Destroy(gameObject);
+                }
+            }
+        }
     }
 }

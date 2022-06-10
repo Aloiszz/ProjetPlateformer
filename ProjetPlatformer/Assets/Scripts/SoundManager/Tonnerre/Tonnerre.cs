@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 public class Tonnerre : MonoBehaviour
 { 
     public AudioSource source;
-    public AudioClip tonnerreSound;
     public bool canMakeNoise = false;
     public WindArea WindArea;
 
@@ -16,28 +15,20 @@ public class Tonnerre : MonoBehaviour
     private void Start()
     {
         time = Random.Range(2, 10);
-        Debug.Log(time);
+        //Debug.Log(time);
     }
 
     private void Update()
     {
         if (canMakeNoise && WindArea.letsHaveTempete)
         {
-            Invoke("PlaySound", time);
-            //StartCoroutine(StartNoise());
+            StartCoroutine(PlaySound());
         }
     }
 
-    IEnumerator StartNoise()
+    IEnumerator PlaySound()
     {
         yield return new WaitForSeconds(time);
-        
-        //yield return new WaitForSeconds(time);
-    }
-
-
-    void PlaySound()
-    {
-        source.PlayOneShot(tonnerreSound, 0.2f); 
+        source.Play();
     }
 }
