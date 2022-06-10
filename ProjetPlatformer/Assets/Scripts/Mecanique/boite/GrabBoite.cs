@@ -64,8 +64,16 @@ public class GrabBoite : MonoBehaviour
         if (grabBoiteinstance == null) grabBoiteinstance = this;
         //RemplirArray();
         texteIndication.SetActive(false);
+        StartCoroutine(MuteStart());
     }
 
+    IEnumerator MuteStart()
+    {
+        source.mute = true;
+        yield return new WaitForSeconds(2f);
+        source.mute = false;
+    }
+    
     void RemplirArray()
     {
         Points = new GameObject[numberOfpoints];
