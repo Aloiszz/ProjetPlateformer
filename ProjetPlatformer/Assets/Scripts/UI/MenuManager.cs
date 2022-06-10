@@ -19,6 +19,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public bool ActivateMenu = true;
     public bool StopPause;
     public bool OptionPause;
+    public bool NON;
 
     [Header("Divers")]
     public FeuxDeCamp Fdc;
@@ -195,11 +196,20 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
                 }
             }
         }
-            
+
+        if (NON)
+        {
+            CharacterMovement.instance.canMove = false;
+            CharacterMovement.instance.canJump = false;
+            CharacterMovement.instance.speed = 0; 
+        }
+        
         if (MenuPrincipalOuvert == false && MenuParcheminOuvert == false && OptionPause == false)
         {
             if (Input.GetKeyUp(KeyCode.JoystickButton7) || Input.GetKeyDown(KeyCode.Escape) && OptionPause == false)
             {
+                NON = true;
+                CharacterMovement.instance.blockCinematiques = true;
                 //Time.timeScale = 0;
                 menuPause.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
@@ -439,6 +449,8 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void Unpause()
     {
+        NON = false;
+        CharacterMovement.instance.blockCinematiques = false;
         OptionPause = false;
         menuPause.SetActive(false);
         Time.timeScale = 1;

@@ -68,8 +68,14 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: 0099736a3a645e241839491a1e55f056
+    name: ambiance
+  - guid: cf98ad675febde2429c828509349e2ff
+    name: bruitages
   - guid: 23218b063549bd74e8d8ab42bc4df1cf
     name: MasterVolume
+  - guid: 0433576b99462984daa268a0157d3459
+    name: volume
   m_AudioMixerGroupViews:
   - guids:
     - 775ff80d6e86d1844baa9fe327421ac2
