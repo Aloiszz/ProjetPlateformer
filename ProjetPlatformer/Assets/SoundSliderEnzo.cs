@@ -20,26 +20,26 @@ public class SoundSliderEnzo : MonoBehaviour
         soundSlider.onValueChanged.AddListener (delegate {ValueOfSoundChangeCheck(soundSlider.value);});
         
         audioMixer.GetFloat("volume", out float musicValueForSlider);
-        musicSlider.value = musicValueForSlider;
+        musicSlider.value = musicValueForSlider + (1 - 0.09745264f);
 
         audioMixer.GetFloat("ambiance", out float atmosphereValueForSlider);
         atmosphereSlider.value = atmosphereValueForSlider;
 
         audioMixer.GetFloat("bruitages", out float soundValueForSlider);
-        soundSlider.value = soundValueForSlider;
+        soundSlider.value = soundValueForSlider + 4.5f;
         
     }
     
     public void ValueOfMusicChangeCheck(float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("volume", Mathf.Log10(volume)*20);
     }
     public void ValueOfAtmosphereChangeCheck(float volume)
     {
-        audioMixer.SetFloat("ambiance", volume);
+        audioMixer.SetFloat("ambiance", Mathf.Log10(volume)*20);
     } 
     public void ValueOfSoundChangeCheck(float volume)
     {
-        audioMixer.SetFloat("bruitages", volume);
+        audioMixer.SetFloat("bruitages", Mathf.Log10(volume)*20);
     }
 }

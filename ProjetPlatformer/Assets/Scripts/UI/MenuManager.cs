@@ -627,14 +627,14 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         MuqiqueManager.instance.audioSource.Stop();
         MuqiqueManager.instance.MusicStart = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
         MuqiqueManager.instance.MusicStart = false; 
     }
     
     public void JoinLevel1()
     {
         
-        StartCoroutine(Music());
+        //StartCoroutine(Music());
         OptionPause = false;
         menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
@@ -646,13 +646,13 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         MuqiqueManager.instance.audioSource.Stop();
         MuqiqueManager.instance.MusicRuines = true;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
         MuqiqueManager.instance.MusicRuines = false; 
     }
     
     public void JoinLevel2()
     {
-        StartCoroutine(Music2());
+       // StartCoroutine(Music2());
         OptionPause = false;
         menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);

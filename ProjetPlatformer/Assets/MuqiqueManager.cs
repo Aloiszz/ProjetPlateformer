@@ -142,18 +142,23 @@ public class MuqiqueManager : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "LD Ruines 3")
         {
+            DoOnce = true;
+            DoOnce3 = true;
             StartCoroutine(Music());
         }
         
         if (SceneManager.GetActiveScene().name == "LoadingScreen")
         {
+            DoOnce2 = true;
+            DoOnce3 = true;
             StartCoroutine(Music2());
         }
         
         if (SceneManager.GetActiveScene().name == "LD 1 + mieux2")
         {
-            StartCoroutine(Music3());
+            DoOnce = true;
             DoOnce2 = true;
+            StartCoroutine(Music3());
         }
     }
     
@@ -161,10 +166,11 @@ public class MuqiqueManager : MonoBehaviour
     {
         if (DoOnce2)
         {
-            MusicRuines = true;
-            yield return new WaitForSeconds(0.5f);
-            MusicRuines = false;
             DoOnce2 = false;
+            Debug.Log("musique 2");
+            MusicRuines = true;
+            yield return new WaitForSeconds(0.1f);
+            MusicRuines = false;
         }
       
     }
@@ -173,10 +179,11 @@ public class MuqiqueManager : MonoBehaviour
     {
         if (DoOnce)
         {
-            Chargement = true;
-            yield return new WaitForSeconds(0.5f);
-            Chargement = false;
             DoOnce = false;
+            Chargement = true;
+            yield return new WaitForSeconds(0.1f);
+            Chargement = false;
+           
         }
      
     }
@@ -185,10 +192,11 @@ public class MuqiqueManager : MonoBehaviour
     {
         if (DoOnce3)
         {
-            MusicStart = true;
-            yield return new WaitForSeconds(0.5f);
-            MusicStart = false;
             DoOnce3 = false;
+            Debug.Log("musique 1");
+            MusicStart = true;
+            yield return new WaitForSeconds(0.1f);
+            MusicStart = false;
         }
      
     }

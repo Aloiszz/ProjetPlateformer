@@ -51,7 +51,6 @@ public class PontQuiSuivent : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("touche");
         if (other.gameObject.tag != "Player" && doOnce == false)
         {
             doOnce = true;

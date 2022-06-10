@@ -51,7 +51,6 @@ public class PontQuisuivent4 : MonoBehaviour
     {
         if (other.gameObject.tag != "Player" && doOnce == false)
         {
-            Debug.Log("touche");
             doOnce = true;
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();
