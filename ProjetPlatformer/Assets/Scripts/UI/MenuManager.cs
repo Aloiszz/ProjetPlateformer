@@ -41,6 +41,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public float distanceChangementPage;
     public CameraZoom cm;
     public AnimationIconeParch icone;
+    public AudioSource source;
 
     [Header("First Selected")]
     public GameObject firstSelctedOption;
@@ -291,8 +292,16 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     {
         StopPause = false;
     }
+
+    public IEnumerator Sound()
+    {
+        MuqiqueManager.instance.MusicStart = true;
+        yield return new WaitForSeconds(0.1f);
+        MuqiqueManager.instance.MusicStart = false;
+    }
     public void Restart()
     {
+        StartCoroutine(Sound());
         MenuParcheminOuvert = false;
         menuParchemin.SetActive(false);
         OptionPause = false;
