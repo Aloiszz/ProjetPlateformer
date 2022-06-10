@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraZoom : MonoBehaviour
 {
@@ -38,8 +39,28 @@ public class CameraZoom : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
+
+        if (SceneManager.GetActiveScene().name == "LD Ruines 3")
+        {
+            StartCoroutine(WaitCinématique());
+        }
     }
-    
+
+    IEnumerator WaitCinématique()
+    {
+        CharacterMovement.instance.canMove = false;
+        CharacterMovement.instance.canJump = false;
+        CharacterMovement.instance.speed = 0;
+        CharacterMovement.instance.gravityScale = 5;
+        isMoving = true;
+        animPlayer.Play("Player_Jump_LandingHard");
+        yield return new WaitForSeconds(2f);
+        isMoving = false;
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
+        CharacterMovement.instance.speed = 11;
+        CharacterMovement.instance.gravityScale = 9;
+    }
     
    
 
