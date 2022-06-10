@@ -69,10 +69,17 @@ public class TriggerDisparitionTempête : MonoBehaviour
         
     }
 
+    IEnumerator Music()
+    {
+        MuqiqueManager.instance.MusicPostTempete = true;
+        yield return new WaitForSeconds(0.5f);
+        MuqiqueManager.instance.MusicPostTempete = false; 
+    }
 
     public GameObject GlobalVolume;
     private void OnTriggerEnter2D(Collider2D other)
     {
+        StartCoroutine(Music());
         doOnce = true;
         
         for (int i = 0; i < WindZone.Count; i++)

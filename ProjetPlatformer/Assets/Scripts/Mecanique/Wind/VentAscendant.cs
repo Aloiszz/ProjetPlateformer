@@ -37,7 +37,11 @@ public class VentAscendant : MonoBehaviour
     {
         isWindy = true;
         anim.SetBool("isDoubleJumping",false);
-        VentNormaux.Play();
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Respawn")
+        {
+            VentNormaux.Play();  
+        }
+        
     }
 
     public void OnTriggerStay2D(Collider2D other)

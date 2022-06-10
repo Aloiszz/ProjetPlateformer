@@ -113,6 +113,18 @@ TagManager:
   - name: "arri\xE8re plan 1"
     uniqueID: 1373034247
     locked: 0
+  - name: mousse murale
+    uniqueID: 3773215959
+    locked: 0
+  - name: "structure arri\xE8re"
+    uniqueID: 1314881793
+    locked: 0
+  - name: structure
+    uniqueID: 2204220271
+    locked: 0
+  - name: "props arri\xE8re"
+    uniqueID: 2965670183
+    locked: 0
   - name: props milieu
     uniqueID: 1071664807
     locked: 0
@@ -125,7 +137,10 @@ TagManager:
   - name: grille avant
     uniqueID: 2960427477
     locked: 0
-  - name: tiles
+  - name: colonne
+    uniqueID: 1579418959
+    locked: 0
+  - name: 'tiles '
     uniqueID: 912346023
     locked: 0
   - name: "grotte du d\xE9but"
@@ -134,15 +149,33 @@ TagManager:
   - name: props
     uniqueID: 85276751
     locked: 0
+  - name: tiles avant
+    uniqueID: 1552869267
+    locked: 0
+  - name: feux de camps
+    uniqueID: 2859129047
+    locked: 0
   - name: personnage principale
     uniqueID: 2111864505
     locked: 0
-  - name: avant plan
-    uniqueID: 4270066125
+  - name: rails
+    uniqueID: 3008604411
+    locked: 0
+  - name: 'boite parchemin '
+    uniqueID: 2451979811
+    locked: 0
+  - name: eau
+    uniqueID: 3750443805
+    locked: 0
+  - name: props avant
+    uniqueID: 4215311709
+    locked: 0
+  - name: "platforme et \xE9lement bouge"
+    uniqueID: 3849818727
     locked: 0
   - name: particule
     uniqueID: 1501286151
     locked: 0
-  - name: 'boite parchemin '
-    uniqueID: 2451979811
+  - name: avant plan
+    uniqueID: 4270066125
     locked: 0

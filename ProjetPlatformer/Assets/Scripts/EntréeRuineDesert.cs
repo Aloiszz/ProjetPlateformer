@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Timers;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Tilemaps;
 
 public class EntréeRuineDesert : MonoBehaviour
@@ -38,11 +39,20 @@ public class EntréeRuineDesert : MonoBehaviour
     public float dezoomSpeed = 2f; // permet d'ajuster sur la vitesse de la caméra pour dézoomer ou zoomer
     public float smoothSpeed = 2f;
 
-
+    IEnumerator Sound()
+    {
+        yield return new WaitForSeconds(0.4f);
+        SoundCinématique.instance.TombeDesert = true;
+        yield return new WaitForSeconds(0.4f);
+        SoundCinématique.instance.TombeDesert = false;
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        StartCoroutine(Sound());
         StartCoroutine(BriserPlateforme());
     }
+    
+    
 
     IEnumerator BriserPlateforme()
     {
