@@ -17,6 +17,8 @@ public class DebutTriggerPiqueQuiBougent : MonoBehaviour
     GamePadState state;
     GamePadState prevState;
     private bool doOnce;
+
+    public AudioSource source;
     
     [Header("Vibration Motor")]
     public float leftMotor;
@@ -27,8 +29,10 @@ public class DebutTriggerPiqueQuiBougent : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+           
             if (DoOnce == 0)
             {
+                source.Play();
                 DoOnce++;
                 StartCoroutine(Tamere());
                 StartCoroutine(Wait());

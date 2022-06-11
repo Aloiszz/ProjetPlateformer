@@ -16,6 +16,8 @@ public class LevierVent2 : MonoBehaviour
     public GameObject VentSupprimé2;
     public GameObject VentSupprimé3;
     public Light2D light;
+
+    public AudioSource source;
     
     public bool isAtRange;
     
@@ -83,6 +85,7 @@ public class LevierVent2 : MonoBehaviour
            
             if (Input.GetButtonDown("GrabGamepad") && BouttonOn2 == false)
             {
+                source.Play();
                 ActivateWind();
                 BouttonOn2 = true;
                 AutreLevier.BouttonOn = false;
