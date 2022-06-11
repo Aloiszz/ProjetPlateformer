@@ -295,12 +295,15 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
 
     public IEnumerator Sound()
     {
-        MuqiqueManager.instance.MusicStart = true;
+        MuqiqueManager.instance.DoOnce3 = true;
+        MuqiqueManager.instance.audioSource.Stop();
         yield return new WaitForSeconds(0.1f);
-        MuqiqueManager.instance.MusicStart = false;
     }
     public void Restart()
     {
+        SoundSliderEnzo.instance.musicSlider.value = (1);
+        MuqiqueManager.instance.audioSource.Stop();
+        MuqiqueManager.instance.DoOnce3 = true;
         StartCoroutine(Sound());
         MenuParcheminOuvert = false;
         menuParchemin.SetActive(false);
