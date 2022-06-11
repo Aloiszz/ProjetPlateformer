@@ -36,6 +36,8 @@ public class CameraZoom : MonoBehaviour
 
     public GameObject Waypoint1;
     public GameObject Waypoint2;
+
+    public bool DoOnce;
     
     private void Awake()
     {
@@ -43,7 +45,7 @@ public class CameraZoom : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "LD Ruines 3")
         {
-            if (CinematiqueIntroRuines)
+            if (CinematiqueIntroRuines && DoOnce)
             {
                 StartCoroutine(WaitCinématique());
             }
@@ -52,6 +54,7 @@ public class CameraZoom : MonoBehaviour
 
     IEnumerator WaitCinématique()
     {
+        DoOnce = false;
         CharacterMovement.instance.canMove = false;
         CharacterMovement.instance.canJump = false;
         CharacterMovement.instance.speed = 0;
@@ -71,6 +74,11 @@ public class CameraZoom : MonoBehaviour
 
     void Update()
     {
+        if (DoOnce = false)
+        {
+            Follow();
+        }
+        
         //Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
         Camera.main.DOOrthoSize(targetOrtho, smoothSpeed);
        
