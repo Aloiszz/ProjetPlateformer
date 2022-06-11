@@ -205,7 +205,7 @@ using DG.Tweening;
     }
     IEnumerator Credit()
     {
-        yield return new WaitForSeconds(19);
+        yield return new WaitForSeconds(17);
         MenuManager.instance.OpendCreditFin();
     }
     
