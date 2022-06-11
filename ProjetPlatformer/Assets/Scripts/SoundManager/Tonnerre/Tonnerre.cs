@@ -8,20 +8,21 @@ public class Tonnerre : MonoBehaviour
 { 
     public AudioSource source;
     public bool canMakeNoise = false;
-    public WindArea WindArea;
+    public EclairBox éclairBox;
 
     private float time;
+    public bool recommencer = false;
 
     private void Start()
     {
         time = Random.Range(2, 10);
-        //Debug.Log(time);
     }
 
     private void Update()
     {
-        if (canMakeNoise && WindArea.letsHaveTempete)
+        if (éclairBox.isInStorm == false)
         {
+            Debug.Log("dfsqdqsd");
             StartCoroutine(PlaySound());
         }
     }
@@ -30,5 +31,7 @@ public class Tonnerre : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         source.Play();
+        yield return new WaitForSeconds(time);
+        recommencer = true;
     }
 }
