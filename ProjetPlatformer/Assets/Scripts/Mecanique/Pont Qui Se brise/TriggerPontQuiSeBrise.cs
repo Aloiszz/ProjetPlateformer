@@ -14,6 +14,8 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
     public float strengh;
     public int vibration;
     public float randomness;
+
+    public AudioSource source;
     
     PlayerIndex playerIndex;
     GamePadState state;
@@ -30,6 +32,7 @@ public class TriggerPontQuiSeBrise : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            source.Play();
             isTriggered = true;
             tweener = mainCamera.transform.DOShakePosition(8.4f,strengh,vibration,randomness,false,false);
             StartCoroutine(VibrationTime());
