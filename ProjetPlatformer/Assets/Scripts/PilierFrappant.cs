@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Unity.Mathematics;
 using UnityEngine;
 using XInputDotNetPure;
 
@@ -17,6 +18,8 @@ public class PilierFrappant : MonoBehaviour
     public GameObject camera;
     public FermetureSalle2 trigger;
     public GameObject deathZone;
+    public ParticleSystem Poussière;
+    public GameObject particle;
 
     public AudioSource AudioData;
 
@@ -49,6 +52,7 @@ public class PilierFrappant : MonoBehaviour
                 {
                     tweener = camera.transform.DOShakePosition(0.1f,0.5f,1,10,false, false);
                     AudioData.Play();
+                    Instantiate(Poussière, particle.transform.position, quaternion.identity);
                 }
             }
 

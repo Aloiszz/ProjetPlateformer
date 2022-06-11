@@ -14099,6 +14099,7 @@ MonoBehaviour:
   musicSlider: {fileID: 7056936838421926573}
   atmosphereSlider: {fileID: 8631309247712833288}
   soundSlider: {fileID: 2197059274034153323}
+  DoOnce: 0
 --- !u!1 &2966439475760552409
 GameObject:
   m_ObjectHideFlags: 0
@@ -21174,7 +21175,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -23, y: 235}
+  m_AnchoredPosition: {x: -269, y: 235}
   m_SizeDelta: {x: 1455.2788, y: 500.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6910416968928270465
@@ -24251,6 +24252,7 @@ MonoBehaviour:
   musicSlider: {fileID: 6910416967760104931}
   atmosphereSlider: {fileID: 4674072287605656630}
   soundSlider: {fileID: 4224067136219371435}
+  DoOnce: 0
 --- !u!1 &8119323055602064967
 GameObject:
   m_ObjectHideFlags: 0
