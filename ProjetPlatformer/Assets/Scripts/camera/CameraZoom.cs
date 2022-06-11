@@ -148,6 +148,7 @@ public class CameraZoom : MonoBehaviour
 
     IEnumerator SmoothCameraIntro()
     {
+        MenuManager.instance.OptionPause = true;
         smoothSpeed = 0.5f;
         animPlayer.SetBool("IsWalking", false);
         animPlayer.SetTrigger("EntreeFdC");
@@ -160,9 +161,13 @@ public class CameraZoom : MonoBehaviour
         animPlayer.ResetTrigger("EntreeFdC");
         animPlayer.SetBool("IsFdC", false);
         animPlayer.SetTrigger("SortieFdC");
+        CharacterMovement.instance.canMove = true;
+        CharacterMovement.instance.canJump = true;
+        CharacterMovement.instance.speed = 11;
         yield return new WaitForSeconds(0.1f);
         smoothSpeed = 2;
         StopSmoothChange = true;
+        MenuManager.instance.OptionPause = false;
     }
     
 

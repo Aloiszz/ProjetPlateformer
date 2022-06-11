@@ -41,7 +41,7 @@ ParticleSystem:
   m_GameObject: {fileID: 998185409274341669}
   serializedVersion: 7
   lengthInSec: 1.05
-  simulationSpeed: 5
+  simulationSpeed: 3
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -4777,7 +4777,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1501286151
-  m_SortingLayer: 42
+  m_SortingLayer: 43
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
