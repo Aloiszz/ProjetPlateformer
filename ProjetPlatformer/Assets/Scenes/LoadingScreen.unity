@@ -5876,7 +5876,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.12549019, g: 0.4802977, b: 0.972549, a: 1}
-  m_Intensity: 1.78
+  m_Intensity: 1.97
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000001d3b8bdf9d724fd6af18673be1106b44a74b6136
   m_LightCookieSprite: {fileID: 0}
@@ -18848,7 +18848,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.12549019, g: 0.4802977, b: 0.972549, a: 1}
-  m_Intensity: 12.99
+  m_Intensity: 15.4
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000001d3b8bdf9d724fd6af18673be1106b44a74b6136
   m_LightCookieSprite: {fileID: 0}
@@ -23854,8 +23854,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2111864505
+  m_SortingLayer: 37
   m_SortingOrder: 1172
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24382,7 +24382,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.12549019, g: 0.4802977, b: 0.972549, a: 1}
-  m_Intensity: 12.99
+  m_Intensity: 3.47
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000001d3b8bdf9d724fd6af18673be1106b44a74b6136
   m_LightCookieSprite: {fileID: 0}
@@ -25858,7 +25858,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.12549019, g: 0.4802977, b: 0.972549, a: 1}
-  m_Intensity: 2.08
+  m_Intensity: 4.8
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 000000001d3b8bdf9d724fd6af18673be1106b44a74b6136
   m_LightCookieSprite: {fileID: 0}
@@ -25891,7 +25891,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913772318}
   m_LocalRotation: {x: 0, y: 0, z: 0.63379085, w: 0.7735045}
-  m_LocalPosition: {x: 295.79, y: 51.84, z: 0}
+  m_LocalPosition: {x: 295.79, y: 52.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26183,7 +26183,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 247, y: 106}
+  m_AnchoredPosition: {x: 316.1, y: 21.6}
   m_SizeDelta: {x: 135.8501, y: 39.927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2017946920
