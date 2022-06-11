@@ -7,25 +7,18 @@ using UnityEngine;
 public class AnimationIconeParch : MonoBehaviour
 {
     public bool NewParchemin;
+    public Animator anim;
     
     private void Update()
     {
         if (NewParchemin)
         {
-            StartCoroutine(Animation());
+            anim.SetBool("NewParch", true);
         }
         else
         {
-            StopCoroutine(Animation());
-            transform.localScale = new Vector3(1, 1, 1);
+            anim.SetBool("NewParch", false);
         }
     }
-
-    IEnumerator Animation()
-    {
-        transform.DOScale(3, 2);
-        yield return new WaitForSeconds(2.1f);
-        transform.DOScale(-3, 2);
-        yield return new WaitForSeconds(2.1f);
-    }
+    
 }

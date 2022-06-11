@@ -31,6 +31,8 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     PlayerIndex playerIndex;
     GamePadState state;
     GamePadState prevState;
+
+    public AudioSource sourceTremblement;
     
     private int y = 0;
     private int z = 0;
@@ -62,6 +64,7 @@ public class DeathZonePontQuiSecroule : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            sourceTremblement.Stop();
             source.PlayOneShot(Mort);
             GamePad.SetVibration(playerIndex, 0, 0);
             triggerPont.tweener.Kill();

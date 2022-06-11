@@ -16,11 +16,14 @@ public class PontQuiSuivent1 : MonoBehaviour
     public ParticleSystem particules;
     public GameObject particulesPoint;
     public bool doOnce;
+    
+    public AudioSource source;
 
     // public GameObject mainCamera;
     //  private Tween tweener;
     private void Awake()
     {
+        StartCoroutine(WaitSound());
         doOnce = false;
         
         if (instancePontQuiSuivent1 == null) instancePontQuiSuivent1 = this;
@@ -48,11 +51,19 @@ public class PontQuiSuivent1 : MonoBehaviour
         }
     }
     
+    IEnumerator WaitSound()
+    {
+        source.mute = true;
+        yield return new WaitForSeconds(1.5f);
+        source.mute = false;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         
         if (other.gameObject.tag != "Player" && doOnce == false)
         {
+            source.Play();
             doOnce = true;
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();

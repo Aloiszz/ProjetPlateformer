@@ -20,10 +20,13 @@ public class PontQuiSecroulle : MonoBehaviour
     public GameObject particulesPoint;
     public bool doOnce;
 
+    public AudioSource source;
+
     // public GameObject mainCamera;
   //  private Tween tweener;
     private void Awake()
     {
+        StartCoroutine(WaitSound());
         doOnce = false;
         
         if (instancePont == null) instancePont = this;
@@ -41,6 +44,13 @@ public class PontQuiSecroulle : MonoBehaviour
         }
     }
 
+    IEnumerator WaitSound()
+    {
+        source.mute = true;
+        yield return new WaitForSeconds(1.5f);
+        source.mute = false;
+    }
+    
     private void Update()
     {
         if (trigger.isTriggered == true)
@@ -57,6 +67,7 @@ public class PontQuiSecroulle : MonoBehaviour
     {
         if (other.gameObject.tag != "Player" && doOnce == false)
         {
+            source.Play();
             doOnce = true;
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();

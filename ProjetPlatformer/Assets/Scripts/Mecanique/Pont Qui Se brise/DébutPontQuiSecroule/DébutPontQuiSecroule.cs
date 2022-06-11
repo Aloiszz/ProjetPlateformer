@@ -16,9 +16,12 @@ public class DébutPontQuiSecroule : MonoBehaviour
     
     public ParticleSystem particules;
     public GameObject particulesPoint;
+
+    public AudioSource source;
     
     private void Awake()
     {
+        StartCoroutine(WaitSound());
         if (instancePont == null) instancePont = this;
         
         rb = GetComponent<Rigidbody2D>();
@@ -41,10 +44,18 @@ public class DébutPontQuiSecroule : MonoBehaviour
         }
     }
 
+    IEnumerator WaitSound()
+    {
+        source.mute = true;
+        yield return new WaitForSeconds(1.5f);
+        source.mute = false;
+    }
+    
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag != "Player")
         {
+            source.Play();
             Instantiate(particules, particulesPoint.transform.position, Quaternion.identity);
             //particules.Play();
         }

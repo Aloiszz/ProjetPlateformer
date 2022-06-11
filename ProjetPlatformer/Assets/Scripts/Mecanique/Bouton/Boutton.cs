@@ -19,6 +19,9 @@ public class Boutton : MonoBehaviour
     public bool porteAction;
     public bool isAtRange;
 
+    public AudioSource source;
+    public AudioSource source2;
+
     //private Tween tweener;
     //public GameObject mainCamera;
     //public bool cameraShake;
@@ -51,6 +54,7 @@ public class Boutton : MonoBehaviour
             {
                 if (Input.GetButtonDown("GrabGamepad")) // si le joueur press la touche interaction
                 {
+                    source.Play();
                     BouttonOn = !BouttonOn;
                     
                 }
@@ -78,6 +82,7 @@ public class Boutton : MonoBehaviour
 
     void OuverturePorte()
     {
+        source2.Play();
         porteAction = true;
         /*if (cameraShake)
         {
@@ -93,6 +98,7 @@ public class Boutton : MonoBehaviour
 
     void FermeturePorte()
     {
+        source2.Play();
         porteAction = true;
         /*if (cameraShake)
         {
