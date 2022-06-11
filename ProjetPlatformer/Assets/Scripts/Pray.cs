@@ -5,6 +5,7 @@ using Cinemachine;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.UI;
 
 public class Pray : MonoBehaviour
 {
@@ -67,6 +68,9 @@ public class Pray : MonoBehaviour
     private float graph4, increment4;
     private bool canRunGame4;
     private bool stopWakeUp4;
+    private bool isUI;
+
+    public Image pray;
     
 
     [Header("NE PAS TOUCHER")] 
@@ -75,10 +79,23 @@ public class Pray : MonoBehaviour
 
     public void Update()
     {
+
+        if (isUI)
+        {
+            pray.enabled = true;
+        }
+        else
+        {
+            pray.enabled = false;
+        }
+
         if (isInRange)
         {
+            isUI = true;
             if (Input.GetButtonDown("GrabGamepad"))
             {
+                isInRange = false;
+                isUI = false;
                 onoff = !onoff;
                 if (onoff)
                 {
@@ -90,6 +107,10 @@ public class Pray : MonoBehaviour
                 }*/
                 
             }
+        }
+        else
+        {
+            isUI = false;
         }
         
         
