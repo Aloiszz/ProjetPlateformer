@@ -1879,7 +1879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 3063}
+  m_AnchoredPosition: {x: 0, y: 5889}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &409927570
@@ -3530,6 +3530,41 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &794161328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794161329}
+  m_Layer: 5
+  m_Name: DebutSpotCreditPause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &794161329
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794161328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6910416968409992151}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -709}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &813679554
 GameObject:
   m_ObjectHideFlags: 0
@@ -9135,6 +9170,41 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1758473487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758473488}
+  m_Layer: 5
+  m_Name: FinSpotCreditPause
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1758473488
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758473487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6910416968409992151}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 5889}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1773823368
 GameObject:
   m_ObjectHideFlags: 0
@@ -10923,7 +10993,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 3063}
+  m_AnchoredPosition: {x: 0, y: 5889}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &135639153594500910
@@ -10991,12 +11061,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nMelissa\n\n\nGame Design :\n\nAlo\xEFs Tupinon\nEthan Dehay\nK\xE9vin
-    Dubois\n\nGame Art :\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAm\xE9lie
-    Delnegro\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
+  m_text: "\nMelissa\n\n\n\n\nGame Design :\n\n\nAlois Tupinon\nEthan Dehay\nKevin
+    Dubois\n\n\n\n\nGame Art :\n\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAmelie
+    DelNegro\n\n\n\nSpecial thank to \n\nAll playtesters\nJacques Cavaillac\nEllizer
+    Leneus\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
+  m_sharedMaterial: {fileID: 7101114432818156123, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11056,7 +11127,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -136.35269, y: 0, z: -131.80804, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11277,12 +11348,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nMelissa\n\n\nGame Design :\n\nAlo\xEFs Tupinon\nEthan Dehay\nK\xE9vin
-    Dubois\n\nGame Art :\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAm\xE9lie
-    DelNegro\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
+  m_text: "\nMelissa\n\n\n\n\nGame Design :\n\n\nAlois Tupinon\nEthan Dehay\nKevin
+    Dubois\n\n\n\n\nGame Art :\n\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAmelie
+    DelNegro\n\n\n\nSpecial thank to \n\nAll playtesters\nJacques Cavaillac\nEllizer
+    Leneus\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
+  m_sharedMaterial: {fileID: 7101114432818156123, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11342,7 +11414,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -110.790955, y: 0, z: -140.33551, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -20101,7 +20173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6910416968329103922
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20230,6 +20302,8 @@ RectTransform:
   - {fileID: 7094140858952051146}
   - {fileID: 379005897}
   - {fileID: 555566409}
+  - {fileID: 1758473488}
+  - {fileID: 794161329}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20400,6 +20474,9 @@ MonoBehaviour:
   "TxtDuCr\xE9ditFin": {fileID: 5733775936986645222}
   DebutSpotCreditFin: {fileID: 555566409}
   FinSpotCreditFin: {fileID: 379005897}
+  "TxtDuCr\xE9ditPause": {fileID: 3985546089895665327}
+  DebutSpotCreditPause: {fileID: 794161329}
+  FinSpotCreditPause: {fileID: 1758473488}
 --- !u!1 &6910416968556264415
 GameObject:
   m_ObjectHideFlags: 0
@@ -24726,12 +24803,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nMelissa\n\n\nGame Design :\n\nAlo\xEFs Tupinon\nEthan Dehay\nK\xE9vin
-    Dubois\n\nGame Art :\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAm\xE9lie
-    DelNegro\n\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
+  m_text: "\nMelissa\n\n\n\n\nGame Design :\n\n\nAlois Tupinon\nEthan Dehay\nKevin
+    Dubois\n\n\n\n\nGame Art :\n\n\nThomas Hoestland\nElise Langer\nLouis Leroy\nAmelie
+    DelNegro\n\n\n\nSpecial thank to \n\nAll playtesters\nJacques Cavaillac\nEllizer
+    Leneus\n\n\n\n\nRUBIKA\n\n\n\n\n\nThank you for playing!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
+  m_sharedMaterial: {fileID: 7101114432818156123, guid: 358285e35732f364391403b0dfd3db8b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24791,7 +24869,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -350.71222, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -25540,7 +25618,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8799254888524297093}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Timers;
 using DG.Tweening;
+using Unity.Mathematics;
 using UnityEngine;
 using XInputDotNetPure;
 
@@ -22,6 +23,10 @@ public class PlaqueDePression : MonoBehaviour
     public bool particules;
     public Vector3 enfoncement;
     public GameObject impultionElectique;
+
+    public bool haveParticle = false;
+    public ParticleSystem particle;
+    public GameObject particleLocation;
     
     PlayerIndex playerIndex;
     GamePadState state;
@@ -34,6 +39,7 @@ public class PlaqueDePression : MonoBehaviour
     public float duration;
 
     public AudioSource AudioData;
+    public AudioSource sourceBoite;
 
     private void Update()
     {
@@ -43,10 +49,19 @@ public class PlaqueDePression : MonoBehaviour
         }
     }
 
+    IEnumerator StopSoundBoite()
+    {
+        sourceBoite.mute = true;
+        yield return new WaitForSeconds(2.3f);
+        sourceBoite.mute = false;
+    }
+
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Respawn")
         {
+            StartCoroutine(StopSoundBoite());
             AudioData.Play();
             OuverturePorte(); 
             if (!doOnce)
@@ -69,6 +84,11 @@ public class PlaqueDePression : MonoBehaviour
                 speedPorte * Time.deltaTime);
             
             tweener = mainCamera.transform.DOShakePosition(DistancePorteMax,2,1,20,false);
+            if (haveParticle)
+            {
+                //Instantiate(particle, particleLocation.transform.position, quaternion.identity);
+                particle.Play();
+            }
             
             if (particules)
             {

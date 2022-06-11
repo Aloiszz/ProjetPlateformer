@@ -104,6 +104,10 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     public RectTransform DebutSpotCreditFin;
     public RectTransform FinSpotCreditFin;
     
+    public RectTransform TxtDuCréditPause;
+    public RectTransform DebutSpotCreditPause;
+    public RectTransform FinSpotCreditPause;
+    
     public static MenuManager instance;
 
     private void Awake()
@@ -510,7 +514,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         menuCreditPause.SetActive(false);
         
         TxtDuCrédit.transform.DOKill();
-        TxtDuCrédit.transform.position = DebutSpotCredit.transform.position;
+        TxtDuCréditPause.transform.position = DebutSpotCreditPause.transform.position;
         
         cv.DOFade(0, 0.5f);
         CgOptionpause.DOFade(1, 0.5f);
@@ -598,20 +602,26 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CgOption.DOFade(0, 0.5f);
         CgCredit.DOFade(1, 0.5f);
 
-        TxtDuCrédit.transform.DOMove(FinSpotCredit.transform.position, 20);
+        TxtDuCrédit.transform.DOMove(FinSpotCredit.transform.position, 40).SetEase(Ease.Linear);
     }
 
     public void OpendCreditFin()
     {
         EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(firstSelectedCreditFin);
+        StartCoroutine(WaitForButtunToAppear());
         menuOption.SetActive(false);
         menuCreditFin.SetActive(true);
         menuOptionPause.SetActive(false);
         CgOption.DOFade(0, 0.5f);
         CgCreditFin.DOFade(1, 0.5f);
 
-        TxtDuCréditFin.transform.DOMove(FinSpotCreditFin.transform.position, 20);
+        TxtDuCréditFin.transform.DOMove(FinSpotCreditFin.transform.position, 40).SetEase(Ease.Linear);
+    }
+
+    IEnumerator WaitForButtunToAppear()
+    {
+        yield return new WaitForSeconds(38);
+        EventSystem.current.SetSelectedGameObject(firstSelectedCreditFin);
     }
 
     public void OpenRestartEndGame()
@@ -636,7 +646,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void JoinLevel1()
     {
-        
+       
         //StartCoroutine(Music());
         OptionPause = false;
         menuLevelPause.SetActive(false);
@@ -655,6 +665,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void JoinLevel2()
     {
+        cm.DoOnce = true;
        // StartCoroutine(Music2());
         OptionPause = false;
         menuLevelPause.SetActive(false);
@@ -697,7 +708,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     }
 
     public void OpenCreditPause()
-    {
+    {  
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(firstSelectedCreditPause);
         menuCreditPause.SetActive(true);
@@ -705,7 +716,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         CgOptionpause.DOFade(0, 0.5f);
         CgCréditPause.DOFade(1, 0.5f);
 
-        TxtDuCréditFin.transform.DOMove(FinSpotCreditFin.transform.position, 20);
+        TxtDuCréditPause.transform.DOMove(FinSpotCreditPause.transform.position, 40).SetEase(Ease.Linear);
     }
 
     
