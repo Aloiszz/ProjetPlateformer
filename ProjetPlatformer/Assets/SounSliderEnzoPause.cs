@@ -12,6 +12,16 @@ public class SounSliderEnzoPause : MonoBehaviour
     public Slider atmosphereSlider;
     public Slider soundSlider;
 
+    public static SounSliderEnzoPause instance;
+    
+    public bool DoOnce;
+
+    private void Awake()
+    {
+        if (instance == null) instance = this;
+        
+    }
+    
     public void Start()
     {
         musicSlider.onValueChanged.AddListener (delegate {ValueOfMusicChangeCheck(musicSlider.value);});
@@ -19,13 +29,22 @@ public class SounSliderEnzoPause : MonoBehaviour
         soundSlider.onValueChanged.AddListener (delegate {ValueOfSoundChangeCheck(soundSlider.value);});
         
         audioMixer.GetFloat("volume", out float musicValueForSlider);
-        musicSlider.value = musicValueForSlider;
+        if (DoOnce = true)
+        {
+            musicSlider.value = musicValueForSlider + (1 - 0.09745264f);
+            DoOnce = false;
+        }
+       
 
         audioMixer.GetFloat("ambiance", out float atmosphereValueForSlider);
         atmosphereSlider.value = atmosphereValueForSlider;
 
         audioMixer.GetFloat("bruitages", out float soundValueForSlider);
-        soundSlider.value = soundValueForSlider;
+        if (DoOnce)
+        {
+            soundSlider.value = soundValueForSlider + 4.5f;
+            DoOnce = false;
+        }
         
     }
     

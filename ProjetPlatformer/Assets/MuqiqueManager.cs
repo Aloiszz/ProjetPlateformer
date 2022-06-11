@@ -24,6 +24,7 @@ public class MuqiqueManager : MonoBehaviour
     private void Awake()
     {
         if (instance == null) instance = this;
+        
     }
     // Start is called before the first frame update
     void Start()
@@ -192,7 +193,9 @@ public class MuqiqueManager : MonoBehaviour
     {
         if (DoOnce3)
         {
+            audioSource.Stop();
             DoOnce3 = false;
+            yield return new WaitForSeconds(0.5f);
             Debug.Log("musique 1");
             MusicStart = true;
             yield return new WaitForSeconds(0.1f);

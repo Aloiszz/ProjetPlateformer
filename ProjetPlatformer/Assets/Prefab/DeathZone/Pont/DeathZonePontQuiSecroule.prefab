@@ -26,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8963376220222971627}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.8443, y: -8.3446, z: 18.052687}
-  m_LocalScale: {x: 81.0138, y: 8.179514, z: 3.7326}
+  m_LocalScale: {x: 1.920657, y: 1.1673424, z: 3.7326}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -133,7 +133,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   listPontQuiSecroulePos: []
   listPontQuiSecrouleRot: []
+  source: {fileID: 0}
+  Mort: {fileID: 0}
+  sourceTremblement: {fileID: 0}
   originalRotationValue: {x: 0, y: 0, z: 0, w: 0}
   triggerPont: {fileID: 0}

@@ -48,6 +48,7 @@ public class PdPSalleDuHaut : MonoBehaviour
     public float duration;
 
     public AudioSource AudioData;
+    public AudioSource sourceBoite;
 
     private void Update()
     {
@@ -56,10 +57,19 @@ public class PdPSalleDuHaut : MonoBehaviour
             OuverturePorte();
         }
     }
+
+    IEnumerator StopSoundBoite()
+    {
+        sourceBoite.mute = true;
+        yield return new WaitForSeconds(1.2f);
+        sourceBoite.mute = false;
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Respawn")
         {
+            StartCoroutine(StopSoundBoite());
             impultionElectique.SetActive(true);
             
             OuverturePorte();
