@@ -646,7 +646,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void JoinLevel1()
     {
-        
+       
         //StartCoroutine(Music());
         OptionPause = false;
         menuLevelPause.SetActive(false);
@@ -665,6 +665,7 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
     
     public void JoinLevel2()
     {
+        cm.DoOnce = true;
        // StartCoroutine(Music2());
         OptionPause = false;
         menuLevelPause.SetActive(false);

@@ -43,16 +43,16 @@ public class CameraZoom : MonoBehaviour
     {
         if (instance == null) instance = this;
 
-        if (SceneManager.GetActiveScene().name == "LD Ruines 3")
+       /* if (SceneManager.GetActiveScene().name == "LD Ruines 3")
         {
             if (CinematiqueIntroRuines && DoOnce)
             {
-                StartCoroutine(WaitCinématique());
+                //StartCoroutine(WaitCinématique());
             }
-        }
+        }*/
     }
 
-    IEnumerator WaitCinématique()
+    /*IEnumerator WaitCinématique()
     {
         DoOnce = false;
         CharacterMovement.instance.canMove = false;
@@ -68,16 +68,18 @@ public class CameraZoom : MonoBehaviour
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
         CharacterMovement.instance.gravityScale = 9;
-    }
+    }*/
     
    
 
     void Update()
     {
-        if (DoOnce = false)
+        /*if (DoOnce == false)
         {
             Follow();
-        }
+        }*/
+        
+        if (SceneManager.GetActiveScene().name == "LD 1 + mieux2")
         
         //Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, targetOrtho, smoothSpeed * Time.deltaTime);
         Camera.main.DOOrthoSize(targetOrtho, smoothSpeed);
