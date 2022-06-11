@@ -31,6 +31,7 @@ public class CameraZoom : MonoBehaviour
     public static CameraZoom instance;
     public MenuManager menu;
     public bool CinematiqueIntro;
+    public bool CinematiqueIntroRuines;
     public Animator animPlayer;
 
     public GameObject Waypoint1;
@@ -42,7 +43,10 @@ public class CameraZoom : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "LD Ruines 3")
         {
-            StartCoroutine(WaitCinématique());
+            if (CinematiqueIntroRuines)
+            {
+                StartCoroutine(WaitCinématique());
+            }
         }
     }
 
@@ -56,6 +60,7 @@ public class CameraZoom : MonoBehaviour
         animPlayer.Play("Player_Jump_LandingHard");
         yield return new WaitForSeconds(2f);
         isMoving = false;
+        Follow();
         CharacterMovement.instance.canMove = true;
         CharacterMovement.instance.canJump = true;
         CharacterMovement.instance.speed = 11;
@@ -107,7 +112,11 @@ public class CameraZoom : MonoBehaviour
         }
         else
         {
-            Follow();
+            if (!CinematiqueIntroRuines)
+            {
+                Follow();
+            }
+           
         }
     }
     private void FixedUpdate()
