@@ -11,6 +11,8 @@ public class AnimationIconeParch : MonoBehaviour
     
     private void Update()
     {
+        anim = gameObject.GetComponent<Animator>();
+        
         if (NewParchemin)
         {
             anim.SetBool("NewParch", true);
