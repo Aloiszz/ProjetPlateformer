@@ -1364,7 +1364,7 @@ ParticleSystem:
     enabled: 1
     mode: 0
     timeMode: 2
-    fps: 12
+    fps: 9
     frameOverTime:
       serializedVersion: 2
       minMaxState: 1
@@ -1472,7 +1472,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     speedRange: {x: 0, y: 1}
-    tilesX: 12
+    tilesX: 9
     tilesY: 1
     animationType: 0
     rowIndex: 0
@@ -4758,7 +4758,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b9b8740c56af7e9459cd779880840251, type: 2}
+  - {fileID: 2100000, guid: b37ab5e989787344b8227f91dc046f61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
