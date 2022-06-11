@@ -45,12 +45,14 @@ public class CameraZoom : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "LD Ruines 3")
         {
-            if (CinematiqueIntroRuines && DoOnce)
+            if (CinematiqueIntroRuines )
             {
+                
                 StartCoroutine(WaitCinématique());
             }
         }
     }
+    
 
     IEnumerator WaitCinématique()
     {
@@ -120,7 +122,7 @@ public class CameraZoom : MonoBehaviour
         }
         else
         {
-            if (!CinematiqueIntroRuines)
+            if (CinematiqueIntroRuines)
             {
                 Follow();
             }

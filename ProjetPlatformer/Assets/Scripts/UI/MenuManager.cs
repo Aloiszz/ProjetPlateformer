@@ -495,11 +495,13 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         if (cm.CinematiqueIntro)
         {
             yield return new WaitForSeconds(11.5f);
-        } 
+        }
+        else
+        {
             CharacterMovement.instance.canMove = true;
             CharacterMovement.instance.canJump = true;
             CharacterMovement.instance.speed = 11;
-        
+        }
     }
 
     public void OpenOptionPause()
@@ -669,7 +671,9 @@ public class MenuManager : MonoBehaviour/*, IPointerClickHandler*/
         OptionPause = false;
         menuLevelPause.SetActive(false);
         menuLevel.SetActive(false);
+        SceneManager.LoadScene(0);
         SceneManager.LoadScene(1);
+        NON = false;
         Play();
     }
 
