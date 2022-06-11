@@ -34,6 +34,7 @@ public class PlaqueDePression : MonoBehaviour
     public float duration;
 
     public AudioSource AudioData;
+    public AudioSource sourceBoite;
 
     private void Update()
     {
@@ -43,10 +44,19 @@ public class PlaqueDePression : MonoBehaviour
         }
     }
 
+    IEnumerator StopSoundBoite()
+    {
+        sourceBoite.mute = true;
+        yield return new WaitForSeconds(2.3f);
+        sourceBoite.mute = false;
+    }
+
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Respawn")
         {
+            StartCoroutine(StopSoundBoite());
             AudioData.Play();
             OuverturePorte(); 
             if (!doOnce)

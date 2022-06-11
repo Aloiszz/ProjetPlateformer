@@ -20,6 +20,8 @@ public class FinTriggerPiqueQuiBougent : MonoBehaviour
     GamePadState state;
     GamePadState prevState;
     private bool doOnce;
+
+    public AudioSource source;
     
     [Header("Vibration Motor")]
     public float leftMotor;
@@ -32,6 +34,7 @@ public class FinTriggerPiqueQuiBougent : MonoBehaviour
         {
             if (DoOnce == 0)
             {
+                source.Stop();
                 DeathZone1.SetActive(false);
                 DeathZone2.SetActive(false);
                 DeathZone3.SetActive(false);
